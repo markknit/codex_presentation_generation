@@ -13,7 +13,8 @@ Last updated: 2026-10-23
 | V2 source inventory | Done | 425 files total: 340 DOCX and 85 JSON across 85 units. |
 | GitHub repository | Done | Cloned via `git@github.com:markknit/codex_presentation_generation.git`; SSH authenticates as `markknit`. `git fetch --quiet` succeeded and `main` matched `origin/main` at `bed61f6` before this continuity update. Repository visibility was not checked. |
 | `jhm-spark` connection | Done | Live `hostname` returned `jhm-spark`; Codex commands run locally against `/home/markk/codex_presentation_generation`. Saving this checkout as a Codex project remains unverified. |
-| GPU verification | In progress | `python3 scripts/verify_environment.py` succeeded: NVIDIA GB10, driver `580.178.04`, compute capability `12.1`, Linux aarch64, 20 CPUs. `free -h` reported 121 GiB RAM, about 57 GiB available at inspection. GPU memory total was reported as N/A; PyTorch is absent, so CUDA execution and application compatibility remain unverified. |
+| GPU verification | In progress | `python3 scripts/verify_environment.py` succeeded: NVIDIA GB10, driver `580.178.04`, compute capability `12.1`, Linux aarch64, 20 CPUs. `free -h` reported 121 GiB RAM, about 57 GiB available at inspection. GPU memory total was reported as N/A. A compiled CUDA kernel ran successfully on GB10 during library setup; PyTorch and generation-specific GPU applications remain unconfigured. |
+| Python authoring environment | Done | `.venv` contains the pinned `requirements.txt` packages; `pip check` passed and all three templates plus the manual loaded successfully. Activate the environment before running authoring tools. |
 | Science pilot deck | Not started | Repository is now on `jhm-spark`. Read the complete approved science manual and chosen unit, inspect example decks, then build one representative lesson and complete all quality gates before batching. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
 
@@ -61,7 +62,21 @@ Still open:
 Still open:
 
 - Save or confirm this checkout as the matching Codex project and verify automatic discovery of the repository skills.
-- Validate a compatible CUDA application/toolchain before relying on GPU-assisted work.
+- Select and validate the GPU applications needed by the chosen pilot; basic CUDA kernel execution is verified.
 - Read the full approved manual and selected unit, then build and review one representative science pilot.
 - Arrange native PowerPoint/Presenter View and teacher approval before release or batching.
 - Obtain approved Mathematics-specific build guidance.
+
+## Updates - 2026-10-23 (Python environment and GPU requirement)
+
+- Created repository-local `.venv` with Python 3.12.3 and installed python-pptx 1.0.2, python-docx 1.2.0, Pillow 13.0.0, and their dependencies. Recorded exact versions in `requirements.txt`; ignored `.venv/` in Git.
+- `pip check` passed. Opened all three template decks with python-pptx (21, 21, and 17 slides) and the approved manual with python-docx (127 paragraphs and 10 tables). This verifies library loading, not visual fidelity.
+- Compiled a CUDA smoke kernel using `/usr/local/cuda/bin/nvcc -arch=sm_121` and executed it on NVIDIA GB10; the computed result was 42 as expected. Test source and binary are session scratch artifacts outside the repository. Basic CUDA execution is now verified; no PyTorch installation or GPU generation pipeline is claimed.
+- User requires GPU acceleration throughout the project. Updated `AGENTS.md`, `WORKFLOW.md`, and `README.md` to require GPU execution for supported processing stages and explicit documentation of CPU-only assembly/conversion; silent CPU fallback is prohibited.
+- Calibri still resolves to Carlito locally. No decks were generated and nothing was pushed.
+
+Still open:
+
+- Configure and validate GPU tools for actual pilot asset processing and visual QA.
+- Resolve Calibri rendering fidelity, build the representative pilot, and complete native PowerPoint and teacher review gates.
+- Confirm saved-project skill discovery and obtain Mathematics-specific guidance.

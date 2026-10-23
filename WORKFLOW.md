@@ -87,14 +87,16 @@ Use the example decks as the design reference:
 
 The local GPU can accelerate tools that Codex launches, but it does not run the OpenAI-hosted Codex model itself.
 
-Prefer the GPU for:
+GPU acceleration is required for every supported stage, per the user instruction on 2026-10-23. Verify actual GPU execution and fail clearly rather than silently falling back to CPU. CPU-only document assembly and conversion must be identified in build logs.
+
+Use the GPU for:
 
 - local generation of lesson-specific illustrations when an approved local image model produces better controllable results
 - image upscaling, background removal, and batch media processing
 - local vision-model review or OCR as a secondary QA signal
 - large batches of rendered-slide similarity, duplicate, and anomaly checks
 
-Keep CPU-based PowerPoint composition and package validation where appropriate. Do not force GPU use when it lowers fidelity or adds fragile dependencies. Record models, versions, prompts or seeds, licences, and source attribution for every generated visual.
+PowerPoint assembly with python-pptx and LibreOffice conversion have CPU code paths; installing CUDA does not accelerate them. Record these exceptions explicitly. Select GPU-capable implementations for supported processing stages while maintaining source and visual fidelity. Record models, versions, prompts or seeds, licences, and source attribution for every generated visual.
 
 Before relying on GPU tooling, verify the NVIDIA driver, CUDA visibility, available memory, supported architecture, and the actual toolchain on `jhm-spark`.
 

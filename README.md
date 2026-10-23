@@ -42,6 +42,21 @@ See `WORKFLOW.md` for the full process and `STATUS.md` for current state.
 - `outputs/final`: teacher-approved final presentations
 - `qa`: machine-readable validation reports; rendered preview images are ignored
 
+## Python environment
+
+On `jhm-spark`, run these commands from the repository:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m pip check
+```
+
+The pinned packages support PPTX authoring, DOCX reading, and image handling. This environment is ignored by Git. Run `source .venv/bin/activate` in each new shell, or use `.venv/bin/python` directly. GPU frameworks are separate; these document libraries do not become GPU accelerated when installed.
+
+GPU acceleration is required for supported project stages. See `AGENTS.md` and Phase 5 of `WORKFLOW.md` for verification and CPU-only exceptions.
+
 ## First commands on a host
 
 ```text

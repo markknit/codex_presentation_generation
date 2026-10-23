@@ -23,7 +23,7 @@ Use the repository-scoped `restart` skill at the start of a new or resumed sessi
 - Use British spelling, Kenyan contexts, CBE terminology, correct scientific notation, and SI units.
 - Do not invent facts, resources, links, expected observations, safety guidance, or answer keys.
 - Keep all required text, diagrams, tables, and charts editable when practical.
-- Use GPU-accelerated local tools on `jhm-spark` when they improve visual quality, batch inspection, or local media generation. Hardware use never replaces factual review or teacher sign-off.
+- GPU acceleration is required throughout the project for every stage that supports it, per the user instruction on 2026-10-23. Select GPU-capable tools for local model inference, raster asset processing, and computational visual QA; verify actual GPU execution and do not silently fall back to CPU. Document CPU-only operations (including python-pptx assembly and LibreOffice conversion) explicitly. Hardware use never replaces factual review or teacher sign-off.
 
 ## Quality gates
 

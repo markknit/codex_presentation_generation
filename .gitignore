@@ -5,6 +5,7 @@ tmp/
 *.log
 
 # Python and Node caches
+.venv/
 __pycache__/
 *.py[cod]
 node_modules/
