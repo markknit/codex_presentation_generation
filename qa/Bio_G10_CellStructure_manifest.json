@@ -1,0 +1,134 @@
+{
+  "unit": "Biology / SS1.1_Cell_Structure",
+  "requested_lessons": [
+    1,
+    2,
+    3
+  ],
+  "built_lessons": [
+    1
+  ],
+  "deferred_lessons": [
+    2,
+    3
+  ],
+  "defer_reason": "AGENTS.md pilot quality gates, including native PowerPoint and teacher review",
+  "lesson_titles": [
+    {
+      "number": 1,
+      "title": "The Healing Cut: Launching Our Investigation Into Why Cells Look Different",
+      "duration": "40 minutes"
+    },
+    {
+      "number": 2,
+      "title": "What Is a Cell? Introduction to Cell Theory",
+      "duration": "80 minutes"
+    },
+    {
+      "number": 3,
+      "title": "Prokaryotic vs. Eukaryotic Cells: Two Worlds Inside One Body",
+      "duration": "40 minutes"
+    },
+    {
+      "number": 4,
+      "title": "Plant Cell Ultrastructure \u2014 Every Organelle Has a Farming Job",
+      "duration": "80 minutes"
+    },
+    {
+      "number": 5,
+      "title": "Animal Cell Ultrastructure \u2014 Comparing Plant and Animal Cells",
+      "duration": "80 minutes"
+    },
+    {
+      "number": 6,
+      "title": "Microscopy Practical 1 \u2014 Observing Onion Epidermal Cells",
+      "duration": "80 minutes"
+    },
+    {
+      "number": 7,
+      "title": "Microscopy Practical 2 \u2014 Human Cheek Cells: Observing Animal Cell Structure",
+      "duration": "80 minutes"
+    },
+    {
+      "number": 8,
+      "title": "Cell Specialisation: Meaning, Significance, and Specialised Animal Cells",
+      "duration": "80 minutes"
+    },
+    {
+      "number": 9,
+      "title": "Specialised Plant Cells: Form Meets Function in the Bean Seedling",
+      "duration": "80 minutes"
+    },
+    {
+      "number": 10,
+      "title": "Cell Organisation: Cells \u2192 Tissues \u2192 Organs \u2192 Organ Systems \u2192 Organism",
+      "duration": "80 minutes"
+    },
+    {
+      "number": 11,
+      "title": "Synthesis and Model Revision: Putting the Cell Story Together",
+      "duration": "40 minutes"
+    },
+    {
+      "number": 12,
+      "title": "Consolidation, DQB Closure, and Final Explanation \u2014 The Healing Cut Fully Explained",
+      "duration": "80 minutes"
+    }
+  ],
+  "source_label_conflict": "Folder/META/lesson labels say SS1.1; UNIT metadata says Sub-Strand 1.3. Deck uses Cell Structure without a numerical sub-strand claim; owner review required.",
+  "inputs": [
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_CBE_LessonSequence.docx",
+      "sha256": "24e001955a8d441822a363ff70c38240e799d6dc1c932c6d7bff3ab2d7584461"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation.docx",
+      "sha256": "9603ca2c374963790b56f21966a2e6c9368fa18ea7cf292de44ca0c2ea571699"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation_TeacherKey.docx",
+      "sha256": "7d9ca9871b67566515c089578aea78a813a7c3c35904e4b5e6e0123186227f46"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_SummaryTable.docx",
+      "sha256": "6b6fbd0dd542d593d406b3a23ca524585b8db854be3fb5681f482ecabb2a6382"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_data.json",
+      "sha256": "826e4d7a7f552bd6750790d4ed017eea64c4f40765e60bf4ff464ddb3f1ed781"
+    },
+    {
+      "path": "references/templates/Bio_G10_CellStructure_L1_The_Healing_Cut.pptx",
+      "sha256": "27a7395b5668dc0519ba20c57f85cdd8b2feefefd82224b7548039b35d800899"
+    },
+    {
+      "path": "references/instructions/SeaVuria_Science_Lesson_PPT_Build_Manual.docx",
+      "sha256": "0c082ad4947fb7e89b8dddcf400bf62ec687624c9ded639d556118f91b70da51"
+    }
+  ],
+  "output_sha256": "5b7014b5fe43f428b7325994acaf3fead2e277810a83169181f7197339104651",
+  "slide_times_minutes": [
+    0.25,
+    0,
+    0,
+    0.5,
+    0.5,
+    1.25,
+    2.5,
+    2,
+    1,
+    1,
+    1,
+    2,
+    3,
+    1.5,
+    1.5,
+    2,
+    2,
+    7,
+    3,
+    5,
+    3
+  ],
+  "total_minutes": 40.0
+}

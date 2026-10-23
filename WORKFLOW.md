@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | Windows workstation | `C:\Users\MRKni\OneDrive\codex_presentation_generation` | Repository assembly, review, and GitHub administration | Original assembly host; not re-verified from this session |
 | GitHub | `markknit/codex_presentation_generation` | Shared source of truth and transport between hosts | SSH clone and fetch verified on 2026-10-23; origin uses `git@github.com:markknit/codex_presentation_generation.git` |
-| `jhm-spark` | `/home/markk/codex_presentation_generation`, branch `main` | Primary generation and GPU-accelerated work | Local execution and GB10 detection verified; CUDA application validation and saved Codex project registration remain open |
+| `jhm-spark` | `/home/markk/codex_presentation_generation`, branch `main` | Primary generation and GPU-accelerated work | Local execution and CUDA raster-QA verified; native PowerPoint/teacher pilot review and saved Codex project registration remain open |
 
 The repository and current branch are authoritative. OneDrive is not the transport mechanism to `jhm-spark`; GitHub is.
 

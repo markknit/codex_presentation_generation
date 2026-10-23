@@ -13,9 +13,10 @@ Last updated: 2026-10-23
 | V2 source inventory | Done | 425 files total: 340 DOCX and 85 JSON across 85 units. |
 | GitHub repository | Done | Cloned via `git@github.com:markknit/codex_presentation_generation.git`; SSH authenticates as `markknit`. `git fetch --quiet` succeeded and `main` matched `origin/main` at `bed61f6` before this continuity update. Repository visibility was not checked. |
 | `jhm-spark` connection | Done | Live `hostname` returned `jhm-spark`; Codex commands run locally against `/home/markk/codex_presentation_generation`. Saving this checkout as a Codex project remains unverified. |
-| GPU verification | In progress | `python3 scripts/verify_environment.py` succeeded: NVIDIA GB10, driver `580.178.04`, compute capability `12.1`, Linux aarch64, 20 CPUs. `free -h` reported 121 GiB RAM, about 57 GiB available at inspection. GPU memory total was reported as N/A. A compiled CUDA kernel ran successfully on GB10 during library setup; PyTorch and generation-specific GPU applications remain unconfigured. |
+| GPU verification | In progress | `python3 scripts/verify_environment.py` succeeded: NVIDIA GB10, driver `580.178.04`, compute capability `12.1`, Linux aarch64, 20 CPUs. `free -h` reported 121 GiB RAM, about 57 GiB available at inspection. GPU memory total was reported as N/A. Compiled CUDA execution is verified. The pilot raster-QA tool now uses CUDA sm_121 for preview resizing and pixel counts on all 21 slides; see `qa/Bio_G10_CellStructure_L1_gpu.json`. No local generative/vision model is configured or claimed. |
 | Python authoring environment | Done | `.venv` contains the pinned `requirements.txt` packages; `pip check` passed and all three templates plus the manual loaded successfully. Activate the environment before running authoring tools. |
-| Science pilot deck | Not started | Repository is now on `jhm-spark`. Read the complete approved science manual and chosen unit, inspect example decks, then build one representative lesson and complete all quality gates before batching. |
+| Science pilot deck | Awaiting review | Cell Structure L1 review draft built: 21 slides, slides 2–3 hidden, full notes, 40 minutes. Structural validation passed and rendered pages inspected. `qa/Bio_G10_CellStructure_L1_The_Healing_Cut_validation.json` and the per-deck build log record remaining source/manual decisions, font, ARES, native PowerPoint and teacher gates. Draft remains ignored under `outputs/drafts`. |
+| Biology Lessons 1–3 | In progress | User selected Cell Structure Lessons 1–3. L1 is the pilot; L2–3 have not been generated and await all required pilot gates. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
 
 ## Known Issues and Lessons Learned
@@ -26,6 +27,8 @@ Last updated: 2026-10-23
 - Mathematics source files are present, but the science manual is not authoritative for Mathematics.
 - Host handoffs can leave control documents stale. Run `/restart` against live Git, paths, and tools on each host, then reconcile both `STATUS.md` and the environment table before generation. Historical session entries describe their original checkpoints, not current blockers.
 - On `jhm-spark`, use `python3` (Python 3.12.3); the `python` command is absent. GPU detection through `nvidia-smi` does not prove CUDA application compatibility.
+- The Cell Structure source labels disagree: the folder/META/lesson labels say 1.1; the unit overview says 1.3. Keep the numerical sub-strand off the draft and request owner resolution through the build log rather than silently renumbering.
+- The example decks control visual style, not V2 source fidelity. Inherited captions, timings, resource match labels and reveal order need explicit checks; the L1 pilot corrected problems in each.
 - The GitHub owner is `markknit` (two k letters). SSH access works; unauthenticated HTTPS and the connected GitHub tool did not provide access during this handoff.
 
 ## Updates - 2026-10-23 (Windows setup; historical)
@@ -79,4 +82,20 @@ Still open:
 
 - Configure and validate GPU tools for actual pilot asset processing and visual QA.
 - Resolve Calibri rendering fidelity, build the representative pilot, and complete native PowerPoint and teacher review gates.
+- Confirm saved-project skill discovery and obtain Mathematics-specific guidance.
+
+## Updates - 2026-10-23 (Cell Structure Lesson 1 review pilot)
+
+- User selected Cell Structure Lessons 1–3. Built only L1 as required by the pre-batch pilot gate; L2–3 remain pending native PowerPoint and teacher review plus the other recorded gates.
+- Used the approved general manual, examined the 12-lesson storyline/phase sequence and supporting sources, and rendered/inspected the three visual examples. Adapted the supplied L1 example with source-specific corrections rather than redesigning the lesson.
+- Draft at `outputs/drafts/Bio_G10_CellStructure_L1_The_Healing_Cut.pptx`: 21 slides, two hidden teacher slides, notes on all slides, 40 minutes. Notes preserve uncorrected initial ideas and a Version 0 drawing; later cellular explanations remain withheld.
+- Added the build script, structural validator, CUDA image kernel and Python GPU-preview driver. `scripts/validate_lesson_pilot.py` and repository validation passed. CUDA resized and counted pixels on all 21 final renders. All rendered pages were inspected, with additional repairs to teacher labels, progressive captions and resource-button contrast.
+- Recorded source hashes, lesson inventory, slide timing, structural checks and GPU evidence under `qa/`; recorded every correction and open decision in the per-deck build log. CPU-only assembly/conversion/rasterisation/file operations are disclosed; no whole-pipeline GPU or semantic QA claim is made.
+- Identified 1.1 versus 1.3 source numbering, generic-manual versus launch-lesson differences, local Carlito substitution for Calibri, untested ARES resources and missing native PowerPoint/teacher sign-off as review items. The pilot is not passed or released.
+- Review copies are available in `/home/markk/Documents/Codex/2026-10-23/i-x20/outputs`: PPTX, all-slide PDF, teacher review DOCX with thumbnails and speaker notes, build log, and a ZIP bundle. Draft/render files remain outside Git tracking. No push was performed.
+
+Still open:
+
+- Review the L1 pilot in native PowerPoint and Presenter View, resolve build-log decisions and font/ARES checks, and obtain teacher approval.
+- After all pilot gates pass, generate Cell Structure L2 and L3 individually using V2 sources, not uncorrected example content.
 - Confirm saved-project skill discovery and obtain Mathematics-specific guidance.

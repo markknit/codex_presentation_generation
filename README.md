@@ -67,3 +67,16 @@ python3 scripts/validate_repository.py
 Use `python3` on `jhm-spark`; on other hosts, use the available Python 3 interpreter.
 
 The verification script reports the available NVIDIA GPU and supporting tools. The Codex model itself runs through OpenAI; local GPU acceleration applies to tools and local models launched by Codex on the host.
+
+## Current review pilot
+
+Cell Structure Lessons 1–3 were selected. Lesson 1 has been built as the review pilot; Lessons 2–3 await the quality gates in `AGENTS.md`. See `STATUS.md` and the Lesson 1 build log for pending decisions.
+
+After activating `.venv`, rebuild and check the draft with:
+
+```bash
+python scripts/build_biology_cellstructure_l1.py
+python scripts/validate_lesson_pilot.py
+```
+
+Render with LibreOffice (include hidden slides for teacher review), then run `python scripts/gpu_visual_qa.py <rendered PNG files> --out qa/renders/<review-folder>`. The GPU helper compiles with `/usr/local/cuda/bin/nvcc` for the GB10 `sm_121` target and fails on CUDA errors. It checks raster pixel signals, not science or PowerPoint compatibility. Do not rerun the pilot builder after approval without repeating affected checks; a rebuild changes the output hash recorded in the manifest.
