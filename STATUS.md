@@ -6,12 +6,12 @@ Last updated: 2026-10-23
 
 | Workstream | Status | Evidence or next gate |
 | --- | --- | --- |
-| Repository scaffold | Done | Git repository initialised on `main` at `C:\Users\MRKni\OneDrive\codex_presentation_generation`; repository validation passed with 425 V2 sources and three templates. |
+| Repository scaffold | Done | Git repository initialised on `main` at `C:\Users\MRKni\OneDrive\codex_presentation_generation`; validation passed and initial commit `8119d93` contains 443 files. |
 | Continuity skills | In progress | `restart` and `update` are installed in `C:\Users\MRKni\.agents\skills` and included under `.agents/skills`; verify discovery on the next local turn and on `jhm-spark`. |
 | Approved instructions | Done | General science manual selected. Cells-specific manual excluded. |
 | Visual examples | Done | Three example PPTX files identified and rendered for inspection: 21, 21, and 17 slides. |
 | V2 source inventory | Done | 425 files total: 340 DOCX and 85 JSON across 85 units. |
-| GitHub repository | Not started | Create private repository `markknit/codex_presentation_generation`, add `origin`, and push `main`. |
+| GitHub repository | Blocked | `origin` is configured as `https://github.com/markknit/codex_presentation_generation.git`, but the repository does not exist. GitHub CLI is unavailable and the browser-control helper failed before opening GitHub. Create the empty private repository, then push `main`. |
 | `jhm-spark` connection | Blocked | The host is not currently available to this Codex app. Configure SSH, install and authenticate Codex on the host, then save the matching project. |
 | GPU verification | Blocked | Run `python scripts/verify_environment.py` on `jhm-spark`; confirm `nvidia-smi`, GPU model, driver, CUDA access, and available RAM. |
 | Science pilot deck | Not started | Build one representative lesson only after the repository is on `jhm-spark`; complete all quality gates before batching. |
@@ -34,11 +34,12 @@ Last updated: 2026-10-23
 - Defined `jhm-spark` as the target execution host and added a GPU verification step.
 - Initialised the local Git repository on `main` and passed repository validation.
 - Installed the `restart` and `update` skills in the personal Codex skill library and included portable copies in the repository.
+- Created initial commit `8119d93` with 443 files and configured the intended GitHub URL as `origin`.
+- Confirmed that `markknit/codex_presentation_generation` does not yet exist. GitHub CLI is not installed and browser automation failed twice before opening the site.
 
 Still open:
 
-- Create the first local commit.
-- Create and push the GitHub repository.
+- Create the empty private GitHub repository and push `main`.
 - Connect `jhm-spark`, clone the repository, verify its GPU environment, and hand off the work.
 - Obtain Mathematics-specific build guidance.
 - Build and approve one pilot science deck before batch generation.
