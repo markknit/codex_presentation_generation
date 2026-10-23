@@ -45,8 +45,10 @@ See `WORKFLOW.md` for the full process and `STATUS.md` for current state.
 ## First commands on a host
 
 ```text
-python scripts/verify_environment.py
-python scripts/validate_repository.py
+python3 scripts/verify_environment.py
+python3 scripts/validate_repository.py
 ```
+
+Use `python3` on `jhm-spark`; on other hosts, use the available Python 3 interpreter.
 
 The verification script reports the available NVIDIA GPU and supporting tools. The Codex model itself runs through OpenAI; local GPU acceleration applies to tools and local models launched by Codex on the host.

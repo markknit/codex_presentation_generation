@@ -4,9 +4,9 @@
 
 | Environment | Repository | Purpose | Current state |
 | --- | --- | --- | --- |
-| Windows workstation | `C:\Users\MRKni\OneDrive\codex_presentation_generation` | Repository assembly, review, and GitHub administration | Initial setup |
-| GitHub | `markknit/codex_presentation_generation` | Shared source of truth and transport between hosts | To be created |
-| `jhm-spark` | Clone of the same GitHub repository; exact path to be recorded after setup | Primary generation and GPU-accelerated work | Not connected |
+| Windows workstation | `C:\Users\MRKni\OneDrive\codex_presentation_generation` | Repository assembly, review, and GitHub administration | Original assembly host; not re-verified from this session |
+| GitHub | `markknit/codex_presentation_generation` | Shared source of truth and transport between hosts | SSH clone and fetch verified on 2026-10-23; origin uses `git@github.com:markknit/codex_presentation_generation.git` |
+| `jhm-spark` | `/home/markk/codex_presentation_generation`, branch `main` | Primary generation and GPU-accelerated work | Local execution and GB10 detection verified; CUDA application validation and saved Codex project registration remain open |
 
 The repository and current branch are authoritative. OneDrive is not the transport mechanism to `jhm-spark`; GitHub is.
 
@@ -20,9 +20,11 @@ git log --oneline -5
 git status -sb
 git fetch --quiet
 git status -sb
-python scripts/verify_environment.py
-python scripts/validate_repository.py
+python3 scripts/verify_environment.py
+python3 scripts/validate_repository.py
 ```
+
+On `jhm-spark`, use `python3`; `python` is not installed. On other hosts, use the available Python 3 interpreter. LibreOffice is available locally, but native PowerPoint and Presenter View checks still require a suitable review host.
 
 On a non-`main` branch, also run:
 
