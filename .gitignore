@@ -17,6 +17,7 @@ qa/renders/**
 !qa/renders/.gitkeep
 
 # Office lock files
+.~lock.*#
 ~$*.docx
 ~$*.pptx
 

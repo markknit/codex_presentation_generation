@@ -16,7 +16,7 @@ Last updated: 2026-10-23
 | GPU verification | In progress | `python3 scripts/verify_environment.py` succeeded: NVIDIA GB10, driver `580.178.04`, compute capability `12.1`, Linux aarch64, 20 CPUs. `free -h` reported 121 GiB RAM, about 57 GiB available at inspection. GPU memory total was reported as N/A. Compiled CUDA execution is verified. The pilot raster-QA tool now uses CUDA sm_121 for preview resizing and pixel counts on all 21 slides; see `qa/Bio_G10_CellStructure_L1_gpu.json`. No local generative/vision model is configured or claimed. |
 | Python authoring environment | Done | `.venv` contains the pinned `requirements.txt` packages; `pip check` passed and all three templates plus the manual loaded successfully. Activate the environment before running authoring tools. |
 | Science pilot deck | Awaiting review | Cell Structure L1 review draft built: 21 slides, slides 2–3 hidden, full notes, 40 minutes. Structural validation passed and rendered pages inspected. `qa/Bio_G10_CellStructure_L1_The_Healing_Cut_validation.json` and the per-deck build log record remaining source/manual decisions, font, ARES, native PowerPoint and teacher gates. Draft remains ignored under `outputs/drafts`. |
-| Biology Lessons 1–3 | In progress | User selected Cell Structure Lessons 1–3. L1 is the pilot; L2–3 have not been generated and await all required pilot gates. |
+| Biology Lessons 1–3 | Drafts built; awaiting review | User explicitly instructed Proceed with lessons 2–3 after receiving the pilot, authorising draft continuation before external pilot checks. L1: 21 slides/40 min; L2: 21/80; L3: 20/40. Structural checks passed and all 62 renders inspected with CUDA pixel processing. Native PowerPoint, Calibri/ARES, source-owner decisions and teacher sign-off remain open for all three. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
 
 ## Known Issues and Lessons Learned
@@ -99,3 +99,20 @@ Still open:
 - Review the L1 pilot in native PowerPoint and Presenter View, resolve build-log decisions and font/ARES checks, and obtain teacher approval.
 - After all pilot gates pass, generate Cell Structure L2 and L3 individually using V2 sources, not uncorrected example content.
 - Confirm saved-project skill discovery and obtain Mathematics-specific guidance.
+
+## Updates - 2026-10-23 (Lessons 2–3 draft continuation)
+
+- After delivery of L1, the user explicitly instructed “Proceed with lessons 2-3”. Applied that as a limited exception to the pre-generation pilot wait for these drafts. The pilot has not been marked approved; release gates and Mathematics restrictions remain in effect.
+- Built separate editable Cell Structure drafts: L2 What Is a Cell? (21 slides, 80 minutes) and L3 Prokaryotic vs. Eukaryotic Cells (20 slides, 40 minutes). Each has hidden teacher slides 2–3 and complete notes in the required order.
+- Preserved the V2 kitchen analogy, offline scientist reading and evidence table, 12-card sort, CER, board updates, model Version 1 and comparison add-on, and all five L3 cold-call questions. Diagrams are editable PowerPoint shapes/labels. Build logs list every content/timing correction and source/manual exception.
+- Checked limited scientific corrections against OpenStax and CDC: shared ribosomes, bacterial DNA/nuclear envelope, cell walls and category exceptions, E. coli strain distinction, and the limits of the visual evidence. References are in the build logs; no independent teacher science approval is claimed.
+- Both generic structural checks and source-inventory validation passed. Rendered and inspected all 41 new slides, repaired diagram markers/label wrapping, and processed all 41 with the CUDA preview/pixel tool on GB10. Final note-only corrections preserved identical visible slide XML; per-deck GPU reports include the hashes.
+- Added reproducible build, validation and packaging scripts. Updated the unit inventory to record three built drafts rather than two deferred lessons. Drafts, PDF renders, print sheets and notes remain out of Git; build logs, source manifests, validation and GPU evidence are tracked.
+- Packaged all three PPTX drafts, all-slide PDFs, a combined teacher review document, L2/L3 print sheets, build logs and QA evidence in `/home/markk/Documents/Codex/2026-10-23/i-x20/outputs/CellStructure_Lessons1-3_Drafts.zip`. No push or release.
+
+Still open:
+
+- Teacher/source-owner review of all three decks and all logged corrections; resolve 1.1/1.3 numbering and manual/source exceptions.
+- Native PowerPoint/Slide Show/Presenter View, licensed Calibri fidelity and ARES link/content/offline checks.
+- Teacher sign-off before release or further generation beyond the explicitly authorised L2–3 continuation.
+- Saved-project skill discovery and approved Mathematics guidance.

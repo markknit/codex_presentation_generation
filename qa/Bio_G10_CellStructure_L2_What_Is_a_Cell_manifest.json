@@ -1,0 +1,207 @@
+{
+  "lesson": 2,
+  "status": "DRAFT \u2014 NOT APPROVED",
+  "authorisation": "User: Proceed with lessons 2-3; 2026-10-23. Overrides pre-generation pilot wait for these drafts only; release gates remain open.",
+  "total_minutes": 80,
+  "slides": [
+    {
+      "slide": 1,
+      "phase": "Predict",
+      "minutes": 0.25,
+      "title": "",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "phase": "Routine",
+      "minutes": 0,
+      "title": "How these lessons work",
+      "check": false,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "phase": "Glance",
+      "minutes": 0,
+      "title": "Lesson 2 at a glance",
+      "check": false,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "title": "Our place in the investigation",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "phase": "Today",
+      "minutes": 0.75,
+      "title": "By the end of this lesson you can\u2026",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "phase": "Predict",
+      "minutes": 4.5,
+      "title": "What do cells have in common?",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "phase": "Predict",
+      "minutes": 2,
+      "title": "OUR PREDICTIONS",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "phase": "Observe",
+      "minutes": 8,
+      "title": "A kitchen can help us think about cells",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "phase": "Observe",
+      "minutes": 2,
+      "title": "A generalised animal cell",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "phase": "Observe",
+      "minutes": 2,
+      "title": "A generalised plant cell",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "phase": "Observe",
+      "minutes": 2,
+      "title": "A bacterium: E. coli",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "phase": "Observe",
+      "minutes": 2,
+      "title": "Reading: three contributions to cell theory",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "phase": "Observe",
+      "minutes": 6,
+      "title": "Cell Theory Evidence Table",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "phase": "Observe",
+      "minutes": 8,
+      "title": "Sort 12 features \u2014 justify each choice",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "phase": "Explain",
+      "minutes": 3,
+      "title": "Shared does not mean identical",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "phase": "Explain",
+      "minutes": 3,
+      "title": "Cell theory: three connected ideas",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "phase": "Explain",
+      "minutes": 4,
+      "title": "Colour-code your three drawings",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "phase": "Explain",
+      "minutes": 8,
+      "title": "How did Amina\u2019s body make new skin cells?",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "phase": "Driving Question Board",
+      "minutes": 8,
+      "title": "What can we now begin to answer?",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "phase": "Model Building",
+      "minutes": 12,
+      "title": "Version 1: a model that can grow",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "phase": "Driving Question Board",
+      "minutes": 4,
+      "title": "Summary Table \u00b7 Lesson 2",
+      "check": false,
+      "hidden": false
+    }
+  ],
+  "inputs": [
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_CBE_LessonSequence.docx",
+      "sha256": "24e001955a8d441822a363ff70c38240e799d6dc1c932c6d7bff3ab2d7584461"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation.docx",
+      "sha256": "9603ca2c374963790b56f21966a2e6c9368fa18ea7cf292de44ca0c2ea571699"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation_TeacherKey.docx",
+      "sha256": "7d9ca9871b67566515c089578aea78a813a7c3c35904e4b5e6e0123186227f46"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_SummaryTable.docx",
+      "sha256": "6b6fbd0dd542d593d406b3a23ca524585b8db854be3fb5681f482ecabb2a6382"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_data.json",
+      "sha256": "826e4d7a7f552bd6750790d4ed017eea64c4f40765e60bf4ff464ddb3f1ed781"
+    },
+    {
+      "path": "references/templates/Bio_G10_CellStructure_L2_What_Is_a_Cell.pptx",
+      "sha256": "cc3cc509d7c870922f64671507d656d09e76445c48c694b19ad93a6ad4703806"
+    },
+    {
+      "path": "references/instructions/SeaVuria_Science_Lesson_PPT_Build_Manual.docx",
+      "sha256": "0c082ad4947fb7e89b8dddcf400bf62ec687624c9ded639d556118f91b70da51"
+    }
+  ],
+  "output_sha256": "f7d759a9d6b3b67d236ff87df9b2918b9801666480fa61d98cb2673aca3987e5"
+}

@@ -6,13 +6,12 @@
     3
   ],
   "built_lessons": [
-    1
-  ],
-  "deferred_lessons": [
+    1,
     2,
     3
   ],
-  "defer_reason": "AGENTS.md pilot quality gates, including native PowerPoint and teacher review",
+  "deferred_lessons": [],
+  "defer_reason": null,
   "lesson_titles": [
     {
       "number": 1,
@@ -130,5 +129,10 @@
     5,
     3
   ],
-  "total_minutes": 40.0
+  "total_minutes": 40.0,
+  "continuation_authorisation": "User explicitly instructed Proceed with lessons 2-3 on 2026-10-23 after receiving L1. Drafts only; no teacher/PowerPoint/release approval implied.",
+  "per_lesson_manifests": [
+    "qa/Bio_G10_CellStructure_L2_What_Is_a_Cell_manifest.json",
+    "qa/Bio_G10_CellStructure_L3_Prokaryotic_vs_Eukaryotic_Cells_manifest.json"
+  ]
 }

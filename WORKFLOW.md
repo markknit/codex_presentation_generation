@@ -59,6 +59,8 @@ The pilot establishes:
 
 Do not begin bulk generation until the pilot passes every quality gate in `AGENTS.md`.
 
+Recorded exception, 2026-10-23: after receiving the L1 pilot, the user explicitly instructed “Proceed with lessons 2-3”. Those two Cell Structure drafts were authorised before external pilot review. This is limited to those drafts; it is not pilot approval, release approval or permission for additional lessons. All release checks remain required.
+
 ## Phase 3 unit preparation
 
 For each unit:

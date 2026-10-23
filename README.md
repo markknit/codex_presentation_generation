@@ -70,7 +70,7 @@ The verification script reports the available NVIDIA GPU and supporting tools. T
 
 ## Current review pilot
 
-Cell Structure Lessons 1–3 were selected. Lesson 1 has been built as the review pilot; Lessons 2–3 await the quality gates in `AGENTS.md`. See `STATUS.md` and the Lesson 1 build log for pending decisions.
+Cell Structure Lessons 1–3 are built as review drafts. The user explicitly authorised Lessons 2–3 after receiving the pilot, before completion of external pilot checks. Native PowerPoint and teacher approval remain open for all three. See `STATUS.md` and per-deck build logs for pending decisions.
 
 After activating `.venv`, rebuild and check the draft with:
 
@@ -80,3 +80,13 @@ python scripts/validate_lesson_pilot.py
 ```
 
 Render with LibreOffice (include hidden slides for teacher review), then run `python scripts/gpu_visual_qa.py <rendered PNG files> --out qa/renders/<review-folder>`. The GPU helper compiles with `/usr/local/cuda/bin/nvcc` for the GB10 `sm_121` target and fails on CUDA errors. It checks raster pixel signals, not science or PowerPoint compatibility. Do not rerun the pilot builder after approval without repeating affected checks; a rebuild changes the output hash recorded in the manifest.
+
+Build and check the explicitly authorised L2–3 drafts with:
+
+```bash
+python scripts/build_biology_cellstructure_l2_l3.py
+python scripts/validate_lesson_deck.py outputs/drafts/Bio_G10_CellStructure_L2_What_Is_a_Cell.pptx --minutes 80
+python scripts/validate_lesson_deck.py outputs/drafts/Bio_G10_CellStructure_L3_Prokaryotic_vs_Eukaryotic_Cells.pptx --minutes 40
+```
+
+After rendering and CUDA preview processing, `scripts/package_cellstructure_review.py --out <review-directory>` packages all three drafts, print sheets and a teacher review document. Package creation does not establish release approval. Rebuilds require updated output hashes and review of affected content.

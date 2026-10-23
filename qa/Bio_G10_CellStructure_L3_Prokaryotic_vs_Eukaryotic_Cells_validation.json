@@ -1,0 +1,56 @@
+{
+  "deck": "outputs/drafts/Bio_G10_CellStructure_L3_Prokaryotic_vs_Eukaryotic_Cells.pptx",
+  "sha256": "1504e393099b7f4a29aca66ba59c499b9021abe83b12698c05780fe4cdf0692b",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 20,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.25,
+    0.0,
+    0.0,
+    0.25,
+    0.5,
+    3.0,
+    1.0,
+    3.0,
+    5.0,
+    2.0,
+    0.8,
+    1.2,
+    1.0,
+    1.5,
+    1.5,
+    3.0,
+    1.0,
+    5.0,
+    6.0,
+    4.0
+  ],
+  "total_minutes": 40.0,
+  "formative_check_slides": [
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}
