@@ -19,8 +19,11 @@ Last updated: 2026-10-23
 | Biology Lessons 1–3 | Drafts built; awaiting review | User explicitly instructed Proceed with lessons 2–3 after receiving the pilot, authorising draft continuation before external pilot checks. L1: 21 slides/40 min; L2: 21/80; L3: 20/40. Structural checks passed and all 62 renders inspected with CUDA pixel processing. Native PowerPoint, Calibri/ARES, source-owner decisions and teacher sign-off remain open for all three. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
 
+| Windows review handoff | Prepared | User explicitly authorised commit/push of the completed work and review package. Tracked snapshot: `outputs/review/CellStructure_Lessons1-3_Drafts.zip`; its three PPTX hashes match the current validation reports. Drafts are not teacher-approved or released. |
+
 ## Known Issues and Lessons Learned
 
+- Git ignores working drafts and renders. For an explicitly requested cross-host review handoff, commit a clearly labelled snapshot under `outputs/review` so a pull actually transfers the presentations; keep approval status and checksums with it.
 - Project continuity must live in the repository. Host-local skills alone do not travel to `jhm-spark`, so the two continuity skills are checked into `.agents/skills`.
 - A successful package check does not establish visual quality, native PowerPoint behaviour, factual accuracy, practical realism, or safety. Every release needs rendered inspection, a native PowerPoint check, and teacher approval.
 - The three examples establish a clean 16:9 visual system with Calibri, phase colours, large student-facing prompts, hidden teacher slides, persistent footers and logos, and restrained diagrams. New decks should reuse this language without copying lesson-specific content.
@@ -116,3 +119,16 @@ Still open:
 - Native PowerPoint/Slide Show/Presenter View, licensed Calibri fidelity and ARES link/content/offline checks.
 - Teacher sign-off before release or further generation beyond the explicitly authorised L2–3 continuation.
 - Saved-project skill discovery and approved Mathematics guidance.
+
+## Updates - 2026-10-23 (GitHub push and Windows handoff)
+
+- User explicitly requested committing and pushing the completed work, followed by Windows sync commands. This authorises transporting these three review drafts to the repository; it does not establish teacher approval or classroom release.
+- Confirmed `main` was clean and four commits ahead of `origin/main` after fetching; no remote commits were missing locally.
+- The working drafts were intentionally ignored. Added `outputs/review/CellStructure_Lessons1-3_Drafts.zip` and its README as a tracked handoff snapshot so Windows receives the presentations, previews, notes, print sheets, logs and QA evidence when pulling.
+- Verified the archive CRC and all three PPTX hashes against their current structural validation reports. The snapshot README records its SHA-256 and review status. The generators, source data and original approval gates remain intact.
+- Prepared the snapshot and continuity documentation for the requested commit/push. Confirm current remote synchronisation with Git status/fetch; this entry is written before the push result is known.
+
+Still open:
+
+- Pull `main` on Windows and extract the review snapshot into a fresh directory.
+- Complete native PowerPoint/Presenter View, Calibri, ARES, source-owner and teacher reviews before release.

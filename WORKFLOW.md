@@ -120,3 +120,7 @@ Only teacher-approved decks move from `outputs/drafts` to `outputs/final`.
 Generate in small subject or unit batches. Stop the batch when a repeated defect appears. Fix the generator or workflow, rerun the affected batch, and record the lesson in `STATUS.md`.
 
 Track final decks, build logs, input manifests, and validation reports. Keep temporary renders, caches, and draft decks out of Git.
+
+## Explicit Windows review handoff
+
+On 2026-10-23 the user requested committing and pushing the completed drafts for Windows sync. `outputs/review/CellStructure_Lessons1-3_Drafts.zip` is the tracked snapshot for that request, with review status and checksum in its README. Working drafts and renders remain ignored; the snapshot is not an approved release. Future review snapshots require explicit handoff authorisation or an updated project policy.

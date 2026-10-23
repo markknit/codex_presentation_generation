@@ -90,3 +90,7 @@ python scripts/validate_lesson_deck.py outputs/drafts/Bio_G10_CellStructure_L3_P
 ```
 
 After rendering and CUDA preview processing, `scripts/package_cellstructure_review.py --out <review-directory>` packages all three drafts, print sheets and a teacher review document. Package creation does not establish release approval. Rebuilds require updated output hashes and review of affected content.
+
+## Windows review copy
+
+The user-authorised handoff snapshot is `outputs/review/CellStructure_Lessons1-3_Drafts.zip`. Pull `main` and extract the ZIP to review all three PowerPoints and supporting files. These are drafts awaiting the recorded review gates; `outputs/final` remains empty.
