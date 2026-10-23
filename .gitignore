@@ -1,0 +1,24 @@
+# Temporary and cache files
+.cache/
+tmp/
+*.tmp
+*.log
+
+# Python and Node caches
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Generated working artifacts
+outputs/drafts/**
+!outputs/drafts/.gitkeep
+qa/renders/**
+!qa/renders/.gitkeep
+
+# Office lock files
+~$*.docx
+~$*.pptx
+
+# Platform files
+.DS_Store
+Thumbs.db
