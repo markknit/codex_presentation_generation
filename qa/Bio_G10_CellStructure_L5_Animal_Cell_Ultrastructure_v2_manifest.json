@@ -1,0 +1,155 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L5_Animal_Cell_Ultrastructure_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 5 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "An animal cell \u00b7 your first draft",
+      "phase": "Predict",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Confident, or unsure?",
+      "phase": "Predict",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Animal-cell ultrastructure \u00b7 a model",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Animal-cell model \u00b7 additional details",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Revisit the plant-cell model",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Build the plant / animal comparison",
+      "phase": "Observe",
+      "minutes": 15.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Lysosomes \u00b7 digesting engulfed material",
+      "phase": "Explain",
+      "minutes": 2.5,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Centrioles and cell division",
+      "phase": "Explain",
+      "minutes": 2.5,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "A boundary that permits shape change",
+      "phase": "Explain",
+      "minutes": 2.5,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Photosynthesis and turgor",
+      "phase": "Explain",
+      "minutes": 2.5,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Write three functional justifications",
+      "phase": "Explain",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Prepare a clear group explanation",
+      "phase": "Explain",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Three groups \u00b7 two minutes each",
+      "phase": "Driving Question Board",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Feedback and the driving question",
+      "phase": "Driving Question Board",
+      "minutes": 4.5,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "Version 3 \u00b7 plant beside animal",
+      "phase": "Model Building",
+      "minutes": 12.0,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "title": "Summary Table \u00b7 Lesson 5",
+      "phase": "Driving Question Board",
+      "minutes": 3.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "090cc77558b372aa60a370f5ec3f1c99bd67dedc11df35b49ce0a41c4d4abdc8",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

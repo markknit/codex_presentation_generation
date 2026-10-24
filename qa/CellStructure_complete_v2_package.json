@@ -1,0 +1,15 @@
+{
+  "bundle": "/home/markk/Documents/Codex/2026-10-23/i-x20/outputs/CellStructure_Complete_Lessons1-12_v2_Review.zip",
+  "bytes": 79941881,
+  "sha256": "27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24",
+  "files": 126,
+  "decks": 12,
+  "total_slides": 276,
+  "new_slides": 166,
+  "quick_review_pages": 20,
+  "crc": "PASS",
+  "all_archive_hashes": "PASS",
+  "all_twelve_deck_hashes": "match passing validation",
+  "print_document_hashes": "match checked DOCX versions",
+  "status": "LOCAL REVIEW DRAFT; no push/native PowerPoint/teacher approval"
+}

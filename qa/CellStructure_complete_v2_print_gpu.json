@@ -1,0 +1,295 @@
+{
+  "initial_print_pages": {
+    "backend": "CUDA sm_121",
+    "operations": [
+      "nearest-neighbour preview resizing",
+      "pixel ink/darkness counts"
+    ],
+    "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+    "device": "NVIDIA GB10, 580.178.04, 12.1",
+    "slides": [
+      {
+        "image": ".cache/print_qa/CellStructure_L10_v2_BlankTasks-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L10_v2_BlankTasks-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.025150701548065472,
+        "dark_fraction": 0.017940695704913426,
+        "sha256": "b4873c5c705149d3554dd4308c9846bda0e447df87d9f9921ea855649fec8df6"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L10_v2_EvidenceCard-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L10_v2_EvidenceCard-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.038474567495802546,
+        "dark_fraction": 0.021081205020672924,
+        "sha256": "4bf81a8722cb5a9b16901456b14d44da39fbb3b21e1145f26e02756e0c0fa648"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L10_v2_EvidenceCard-2.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L10_v2_EvidenceCard-2_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.02718766873026087,
+        "dark_fraction": 0.01096293666466964,
+        "sha256": "c2b6803a6a620b900ec0f9d210c721ec9a8426e36162edb61160445ac1534c2f"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L11_v2_PosterPlan-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L11_v2_PosterPlan-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.028249791051841333,
+        "dark_fraction": 0.016042780748663103,
+        "sha256": "a2e52abf9f514654d32d5149effb099385450cf809d2345a0b558eb34f55f6a4"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_StudentAssessment-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_StudentAssessment-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.026644773337475315,
+        "dark_fraction": 0.011949615757279902,
+        "sha256": "4b53d87bfa5b2eef295b47c49f93e7b303b41f0fb3e096ad75a3719146cbd7c6"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_StudentAssessment-2.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_StudentAssessment-2_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.023381483864764314,
+        "dark_fraction": 0.010928913247683079,
+        "sha256": "09141e014576238c5c74aeb81d4d8ae805c89eca0b92784480bfd4f90e2fa79b"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_StudentAssessment-3.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_StudentAssessment-3_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.036760083135479765,
+        "dark_fraction": 0.016277986109570194,
+        "sha256": "6044964764cb6bcaa9bd7eb8218a7d1527be4b97b6c908ee97a2b7f349a5f0b0"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_StudentAssessment-4.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_StudentAssessment-4_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.030350367231011605,
+        "dark_fraction": 0.01387711629351854,
+        "sha256": "3c91b7090eae4db8fc32d5d22ddec54194dcfeb62e957d2ebd424c124aea7002"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_StudentAssessment-5.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_StudentAssessment-5_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.02564182217587148,
+        "dark_fraction": 0.012016183312253608,
+        "sha256": "f8f7311a5f1eb41cb374c638fad79902f66994f102aa00893a69047d92a3ee12"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_StudentAssessment-6.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_StudentAssessment-6_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.02469212505824661,
+        "dark_fraction": 0.011681866258385663,
+        "sha256": "27e29e518c65ff8eff2fb1860a9eaa6a7b0105c059c2b7e20275353ea724fdb7"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_StudentAssessment-7.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_StudentAssessment-7_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.22005902323207668,
+        "dark_fraction": 0.07289591053320611,
+        "sha256": "8aeaa92699759d8d4919a2d8f299c4abd9316db8820704ee1528180dee7510a4"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_StudentAssessment-8.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_StudentAssessment-8_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.06136345145376144,
+        "dark_fraction": 0.024020532392511888,
+        "sha256": "40196e7283b648821280678e123b172cf4185f409baa504e5bbbdc7d2246f7f5"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_TeacherMarkingGuide-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_TeacherMarkingGuide-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.1109784690941635,
+        "dark_fraction": 0.046026286787819615,
+        "sha256": "bd7d8cc356eb2593e56fcdd61db1aa2979560725dd564801c3790bf3101a55a4"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_TeacherMarkingGuide-2.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_TeacherMarkingGuide-2_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.18767168881886967,
+        "dark_fraction": 0.08494463798344687,
+        "sha256": "717640bc06fe14cf6d530672013fa7bc7db8a850fb05824c5c36a727b04ba115"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_TeacherMarkingGuide-3.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_TeacherMarkingGuide-3_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.12706266965481025,
+        "dark_fraction": 0.026196551800652362,
+        "sha256": "6463166da5bad902362df495ca3b9b93653f78c3a46a999e27ee0278b3b644b2"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L12_v2_TeacherMarkingGuide-4.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L12_v2_TeacherMarkingGuide-4_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.06136345145376144,
+        "dark_fraction": 0.024020532392511888,
+        "sha256": "40196e7283b648821280678e123b172cf4185f409baa504e5bbbdc7d2246f7f5"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L3_v2_BlankTasks-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L3_v2_BlankTasks-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.029668419612280974,
+        "dark_fraction": 0.01890222705453362,
+        "sha256": "1c663a7daa845e07f7d97c40909f67f00d8fcfcddb7c0b84d03f9d99fcd7d672"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L5_v2_BlankTasks-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L5_v2_BlankTasks-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.017532414701074694,
+        "dark_fraction": 0.010365307948905703,
+        "sha256": "def21cae2623848135923f55e16e8e251897231b71eba6c5bc4b8df87188a92b"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L5_v2_BlankTasks-2.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L5_v2_BlankTasks-2_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.023563435181692443,
+        "dark_fraction": 0.015437755637902086,
+        "sha256": "eef9097e634de6f08a10e92869f3db503c7822020475e3f7e2386665371a847e"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L7_v2_ObservationSheet-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L7_v2_ObservationSheet-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.023181781199843196,
+        "dark_fraction": 0.012604936354021051,
+        "sha256": "68dafe12d222e9c201b01803a749979f967632196795723a7114dc61c4761a0d"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L7_v2_ObservationSheet-2.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L7_v2_ObservationSheet-2_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.024783840356210382,
+        "dark_fraction": 0.014641903536216447,
+        "sha256": "82c966c21061b684242c3efa9a42e10b9c154bf5a0364a5fa6de48b470e77602"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L8_v2_BlankOrganiser-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L8_v2_BlankOrganiser-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.02668767242845837,
+        "dark_fraction": 0.017261706644181626,
+        "sha256": "4f04a0fd27e9f4e292f982b70079fe7e1fcacd25bc3ef4cce1aa42068e6badc5"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L8_v2_BlankOrganiser-2.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L8_v2_BlankOrganiser-2_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.020675882574833028,
+        "dark_fraction": 0.013680372186596254,
+        "sha256": "3212d336a69cf26cc29de28b4293f0521ab7e81de68334a22141753b59455a53"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L8_v2_DataCard-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L8_v2_DataCard-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.058591282608856446,
+        "dark_fraction": 0.024844490795186427,
+        "sha256": "db536601e9ce8cb8656923ed314782b1b5c70e818b17bc181767e6d95c1740d4"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L9_v2_BlankTasks-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L9_v2_BlankTasks-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.02692731562636371,
+        "dark_fraction": 0.017982115516897063,
+        "sha256": "91f1871bbaad89703c63e781b0dbc1794a799c2e540dddddf4346481ca0ad71d"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L9_v2_MatchingCards-1.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L9_v2_MatchingCards-1_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.019158142321432533,
+        "dark_fraction": 0.009198156818366728,
+        "sha256": "9661104eaf750e96e2f4b3250e2b2e109e81520655d71c6267f7c4a924cc43b0"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L9_v2_MatchingCards-2.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L9_v2_MatchingCards-2_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.02201167151130539,
+        "dark_fraction": 0.012606415633020465,
+        "sha256": "ab6fd6a42a56d352c66d12cd7a4973c4bffbd50f0f6c445b98cf0213f9314013"
+      },
+      {
+        "image": ".cache/print_qa/CellStructure_L9_v2_MatchingCards-3.png",
+        "preview": ".cache/print_qa/gpu/CellStructure_L9_v2_MatchingCards-3_preview.png",
+        "width": 723,
+        "height": 935,
+        "nonwhite_fraction": 0.020388902448946384,
+        "dark_fraction": 0.011893403155302107,
+        "sha256": "11ba05912e7df4ba017b1abf3e4f29d72501ba40cb8234dfbccbbfcac8277c0a"
+      }
+    ]
+  },
+  "corrected_rubric_pages": {
+    "backend": "CUDA sm_121",
+    "operations": [
+      "nearest-neighbour preview resizing",
+      "pixel ink/darkness counts"
+    ],
+    "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+    "device": "NVIDIA GB10, 580.178.04, 12.1",
+    "slides": [
+      {
+        "image": ".cache/print_qa/student-rubric-7.png",
+        "preview": ".cache/print_qa/rubric_gpu/student-rubric-7_preview.png",
+        "width": 850,
+        "height": 1100,
+        "nonwhite_fraction": 0.06113689839572192,
+        "dark_fraction": 0.03401176470588235,
+        "sha256": "1aef8305bb69ffcf6d8cc75c23875aad1154e845c4efdb436b21d3bacbcdeb0e"
+      },
+      {
+        "image": ".cache/print_qa/teacher-rubric-3.png",
+        "preview": ".cache/print_qa/rubric_gpu/teacher-rubric-3_preview.png",
+        "width": 850,
+        "height": 1100,
+        "nonwhite_fraction": 0.08057433155080214,
+        "dark_fraction": 0.042737967914438506,
+        "sha256": "9aada9f00deaedc44d32ebddf9dec2ca4508a39e27bba4917ea4be5a2fd21f06"
+      }
+    ]
+  },
+  "note": "Two rubric pages supersede initial overflowing copies. See print_checks and final DOCX hashes."
+}

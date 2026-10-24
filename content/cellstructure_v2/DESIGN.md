@@ -61,3 +61,12 @@ Primary background check for L4 structures/functions: [OpenStax Biology 2e, 4.3 
 ## Computing and limits
 
 Built-in imagegen generated the four original contextual illustrations. Host GPU use is not asserted for that hosted service. All local raster resizing and pixel metrics use verified CUDA on NVIDIA GB10 with no CPU fallback. Python-pptx vector/document assembly, PNG encode/decode, PDF conversion/rasterisation, PDF text extraction, ZIP packaging and file layout have CPU code paths and are explicitly exceptions. No local generative or vision model is claimed. Calibri is specified, but local PDF rendering uses Carlito. Speaker-note runs and the inherited notes-master Latin theme are explicitly normalised to Calibri; the separate notes theme must be checked as well as slide fonts. Native PowerPoint/Presenter View, exact Calibri fidelity, ARES offline/content checks and teacher approval remain open.
+
+
+## Transfer across the complete unit
+
+`scripts/cell_specialisation_visuals.py` adds editable cell profiles, tissue/hierarchy models, guard-pore states and four-zone poster plans. Use the same cell geometry in the first structural observation, later function explanation and cumulative model instructions. Keep annotated models visibly distinct from published micrographs and pupils' own practical records. For gene-expression and repair synthesis, show specific structures/cell contributions instead of adding decorative cell pictures to definitions.
+
+The remaining source-specific lesson scripts are in `scripts/build_cellstructure_remaining_v2.py`. Their correction/route decisions are in `REMAINING_DECISIONS.json` and per-lesson build logs. The complete-unit checks verify numeric times, hidden teacher pages, phase presence, notes fonts, PDF text retention and selected protected reveals. They do not prove source completeness, scientific accuracy, engagement or native PowerPoint compatibility. All new slides received a separate rendered visual review.
+
+Use timer placement that clears both a graphic and its caption. Reflow copied Word tables to the destination page width; source rubric widths can extend off portrait pages even when text extraction succeeds. Keep teacher marking guides private and route-specific; preserve actual pupil evidence rather than supplying expected observations as results.

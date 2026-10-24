@@ -110,6 +110,27 @@ After rendering and CUDA processing, use the expanded package `outputs/review/Ce
 
 ## Reference-informed version 2 review set
 
-The current design test is Cell Structure **L1, L2, L4 and L6**. Run `.venv/bin/python scripts/build_cellstructure_v2.py` from the repository root. Working decks go to `outputs/drafts/v2`; validation evidence and logs carry `_v2` names. See `content/cellstructure_v2/DESIGN.md` for the reusable component rules, source decisions, visual QA and remaining review gates. Exact contextual-art prompts and original assets are in `assets/cellstructure_v2`.
+The initial version 2 design test covered Cell Structure **L1, L2, L4 and L6**; the complete twelve-lesson draft set is now built. Run `.venv/bin/python scripts/build_cellstructure_v2.py` from the repository root. Working decks go to `outputs/drafts/v2`; validation evidence and logs carry `_v2` names. See `content/cellstructure_v2/DESIGN.md` for the reusable component rules, source decisions, visual QA and remaining review gates. Exact contextual-art prompts and original assets are in `assets/cellstructure_v2`.
 
 The user-authorised v2 GitHub handoff snapshot is `outputs/review/CellStructure_Lessons1-2-4-6_v2_Review.zip`. Its README records the checksum and Windows extraction command. Earlier archives are preserved and contain earlier versions. All decks remain review drafts, including L6's unresolved practical-readiness checks.
+
+
+## Complete Cell Structure draft set
+
+On 24 October 2026 the user authorised the remaining lessons. Version 2 now covers L1–12: 276 slides and 840 scheduled minutes. L3, L5 and L7–12 add 166 slides; L1/L2/L4/L6 retain their prior reviewed draft versions. These are review drafts, with native PowerPoint, teacher/source-owner and practical-readiness checks still open.
+
+Run from the repository root with the pinned environment:
+
+```bash
+.venv/bin/python scripts/build_cellstructure_v2.py
+.venv/bin/python scripts/build_cellstructure_remaining_v2.py
+.venv/bin/python scripts/render_cellstructure_remaining_v2.py
+.venv/bin/python scripts/check_cellstructure_complete_v2.py
+.venv/bin/python scripts/package_cellstructure_complete_v2.py --out /absolute/path/to/review-folder
+```
+
+The render command expects the original four v2 PDFs/renders under `qa/renders/cellstructure_v2` for complete-unit checks; it renders the eight new decks under `qa/renders/cellstructure_complete_v2`. It requires LibreOffice, Poppler, the pinned `.venv`, CUDA/nvcc sm_121 and GB10; GPU failure stops the operation. See prior packaging/build scripts for the initial four-deck render workflow.
+
+The current local bundle is `CellStructure_Complete_Lessons1-12_v2_Review.zip` in the chat outputs folder recorded in `STATUS.md`. It includes twelve PPTX files/full PDFs, twelve teacher-note documents, a 20-slide preview, print tasks, source-adapted final assessment and corrected teacher guide, logs and QA. The complete package is local and has not been pushed. The previously pushed four-lesson archive remains the latest GitHub review snapshot.
+
+L7 uses the V2 prepared-slide alternative; the school must approve/specify the specimen. L8 includes credited published microscopy, with morphology separated from explanatory background. L9 uses explicit hypothetical guard-pore models rather than claiming a geographic experiment; L10 uses drawn organisation models rather than fabricated microscopy. Per-lesson decisions are in `content/cellstructure_v2/REMAINING_DECISIONS.json` and `build_logs/*_v2.md`. The five-section assessment retains the source rubric bands and records route/science corrections.

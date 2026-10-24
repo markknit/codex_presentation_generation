@@ -1,0 +1,190 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L9_Specialised_Plant_Cells_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 9 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Root and leaf \u00b7 predict two cells",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Compare root-cell and leaf-cell ideas",
+      "phase": "Predict",
+      "minutes": 3.5,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Root hair cell \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Guard cells \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Xylem vessel \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Phloem sieve tube \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Palisade cell \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Guard-cell states \u00b7 what differs?",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "What surprised you?",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Match 15 cards into five sets",
+      "phase": "Explain",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Prepare a 90-second CER",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Three explanations \u00b7 challenge with evidence",
+      "phase": "Explain",
+      "minutes": 4.5,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "How does xylem become a pipe?",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Phloem transports dissolved sugars",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "Guard cells change the pore",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "title": "Palisade cells capture light",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 22,
+      "title": "Is a mature xylem vessel element alive?",
+      "phase": "Explain",
+      "minutes": 2.5,
+      "hidden": false
+    },
+    {
+      "slide": 23,
+      "title": "Return to your first sketches",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 24,
+      "title": "Two slips \u00b7 question and connection",
+      "phase": "Driving Question Board",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 25,
+      "title": "Add the plant side of your model",
+      "phase": "Model Building",
+      "minutes": 13.0,
+      "hidden": false
+    },
+    {
+      "slide": 26,
+      "title": "Summary Table \u00b7 Lesson 9",
+      "phase": "Driving Question Board",
+      "minutes": 3.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "d41211638a452d283749bb8f206ea5285c35285d39a529ceda2eb3976a01bb28",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

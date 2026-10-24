@@ -1,0 +1,53 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L10_Cell_Organisation_v2.pptx",
+  "sha256": "891a4aa44d2a533cae66faba8db1ce3950ed10fa6bea86eac728a9359a0cbf0c",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 18,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.25,
+    0.0,
+    0.0,
+    0.5,
+    0.75,
+    4.0,
+    3.0,
+    3.0,
+    3.0,
+    15.0,
+    1.0,
+    8.0,
+    8.0,
+    5.0,
+    9.0,
+    12.0,
+    4.0,
+    3.5
+  ],
+  "total_minutes": 80.0,
+  "formative_check_slides": [
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}

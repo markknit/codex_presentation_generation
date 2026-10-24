@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-24",
+  "request": "Generate remaining Cell Structure presentations",
+  "new_lessons": [
+    3,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "complete_lessons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "source_authority": "V2 source; general science manual; reviewed v2 design grammar",
+  "sources": [
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_CBE_LessonSequence.docx",
+      "sha256": "24e001955a8d441822a363ff70c38240e799d6dc1c932c6d7bff3ab2d7584461"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation.docx",
+      "sha256": "9603ca2c374963790b56f21966a2e6c9368fa18ea7cf292de44ca0c2ea571699"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation_TeacherKey.docx",
+      "sha256": "7d9ca9871b67566515c089578aea78a813a7c3c35904e4b5e6e0123186227f46"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_SummaryTable.docx",
+      "sha256": "6b6fbd0dd542d593d406b3a23ca524585b8db854be3fb5681f482ecabb2a6382"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_data.json",
+      "sha256": "826e4d7a7f552bd6750790d4ed017eea64c4f40765e60bf4ff464ddb3f1ed781"
+    },
+    {
+      "path": "references/instructions/SeaVuria_Science_Lesson_PPT_Build_Manual.docx",
+      "sha256": "0c082ad4947fb7e89b8dddcf400bf62ec687624c9ded639d556118f91b70da51"
+    },
+    {
+      "path": "content/cellstructure_v2/DESIGN.md",
+      "sha256": "99d5d5eb47d645cbdb5393c2127d3084e8cab25ad475c9b707a0229b4866d346"
+    },
+    {
+      "path": "content/cellstructure_v2/REMAINING_DECISIONS.json",
+      "sha256": "f9df7c2c17b49c3211ba176873e96cc3996cc96157491e7e234cf0e0d05b805b"
+    }
+  ]
+}

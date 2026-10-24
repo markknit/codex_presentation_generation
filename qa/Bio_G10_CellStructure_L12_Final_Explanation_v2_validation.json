@@ -1,0 +1,61 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L12_Final_Explanation_v2.pptx",
+  "sha256": "240ffcfe2b8881fa452dabfcfcb29f1bf7110fab500999dc7884b57b856569cc",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 22,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.25,
+    0.0,
+    0.0,
+    0.5,
+    0.75,
+    4.0,
+    3.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    8.0,
+    3.0,
+    12.0,
+    5.0,
+    25.0,
+    0.5
+  ],
+  "total_minutes": 80.0,
+  "formative_check_slides": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}

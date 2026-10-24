@@ -34,7 +34,7 @@ for i,s in enumerate(d.slides,1):
             if '\n'+k+'\n' not in n:errors.append(f'slide {i}: missing {k}')
     if i not in [2,3] and re.search(r'\bDQB\b',t):errors.append(f'slide {i}: abbreviated Driving Question Board')
 if hidden!=[2,3]:errors.append('only slides 2 and 3 should be hidden')
-if sum(times)!=a.minutes:errors.append(f'total {sum(times)} != {a.minutes}')
+if abs(sum(times)-a.minutes)>1e-6:errors.append(f'total {sum(times)} != {a.minutes}')
 if abs(d.slide_width/d.slide_height-16/9)>.01:errors.append('not 16:9')
 with zipfile.ZipFile(a.deck) as z:
     if z.testzip():errors.append('package CRC failure')

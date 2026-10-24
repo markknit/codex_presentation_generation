@@ -1,0 +1,162 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L12_Final_Explanation_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 12 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Read your first explanation",
+      "phase": "Predict",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "What would you change today?",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Build our class story in order",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Blood leaks \u00b7 what makes it red?",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "The plug \u00b7 platelet structure",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Protein machinery and the clot",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Defence \u00b7 neutrophils",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Clearance \u00b7 macrophages",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Rebuilding \u00b7 fibroblasts",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Closing the surface",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "The same organism \u00b7 different cells",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Then and now \u00b7 your model comparison",
+      "phase": "Explain",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Hear two different journeys",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Classify our questions with reasons",
+      "phase": "Driving Question Board",
+      "minutes": 12.0,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "One last individual reflection",
+      "phase": "Model Building",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "title": "Final Explanation \u00b7 independent work",
+      "phase": "Model Building",
+      "minutes": 25.0,
+      "hidden": false
+    },
+    {
+      "slide": 22,
+      "title": "Summary Table \u00b7 Lesson 12",
+      "phase": "Driving Question Board",
+      "minutes": 0.5,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "240ffcfe2b8881fa452dabfcfcb29f1bf7110fab500999dc7884b57b856569cc",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

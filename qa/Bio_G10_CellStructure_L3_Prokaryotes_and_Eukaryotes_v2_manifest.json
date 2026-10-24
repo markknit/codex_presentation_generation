@@ -1,0 +1,155 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L3_Prokaryotes_and_Eukaryotes_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 3 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Built the same way?",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Compare your first ideas",
+      "phase": "Predict",
+      "minutes": 2.5,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "A bacterial cell \u00b7 E. coli",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "A eukaryotic body-cell model",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Build your comparison table",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Resolve the question marks",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Where is the DNA?",
+      "phase": "Explain",
+      "minutes": 1.2,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Ribosomes in both?",
+      "phase": "Explain",
+      "minutes": 1.2,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Choose a difference",
+      "phase": "Explain",
+      "minutes": 1.2,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Why compartments?",
+      "phase": "Explain",
+      "minutes": 1.2,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Back to the cut",
+      "phase": "Explain",
+      "minutes": 1.2,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Three sentences, three links",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Let the words help you",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "We know\u2026 but still wonder\u2026",
+      "phase": "Driving Question Board",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "Version 1 add-on \u00b7 compare two cell types",
+      "phase": "Model Building",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "title": "Summary Table \u00b7 Lesson 3",
+      "phase": "Driving Question Board",
+      "minutes": 3.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "39dc4e0705d645a785abe34acee84a1d0428436dc64250b57f79536741771bb4",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

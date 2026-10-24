@@ -176,5 +176,5 @@ class VisualDeck:
     para.font.name='Calibri'
     for run in para.runs:run.font.name='Calibri'
   self.deck.save(p)
-  (ROOT/'qa'/f'{self.name}_manifest.json').write_text(json.dumps({'deck':str(p),'slides':self.records,'total_minutes':sum(r['minutes'] for r in self.records),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'status':'REVIEW DRAFT — NOT APPROVED'},indent=2))
+  (ROOT/'qa'/f'{self.name}_manifest.json').write_text(json.dumps({'deck':str(p),'slides':self.records,'total_minutes':round(sum(r['minutes'] for r in self.records),6),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'status':'REVIEW DRAFT — NOT APPROVED'},indent=2))
   print(p)

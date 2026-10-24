@@ -5,14 +5,28 @@
     2,
     3,
     4,
-    6
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
   ],
   "built_lessons": [
     1,
     2,
     3,
     4,
-    6
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
   ],
   "deferred_lessons": [],
   "defer_reason": null,
@@ -157,5 +171,93 @@
       "qa/Bio_G10_CellStructure_L4_Plant_Cell_Ultrastructure_v2_manifest.json",
       "qa/Bio_G10_CellStructure_L6_Onion_Cells_Practical_v2_manifest.json"
     ]
-  }
+  },
+  "current_version": "v2 for all 12; earlier snapshots retained",
+  "current_decks": [
+    {
+      "lesson": 1,
+      "name": "Bio_G10_CellStructure_L1_The_Healing_Cut_v2",
+      "slides": 21,
+      "minutes": 40.0,
+      "sha256": "8bfe0108fbb892abe079ada0377d4894fff96a658a9587ca8d3c1472e8aae758"
+    },
+    {
+      "lesson": 2,
+      "name": "Bio_G10_CellStructure_L2_What_Is_a_Cell_v2",
+      "slides": 25,
+      "minutes": 80.0,
+      "sha256": "38e9dfbfba24d2842c4593d614d4f1f257926d26b3bd3abc11e8cc3c9c6ff92b"
+    },
+    {
+      "lesson": 3,
+      "name": "Bio_G10_CellStructure_L3_Prokaryotes_and_Eukaryotes_v2",
+      "slides": 21,
+      "minutes": 40.0,
+      "sha256": "39dc4e0705d645a785abe34acee84a1d0428436dc64250b57f79536741771bb4"
+    },
+    {
+      "lesson": 4,
+      "name": "Bio_G10_CellStructure_L4_Plant_Cell_Ultrastructure_v2",
+      "slides": 37,
+      "minutes": 80.0,
+      "sha256": "0766d671210cc163043dad94523ac57e4b94db77d53c394a91a83dfae6eb368d"
+    },
+    {
+      "lesson": 5,
+      "name": "Bio_G10_CellStructure_L5_Animal_Cell_Ultrastructure_v2",
+      "slides": 21,
+      "minutes": 80.0,
+      "sha256": "090cc77558b372aa60a370f5ec3f1c99bd67dedc11df35b49ce0a41c4d4abdc8"
+    },
+    {
+      "lesson": 6,
+      "name": "Bio_G10_CellStructure_L6_Onion_Cells_Practical_v2",
+      "slides": 27,
+      "minutes": 80.0,
+      "sha256": "bdf3945aae839d82eb1cfd622d141f85a18c326b353482b31dac324906b03c73"
+    },
+    {
+      "lesson": 7,
+      "name": "Bio_G10_CellStructure_L7_Animal_Cells_Practical_v2",
+      "slides": 17,
+      "minutes": 80.0,
+      "sha256": "e76ad5feb00cf5959892a9a29833ba534cee79b4732641942d3a0c3250bc62cb"
+    },
+    {
+      "lesson": 8,
+      "name": "Bio_G10_CellStructure_L8_Specialised_Animal_Cells_v2",
+      "slides": 27,
+      "minutes": 80.0,
+      "sha256": "b017243f22a73d8e3a5e13593d6269a30654df9f258c1a235bdabf8bcc69b43e"
+    },
+    {
+      "lesson": 9,
+      "name": "Bio_G10_CellStructure_L9_Specialised_Plant_Cells_v2",
+      "slides": 26,
+      "minutes": 80.0,
+      "sha256": "d41211638a452d283749bb8f206ea5285c35285d39a529ceda2eb3976a01bb28"
+    },
+    {
+      "lesson": 10,
+      "name": "Bio_G10_CellStructure_L10_Cell_Organisation_v2",
+      "slides": 18,
+      "minutes": 80.0,
+      "sha256": "891a4aa44d2a533cae66faba8db1ce3950ed10fa6bea86eac728a9359a0cbf0c"
+    },
+    {
+      "lesson": 11,
+      "name": "Bio_G10_CellStructure_L11_Synthesis_and_Model_Revision_v2",
+      "slides": 14,
+      "minutes": 40.0,
+      "sha256": "fdae33896b9a2a0e7e73805998d2c921e49809cb4396b7eb3e4d79e90b6ff1a2"
+    },
+    {
+      "lesson": 12,
+      "name": "Bio_G10_CellStructure_L12_Final_Explanation_v2",
+      "slides": 22,
+      "minutes": 80.0,
+      "sha256": "240ffcfe2b8881fa452dabfcfcb29f1bf7110fab500999dc7884b57b856569cc"
+    }
+  ],
+  "release_status": "Review drafts; external gates pending"
 }

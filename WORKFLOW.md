@@ -132,8 +132,17 @@ The user subsequently requested adding Cell Structure L6 to the same pilot. The 
 
 ## Version 2 design test, 2026-10-24
 
-The user explicitly requested redesigning Cell Structure L1/L2/L6 using the richer `presentations2` reference folder and adding L4 as a transfer test. This authorises those four review drafts before pilot sign-off; it does not approve release or wider generation. Latest selection: L1/L2/L4/L6 (110 slides); earlier L3 is retained separately.
+The user explicitly requested redesigning Cell Structure L1/L2/L6 using the richer `presentations2` reference folder and adding L4 as a transfer test. This authorises those four review drafts before pilot sign-off; it does not approve release or wider generation. That initial selection covered L1/L2/L4/L6 (110 slides). The complete-unit continuation below supersedes the selection; earlier snapshots remain preserved.
 
 Use `content/cellstructure_v2/DESIGN.md`, `scripts/lesson_visuals.py` and `scripts/build_cellstructure_v2.py` for the revised approach. The visual frame accepts subject, grade, unit, theme and output-folder parameters. A new unit still requires full source reading and source-specific diagrams/content. The external reference folder is recorded by hash, while all assets and code needed to rebuild the current four decks are repository-local.
 
 On 24 October 2026 the user explicitly requested pushing the redesign to GitHub. The authorised handoff snapshot is `outputs/review/CellStructure_Lessons1-2-4-6_v2_Review.zip`, with its verified checksum and extraction instructions in that directory’s README. Preserve earlier archives. Scientific and practical corrections remain binding, and student engagement is assessed by review rather than a structural/CUDA pass.
+
+
+## Complete Cell Structure draft continuation, 2026-10-24
+
+The user explicitly requested “generate the remaining presentations for this sub-strand”. This authorises L3, L5 and L7–12 as review drafts before external pilot sign-off, retaining the revised style. All 12 v2 decks are built (276 slides / 840 scheduled minutes); the old L3 is retained only as history. No classroom release or teacher/native PowerPoint approval follows from this exception.
+
+Use `scripts/build_cellstructure_remaining_v2.py`, `scripts/cell_specialisation_visuals.py`, `scripts/render_cellstructure_remaining_v2.py`, `scripts/check_cellstructure_complete_v2.py` and `scripts/package_cellstructure_complete_v2.py` for this continuation. The complete package includes printable tasks rather than assuming missing card sets exist. The assessment adaptation retains source sections/criteria/bands, corrects science and matches the prepared-slide route. Original inputs are unchanged.
+
+The current complete review ZIP is local in the chat outputs directory recorded by STATUS. Generated drafts/renders remain ignored. The prior explicit GitHub handoff transferred only the four-lesson snapshot; a new push/snapshot has not been performed.

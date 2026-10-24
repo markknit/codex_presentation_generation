@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-24",
+  "documents": [
+    {
+      "docx": "CellStructure_L10_v2_BlankTasks.docx",
+      "sha256": "bdd4c71096bc62d2cc32ccf5605d761eae99a329ba9014495784d45d04cb7896",
+      "pdf_pages": 1,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L10_v2_EvidenceCard.docx",
+      "sha256": "414cdec53821f78cf50b922cab29f705248c7aa04f92f76506f2ca29866191a9",
+      "pdf_pages": 2,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L11_v2_PosterPlan.docx",
+      "sha256": "87d6c3e1f598dbcd53b1ede5eaa159b24a749a55f5a53bc83a2e8dce1640c1c0",
+      "pdf_pages": 1,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L12_v2_StudentAssessment.docx",
+      "sha256": "d3edb7df70ad96075f7d013051c0ac12c056f1be31810ab11fecbdb8fec1a156",
+      "pdf_pages": 8,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L12_v2_TeacherMarkingGuide.docx",
+      "sha256": "ef2bca762af8459e935bee010d2f65cbb8ee5300fa8fc6399120243023d11320",
+      "pdf_pages": 4,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L3_v2_BlankTasks.docx",
+      "sha256": "c887af417a63ce405b43ba3645d80e82e8c5d5642becd97044ca0e1b7c8a56ae",
+      "pdf_pages": 1,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L5_v2_BlankTasks.docx",
+      "sha256": "511f9735256169798622fa193e3b790e055b7553d5b24236344933523ecdb98c",
+      "pdf_pages": 2,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L7_v2_ObservationSheet.docx",
+      "sha256": "e5b5accf4982851d3abfc63feedd68d87f931fcb409ed4d46864223124c2c167",
+      "pdf_pages": 2,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L8_v2_BlankOrganiser.docx",
+      "sha256": "eae80605dd8d45ba16b38516944b3b53d71df9e19e547155b6321a4a53a3233a",
+      "pdf_pages": 2,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L8_v2_DataCard.docx",
+      "sha256": "bb1730334d2865e20de681d716a1df9c0957fd13594a5b1d711e082d23196122",
+      "pdf_pages": 1,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L9_v2_BlankTasks.docx",
+      "sha256": "d773c58ea4371e72e7645af7a5237fb088b993a05ceaff78f9b86e72f11c79d4",
+      "pdf_pages": 1,
+      "pdf_text_retained": true
+    },
+    {
+      "docx": "CellStructure_L9_v2_MatchingCards.docx",
+      "sha256": "eceffd678cabb586ba6d6ee045b214ca959aa18d7a5e28ee683edc0c7e9b49b0",
+      "pdf_pages": 3,
+      "pdf_text_retained": true
+    }
+  ],
+  "rendered_pages_initial": 28,
+  "gpu_execution": "28 initial pages plus two corrected rubric pages processed by CUDA sm_121 on GB10",
+  "visual_review": "All initial print pages inspected; source rubric width overflow found, fixed by reflowing to portrait page width, corrected student/teacher rubric pages rendered and inspected at full size.",
+  "limits": "Linux LibreOffice preview, not native Word/PowerPoint or teacher assessment approval."
+}

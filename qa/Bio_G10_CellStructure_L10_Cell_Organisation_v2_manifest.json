@@ -1,0 +1,134 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L10_Cell_Organisation_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 10 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "What exists above a single cell?",
+      "phase": "Predict",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Acting alone, or part of something bigger?",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "A schematic evidence pathway",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Read the healing-cell profiles",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Build the organisation observation table",
+      "phase": "Observe",
+      "minutes": 15.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Check the analogy\u2019s limits",
+      "phase": "Observe",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Name the five-level hierarchy",
+      "phase": "Explain",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Why can one epidermal cell not heal a wound alone?",
+      "phase": "Explain",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Does the explanation fit the evidence?",
+      "phase": "Explain",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "One answer, one new question",
+      "phase": "Driving Question Board",
+      "minutes": 9.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Version 4 \u00b7 nest the levels",
+      "phase": "Model Building",
+      "minutes": 12.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Share, then improve",
+      "phase": "Model Building",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Summary Table \u00b7 Lesson 10",
+      "phase": "Driving Question Board",
+      "minutes": 3.5,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "891a4aa44d2a533cae66faba8db1ce3950ed10fa6bea86eac728a9359a0cbf0c",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

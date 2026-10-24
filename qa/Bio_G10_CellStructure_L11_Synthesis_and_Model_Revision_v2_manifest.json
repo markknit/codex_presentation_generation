@@ -1,0 +1,106 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L11_Synthesis_and_Model_Revision_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 11 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Return to Lesson 1",
+      "phase": "Predict",
+      "minutes": 1.5,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Then\u2026 and now\u2026",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Plan the four zones",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Build your scientific model poster",
+      "phase": "Explain",
+      "minutes": 12.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Gallery walk \u00b7 one glow and one grow",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Use the feedback to repair",
+      "phase": "Driving Question Board",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Star progress on our original questions",
+      "phase": "Driving Question Board",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Your personal synthesis",
+      "phase": "Model Building",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Summary Table \u00b7 Lesson 11",
+      "phase": "Driving Question Board",
+      "minutes": 3.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "fdae33896b9a2a0e7e73805998d2c921e49809cb4396b7eb3e4d79e90b6ff1a2",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

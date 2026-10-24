@@ -1,0 +1,174 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.9782528764123856,
+      "dark_fraction": 0.8948866993038772,
+      "sha256": "92e78198c197084760d00689ef0ba504dee4ea854e914bebb9b0ff1ea671cc0f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13240379252649193,
+      "dark_fraction": 0.11452934250480262,
+      "sha256": "a3b4bc9c3a67ddd0d4337bd0f63d0bc2aa303d9d52bc5db52e5d2e6896a30319"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13467600338765984,
+      "dark_fraction": 0.11454421515771208,
+      "sha256": "f81fe63c1f9eee1507f6a532689668b6a8ac32ec2fc441914e5d8c185c42a951"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16607217367953564,
+      "dark_fraction": 0.14605193034640887,
+      "sha256": "5c1d065457c97655dc2e9332a529db237528ab8f1b66dadc2f4d1797d24a9df5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1915044101547169,
+      "dark_fraction": 0.04420730825638801,
+      "sha256": "2d6e2aad0510e9475f701d429a4be43408a3740c6892b223da20b20db150762a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.15961909483381875,
+      "dark_fraction": 0.06350705418190081,
+      "sha256": "58eb8845bf1a1e8329a1cbc6e3550d6a2a6e8a6322564229bfe8a8d2f174612d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.19117390675672885,
+      "dark_fraction": 0.05783726838941563,
+      "sha256": "76a729025f25b0992098223581b97e10613061429987a1ad7083c6c9d82ec218"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.14138604862531243,
+      "dark_fraction": 0.05738199995868708,
+      "sha256": "08e0a6435e6f007ecac84707785bbb82a2a0489c78094aff2c27c1cd0a8ea08a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05828757926917436,
+      "dark_fraction": 0.04235731548614984,
+      "sha256": "c0a53db9b3ba45034088e609fe5c4d62c69dc8944e0d762e9e007fdf6705eb83"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.11755344859639338,
+      "dark_fraction": 0.10572886327487555,
+      "sha256": "101162fa41d1e3a8b621f9c73dd7302885b0a06b4a3b295b43954106e480a0d7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.054442998492078246,
+      "dark_fraction": 0.042037553448596394,
+      "sha256": "d0e1f94054beac3e38a0c87afdb4e5d015960815d4665d0de7ad509f82fd4c44"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13971948524095765,
+      "dark_fraction": 0.056407014934622295,
+      "sha256": "e7236bfc98784cb898ef66c9e5a210e0783ea62687c77ee9143dae0a88b4557b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2295585713990622,
+      "dark_fraction": 0.058044659271653136,
+      "sha256": "1952ed6822761d746fcf7eb8243d52375c14b9939f32371b9c191d53709dc561"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05307471442440768,
+      "dark_fraction": 0.04132118733345727,
+      "sha256": "260ae504ba9fc96b44a5cca8edf22a9e396d202250411a90652f34850b1cfacb"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1898543719402615,
+      "dark_fraction": 0.05782900580446593,
+      "sha256": "51a5da3f17e42b40052e3167ae486cfd6113d5b59a57ddd4cf10d2a08387b305"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.18984693561380678,
+      "dark_fraction": 0.0558947346677408,
+      "sha256": "257d5ccfdc3bf4dcb9e402fdeb0b153097d1ff468a47f9c337a779a9a36cfe43"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0598616017020925,
+      "dark_fraction": 0.04856086426638574,
+      "sha256": "5badf59b9a4a72b6bf9adb064c1f31ae0885e9076eb7b7020bae1735520be0b7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/cellstructure_complete_v2/l10/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06858358637499742,
+      "dark_fraction": 0.05298960979942575,
+      "sha256": "c2270c7b860400642fd3dbe817fdc68680de41db56f00573ad4fbfd4f4f8a627"
+    }
+  ],
+  "deck_sha256": "891a4aa44d2a533cae66faba8db1ce3950ed10fa6bea86eac728a9359a0cbf0c"
+}

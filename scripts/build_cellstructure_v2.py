@@ -35,7 +35,7 @@ class Lesson:
   for i,(ph,c) in enumerate(COL.items()):
    xx=.73+(i%3)*2.45;yy=5.28+(i//3)*.58
    oval(s,xx,yy+.04,.18,.18,c);tx(s,ph,xx+.3,yy,2.0,.48,13,'FFFFFF',True)
-  tx(s,('40' if n==1 else '80')+' MINUTES · REVIEW DRAFT · 24 OCT 2026',.73,6.53,8,.25,11,'FCBA63',True)
+  tx(s,('40' if n in [1,3,11] else '80')+' MINUTES · REVIEW DRAFT · 24 OCT 2026',.73,6.53,8,.25,11,'FCBA63',True)
   notes=old(n,2) if n!=4 else n4(0,'Read the orientation before teaching. Slides 2–3 remain hidden. Use Presenter View for notes.')
   s=b.slide('One routine. Five phases.','Routine',notes,hidden=True)
   for i,(ph,c) in enumerate(COL.items()):
@@ -56,7 +56,7 @@ class Lesson:
    xx=.7+(i//6)*6.1;yy=2.15+(i%6)*.48;c='D7DF23' if i==n-1 else 'F0F4F4'
    box(s,xx,yy,5.85,.4,c);badge(s,str(i+1),xx+.07,yy+.035,INK if i!=n-1 else 'FFFFFF',.32);tx(s,t,xx+.55,yy+.07,3.85 if i==n-1 else 4.95,.28,15,INK,i==n-1)
    if i==n-1:tx(s,'YOU ARE HERE',xx+4.6,yy+.11,1.15,.2,8,INK,True,A.RIGHT)
-  tx(s,'So far: '+{1:'we begin with a puzzle about Amina’s finger.',2:'our first models raised questions about healing.',4:'we have compared bacterial and eukaryotic cells.',6:'we have studied plant and animal cell diagrams.'}[n],.75,5.36,11.8,.5,19)
+  tx(s,'So far: '+{1:'we begin with a puzzle about Amina’s finger.',2:'our first models raised questions about healing.',4:'we have compared bacterial and eukaryotic cells.',6:'we have studied plant and animal cell diagrams.'}.get(n,'we have gathered evidence and revised our cell models.'),.75,5.36,11.8,.5,19)
   box(s,.7,6.0,11.95,.75,INK);tx(s,DQ if n!=1 else 'Our driving question will be revealed after you post what you notice and wonder.',.9,6.14,11.55,.55,17,'FFFFFF',True)
   notes=old(n,5) if n!=4 else n4(.75,'Read the goals. Do not reveal organelle functions before pupils predict.',say='We will observe a diagram, explain nine structures and revise our model.')
   s=b.slide('By the end of this lesson you can…','Today',notes)

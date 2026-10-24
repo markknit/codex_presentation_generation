@@ -1,0 +1,29 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "assets/cellstructure_v2/sickle_smear.png",
+      "preview": ".cache/published_assets_gpu/sickle_smear_preview.png",
+      "width": 545,
+      "height": 364,
+      "nonwhite_fraction": 0.7506250630103841,
+      "dark_fraction": 0.045236414961185606,
+      "sha256": "ca770b23157e4a451b62776d62a689852dfd62699666af8fad629d6ec8610236"
+    },
+    {
+      "image": "assets/cellstructure_v2/neuron_micrograph.png",
+      "preview": ".cache/published_assets_gpu/neuron_micrograph_preview.png",
+      "width": 544,
+      "height": 431,
+      "nonwhite_fraction": 0.9903780537737137,
+      "dark_fraction": 0.9775573222328374,
+      "sha256": "dcc82a8583a9971e9aadb958dbb946be5fc234b208cf0f9a834d1acc4e3eaaa1"
+    }
+  ]
+}

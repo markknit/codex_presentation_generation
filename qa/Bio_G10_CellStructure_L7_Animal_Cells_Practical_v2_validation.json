@@ -1,0 +1,51 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L7_Animal_Cells_Practical_v2.pptx",
+  "sha256": "e76ad5feb00cf5959892a9a29833ba534cee79b4732641942d3a0c3250bc62cb",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 17,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.25,
+    0.0,
+    0.0,
+    0.5,
+    0.75,
+    2.0,
+    3.0,
+    4.0,
+    4.0,
+    25.0,
+    5.0,
+    8.0,
+    6.0,
+    2.0,
+    8.0,
+    10.0,
+    1.5
+  ],
+  "total_minutes": 80.0,
+  "formative_check_slides": [
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}

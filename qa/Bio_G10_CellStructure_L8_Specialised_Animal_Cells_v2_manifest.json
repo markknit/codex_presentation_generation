@@ -1,0 +1,197 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L8_Specialised_Animal_Cells_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 8 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Five outlines \u00b7 make a prediction",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Compare your predicted structures",
+      "phase": "Predict",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Red blood cell \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Neutrophil \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Neuron \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Sperm cell \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Skeletal muscle fibre \u00b7 look for structure",
+      "phase": "Observe",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Published blood-smear evidence",
+      "phase": "Observe",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Published neural-tissue image",
+      "phase": "Observe",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Observe first \u00b7 five-cell evidence table",
+      "phase": "Observe",
+      "minutes": 15.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Structure \u2192 function \u2192 connection",
+      "phase": "Explain",
+      "minutes": 15.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Red blood cell \u00b7 structure and function",
+      "phase": "Explain",
+      "minutes": 1.6,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Neutrophil \u00b7 structure and function",
+      "phase": "Explain",
+      "minutes": 1.6,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Neuron \u00b7 structure and function",
+      "phase": "Explain",
+      "minutes": 1.6,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "Sperm cell \u00b7 structure and function",
+      "phase": "Explain",
+      "minutes": 1.6,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "title": "Skeletal muscle fibre \u00b7 structure and function",
+      "phase": "Explain",
+      "minutes": 1.6,
+      "hidden": false
+    },
+    {
+      "slide": 22,
+      "title": "Haemoglobin is still there. Why does shape matter?",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 23,
+      "title": "Make the reasoning visible",
+      "phase": "Explain",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 24,
+      "title": "Name the idea \u00b7 cell specialisation",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 25,
+      "title": "One update and one new question",
+      "phase": "Driving Question Board",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 26,
+      "title": "Add at least TWO specialised animal cells",
+      "phase": "Model Building",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 27,
+      "title": "Summary Table \u00b7 Lesson 8",
+      "phase": "Driving Question Board",
+      "minutes": 2.5,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "b017243f22a73d8e3a5e13593d6269a30654df9f258c1a235bdabf8bcc69b43e",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}
