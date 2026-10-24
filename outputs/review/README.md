@@ -1,3 +1,26 @@
+# Current review snapshot — Cell Structure version 2
+
+`CellStructure_Lessons1-2-4-6_v2_Review.zip`
+
+The user explicitly requested pushing the redesign to GitHub on 24 October 2026. This tracked snapshot transfers the actual revised presentations as well as the reusable generator/assets in source commit `b5c9298`.
+
+Contains separate L1/L2/L4/L6 PPTX drafts (21/25/37/27 slides; 40/80/80/80 minutes), full PDFs, a 17-slide quick preview, teacher notes, printable tasks, design guide, exact imagegen prompts, build logs and QA evidence. Slides 2–3 are hidden in each Slide Show. These are review drafts, not a classroom release; recorded native PowerPoint/teacher and practical-readiness checks remain open.
+
+Archive CRC and all four deck hashes were verified against their included passing validation reports before committing. Size: 40,776,705 bytes.
+
+SHA-256: `6b379f4699bb708da5aee7c90e8dae205617a9a74e60378fbf68e62076da7ced`
+
+After pulling main, extract into a fresh folder so earlier review annotations remain intact:
+
+```powershell
+git pull --ff-only origin main
+Expand-Archive -Path ".\outputs\review\CellStructure_Lessons1-2-4-6_v2_Review.zip" -DestinationPath ".\outputs\drafts\CellStructure_v2_Review"
+```
+
+The earlier snapshots below are preserved for history.
+
+---
+
 # Cell Structure pilot — Lessons 1, 2, 3 and 6
 
 Current expanded snapshot: `CellStructure_Pilot_Lessons1-2-3-6_Drafts.zip`.
