@@ -1,0 +1,197 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L6_Onion_Cells_Practical_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 6 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Safety first",
+      "phase": "Safety",
+      "minutes": 1.5,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "What might an onion cell look like?",
+      "phase": "Predict",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Compare your predictions",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "BEFORE \u00b7 our predictions",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Watch first \u00b7 prepare an onion slide",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Watch first \u00b7 focus the microscope",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "How could we estimate cell length?",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Your turn \u00b7 prepare and focus",
+      "phase": "Observe",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Record YOUR view",
+      "phase": "Observe",
+      "minutes": 12.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Measure and check your record",
+      "phase": "Observe",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Return to your predictions",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Where did our sample come from?",
+      "phase": "Explain",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "What is the tissue\u2019s light environment?",
+      "phase": "Explain",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "What do chloroplasts do?",
+      "phase": "Explain",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "What does the comparison suggest?",
+      "phase": "Explain",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "title": "Write a three-sentence explanation",
+      "phase": "Explain",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 22,
+      "title": "Now compare with a drawing",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 23,
+      "title": "Check a cell-size calculation",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 24,
+      "title": "Evidence and questions",
+      "phase": "Driving Question Board",
+      "minutes": 7.0,
+      "hidden": false
+    },
+    {
+      "slide": 25,
+      "title": "Revise your model in a NEW colour",
+      "phase": "Model Building",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 26,
+      "title": "Predict the next comparison",
+      "phase": "Model Building",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 27,
+      "title": "Summary Table \u00b7 Lesson 6",
+      "phase": "Driving Question Board",
+      "minutes": 3.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "bdf3945aae839d82eb1cfd622d141f85a18c326b353482b31dac324906b03c73",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

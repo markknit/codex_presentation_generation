@@ -1,0 +1,47 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "assets/cellstructure_v2/amina.png",
+      "preview": ".cache/asset_gpu_v2/amina_preview.png",
+      "width": 1254,
+      "height": 1254,
+      "nonwhite_fraction": 0.9974950970292195,
+      "dark_fraction": 0.6333302809001625,
+      "sha256": "f4afbd0043a44324c9e8264f94880d14c4ebecffca855d1417219b2e63c0572e"
+    },
+    {
+      "image": "assets/cellstructure_v2/farm.png",
+      "preview": ".cache/asset_gpu_v2/farm_preview.png",
+      "width": 1254,
+      "height": 1254,
+      "nonwhite_fraction": 0.9974054318048274,
+      "dark_fraction": 0.7288638080630022,
+      "sha256": "2df9ee54d15fb72969522e90d4ad8697b26802ba55e7981bdc75c17b7e4eed43"
+    },
+    {
+      "image": "assets/cellstructure_v2/kitchen.png",
+      "preview": ".cache/asset_gpu_v2/kitchen_preview.png",
+      "width": 1254,
+      "height": 1254,
+      "nonwhite_fraction": 0.9973869900210872,
+      "dark_fraction": 0.5778478565559906,
+      "sha256": "67f80c01947549fe7305b306e63758e75bb9744cb8a036d105f6d4250f1ec700"
+    },
+    {
+      "image": "assets/cellstructure_v2/microscope.png",
+      "preview": ".cache/asset_gpu_v2/microscope_preview.png",
+      "width": 1254,
+      "height": 1254,
+      "nonwhite_fraction": 0.9970887418633578,
+      "dark_fraction": 0.41089883982102565,
+      "sha256": "fc04d40c39b40cb30c7d391880cab56bb7d7018926d32d87ce3b80698a36ae3d"
+    }
+  ]
+}

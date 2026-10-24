@@ -1,0 +1,267 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L4_Plant_Cell_Ultrastructure_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 4 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Your brain\u2019s first draft",
+      "phase": "Predict",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Compare, then show your prediction",
+      "phase": "Predict",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Look first \u00b7 a photosynthetic plant cell",
+      "phase": "Observe",
+      "minutes": 1.5,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Trace the boundaries and compartments",
+      "phase": "Observe",
+      "minutes": 4.5,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Bigger image or finer detail?",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Annotate your outline",
+      "phase": "Observe",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Peer-check in another colour",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "A Rift Valley maize farm",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Cell wall \u00b7 make the connection",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Cell wall \u00b7 the job",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Cell membrane \u00b7 make the connection",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Cell membrane \u00b7 the job",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Nucleus \u00b7 make the connection",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Nucleus \u00b7 the job",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "Chloroplast \u00b7 make the connection",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "title": "Chloroplast \u00b7 the job",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 22,
+      "title": "Large central vacuole \u00b7 make the connection",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 23,
+      "title": "Large central vacuole \u00b7 the job",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 24,
+      "title": "Mitochondrion \u00b7 make the connection",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 25,
+      "title": "Mitochondrion \u00b7 the job",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 26,
+      "title": "Rough ER \u00b7 make the connection",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 27,
+      "title": "Rough ER \u00b7 the job",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 28,
+      "title": "Ribosomes \u00b7 make the connection",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 29,
+      "title": "Ribosomes \u00b7 the job",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 30,
+      "title": "Golgi apparatus \u00b7 make the connection",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 31,
+      "title": "Golgi apparatus \u00b7 the job",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 32,
+      "title": "Where does the farm analogy fail?",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 33,
+      "title": "Organelle Job Card",
+      "phase": "Explain",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 34,
+      "title": "Back to Amina\u2019s healing skin",
+      "phase": "Explain",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 35,
+      "title": "Growing understanding, or a new mystery?",
+      "phase": "Driving Question Board",
+      "minutes": 7.0,
+      "hidden": false
+    },
+    {
+      "slide": 36,
+      "title": "Version 2 \u00b7 the plant cell",
+      "phase": "Model Building",
+      "minutes": 12.0,
+      "hidden": false
+    },
+    {
+      "slide": 37,
+      "title": "Summary Table \u00b7 Lesson 4",
+      "phase": "Driving Question Board",
+      "minutes": 2.5,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "0766d671210cc163043dad94523ac57e4b94db77d53c394a91a83dfae6eb368d",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

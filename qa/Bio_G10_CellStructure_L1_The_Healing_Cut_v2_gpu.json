@@ -1,0 +1,202 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-01.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-01_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.9822320186245791,
+      "dark_fraction": 0.903463555318535,
+      "sha256": "bbdfa1e0ddd8a2fda9f7737bc50c2679494ec2687cd09d91d96609bf9fea7bab"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-02.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-02_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.13082905663968963,
+      "dark_fraction": 0.1139350466294316,
+      "sha256": "f5ed94a11e240c97e2d22fd6533b9342744171d561c3e88cb821ef187c742fd8"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-03.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-03_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.13880508399038555,
+      "dark_fraction": 0.12059445160374123,
+      "sha256": "f614d57ec8d2795c60866061fba76aa8bf5e9c8e14ba1ad8262208a2ad8f0519"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-04.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-04_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.1658173709551442,
+      "dark_fraction": 0.1474866336012908,
+      "sha256": "74ac5b38d383baba3c01f92046e611429f768df82a143043d68e2d60e2bf4468"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-05.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-05_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.189429705357588,
+      "dark_fraction": 0.04293790346582145,
+      "sha256": "d4a01c993b39d3eaacd96399a283cd7720d578247d7ceb937c7407f958e16e7d"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-06.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-06_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.22461215160117295,
+      "dark_fraction": 0.14923759784022564,
+      "sha256": "dd5b0b78b2579ce2d63ccf12cc3118e436d0717339620a1b9956d26a3255ecb7"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-07.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-07_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.2879225768634021,
+      "dark_fraction": 0.05429877583578705,
+      "sha256": "c030a37329aadf5b0e7284df7d6959d9e5f04ce6b21540a52e981439ae838939"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-08.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-08_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.1795614582404849,
+      "dark_fraction": 0.0495043970504033,
+      "sha256": "a62d254263e98155e84a4e274182047503cb8b31da380b984be461f447fe0c26"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-09.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-09_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.0670790018748461,
+      "dark_fraction": 0.0302702286224489,
+      "sha256": "ffc7d9f7e91a141b395d386f3ed434f4fe444b208c663e3fc93f8a0c745c344c"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-10.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-10_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.08999714467436447,
+      "dark_fraction": 0.03234676041400711,
+      "sha256": "f2ccc9f0dbf9acb6546be6e17e38f67c0465951d6a3ab6c01329959a48d20a32"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-11.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-11_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.11324840879802876,
+      "dark_fraction": 0.03492561801181712,
+      "sha256": "2552a62185a64a7c34e983ef66b59f82253e7603d746033701764badad345817"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-12.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-12_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.13814488435931177,
+      "dark_fraction": 0.03692132444808369,
+      "sha256": "22711f319e1eaf712fee6afe7833cc6ef077d87988a2b4feefbc773ee7b85958"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-13.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-13_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.22421331246478055,
+      "dark_fraction": 0.0458279764503619,
+      "sha256": "065023f6027b4350d59b6daae490f3a914d9fdde96f1902655b7f8e528b0c01c"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-14.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-14_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.23400904337526685,
+      "dark_fraction": 0.05454200727881424,
+      "sha256": "6f37e5e900e625f4815b1aa96b5f0f242efdfc7f20f175c57f8717ca4f90d175"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-15.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-15_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.23416767257724108,
+      "dark_fraction": 0.06016352404592089,
+      "sha256": "1ac114b1fda97ac890edba6e68a7a955c968e798311fe4618d00fb7fb80bece8"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-16.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-16_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.23316755322765104,
+      "dark_fraction": 0.059028947563228844,
+      "sha256": "60a6001c4a9e93330fb4383c69828bc78a385c4080d9dfdd7821e91ab20a5cff"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-17.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-17_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.2714825485216514,
+      "dark_fraction": 0.08162076743297161,
+      "sha256": "80090b3ad216bd6c306103686b0e42407d8267f77803fc735b8deb247e6753fc"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-18.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-18_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.35473870748926234,
+      "dark_fraction": 0.051887611965778395,
+      "sha256": "a7403cc23db360e7c5fa279023d60bf643f2afbe2f2823dc0b2ff3cc1d3515b8"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-19.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-19_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.22229994213811013,
+      "dark_fraction": 0.05592887973036057,
+      "sha256": "f9ffc538eef2da51f8302bcba44bb50721a227a2570320f25982bc1899a62df8"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-20.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-20_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.1927299481358047,
+      "dark_fraction": 0.05823278004474854,
+      "sha256": "84de418d29cac03e7f3bdaf1482dea801227ad96006048d0207f79fef70536d2"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l1/slide-21.png",
+      "preview": "qa/renders/cellstructure_v2/l1/gpu/slide-21_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.0651671423024802,
+      "dark_fraction": 0.05173502578102221,
+      "sha256": "771f84618bb0331e493e0516b390828d8d50eb19f2ae895552fd084f7bebc45e"
+    }
+  ],
+  "deck_sha256": "8bfe0108fbb892abe079ada0377d4894fff96a658a9587ca8d3c1472e8aae758",
+  "deck": "Bio_G10_CellStructure_L1_The_Healing_Cut_v2"
+}

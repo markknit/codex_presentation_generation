@@ -1,0 +1,346 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-01.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-01_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.9788441520967004,
+      "dark_fraction": 0.9158456975983539,
+      "sha256": "337ac41969c60eb81e0a5ceabeb7d42696c2647f14188d044ff0ba36324aa45c"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-02.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-02_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.13083736578836447,
+      "dark_fraction": 0.1139335358751271,
+      "sha256": "e794a1be8e518ac952da6524509b946babf8307b75814482b960b372b65c2064"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-03.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-03_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.13944337768404386,
+      "dark_fraction": 0.11833209703272747,
+      "sha256": "510bea644c315f37f501b64d557a9a4ea8347332b9f451b1fdc14d7ec31f8bdc"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-04.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-04_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.164170648763221,
+      "dark_fraction": 0.1450671605826073,
+      "sha256": "9c0972316c0aeb15ecb524f5e0145362e01182c7c093d2e31753d1a44b935494"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-05.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-05_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19295580590432998,
+      "dark_fraction": 0.045989627160945186,
+      "sha256": "0ec8c8d4f05cf1614beeb999b5ba075bb80937add02b3e355e2795094056774d"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-06.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-06_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.06083052207136501,
+      "dark_fraction": 0.047983067465754974,
+      "sha256": "dbed03e8a32e8bddcbac0aa0350d636eb153f01903037fa0d165c46ea4e14fff"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-07.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-07_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.07000004532262913,
+      "dark_fraction": 0.05616833428762647,
+      "sha256": "ca2269df02102ccbbb38900dcdf243d624779ab70316ce5d53720646194b42bf"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-08.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-08_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.23923776402319916,
+      "dark_fraction": 0.050535486863235946,
+      "sha256": "18b891c13e687b1f648b382d9b20d5c3f1499c037685dc680cf775da7225bce6"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-09.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-09_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.22820548071446592,
+      "dark_fraction": 0.03906886169195418,
+      "sha256": "de1ebb228460f5593c649722f570dcf74a7824eacc6871b178fccb627dda94b4"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-10.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-10_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.12854932839417393,
+      "dark_fraction": 0.11070203241776587,
+      "sha256": "e95d5088d62e2340e7938b32d4405bd28f0e3ba204f4df433d844541209d8d3c"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-11.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-11_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.18614381474526417,
+      "dark_fraction": 0.05387274312191334,
+      "sha256": "9b42df8a187978edcebe483298382b170f11519e5efcbcddb6c0b1d1f548c0b6"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-12.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-12_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.0674234538562759,
+      "dark_fraction": 0.05407820570732761,
+      "sha256": "a3ad53b27afcf729cb27a07083c5755d9f735e6a72e523c2b7b5b66b75423d29"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-13.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-13_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.32873333826846407,
+      "dark_fraction": 0.17541141616597752,
+      "sha256": "afcd5b17314690c441cc245dde3df1fe5834c465ecb0ba55c1e0a9764ea86a44"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-14.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-14_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.1971141571275122,
+      "dark_fraction": 0.03522776887272046,
+      "sha256": "23003bc6d04e6bda977c1d890e9b7e12eab2ce715a16e67c66da5fb41c93e366"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-15.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-15_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19571142175576844,
+      "dark_fraction": 0.03398366270295096,
+      "sha256": "62d078b9dae95f24a807a116d90c2fe4d4a868308bf63cdf9b31d590709391ab"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-16.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-16_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.1960203710110421,
+      "dark_fraction": 0.03438099108503885,
+      "sha256": "cf96da28699b3cbb09bf981f808b28914594e45de5ec8af1958a24a3878d158b"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-17.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-17_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.1993394982180653,
+      "dark_fraction": 0.03677327052624105,
+      "sha256": "008b0dd65cf6b7c5815df7375c48ec5410a97563559a1e6194b449b67755215d"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-18.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-18_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19468637496015387,
+      "dark_fraction": 0.03464235157972024,
+      "sha256": "ad775f4f7ec781a17dddfafdc2619f2360c60eec79fa0416c678838686543dd4"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-19.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-19_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19635726922094932,
+      "dark_fraction": 0.03602469176835302,
+      "sha256": "5ff0e1f744e980fd93d212541f29bfd6fab306c93f20d0721d780659cc233d81"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-20.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-20_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19596673923323177,
+      "dark_fraction": 0.04427038876240518,
+      "sha256": "8de0ddafb2ee0edcfc986f89befb78e68f1ca822bb2c0d8590691817a645f2d1"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-21.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-21_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.20177483415694622,
+      "dark_fraction": 0.04877394734416947,
+      "sha256": "6b813f028fd363b4576d1d6bed7ccd588e08b3c4c5c6b9459b074803fd048d47"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-22.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-22_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19951625647169374,
+      "dark_fraction": 0.03530179583364178,
+      "sha256": "544d5088fcc6556319f000ca5c27e295c1245dc7752746b37c5289c1f83cf144"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-23.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-23_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.20161318344636295,
+      "dark_fraction": 0.03660331066698292,
+      "sha256": "96a83da8e898647202dc2aedcc36d01d200d3473f0839c29ffcde6f2d3ecf013"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-24.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-24_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19635198158088352,
+      "dark_fraction": 0.03546495729852958,
+      "sha256": "8e55e95a07ddf0235eb571b4f51c292e3441ebc00885e364d44cef43cd1a71e8"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-25.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-25_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.20299854514360474,
+      "dark_fraction": 0.040571306847796036,
+      "sha256": "0b0fe804f244ef223a8c05478dc79c40c02c14b1471489511832e01f2a48a63c"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-26.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-26_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19952758712897764,
+      "dark_fraction": 0.03631400121766797,
+      "sha256": "dfda7f67caa29474b4c46e66eec2b9824c1c3baca5f4883c3d7e1cef1df11660"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-27.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-27_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.20146286339306352,
+      "dark_fraction": 0.03780964797913951,
+      "sha256": "45a4c89373da5e438af6ab67656c0d779613d7559cf652ece60ce58facc2cf14"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-28.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-28_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19600677422230145,
+      "dark_fraction": 0.03532596790251405,
+      "sha256": "72066c581b76b43be0790c9e160f6c58dba7d3e045ff0a77165d1b432d580538"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-29.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-29_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.19930248473760465,
+      "dark_fraction": 0.037675190846037515,
+      "sha256": "fea7d78312e4f0c5cd992e23a7c785cea4151b921fe74de1c243f12d4bfc58fb"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-30.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-30_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.2011531587606376,
+      "dark_fraction": 0.03659500151830808,
+      "sha256": "2b284855ba6f503c7b9c7881507a1d7f425a19736cf282243ee2fec5c4ad921b"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-31.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-31_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.20069540020636903,
+      "dark_fraction": 0.03610325099218789,
+      "sha256": "ce5d571be418c850e82d575ccfe174ea8ecaf88e6feea86163b6a4c48b0f68fe"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-32.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-32_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.06410281589494819,
+      "dark_fraction": 0.049712125767274344,
+      "sha256": "e3dbb8b7dff2039cc09adf7308d5a7d8485a0c81f65c79edc98d2c22cafbcb43"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-33.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-33_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.06118026169286063,
+      "dark_fraction": 0.047342507640639894,
+      "sha256": "c40b6e7453f378348a412afb47ce6222add99c0b3723d17c8d5e144c4efd3e17"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-34.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-34_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.30629259382917295,
+      "dark_fraction": 0.14441149321444705,
+      "sha256": "9e8d305253731d9446553b6f8676fca2b5366449f5c15d1d9790971106092262"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-35.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-35_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.3674962722137536,
+      "dark_fraction": 0.05468703969204784,
+      "sha256": "03ea867d0dafff8a75bca3ef84446360982c511c39f0782fd428684e20d47ea2"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-36.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-36_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.1936061856324244,
+      "dark_fraction": 0.05711557723655844,
+      "sha256": "9fbbb3fb4fe1c37f700960b86806ecbcf00d72b9bd459d3304a5c3b4cc4819f2"
+    },
+    {
+      "image": "qa/renders/cellstructure_v2/l4/slide-37.png",
+      "preview": "qa/renders/cellstructure_v2/l4/gpu/slide-37_preview.png",
+      "width": 1534,
+      "height": 863,
+      "nonwhite_fraction": 0.06667789660699691,
+      "dark_fraction": 0.052852983966364564,
+      "sha256": "5645263b55c24dab17607b026af212a7b68b3dd941ddda467fc1acd6dc5d6842"
+    }
+  ],
+  "deck_sha256": "0766d671210cc163043dad94523ac57e4b94db77d53c394a91a83dfae6eb368d",
+  "deck": "Bio_G10_CellStructure_L4_Plant_Cell_Ultrastructure_v2"
+}

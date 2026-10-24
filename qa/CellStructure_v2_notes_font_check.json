@@ -1,0 +1,26 @@
+{
+  "1": {
+    "slide_xml_relationships_and_media_unchanged": true,
+    "visible_parts_sha256": "df7804dbac5c64d91ffe8ef0868033521aeb4aade2fc3a678e5c1de4f9f41479",
+    "new_deck_sha256": "8bfe0108fbb892abe079ada0377d4894fff96a658a9587ca8d3c1472e8aae758",
+    "change": "Calibri explicitly assigned to notes paragraphs/runs and inherited notes-master Latin theme. Existing slide PDF/raster evidence remains valid."
+  },
+  "2": {
+    "slide_xml_relationships_and_media_unchanged": true,
+    "visible_parts_sha256": "b4a876963e3de83748de2365a8dcde95e371805aa0cc96ef63e98b787d4056b5",
+    "new_deck_sha256": "38e9dfbfba24d2842c4593d614d4f1f257926d26b3bd3abc11e8cc3c9c6ff92b",
+    "change": "Calibri explicitly assigned to notes paragraphs/runs and inherited notes-master Latin theme. Existing slide PDF/raster evidence remains valid."
+  },
+  "4": {
+    "slide_xml_relationships_and_media_unchanged": true,
+    "visible_parts_sha256": "1e79813a80f200644ea24a06f8f85d3f82cb13967479a456a66e05299353cdd4",
+    "new_deck_sha256": "0766d671210cc163043dad94523ac57e4b94db77d53c394a91a83dfae6eb368d",
+    "change": "Calibri explicitly assigned to notes paragraphs/runs and inherited notes-master Latin theme. Existing slide PDF/raster evidence remains valid."
+  },
+  "6": {
+    "slide_xml_relationships_and_media_unchanged": true,
+    "visible_parts_sha256": "be52fdff35d631074f4f045f25a8a4026347674389dc4f4fac35acda26db6ea9",
+    "new_deck_sha256": "bdf3945aae839d82eb1cfd622d141f85a18c326b353482b31dac324906b03c73",
+    "change": "Calibri explicitly assigned to notes paragraphs/runs and inherited notes-master Latin theme. Existing slide PDF/raster evidence remains valid."
+  }
+}

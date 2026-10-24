@@ -1,0 +1,37 @@
+{
+  "lessons": [
+    {
+      "lesson": 1,
+      "deck": "Bio_G10_CellStructure_L1_The_Healing_Cut_v2",
+      "slides": 21,
+      "sha256": "8bfe0108fbb892abe079ada0377d4894fff96a658a9587ca8d3c1472e8aae758",
+      "pdf_text_and_sequence": "PASS",
+      "errors": []
+    },
+    {
+      "lesson": 2,
+      "deck": "Bio_G10_CellStructure_L2_What_Is_a_Cell_v2",
+      "slides": 25,
+      "sha256": "38e9dfbfba24d2842c4593d614d4f1f257926d26b3bd3abc11e8cc3c9c6ff92b",
+      "pdf_text_and_sequence": "PASS",
+      "errors": []
+    },
+    {
+      "lesson": 4,
+      "deck": "Bio_G10_CellStructure_L4_Plant_Cell_Ultrastructure_v2",
+      "slides": 37,
+      "sha256": "0766d671210cc163043dad94523ac57e4b94db77d53c394a91a83dfae6eb368d",
+      "pdf_text_and_sequence": "PASS",
+      "errors": []
+    },
+    {
+      "lesson": 6,
+      "deck": "Bio_G10_CellStructure_L6_Onion_Cells_Practical_v2",
+      "slides": 27,
+      "sha256": "bdf3945aae839d82eb1cfd622d141f85a18c326b353482b31dac324906b03c73",
+      "pdf_text_and_sequence": "PASS",
+      "errors": []
+    }
+  ],
+  "limits": "Text extraction catches missing words, not every overlap, wrong label endpoint, scientific error or PowerPoint difference. Visual and teacher review are separate."
+}

@@ -1,0 +1,155 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L1_The_Healing_Cut_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 1 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Listen to Amina\u2019s story",
+      "phase": "Predict",
+      "minutes": 1.25,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "What is happening inside her finger?",
+      "phase": "Predict",
+      "minutes": 2.5,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Compare your ideas",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Look carefully. What changes?",
+      "phase": "Observe",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Look carefully. What changes?",
+      "phase": "Observe",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Look carefully. What changes?",
+      "phase": "Observe",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Look carefully. What changes?",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "What did your pair notice?",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Why does the bleeding slow?",
+      "phase": "Explain",
+      "minutes": 1.5,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "One thing, or many things?",
+      "phase": "Explain",
+      "minutes": 1.5,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "The same, or different?",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "A bigger puzzle",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Notice and wonder",
+      "phase": "Driving Question Board",
+      "minutes": 7.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Our driving question",
+      "phase": "Driving Question Board",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "Version 0 \u00b7 show your first idea",
+      "phase": "Model Building",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "title": "Summary Table \u00b7 Lesson 1",
+      "phase": "Driving Question Board",
+      "minutes": 3.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "8bfe0108fbb892abe079ada0377d4894fff96a658a9587ca8d3c1472e8aae758",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

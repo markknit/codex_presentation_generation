@@ -1,0 +1,63 @@
+{
+  "deck": "outputs/drafts/v2/Bio_G10_CellStructure_L2_What_Is_a_Cell_v2.pptx",
+  "sha256": "38e9dfbfba24d2842c4593d614d4f1f257926d26b3bd3abc11e8cc3c9c6ff92b",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 25,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.25,
+    0.0,
+    0.0,
+    0.5,
+    0.75,
+    3.0,
+    1.5,
+    2.0,
+    3.0,
+    5.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    6.0,
+    8.0,
+    3.0,
+    3.0,
+    4.0,
+    6.0,
+    2.0,
+    8.0,
+    10.0,
+    2.0,
+    4.0
+  ],
+  "total_minutes": 80.0,
+  "formative_check_slides": [
+    6,
+    8,
+    9,
+    10,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}

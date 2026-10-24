@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-24",
+  "current_request": [
+    1,
+    2,
+    4,
+    6
+  ],
+  "sources": [
+    {
+      "path": "/home/markk/codex_presentation_generation/inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_CBE_LessonSequence.docx",
+      "role": "authoritative unit source",
+      "sha256": "24e001955a8d441822a363ff70c38240e799d6dc1c932c6d7bff3ab2d7584461"
+    },
+    {
+      "path": "/home/markk/codex_presentation_generation/inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation.docx",
+      "role": "authoritative unit source",
+      "sha256": "9603ca2c374963790b56f21966a2e6c9368fa18ea7cf292de44ca0c2ea571699"
+    },
+    {
+      "path": "/home/markk/codex_presentation_generation/inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation_TeacherKey.docx",
+      "role": "authoritative unit source",
+      "sha256": "7d9ca9871b67566515c089578aea78a813a7c3c35904e4b5e6e0123186227f46"
+    },
+    {
+      "path": "/home/markk/codex_presentation_generation/inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_SummaryTable.docx",
+      "role": "authoritative unit source",
+      "sha256": "6b6fbd0dd542d593d406b3a23ca524585b8db854be3fb5681f482ecabb2a6382"
+    },
+    {
+      "path": "/home/markk/codex_presentation_generation/inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_data.json",
+      "role": "authoritative unit source",
+      "sha256": "826e4d7a7f552bd6750790d4ed017eea64c4f40765e60bf4ff464ddb3f1ed781"
+    },
+    {
+      "path": "/home/markk/codex_presentation_generation/references/instructions/SeaVuria_Science_Lesson_PPT_Build_Manual.docx",
+      "role": "approved general science manual",
+      "sha256": "0c082ad4947fb7e89b8dddcf400bf62ec687624c9ded639d556118f91b70da51"
+    },
+    {
+      "path": "/home/markk/ares/cbe-presentations/data/outputs/presentations2/Grade10/Biology/SS1.1_Cell_Structure/Bio_G10_CellStructure_L1_The_Healing_Cut.pptx",
+      "role": "new user-selected style reference; artwork not copied",
+      "sha256": "64a201759e9daa0f1c54ad33f04965cdb5bfb12a998c88c75dc35bd117f9b9cd"
+    },
+    {
+      "path": "/home/markk/ares/cbe-presentations/data/outputs/presentations2/Grade10/Biology/SS1.1_Cell_Structure/Bio_G10_CellStructure_L2_What_Is_a_Cell.pptx",
+      "role": "new user-selected style reference; artwork not copied",
+      "sha256": "baf9cb48e866aa2553e50cffd8f2467a982a36a208de19a0cf7a551cfd769a25"
+    },
+    {
+      "path": "/home/markk/ares/cbe-presentations/data/outputs/presentations2/Grade10/Biology/SS1.1_Cell_Structure/Bio_G10_CellStructure_L6_Observing_Onion_Epidermal_Cells.pptx",
+      "role": "new user-selected style reference; artwork not copied",
+      "sha256": "f9918a901e12ce70124b70ae81ab820f76cb74f51e2cde4324f2d9f15b62f03d"
+    },
+    {
+      "path": "/home/markk/codex_presentation_generation/references/templates/Bio_G10_CellStructure_L1_The_Healing_Cut.pptx",
+      "role": "original institutional theme/logo source",
+      "sha256": "27a7395b5668dc0519ba20c57f85cdd8b2feefefd82224b7548039b35d800899"
+    },
+    {
+      "path": "/home/markk/codex_presentation_generation/references/templates/Bio_G10_CellStructure_L2_What_Is_a_Cell.pptx",
+      "role": "original institutional theme/logo source",
+      "sha256": "cc3cc509d7c870922f64671507d656d09e76445c48c694b19ad93a6ad4703806"
+    },
+    {
+      "path": "/home/markk/codex_presentation_generation/references/templates/Bio_G10_CellStructure_L6_Onion_Cells_Practical.pptx",
+      "role": "original institutional theme/logo source",
+      "sha256": "aad5554950c3421e0f400128364592c16aa135402fa5af37ff34b89459b56ec0"
+    }
+  ],
+  "authority": "V2 controls sequence and tasks; approved general manual controls pedagogy/structure; selected reference decks inform visual quality only. Earlier deck science corrections remain binding."
+}

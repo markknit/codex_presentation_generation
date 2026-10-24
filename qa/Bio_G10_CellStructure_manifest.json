@@ -4,12 +4,14 @@
     1,
     2,
     3,
+    4,
     6
   ],
   "built_lessons": [
     1,
     2,
     3,
+    4,
     6
   ],
   "deferred_lessons": [],
@@ -138,5 +140,22 @@
     "qa/Bio_G10_CellStructure_L3_Prokaryotic_vs_Eukaryotic_Cells_manifest.json",
     "qa/Bio_G10_CellStructure_L6_Onion_Cells_Practical_manifest.json"
   ],
-  "pilot_extension": "User explicitly requested adding Lesson 6; prerequisites L4\u20135 remain outside this selected pilot."
+  "pilot_extension": "User explicitly requested adding Lesson 6; prerequisites L4\u20135 remain outside this selected pilot.",
+  "latest_design_revision": {
+    "date": "2026-10-24",
+    "lessons": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "version": 2,
+    "status": "review drafts; visual quality approval pending",
+    "lesson_manifests": [
+      "qa/Bio_G10_CellStructure_L1_The_Healing_Cut_v2_manifest.json",
+      "qa/Bio_G10_CellStructure_L2_What_Is_a_Cell_v2_manifest.json",
+      "qa/Bio_G10_CellStructure_L4_Plant_Cell_Ultrastructure_v2_manifest.json",
+      "qa/Bio_G10_CellStructure_L6_Onion_Cells_Practical_v2_manifest.json"
+    ]
+  }
 }

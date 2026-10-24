@@ -106,3 +106,10 @@ python scripts/package_cellstructure_review.py --out <review-directory> --lesson
 ```
 
 After rendering and CUDA processing, use the expanded package `outputs/review/CellStructure_Pilot_Lessons1-2-3-6_Drafts.zip`. It adds the blank L6 observation sheet and teacher review information. The older three-lesson ZIP remains a historical snapshot. None is an approved release.
+
+
+## Reference-informed version 2 review set
+
+The current design test is Cell Structure **L1, L2, L4 and L6**. Run `.venv/bin/python scripts/build_cellstructure_v2.py` from the repository root. Working decks go to `outputs/drafts/v2`; validation evidence and logs carry `_v2` names. See `content/cellstructure_v2/DESIGN.md` for the reusable component rules, source decisions, visual QA and remaining review gates. Exact contextual-art prompts and original assets are in `assets/cellstructure_v2`.
+
+The v2 ZIP is currently a local chat deliverable. Earlier archives under `outputs/review` are preserved and contain earlier versions. Do not assume a Git pull transfers the new decks until a new review snapshot is explicitly created and pushed. All decks remain review drafts, including L6's unresolved practical-readiness checks.

@@ -128,3 +128,12 @@ On 2026-10-23 the user requested committing and pushing the completed drafts for
 ## Lesson 6 pilot extension
 
 The user subsequently requested adding Cell Structure L6 to the same pilot. The selected review set is now L1, L2, L3 and L6; this does not generate or bypass the L4–5 teaching prerequisites. The expanded snapshot is `outputs/review/CellStructure_Pilot_Lessons1-2-3-6_Drafts.zip`, continuing the established repository/Windows handoff. L6 is a practical review draft with open teacher risk-assessment, stain/PPE, calibration and visibility decisions; no classroom release or pilot approval is implied.
+
+
+## Version 2 design test, 2026-10-24
+
+The user explicitly requested redesigning Cell Structure L1/L2/L6 using the richer `presentations2` reference folder and adding L4 as a transfer test. This authorises those four review drafts before pilot sign-off; it does not approve release or wider generation. Latest selection: L1/L2/L4/L6 (110 slides); earlier L3 is retained separately.
+
+Use `content/cellstructure_v2/DESIGN.md`, `scripts/lesson_visuals.py` and `scripts/build_cellstructure_v2.py` for the revised approach. The visual frame accepts subject, grade, unit, theme and output-folder parameters. A new unit still requires full source reading and source-specific diagrams/content. The external reference folder is recorded by hash, while all assets and code needed to rebuild the current four decks are repository-local.
+
+The current ZIP is a local chat deliverable, not a newly pushed review snapshot. Preserve earlier `outputs/review` archives; do not imply that a Git pull transfers the v2 decks until a new handoff is requested and recorded. Scientific and practical corrections remain binding, and student engagement is assessed by review rather than a structural/CUDA pass.

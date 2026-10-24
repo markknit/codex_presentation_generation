@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "reviewer": "Codex builder visual inspection; not independent teacher approval",
+  "method": "Inspected all 110 rendered slides in contact sheets, then checked changed/science-dense screens at full size. Re-rendered affected decks after fixes and rechecked changes.",
+  "lessons": {
+    "1": 21,
+    "2": 25,
+    "4": 37,
+    "6": 27
+  },
+  "repairs": [
+    "Unit-map number contrast and explicit YOU ARE HERE markers",
+    "White backing for institutional logos on dark covers",
+    "Diagram labels separated from subtitle area",
+    "Whole-cell organelles kept within cellular boundary; cytoplasm labels target the cytoplasm",
+    "Editable organelle detail diagrams improved and reused at both scales",
+    "Kitchen image contains the actual source analogy objects",
+    "Source-consistent kitchen key: utensils map broadly to organelles",
+    "L6 expected comparison withheld until after pupil evidence and CER",
+    "L6 explanation shows intermediate conclusions without treating poor visibility as proof of absence"
+  ],
+  "judgement": "Builder visual inspection complete; ready for user comparison with the new reference decks. Engagement, learning effectiveness and classroom timing need actual teacher/student feedback.",
+  "pending": [
+    "Native PowerPoint/Slide Show/Presenter View",
+    "Exact Calibri fidelity (local previews use Carlito)",
+    "ARES links, content and offline checks",
+    "Teacher/source-owner science and source/manual decisions",
+    "L6 local safety and practical equipment/calibration review"
+  ],
+  "scope": "PDF text extraction and CUDA pixel counts do not establish semantic correctness or student engagement."
+}

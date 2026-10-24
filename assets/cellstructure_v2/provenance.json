@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-24",
+  "tool": "Built-in image_gen.imagegen",
+  "mode": "generation, no reference images supplied",
+  "model_and_seed": "Not exposed by the built-in tool; not invented",
+  "rights": "Original AI-generated contextual illustrations; no third-party reference artwork reused. Institutional logos remain from existing project templates. Project attribution/CC BY-NC footer retained; no additional external asset licence is asserted.",
+  "use": "Context only; never micrograph evidence or a substitute for the teacher practical demonstration. Science diagrams are editable authored PowerPoint shapes.",
+  "assets": [
+    {
+      "file": "amina.png",
+      "sha256": "35213d259a5599d28e7319a5fb86e3dec3d6abc3f6f23eaed997425698a4b311",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for Grade 10 Kenyan Biology lesson slides. Create a polished warm flat editorial illustration on a pale cream background, square composition. A Kenyan teenage girl aged 15–16, dark brown skin, black braided hair tied back, wearing a turquoise school shirt, is standing in a modest Nairobi home kitchen beside a wooden counter with a sliced red onion, chopping board and a kitchen knife lying safely flat away from her hands. She holds up one index finger with a small clean plaster, curious rather than distressed. No blood. Age appropriate secondary school illustration, not a small child. Rich simple shapes, subtle grain, teal, ochre, coral and deep navy palette, expressive face, clear silhouette, restrained background. No text, no letters, no logos, no labels, no science diagrams. Entire scene comfortably within frame. This is an original character and composition, not a copy of an existing reference.",
+      "transparent_background": false,
+      "project_path": "/home/markk/codex_presentation_generation/assets/cellstructure_v2/amina.png"
+    },
+    {
+      "file": "microscope.png",
+      "sha256": "354ea878b06f663a1038aa896afb70b165c298c660963d50bda1e30d2e3d6e98",
+      "prompt": "Use case: illustration-story. Original square illustration for a Grade 10 Biology PowerPoint, no text. A carefully drawn blue compound school microscope with three objective lenses stands on a wooden lab bench beside a half red onion, forceps, clean glass slides and coverslips. Warm pale cream background, simple uncluttered composition, generous empty backdrop. Editorial educational illustration, flat colour shapes with gentle texture and dimensional shading, teal, ochre, coral and navy palette. Accurate recognisable microscope silhouette with eyepiece, arm, stage, objective turret, focusing knobs and base. No people, no labels, no letters, no watermark, no invented magnified cells or micrograph. Entire apparatus comfortably within frame. Atmospheric cover artwork, not an instructional diagram.",
+      "transparent_background": false,
+      "project_path": "/home/markk/codex_presentation_generation/assets/cellstructure_v2/microscope.png"
+    },
+    {
+      "file": "farm.png",
+      "sha256": "c21b4b44dea78bccc0f1bda4ba50f50098055d7259447fd96302daa17ea00dc6",
+      "prompt": "Use case: illustration-story. Create an original square warm editorial educational illustration of a small maize farm in Kenya's Rift Valley, for a Grade 10 Biology lesson comparing cell structures with farm jobs. Show a neat perimeter fence with one open gate, rows of maize, a modest farm office, a cylindrical water tank, solar panels on a shed, and a small packing shed. Soft green distant hills under a pale cream sky. No people needed. Cohesive flat shapes, gentle texture, teal, ochre, coral, navy and fresh green palette. Clear inviting composition, not a crowded map. No text, numbers, labels, logos, arrows, cell diagrams or micrographs. No claim that solar panels produce food: this artwork is only an analogy setting.",
+      "transparent_background": false,
+      "project_path": "/home/markk/codex_presentation_generation/assets/cellstructure_v2/farm.png"
+    },
+    {
+      "file": "kitchen.png",
+      "sha256": "c98da1058a12fa4dbb754214feba0730c7ccf89d304afb515ceac8025343fd8c",
+      "prompt": "Use case: illustration-story. Original square editorial illustration for a Kenyan Grade 10 Biology analogy slide, no people and no text. A simple uncluttered ugali preparation kitchen vignette on a pale cream backdrop. Clearly show a wooden door at left, a single closed blue recipe book on a wall shelf, a charcoal jiko stove with a metal sufuria pot on it, and a large wooden mwiko stirring spoon resting beside a wooden chopping board on a modest counter. All five objects easy to distinguish, comfortably inside frame. Warm flat colour shapes with subtle texture and dimensional shading, polished educational picture-book quality for secondary students, teal, ochre, coral and navy palette. No labels, letters, captions, logos, no cell parts, no arrows, no people.",
+      "transparent_background": false,
+      "project_path": "/home/markk/codex_presentation_generation/assets/cellstructure_v2/kitchen.png"
+    }
+  ]
+}

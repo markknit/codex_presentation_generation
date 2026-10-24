@@ -1,0 +1,183 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/v2/Bio_G10_CellStructure_L2_What_Is_a_Cell_v2.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 2 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.75,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "What do cells have in common?",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Share your first ideas",
+      "phase": "Predict",
+      "minutes": 1.5,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "BEFORE \u00b7 our predictions",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Think about an ugali kitchen",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Map the kitchen to a cell",
+      "phase": "Observe",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Study a generalised animal cell",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Study a generalised plant cell",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Study a bacterium: E. coli",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Three scientists. Three contributions.",
+      "phase": "Observe",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Build the Cell Theory Evidence Table",
+      "phase": "Observe",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Sort 12 features \u00b7 justify each choice",
+      "phase": "Observe",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Shared does not mean identical",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Cell theory \u00b7 three connected ideas",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Colour-code your three diagrams",
+      "phase": "Explain",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "How did Amina make new skin cells?",
+      "phase": "Explain",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "title": "Listen for the link",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 22,
+      "title": "What can we begin to answer?",
+      "phase": "Driving Question Board",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 23,
+      "title": "Version 1 \u00b7 a model that can grow",
+      "phase": "Model Building",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 24,
+      "title": "What can your model not yet show?",
+      "phase": "Model Building",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 25,
+      "title": "Summary Table \u00b7 Lesson 2",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "38e9dfbfba24d2842c4593d614d4f1f257926d26b3bd3abc11e8cc3c9c6ff92b",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}
