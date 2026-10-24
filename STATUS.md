@@ -11,7 +11,7 @@ Last updated: 2026-10-24
 | Approved instructions | Done | General science manual selected. Cells-specific manual excluded. |
 | Visual references | Reviewed; new quality target applied | Original templates remain for theme/logos. User-selected `presentations2` L1/L2/L6 references (21/28/24 slides) were fully rendered and inspected on 2026-10-24. Style evidence and hashes: `qa/CellStructure_v2_sources.json`; reusable rules: `content/cellstructure_v2/DESIGN.md`. |
 | V2 source inventory | Done | 425 files total: 340 DOCX and 85 JSON across 85 units. |
-| GitHub repository | Connected; new work local | SSH remote `markknit/codex_presentation_generation`; this task started clean/synced at `8841929`. Previously pushed four-lesson v2 snapshot preserved. The complete-unit continuation is committed locally; no new push or review snapshot transport is claimed. |
+| GitHub repository | Complete handoff prepared for authorised push | Source commit `224f210` contains the complete-unit builders/assets/logs/QA. User explicitly requested committing and pushing all completed work. Verified twelve-deck snapshot added under `outputs/review`; remote push will be checked against HEAD. |
 | `jhm-spark` connection | Done | Live `hostname` returned `jhm-spark`; Codex commands run locally against `/home/markk/codex_presentation_generation`. Saving this checkout as a Codex project remains unverified. |
 | GPU raster processing | Verified | CUDA sm_121 on NVIDIA GB10 processed all 166 new slide previews, two new published-image assets, 28 print pages and two corrected rubric pages; prior 110 slides/four art assets retain previous evidence. CPU-only assembly/conversion/rasterisation/encoding/layout/ZIP operations are disclosed. No semantic GPU or local inference approval claimed. |
 | Python authoring environment | Done | `.venv` contains the pinned `requirements.txt` packages; `pip check` passed and all three templates plus the manual loaded successfully. Activate the environment before running authoring tools. |
@@ -21,7 +21,7 @@ Last updated: 2026-10-24
 | Complete Biology Cell Structure v2 | Built; review gates open | L3 21/40 min; L5 21/80; L7 17/80; L8 27/80; L9 26/80; L10 18/80; L11 14/40; L12 22/80: 166 new slides. With prior L1/L2/L4/L6, all 12 now have v2 drafts: 276 slides / 840 scheduled minutes. All new slides rendered/inspected; structural, notes-font/order, timing, PDF text and CUDA checks passed. See `qa/CellStructure_complete_v2_checks.json`, source hashes, visual/print records and per-lesson logs. Earlier L3 remains historical only. |
 | Biology practical readiness | Teacher safety/equipment review open | L6 stain/product/SDS, local risk/PPE/waste, equipment/calibration/visibility remain open. L5 prerequisite now built. L7 uses the V2 school-approved prepared epithelial-slide alternative; specimen provenance/local controls remain teacher decisions. No learner swabs or staining are used in this draft. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
-| Windows review handoff | Prior four-lesson snapshot pushed; complete package local | Previous `outputs/review/CellStructure_Lessons1-2-4-6_v2_Review.zip` remains the latest GitHub review snapshot. New local `CellStructure_Complete_Lessons1-12_v2_Review.zip` in the chat outputs folder contains twelve decks/full PDFs/teacher-note documents, 20-slide preview, print tasks, adapted assessment/corrected teacher guide, logs and QA. No new push performed. |
+| Windows review handoff | Complete twelve-lesson snapshot prepared | `outputs/review/CellStructure_Complete_Lessons1-12_v2_Review.zip`: 79,941,881 bytes; SHA-256 `27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24`. CRC, every manifest member and all twelve deck hashes verified. Review README has fresh-folder Windows extraction. Earlier snapshots preserved; no classroom release. |
 
 ## Known Issues and Lessons Learned
 
@@ -207,3 +207,14 @@ Still open:
 - L6 local stain/risk/PPE/waste/calibration/visibility and L7 prepared-slide specimen approval; L9 seedling preparation and L10 optional authentic microscopy provision.
 - Schedule supervised follow-up for final assessment Sections 4–5; 25 minutes in L12 begins Sections 1–3. Review adapted paper/key and all logged source decisions, including 1.1/1.3 numbering.
 - New repository/Windows snapshot transport if requested; Mathematics guidance and saved-project skill discovery remain open.
+
+## Updates - 2026-10-24 (Authorised complete-unit GitHub handoff)
+
+- User explicitly instructed “OK. Push and commit all of it.” Live fetch found clean `main` one commit ahead at `224f210`, with no incoming changes.
+- Added the actual complete twelve-lesson review ZIP to `outputs/review` for Git transport, preserving all earlier snapshots. Working drafts, render caches and `.venv` remain ignored; all source/assets/builders/logs/QA already reside in `224f210`.
+- Verified the immutable 79,941,881-byte archive against recorded SHA-256 `27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24`, CRC, every manifest member hash and all twelve PPTX hashes against passing structural reports. Updated snapshot README, package transport record, root README and workflow with the complete handoff and Windows extraction.
+- Prepared the handoff commit and authorised push; remote equality is checked after push. This records repository transport, not native PowerPoint or teacher approval.
+
+Still open:
+
+- Windows pull/extraction and the previously recorded native PowerPoint/Presenter View, font/resources, teacher/source-owner and practical-readiness checks before classroom release.

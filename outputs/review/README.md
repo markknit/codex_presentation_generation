@@ -1,4 +1,27 @@
-# Current review snapshot — Cell Structure version 2
+# Current review snapshot — complete Cell Structure version 2
+
+`CellStructure_Complete_Lessons1-12_v2_Review.zip`
+
+The user authorised committing and pushing all completed work on 24 October 2026. This snapshot includes all twelve separate PowerPoint drafts (276 slides), full PDFs, twelve teacher-note documents, the 20-slide preview, printable activities, adapted final assessment/corrected teacher guide, design/source decisions, logs and QA. Generator/source/assets are in source commit `224f210`.
+
+Review drafts: native PowerPoint/Presenter View, exact Calibri, teacher/source-owner, resources and local practical checks remain open. L7 uses the school-approved prepared-slide route. Existing text inside the immutable ZIP describes its status when created locally; this entry records the subsequent authorised GitHub transport.
+
+Verified archive CRC, every manifest member hash and all twelve PPTX hashes against passing structural reports. Size: 79,941,881 bytes.
+
+SHA-256: `27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24`
+
+From the Windows checkout, extract into a fresh folder:
+
+```powershell
+git pull --ff-only origin main
+Expand-Archive -Path ".\outputs\review\CellStructure_Complete_Lessons1-12_v2_Review.zip" -DestinationPath ".\outputs\drafts\CellStructure_Complete_v2_Review"
+```
+
+Previous snapshots are preserved below.
+
+---
+
+# Earlier four-lesson review snapshot — Cell Structure version 2
 
 `CellStructure_Lessons1-2-4-6_v2_Review.zip`
 

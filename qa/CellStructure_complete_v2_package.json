@@ -11,5 +11,7 @@
   "all_archive_hashes": "PASS",
   "all_twelve_deck_hashes": "match passing validation",
   "print_document_hashes": "match checked DOCX versions",
-  "status": "LOCAL REVIEW DRAFT; no push/native PowerPoint/teacher approval"
+  "status": "Verified review snapshot prepared for authorised GitHub transport; native PowerPoint/teacher approval pending",
+  "repository_snapshot": "outputs/review/CellStructure_Complete_Lessons1-12_v2_Review.zip",
+  "transport_authorisation": "User: OK. Push and commit all of it. (24 October 2026)"
 }
