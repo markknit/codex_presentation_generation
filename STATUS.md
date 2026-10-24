@@ -17,9 +17,9 @@ Last updated: 2026-10-23
 | Python authoring environment | Done | `.venv` contains the pinned `requirements.txt` packages; `pip check` passed and all three templates plus the manual loaded successfully. Activate the environment before running authoring tools. |
 | Science pilot deck | Awaiting review | Cell Structure L1 review draft built: 21 slides, slides 2–3 hidden, full notes, 40 minutes. Structural validation passed and rendered pages inspected. `qa/Bio_G10_CellStructure_L1_The_Healing_Cut_validation.json` and the per-deck build log record remaining source/manual decisions, font, ARES, native PowerPoint and teacher gates. Draft remains ignored under `outputs/drafts`. |
 | Biology Lessons 1–3 | Drafts built; awaiting review | User explicitly instructed Proceed with lessons 2–3 after receiving the pilot, authorising draft continuation before external pilot checks. L1: 21 slides/40 min; L2: 21/80; L3: 20/40. Structural checks passed and all 62 renders inspected with CUDA pixel processing. Native PowerPoint, Calibri/ARES, source-owner decisions and teacher sign-off remain open for all three. |
+| Biology L6 practical pilot | Draft built; safety/teacher review open | User explicitly requested adding L6. Built 22 slides / 80 minutes, hidden 2–3, full notes, measurement task, post-observation editable schematic and blank observation sheet. Structural checks passed; all 22 renders inspected and CUDA-processed. Product/concentration, PPE/fallback, real-equipment/calibration and observation-visibility decisions remain open. Selected pilot now L1, L2, L3, L6: 84 slides. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
-
-| Windows review handoff | Prepared | User explicitly authorised commit/push of the completed work and review package. Tracked snapshot: `outputs/review/CellStructure_Lessons1-3_Drafts.zip`; its three PPTX hashes match the current validation reports. Drafts are not teacher-approved or released. |
+| Windows review handoff | Expanded snapshot prepared | Previous L1–3 snapshot was pushed at `a7e2d0e` and the checkout matched GitHub at the start of this extension. The user-requested L6 addition is included in `outputs/review/CellStructure_Pilot_Lessons1-2-3-6_Drafts.zip` for the established repository/Windows review handoff. All decks remain unapproved drafts. |
 
 ## Known Issues and Lessons Learned
 
@@ -31,6 +31,7 @@ Last updated: 2026-10-23
 - Host handoffs can leave control documents stale. Run `/restart` against live Git, paths, and tools on each host, then reconcile both `STATUS.md` and the environment table before generation. Historical session entries describe their original checkpoints, not current blockers.
 - On `jhm-spark`, use `python3` (Python 3.12.3); the `python` command is absent. GPU detection through `nvidia-smi` does not prove CUDA application compatibility.
 - The Cell Structure source labels disagree: the folder/META/lesson labels say 1.1; the unit overview says 1.3. Keep the numerical sub-strand off the draft and request owner resolution through the build log rather than silently renumbering.
+- Practical examples need a source/manual audit for absent measurement tasks, premature outcome disclosure, overconfident visibility claims and unsafe fallbacks. Keep actual observations separate from illustrative references; preserve unresolved safety specifications as teacher decisions instead of inventing a recipe or approving a shortcut.
 - The example decks control visual style, not V2 source fidelity. Inherited captions, timings, resource match labels and reveal order need explicit checks; the L1 pilot corrected problems in each.
 - The GitHub owner is `markknit` (two k letters). SSH access works; unauthenticated HTTPS and the connected GitHub tool did not provide access during this handoff.
 
@@ -132,3 +133,19 @@ Still open:
 
 - Pull `main` on Windows and extract the review snapshot into a fresh directory.
 - Complete native PowerPoint/Presenter View, Calibri, ARES, source-owner and teacher reviews before release.
+
+## Updates - 2026-10-23 (Lesson 6 practical pilot extension)
+
+- User requested adding L6 from the same Cell Structure sub-strand to the pilot. Added this selected draft; did not generate L4–5 or imply those prerequisites are taught by the pilot package.
+- Startup checks found clean `main` synced to GitHub at `a7e2d0e`; source inventory and NVIDIA GB10 checks passed. High rigor and the existing review gates remain in force.
+- Read the complete approved general manual and rechecked V2 L6 and the L6 example against the already reviewed full unit storyline/supporting sources. Built the 80-minute onion microscopy pilot: 22 slides, teacher-only 2–3, five-rule safety slide, real-observation task, cell-size estimate with mm/μm units, CER, board evidence vote, model revision and next-lesson prediction.
+- Corrected example omissions and science/pedagogy issues in a per-deck build log: missing cell measurement, unresolved separate cell-membrane visibility, early chloroplast answer, overgeneralised light/storage statements and the distinction between real and schematic evidence. Flagged no-goggles/improvised-stain source fallbacks and missing chemical concentration for qualified local review; no new formulation or replacement practical was invented.
+- Structural validation passed at 80 minutes. All 22 slides rendered and visually inspected, with full-size checks of the material list, reasoning and comparison illustration. CUDA processed every preview; teacher, science, risk assessment and native PowerPoint approval remain open.
+- Added the L6 builder and blank individual observation sheet. Extended the existing packager with explicit lesson selection, preserving its original three-lesson default. The expanded pilot contains L1/2/3/6 (84 slides), all-slide PDF previews, full teacher notes, printable tasks, build logs and QA evidence.
+- Prepared the expanded snapshot under `outputs/review/CellStructure_Pilot_Lessons1-2-3-6_Drafts.zip` for the established repository/Windows handoff, preserving the earlier L1–3 snapshot. Individual deliverables are also in the chat outputs folder. The requested pilot extension continues the prior commit/push review handoff; it is not classroom release.
+
+Still open:
+
+- Qualified teacher approval of the L6 chemical specification, risk controls, source fallbacks, equipment trial, calibration, visibility and practical timing.
+- Teacher/source-owner review of the selected pilot, numbering decisions, ARES checks, Calibri and native PowerPoint/Presenter View.
+- Obtain Mathematics guidance and verify saved-project skill discovery.

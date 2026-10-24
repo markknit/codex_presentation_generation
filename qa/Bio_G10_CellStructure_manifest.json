@@ -3,12 +3,14 @@
   "requested_lessons": [
     1,
     2,
-    3
+    3,
+    6
   ],
   "built_lessons": [
     1,
     2,
-    3
+    3,
+    6
   ],
   "deferred_lessons": [],
   "defer_reason": null,
@@ -133,6 +135,8 @@
   "continuation_authorisation": "User explicitly instructed Proceed with lessons 2-3 on 2026-10-23 after receiving L1. Drafts only; no teacher/PowerPoint/release approval implied.",
   "per_lesson_manifests": [
     "qa/Bio_G10_CellStructure_L2_What_Is_a_Cell_manifest.json",
-    "qa/Bio_G10_CellStructure_L3_Prokaryotic_vs_Eukaryotic_Cells_manifest.json"
-  ]
+    "qa/Bio_G10_CellStructure_L3_Prokaryotic_vs_Eukaryotic_Cells_manifest.json",
+    "qa/Bio_G10_CellStructure_L6_Onion_Cells_Practical_manifest.json"
+  ],
+  "pilot_extension": "User explicitly requested adding Lesson 6; prerequisites L4\u20135 remain outside this selected pilot."
 }

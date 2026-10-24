@@ -1,0 +1,220 @@
+{
+  "lesson": 6,
+  "status": "DRAFT \u2014 NOT APPROVED",
+  "authorisation": "User explicitly requested adding Lesson 6 to the same Cell Structure pilot; draft only. Prerequisite Lessons 4\u20135 are not generated or implied taught by this package.",
+  "total_minutes": 80,
+  "slides": [
+    {
+      "slide": 1,
+      "phase": "Predict",
+      "minutes": 0.25,
+      "title": "",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "phase": "Routine",
+      "minutes": 0,
+      "title": "How these lessons work",
+      "check": false,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "phase": "Glance",
+      "minutes": 0,
+      "title": "Lesson 6 at a glance",
+      "check": false,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "title": "From diagrams to real cells",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "phase": "Today",
+      "minutes": 0.75,
+      "title": "By the end of this lesson you can\u2026",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "phase": "Safety",
+      "minutes": 1.5,
+      "title": "Five precautions for today\u2019s practical",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "phase": "Predict",
+      "minutes": 6,
+      "title": "What will one onion epidermal cell look like?",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "phase": "Predict",
+      "minutes": 2,
+      "title": "BEFORE \u2014 our predictions",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "phase": "Observe",
+      "minutes": 8,
+      "title": "Watch first: prepare and focus a wet mount",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "phase": "Observe",
+      "minutes": 3,
+      "title": "Estimate cell length from your measured field",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "phase": "Observe",
+      "minutes": 27,
+      "title": "Your turn: prepare, draw and measure",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "phase": "Explain",
+      "minutes": 2,
+      "title": "Return to your predictions",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "phase": "Explain",
+      "minutes": 0.75,
+      "title": "Where is the sampled epidermis?",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "phase": "Explain",
+      "minutes": 0.75,
+      "title": "How much light reaches that tissue?",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "phase": "Explain",
+      "minutes": 0.75,
+      "title": "What do chloroplasts do?",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "phase": "Explain",
+      "minutes": 0.75,
+      "title": "What does this comparison suggest?",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "phase": "Explain",
+      "minutes": 6,
+      "title": "Write a three-sentence explanation",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "phase": "Explain",
+      "minutes": 2,
+      "title": "Compare AFTER you have recorded your view",
+      "check": false,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "phase": "Explain",
+      "minutes": 2,
+      "title": "Check a cell-size calculation",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "phase": "Driving Question Board",
+      "minutes": 7,
+      "title": "Evidence we now have \u2014 new questions",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 21,
+      "phase": "Model Building",
+      "minutes": 6,
+      "title": "Revise your existing model in a NEW colour",
+      "check": true,
+      "hidden": false
+    },
+    {
+      "slide": 22,
+      "phase": "Driving Question Board",
+      "minutes": 3,
+      "title": "Summary Table \u00b7 Lesson 6",
+      "check": false,
+      "hidden": false
+    }
+  ],
+  "inputs": [
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_CBE_LessonSequence.docx",
+      "sha256": "24e001955a8d441822a363ff70c38240e799d6dc1c932c6d7bff3ab2d7584461"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation.docx",
+      "sha256": "9603ca2c374963790b56f21966a2e6c9368fa18ea7cf292de44ca0c2ea571699"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_FinalExplanation_TeacherKey.docx",
+      "sha256": "7d9ca9871b67566515c089578aea78a813a7c3c35904e4b5e6e0123186227f46"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_SummaryTable.docx",
+      "sha256": "6b6fbd0dd542d593d406b3a23ca524585b8db854be3fb5681f482ecabb2a6382"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.1_Cell_Structure/Biology_Cell_Structure_data.json",
+      "sha256": "826e4d7a7f552bd6750790d4ed017eea64c4f40765e60bf4ff464ddb3f1ed781"
+    },
+    {
+      "path": "references/templates/Bio_G10_CellStructure_L2_What_Is_a_Cell.pptx",
+      "sha256": "cc3cc509d7c870922f64671507d656d09e76445c48c694b19ad93a6ad4703806"
+    },
+    {
+      "path": "references/instructions/SeaVuria_Science_Lesson_PPT_Build_Manual.docx",
+      "sha256": "0c082ad4947fb7e89b8dddcf400bf62ec687624c9ded639d556118f91b70da51"
+    },
+    {
+      "path": "references/templates/Bio_G10_CellStructure_L6_Onion_Cells_Practical.pptx",
+      "sha256": "aad5554950c3421e0f400128364592c16aa135402fa5af37ff34b89459b56ec0"
+    }
+  ],
+  "output_sha256": "702393c1ea7813a6743db921379f765f2fab1b3c8abcc38ba560a1d66999b080",
+  "safety_review_status": "OPEN: confirm school risk assessment, iodine product/concentration, PPE, disposal, actual microscopy/calibration and source fallback issues before classroom use."
+}

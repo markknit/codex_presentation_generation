@@ -94,3 +94,15 @@ After rendering and CUDA preview processing, `scripts/package_cellstructure_revi
 ## Windows review copy
 
 The user-authorised handoff snapshot is `outputs/review/CellStructure_Lessons1-3_Drafts.zip`. Pull `main` and extract the ZIP to review all three PowerPoints and supporting files. These are drafts awaiting the recorded review gates; `outputs/final` remains empty.
+
+## Expanded practical pilot
+
+The user added Cell Structure Lesson 6 (Onion Cells Practical) to the pilot. The selected set is L1, L2, L3 and L6. L6 assumes the earlier L4–5 teaching/model and remains subject to the practical-specific decisions in its build log.
+
+```bash
+python scripts/build_biology_cellstructure_l6.py
+python scripts/validate_lesson_deck.py outputs/drafts/Bio_G10_CellStructure_L6_Onion_Cells_Practical.pptx --minutes 80
+python scripts/package_cellstructure_review.py --out <review-directory> --lessons 1 2 3 6
+```
+
+After rendering and CUDA processing, use the expanded package `outputs/review/CellStructure_Pilot_Lessons1-2-3-6_Drafts.zip`. It adds the blank L6 observation sheet and teacher review information. The older three-lesson ZIP remains a historical snapshot. None is an approved release.

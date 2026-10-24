@@ -1,3 +1,17 @@
+# Cell Structure pilot — Lessons 1, 2, 3 and 6
+
+Current expanded snapshot: `CellStructure_Pilot_Lessons1-2-3-6_Drafts.zip`.
+
+The user requested adding Lesson 6 to the same pilot after the established commit/push Windows handoff. This review snapshot contains four separate PPTX drafts (84 slides total), all-slide PDFs, full teacher notes, printable tasks including a blank L6 observation sheet, build logs and QA evidence. It does not add Lessons 4–5 or imply they have been taught; they remain L6 prerequisites.
+
+L6 has 22 slides / 80 minutes. Structural validation and rendered inspection passed, with CUDA preview/pixel processing. Local practical safety, chemical product/concentration, PPE/source fallbacks, equipment trial/calibration, realistic visibility, teacher/science, native PowerPoint, ARES and font approval remain open. It is not a classroom release.
+
+Extract into a fresh directory to preserve any review annotations. Working drafts/renders stay ignored. The prior L1–3 snapshot below is preserved for history.
+
+Expanded snapshot SHA-256: `31bbdd5b8827106a5ea914cba4d9b599308f5a4b5a7626dc9daeaeb3940d8202`
+
+---
+
 # Cell Structure Lessons 1–3 — Windows review snapshot
 
 This tracked ZIP contains three separate draft PPTX files, all-slide PDF previews, the combined teacher review document, printable activity sheets, build logs and QA evidence. The user explicitly requested committing and pushing this package for Windows sync on 2026-10-23. This is an exception for sharing these review drafts, not approval or release.

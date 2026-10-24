@@ -6,8 +6,12 @@ from pptx import Presentation
 from docx import Document
 from docx.shared import Inches,Pt
 ROOT=Path(__file__).resolve().parents[1]
-NAMES={1:'Bio_G10_CellStructure_L1_The_Healing_Cut',2:'Bio_G10_CellStructure_L2_What_Is_a_Cell',3:'Bio_G10_CellStructure_L3_Prokaryotic_vs_Eukaryotic_Cells'}
-p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);a=p.parse_args();a.out.mkdir(parents=True,exist_ok=True)
+NAMES={1:'Bio_G10_CellStructure_L1_The_Healing_Cut',2:'Bio_G10_CellStructure_L2_What_Is_a_Cell',3:'Bio_G10_CellStructure_L3_Prokaryotic_vs_Eukaryotic_Cells',6:'Bio_G10_CellStructure_L6_Onion_Cells_Practical'}
+p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);p.add_argument('--lessons',type=int,nargs='+',default=[1,2,3],choices=[1,2,3,6]);a=p.parse_args();a.out.mkdir(parents=True,exist_ok=True)
+NAMES={n:NAMES[n] for n in sorted(set(a.lessons))}
+stem='CellStructure_Lessons1-3' if list(NAMES)==[1,2,3] else 'CellStructure_Pilot_Lessons'+'-'.join(map(str,NAMES))
+label=', '.join(map(str,NAMES))
+slide_total=sum(len(Presentation(ROOT/'outputs/drafts'/f'{name}.pptx').slides) for name in NAMES.values())
 files=[]
 for n,name in NAMES.items():
     src=ROOT/'outputs/drafts'/f'{name}.pptx';target=a.out/src.name;shutil.copy2(src,target);files.append(target)
@@ -16,14 +20,14 @@ for n,name in NAMES.items():
         log=ROOT/'build_logs'/f'{name}.md';target=a.out/log.name;shutil.copy2(log,target);files.append(target)
 # Print sheets use the authored slide pages directly, preserving diagram labels and table editability in PPTX.
 work=ROOT/'.cache/print_sheets';work.mkdir(parents=True,exist_ok=True)
-for n,start,end in [(2,9,14),(3,8,9)]:
+for n,start,end in [(n,start,end) for n,start,end in [(2,9,14),(3,8,9),(6,9,11)] if n in NAMES]:
     name=NAMES[n];pdf=a.out/f'{name}_ReviewSlides.pdf'
     subprocess.run(['pdfseparate','-f',str(start),'-l',str(end),str(pdf),str(work/f'l{n}-%02d.pdf')],check=True)
     dest=a.out/f'CellStructure_L{n}_PrintSheets.pdf'
     subprocess.run(['pdfunite',*[str(work/f'l{n}-{i:02d}.pdf') for i in range(start,end+1)],str(dest)],check=True);files.append(dest)
 d=Document();d.styles['Normal'].font.name='Calibri';d.styles['Normal'].font.size=Pt(10)
-d.add_heading('Cell Structure · Lessons 1–3',0);d.add_paragraph('Grade 10 Biology · review drafts · 23 October 2026')
-d.add_paragraph('Three separate lesson decks: L1 40 minutes, L2 80 minutes, L3 40 minutes. The user explicitly authorised Lessons 2–3 before completion of the pilot’s external review. All decks remain drafts; no teacher or native PowerPoint approval is implied.')
+d.add_heading('Cell Structure · Pilot lessons '+label,0);d.add_paragraph('Grade 10 Biology · review drafts · 23 October 2026')
+d.add_paragraph('Separate lesson decks: '+', '.join('L'+str(n)+' '+('40' if n in [1,3] else '80')+' minutes' for n in NAMES)+'. The user explicitly authorised these pilot drafts. All remain drafts; no teacher, safety or native PowerPoint approval is implied.')
 d.add_heading('Review checklist',1)
 for t in ['Open each PPTX in native PowerPoint. Verify Slide Show and Presenter View, including complete speaker notes.','Confirm slides 2–3 stay hidden in each Slide Show. PDFs deliberately include those teacher-only pages.','Check Calibri on the review host; Linux PDF previews use Carlito as a substitute.','Review source fidelity, scientific accuracy, local context, realistic timings and every build-log correction.','Resolve source numbering (1.1 versus 1.3) and the manual/source task differences in the logs.','Preview ARES resources and verify links/offline availability before use; use supplied print sheets as the offline route.','Record teacher decision and date before release.']:
     d.add_paragraph('☐ '+t)
@@ -31,8 +35,11 @@ d.add_paragraph('Teacher checker: ____________________   Date: _________________
 d.add_paragraph('Decision: ☐ Return with corrections   ☐ Approve only after all required checks')
 d.add_heading('Using the print sheets',1)
 d.add_paragraph('L2: print diagrams, scientist reading, blank evidence table and 12-card page; pre-cut one card set per group. L3: print the side-by-side diagrams and blank comparison table. Reference labels are schematic, not micrographs or measurements.')
+if 6 in NAMES:
+    d.add_heading('Lesson 6 practical readiness',1)
+    d.add_paragraph('Before classroom use, the school must confirm the stain product/concentration/SDS, PPE, disposal, individual restrictions, real microscope performance and field calibration. The source no-goggles and improvised pharmacy-stain fallbacks are flagged, not approved. L6 assumes the earlier L4–5 teaching/model; adding it to this pilot does not generate those lessons. The comparison schematic is not a real observation. See the L6 build log and observation sheet.')
 d.add_heading('GPU record',1)
-d.add_paragraph('CUDA on the GB10 resized previews and computed raster signals on all 62 slides. Native PPTX assembly, document layout, conversion and file operations use CPU code paths. Pixel metrics do not establish scientific or semantic correctness.')
+d.add_paragraph(f'CUDA on the GB10 resized previews and computed raster signals on all {slide_total} slides. Native PPTX assembly, document layout, conversion and file operations use CPU code paths. Pixel metrics do not establish scientific, semantic or practical-safety correctness.')
 for n,name in NAMES.items():
     ppt=Presentation(ROOT/'outputs/drafts'/f'{name}.pptx')
     for i,s in enumerate(ppt.slides,1):
@@ -41,21 +48,28 @@ for n,name in NAMES.items():
         d.add_picture(str(image),width=Inches(6.3))
         for para in s.notes_slide.notes_text_frame.text.split('\n\n'):
             if para.strip():d.add_paragraph(para.strip())
-notes=a.out/'CellStructure_Lessons1-3_TeacherReview.docx';d.save(notes);files.append(notes)
-index=a.out/'CellStructure_Lessons1-3_ReviewNotes.md'
-index.write_text('''# Cell Structure Lessons 1–3 — review package
-
-All three drafts are supplied as separate PPTX files with teacher notes. L1: 21 slides / 40 minutes; L2: 21 slides / 80 minutes; L3: 20 slides / 40 minutes. Slides 2 and 3 are hidden in each deck. PDF review copies include all slides.
-
-The user explicitly instructed “Proceed with lessons 2-3” after receiving L1. This is a limited draft-generation exception to the pre-batch pilot checkpoint. Teacher, native PowerPoint, font and ARES gates remain open; these files are not released or approved.
-
-The combined TeacherReview document contains a checklist, thumbnails and all speaker notes. L2 and L3 print sheets supply offline diagrams, reading/tables and the card-sort page. Per-deck build logs record source corrections and unresolved manual/source differences. The original L1 build log belongs to the earlier pilot checkpoint and is not a current statement that L2–3 are unbuilt.
-
-CUDA GB10 processing ran on all 62 slide previews. PPTX assembly, LibreOffice conversion, Poppler rasterisation, document layout and file encoding use CPU code paths. Structural validation and visual inspection passed; they are not teacher or native PowerPoint approval.
-
-Outstanding review: scientific and source fidelity; realistic pacing; Calibri fidelity (Carlito substituted locally); 1.1 versus 1.3 numbering; source/manual task exceptions; ARES links/content/offline availability; native Slide Show/Presenter View; teacher sign-off.
-''');files.append(index)
-bundle=a.out/'CellStructure_Lessons1-3_Drafts.zip'
+notes=a.out/(stem+'_TeacherReview.docx');d.save(notes);files.append(notes)
+if 6 in NAMES:
+    from docx.enum.table import WD_ROW_HEIGHT_RULE
+    obs=Document();obs.styles['Normal'].font.name='Calibri';obs.styles['Normal'].font.size=Pt(10)
+    obs.add_heading('Onion microscopy · individual observation record',0)
+    obs.add_paragraph('Name: ____________________  Group: ______  Date: __________')
+    obs.add_paragraph('Draw only what you observe. Label uncertain features as uncertain. This blank sheet does not supply an expected result.')
+    for title in ['Low power: draw 3–4 cells','Higher power: draw one cell']:
+        obs.add_heading(title,2);obs.add_paragraph('Eyepiece: ____ ×   Objective: ____ ×   Total optical magnification: ____ ×')
+        t=obs.add_table(rows=1,cols=1);t.style='Table Grid';t.rows[0].height=Inches(1.65);t.rows[0].height_rule=WD_ROW_HEIGHT_RULE.EXACTLY
+    obs.add_page_break();obs.add_heading('Cell-size estimate and evidence',1)
+    fields=[('Measured field diameter at objective ____ ×','____ mm'),('Number of cell lengths across the field (long axis)','____'),('Estimated cell length = field diameter ÷ count','____ mm'),('Estimated length in μm = mm × 1000','____ μm')]
+    t=obs.add_table(rows=1,cols=2);t.style='Table Grid';t.rows[0].cells[0].text='Quantity / method';t.rows[0].cells[1].text='My value'
+    for title,value in fields:
+        cells=t.add_row().cells;cells[0].text=title;cells[1].text=value
+    for title in ['Chloroplast visibility: what did I actually observe? Was the view clear enough to judge?','Other features visible / unclear / not seen','How did my evidence change my prediction?','Claim — Evidence — Reasoning','A specific prediction for the next animal-cell practical']:
+        obs.add_heading(title,2);obs.add_paragraph('_________________________________________________________________\n_________________________________________________________________')
+    target=a.out/'CellStructure_L6_ObservationSheet.docx';obs.save(target);files.append(target)
+index=a.out/(stem+'_ReviewNotes.md')
+index.write_text('# Cell Structure pilot lessons '+label+' — review drafts\n\n'+str(slide_total)+' total slides. Each separate deck has hidden teacher slides 2–3; review PDFs include all pages. Full speaker notes and per-lesson build logs are included.\n\nThe user authorised adding these lessons to the pilot. They are not approved for classroom use or release. Native PowerPoint/Presenter View, Calibri, ARES and teacher/source-owner checks remain open.\n\nIf Lesson 6 is included, its iodine/PPE/fallback, actual microscope visibility, field calibration and local risk-assessment decisions require teacher sign-off. L4–5 remain prerequisites, not newly generated lessons. The L6 observation sheet is blank; reference drawings and example calculations must not replace pupil data.\n\nCUDA processes all raster previews and pixel signals. PPTX assembly, conversion and file/layout work use CPU operations. These checks are not scientific or safety approval.\n')
+files.append(index)
+bundle=a.out/(stem+'_Drafts.zip')
 with zipfile.ZipFile(bundle,'w',zipfile.ZIP_DEFLATED) as z:
     for f in files:z.write(f,f.name)
     for n,name in NAMES.items():

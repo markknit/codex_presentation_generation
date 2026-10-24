@@ -124,3 +124,7 @@ Track final decks, build logs, input manifests, and validation reports. Keep tem
 ## Explicit Windows review handoff
 
 On 2026-10-23 the user requested committing and pushing the completed drafts for Windows sync. `outputs/review/CellStructure_Lessons1-3_Drafts.zip` is the tracked snapshot for that request, with review status and checksum in its README. Working drafts and renders remain ignored; the snapshot is not an approved release. Future review snapshots require explicit handoff authorisation or an updated project policy.
+
+## Lesson 6 pilot extension
+
+The user subsequently requested adding Cell Structure L6 to the same pilot. The selected review set is now L1, L2, L3 and L6; this does not generate or bypass the L4–5 teaching prerequisites. The expanded snapshot is `outputs/review/CellStructure_Pilot_Lessons1-2-3-6_Drafts.zip`, continuing the established repository/Windows handoff. L6 is a practical review draft with open teacher risk-assessment, stain/PPE, calibration and visibility decisions; no classroom release or pilot approval is implied.
