@@ -1,6 +1,6 @@
 # Project status
 
-Last updated: 2026-10-24
+Last updated: 2026-10-27
 
 ## Active Threads
 
@@ -11,17 +11,17 @@ Last updated: 2026-10-24
 | Approved instructions | Done | General science manual selected. Cells-specific manual excluded. |
 | Visual references | Reviewed; new quality target applied | Original templates remain for theme/logos. User-selected `presentations2` L1/L2/L6 references (21/28/24 slides) were fully rendered and inspected on 2026-10-24. Style evidence and hashes: `qa/CellStructure_v2_sources.json`; reusable rules: `content/cellstructure_v2/DESIGN.md`. |
 | V2 source inventory | Done | 425 files total: 340 DOCX and 85 JSON across 85 units. |
-| GitHub repository | Complete handoff pushed and verified | Source commit `224f210` and snapshot commit `ef91839` pushed to `origin/main`. `git ls-remote origin refs/heads/main` matched local HEAD after the push; checkout clean. Complete twelve-deck review snapshot is tracked under `outputs/review`. |
-| `jhm-spark` connection | Done | Live `hostname` returned `jhm-spark`; Codex commands run locally against `/home/markk/codex_presentation_generation`. Saving this checkout as a Codex project remains unverified. |
+| GitHub repository | Complete handoff pushed and verified | On 2026-10-27 Windows `git fetch` confirmed `main` and `origin/main` at `0726095` before this continuity update. Windows uses HTTPS; `jhm-spark` previously used SSH. The extracted review folder is untracked. |
+| `jhm-spark` connection | Previously verified | On 2026-10-23, `hostname` returned `jhm-spark` and Codex commands ran locally against `/home/markk/codex_presentation_generation`. Not rechecked from Windows on 2026-10-27; saving that checkout as a Codex project remains unverified. |
 | GPU raster processing | Verified | CUDA sm_121 on NVIDIA GB10 processed all 166 new slide previews, two new published-image assets, 28 print pages and two corrected rubric pages; prior 110 slides/four art assets retain previous evidence. CPU-only assembly/conversion/rasterisation/encoding/layout/ZIP operations are disclosed. No semantic GPU or local inference approval claimed. |
-| Python authoring environment | Done | `.venv` contains the pinned `requirements.txt` packages; `pip check` passed and all three templates plus the manual loaded successfully. Activate the environment before running authoring tools. |
+| Python authoring environment | Host-specific | On `jhm-spark`, `.venv` was built with pinned requirements and `pip check`, templates and manual loading passed previously. On Windows, `python`, `python3` and `py` were unavailable on PATH on 2026-10-27; the Python Step 0 checks could not run there. |
 | Science pilot design | Revised drafts; user review pending | User found the earlier samples technically correct but visually/pedagogically weak. New version 2 has original contextual art, editable science visuals and smaller explanation steps. No teacher or classroom approval is implied by the technical feedback. |
 | Biology L1/L2/L4/L6 redesign | Built; awaiting user and teacher comparison | L1: 21 slides/40 min; L2: 25/80; new L4: 37/80; L6: 27/80, 110 total. Each has hidden teacher slides 2–3 and full notes. Structural, timing and PDF-text/reveal-order checks passed; all slides rendered, CUDA-processed and visually inspected. Four per-deck manifests/validation/GPU reports and `qa/CellStructure_v2_visual_review.json` record evidence. |
 | Reusable generation method | Extended across complete unit | Shared frames, native specialised-cell figures, hierarchy/guard-pore/poster models, source-specific builders, renderer, checks and complete packager are implemented. L8 uses credited published microscopy with morphology separated from mechanism. L9 geographic stomata and L10 microscopy are explicitly models; no invented experiment. Teacher/student engagement feedback is still needed. |
 | Complete Biology Cell Structure v2 | Built; review gates open | L3 21/40 min; L5 21/80; L7 17/80; L8 27/80; L9 26/80; L10 18/80; L11 14/40; L12 22/80: 166 new slides. With prior L1/L2/L4/L6, all 12 now have v2 drafts: 276 slides / 840 scheduled minutes. All new slides rendered/inspected; structural, notes-font/order, timing, PDF text and CUDA checks passed. See `qa/CellStructure_complete_v2_checks.json`, source hashes, visual/print records and per-lesson logs. Earlier L3 remains historical only. |
 | Biology practical readiness | Teacher safety/equipment review open | L6 stain/product/SDS, local risk/PPE/waste, equipment/calibration/visibility remain open. L5 prerequisite now built. L7 uses the V2 school-approved prepared epithelial-slide alternative; specimen provenance/local controls remain teacher decisions. No learner swabs or staining are used in this draft. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
-| Windows review handoff | Complete twelve-lesson snapshot pushed | `outputs/review/CellStructure_Complete_Lessons1-12_v2_Review.zip`: 79,941,881 bytes; SHA-256 `27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24`. CRC, every manifest member and all twelve deck hashes verified. Review README has fresh-folder Windows extraction. Earlier snapshots preserved; no classroom release. |
+| Windows review handoff | Snapshot and extracted decks present; review open | On 2026-10-27 the ZIP SHA-256 matched `27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24`; all 12 extracted PPTX hashes matched the included manifest. The extracted folder under `outputs/review` is untracked and must be preserved. Archive CRC and all manifest members were verified previously; no classroom release. |
 
 ## Known Issues and Lessons Learned
 
@@ -44,7 +44,7 @@ Last updated: 2026-10-24
 - The Cell Structure source labels disagree: the folder/META/lesson labels say 1.1; the unit overview says 1.3. Keep the numerical sub-strand off the draft and request owner resolution through the build log rather than silently renumbering.
 - Practical examples need a source/manual audit for absent measurement tasks, premature outcome disclosure, overconfident visibility claims and unsafe fallbacks. Keep actual observations separate from illustrative references; preserve unresolved safety specifications as teacher decisions instead of inventing a recipe or approving a shortcut.
 - The example decks control visual style, not V2 source fidelity. Inherited captions, timings, resource match labels and reveal order need explicit checks; the L1 pilot corrected problems in each.
-- The GitHub owner is `markknit` (two k letters). SSH access works; unauthenticated HTTPS and the connected GitHub tool did not provide access during this handoff.
+- The GitHub owner is `markknit` (two k letters). Remote URLs and credentials are host-specific: verify `git remote -v` and fetch on the active checkout instead of assuming a shared SSH URL. Windows HTTPS fetch succeeded on 2026-10-27; the earlier `jhm-spark` handoff used SSH.
 
 ## Updates - 2026-10-23 (Windows setup; historical)
 
@@ -218,3 +218,15 @@ Still open:
 Still open:
 
 - Windows pull/extraction and the previously recorded native PowerPoint/Presenter View, font/resources, teacher/source-owner and practical-readiness checks before classroom release.
+
+## Updates - 2026-10-27 (Windows continuity reconciliation)
+
+- Re-ran the repository restart on Windows. Before this documentation update, `main` and freshly fetched `origin/main` both pointed to `0726095`; the checkout had an untracked extracted review folder. No active handoff file was found. Fetch succeeded with the Windows HTTPS remote; previous `jhm-spark` SSH information is historical and host-specific.
+- Confirmed the complete review ZIP matches its recorded SHA-256 and all twelve extracted PPTX files match their included manifest hashes. PowerShell counted 425 V2 source files (340 DOCX, 85 JSON) and three template PPTX files. These checks do not replace the complete Python repository validator or native review.
+- Updated the environment reference and active threads to distinguish Windows observations from the previous `jhm-spark` state. `python`, `python3` and `py` were unavailable on PATH, so `verify_environment.py` and `validate_repository.py` could not run on Windows. No Python installation or GPU execution is inferred.
+- Preserved the untracked extracted folder and all review gates. No deck was generated, modified, approved or released.
+
+Still open:
+
+- Run both Python Step 0 scripts on a configured host; verify the relevant host and GPU environment before generation.
+- Complete native PowerPoint/Presenter View, font and ARES checks, teacher/source-owner review, and practical-readiness decisions before classroom release. Mathematics guidance remains outstanding.

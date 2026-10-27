@@ -4,9 +4,9 @@
 
 | Environment | Repository | Purpose | Current state |
 | --- | --- | --- | --- |
-| Windows workstation | `C:\Users\MRKni\OneDrive\codex_presentation_generation` | Repository assembly, review, and GitHub administration | Original assembly host; not re-verified from this session |
-| GitHub | `markknit/codex_presentation_generation` | Shared source of truth and transport between hosts | SSH clone and fetch verified on 2026-10-23; origin uses `git@github.com:markknit/codex_presentation_generation.git` |
-| `jhm-spark` | `/home/markk/codex_presentation_generation`, branch `main` | Primary generation and GPU-accelerated work | Local execution and CUDA raster-QA verified; native PowerPoint/teacher pilot review and saved Codex project registration remain open |
+| Windows workstation | `C:\Users\MRKni\OneDrive\codex_presentation_generation`, branch `main` | Repository assembly, review, and GitHub administration | Verified 2026-10-27: HTTPS `origin`, complete review ZIP and extracted twelve-deck folder present; Python commands unavailable on PATH. |
+| GitHub | `markknit/codex_presentation_generation` | Shared source of truth and transport between hosts | Windows HTTPS fetch verified 2026-10-27; `jhm-spark` SSH access was verified on 2026-10-23. Remote URLs are checkout-specific; check `git remote -v` on the active host. |
+| `jhm-spark` | `/home/markk/codex_presentation_generation`, branch `main` | Primary generation and GPU-accelerated work | Local execution and CUDA raster-QA verified previously; not rechecked from Windows on 2026-10-27. Native PowerPoint/teacher pilot review and saved Codex project registration remain open. |
 
 The repository and current branch are authoritative. OneDrive is not the transport mechanism to `jhm-spark`; GitHub is.
 
@@ -24,7 +24,7 @@ python3 scripts/verify_environment.py
 python3 scripts/validate_repository.py
 ```
 
-On `jhm-spark`, use `python3`; `python` is not installed. On other hosts, use the available Python 3 interpreter. LibreOffice is available locally, but native PowerPoint and Presenter View checks still require a suitable review host.
+On `jhm-spark`, use `python3`; `python` was not installed at the last host check. On other hosts, use an available Python 3 interpreter. On Windows on 2026-10-27, `python`, `python3` and `py` were unavailable on PATH, so the Python checks remain outstanding there; run them on a configured host before relying on their results. LibreOffice was available on `jhm-spark` at the last host check, but native PowerPoint and Presenter View checks still require a suitable review host.
 
 On a non-`main` branch, also run:
 
@@ -146,3 +146,5 @@ The user explicitly requested “generate the remaining presentations for this s
 Use `scripts/build_cellstructure_remaining_v2.py`, `scripts/cell_specialisation_visuals.py`, `scripts/render_cellstructure_remaining_v2.py`, `scripts/check_cellstructure_complete_v2.py` and `scripts/package_cellstructure_complete_v2.py` for this continuation. The complete package includes printable tasks rather than assuming missing card sets exist. The assessment adaptation retains source sections/criteria/bands, corrects science and matches the prepared-slide route. Original inputs are unchanged.
 
 The user subsequently explicitly requested committing and pushing all completed work. The verified complete snapshot is `outputs/review/CellStructure_Complete_Lessons1-12_v2_Review.zip`; its README records hash and Windows extraction. Generated working drafts/renders remain ignored, with this authorised snapshot carrying actual review deliverables. Earlier snapshots and all release gates remain intact.
+
+On 2026-10-27 the complete ZIP and an extracted review folder were found in `outputs/review` on Windows. That extracted folder is untracked and may contain review work; preserve it and use a fresh destination for any new extraction. The ZIP hash and all twelve extracted PPTX hashes matched their recorded values. This verifies transport, not review or approval.
