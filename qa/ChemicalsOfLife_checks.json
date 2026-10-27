@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "decks": [
+    {
+      "lesson": 1,
+      "slides": 20,
+      "sha256": "074d2fa4ba903b8fca5a19d261739d938042cda5eaeb10e863be43b14dc2b2ed",
+      "minutes": 80.0,
+      "cuda_previews": 20
+    },
+    {
+      "lesson": 2,
+      "slides": 17,
+      "sha256": "f47f6802d037a0481c91b75619b87afb56941add7f911112f3108519b54a1ac1",
+      "minutes": 80.0,
+      "cuda_previews": 17
+    },
+    {
+      "lesson": 3,
+      "slides": 19,
+      "sha256": "594b9135e1dd882cb4e8001dcf1585b92b7fa47639d8919456cd542544285b0e",
+      "minutes": 80.0,
+      "cuda_previews": 19
+    },
+    {
+      "lesson": 4,
+      "slides": 19,
+      "sha256": "9b6f2016ae84a5ab7f3305ed22707455ecf3dc2609790cd289c3f11dc60f4d03",
+      "minutes": 80.0,
+      "cuda_previews": 19
+    },
+    {
+      "lesson": 5,
+      "slides": 19,
+      "sha256": "721d8f85942191fd04b19d2caac287ccc0d0348076dab6ed2fb6204c3d0b0947",
+      "minutes": 80.0,
+      "cuda_previews": 19
+    },
+    {
+      "lesson": 6,
+      "slides": 17,
+      "sha256": "072a7776bea6a88b7a24ebfb432d275c663af1f46d630d7516b3c038cb2d7eaf",
+      "minutes": 80.0,
+      "cuda_previews": 17
+    }
+  ],
+  "limits": "Only checks selected sequencing, timing reports, hashes, phase labels and safety flags. It does not establish complete source coverage, scientific correctness, visual quality, human safety, native PowerPoint behaviour or teacher approval."
+}

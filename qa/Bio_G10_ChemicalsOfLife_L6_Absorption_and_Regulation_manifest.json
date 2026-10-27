@@ -1,0 +1,127 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/chemicals_of_life/Bio_G10_ChemicalsOfLife_L6_Absorption_and_Regulation.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 6 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Predict where glucose goes",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Compare your ideas",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Read the falling values",
+      "phase": "Observe",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Role-play \u00b7 journey of glucose",
+      "phase": "Observe",
+      "minutes": 15.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "What happens after digestion?",
+      "phase": "Explain",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Cells can release energy",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Write and review your explanation",
+      "phase": "Explain",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Close the Driving Question Board",
+      "phase": "Driving Question Board",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Build the final model",
+      "phase": "Model Building",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Gallery walk",
+      "phase": "Model Building",
+      "minutes": 9.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Compare first and final models",
+      "phase": "Model Building",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Summary Table \u00b7 Lesson 6",
+      "phase": "Driving Question Board",
+      "minutes": 2.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "072a7776bea6a88b7a24ebfb432d275c663af1f46d630d7516b3c038cb2d7eaf",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

@@ -1,0 +1,53 @@
+{
+  "deck": "outputs/drafts/chemicals_of_life/Bio_G10_ChemicalsOfLife_L2_Elements_and_Compounds.pptx",
+  "sha256": "f47f6802d037a0481c91b75619b87afb56941add7f911112f3108519b54a1ac1",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 17,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.5,
+    0.0,
+    0.0,
+    0.5,
+    1.0,
+    3.0,
+    5.0,
+    0.0,
+    8.0,
+    8.0,
+    5.0,
+    4.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    5.0
+  ],
+  "total_minutes": 80.0,
+  "formative_check_slides": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}

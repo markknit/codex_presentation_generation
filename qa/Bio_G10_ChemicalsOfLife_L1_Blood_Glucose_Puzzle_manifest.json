@@ -1,0 +1,148 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/chemicals_of_life/Bio_G10_ChemicalsOfLife_L1_Blood_Glucose_Puzzle.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 1 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Meet Wanjiru\u2019s lunch",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Predict the shape",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Compare and vote",
+      "phase": "Predict",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Read Wanjiru\u2019s case data",
+      "phase": "Observe",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Notice and wonder",
+      "phase": "Observe",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "How much did it rise?",
+      "phase": "Observe",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "How did it fall?",
+      "phase": "Observe",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Return to the range",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "What is in the meal?",
+      "phase": "Explain",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Our first explanation",
+      "phase": "Explain",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Compare your prediction",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Our Driving Question Board",
+      "phase": "Driving Question Board",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Sort and choose questions",
+      "phase": "Driving Question Board",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Version 0 \u00b7 our first model",
+      "phase": "Model Building",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 20,
+      "title": "Summary Table \u00b7 Lesson 1",
+      "phase": "Driving Question Board",
+      "minutes": 6.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "074d2fa4ba903b8fca5a19d261739d938042cda5eaeb10e863be43b14dc2b2ed",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

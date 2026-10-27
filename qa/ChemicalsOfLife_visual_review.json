@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-27",
+  "status": "REVIEW DRAFT — NOT APPROVED",
+  "slide_inspection": "Reviewed all rendered slides using CUDA contact sheets; inspected revised layouts and diagrams at full size. Repaired L1 board-caption and text overlap, added test guides and readable teacher preparation summaries.",
+  "slide_count": 111,
+  "deck_hashes": [
+    {
+      "lesson": 1,
+      "sha256": "074d2fa4ba903b8fca5a19d261739d938042cda5eaeb10e863be43b14dc2b2ed"
+    },
+    {
+      "lesson": 2,
+      "sha256": "f47f6802d037a0481c91b75619b87afb56941add7f911112f3108519b54a1ac1"
+    },
+    {
+      "lesson": 3,
+      "sha256": "594b9135e1dd882cb4e8001dcf1585b92b7fa47639d8919456cd542544285b0e"
+    },
+    {
+      "lesson": 4,
+      "sha256": "9b6f2016ae84a5ab7f3305ed22707455ecf3dc2609790cd289c3f11dc60f4d03"
+    },
+    {
+      "lesson": 5,
+      "sha256": "721d8f85942191fd04b19d2caac287ccc0d0348076dab6ed2fb6204c3d0b0947"
+    },
+    {
+      "lesson": 6,
+      "sha256": "072a7776bea6a88b7a24ebfb432d275c663af1f46d630d7516b3c038cb2d7eaf"
+    }
+  ],
+  "print_inspection": "Reviewed all final printable pages from CUDA contact sheets and inspected the teacher review page at full size.",
+  "print_page_count": 12,
+  "print_documents": [
+    {
+      "name": "ChemicalsOfLife_Case_and_Cards.docx",
+      "sha256": "d9916af8a66a9967020c3bdbcd2dda9124d25ddaf45992c723475da58abd6d41"
+    },
+    {
+      "name": "ChemicalsOfLife_Final_Explanation_Student.docx",
+      "sha256": "1846412f2a9e393edafd3dfbf0373dfd4d2c930ab14159db621a90f149b2096f"
+    },
+    {
+      "name": "ChemicalsOfLife_Investigation_Records.docx",
+      "sha256": "284488b5d4cd2199deec47613a8e204e22b1ccf5566086cec68605d3070c760d"
+    },
+    {
+      "name": "ChemicalsOfLife_L6_Role_Cards.docx",
+      "sha256": "71901702706a6b9bc448c3bdd5c120cdd36e47439e384357ef78672fc881c335"
+    },
+    {
+      "name": "ChemicalsOfLife_Teacher_Review_Notes.docx",
+      "sha256": "329ef43c55594e6ce095717bac26ba49983b05dfbcee34517d39c6fa1091f15b"
+    }
+  ],
+  "archive": {
+    "path": "outputs/drafts/ChemicalsOfLife_Lessons1-6_Review.zip",
+    "sha256": "8ada1ebdb85aa080b12f115a98567e9515b3b334345dc08bf0c007f362587495",
+    "bytes": 7052980,
+    "crc": "PASS",
+    "manifest_member_hashes": "51 PASS"
+  },
+  "limitations": "Visual inspection is not scientific, practical, accessibility, native PowerPoint or teacher approval. Local previews substitute Carlito for Calibri."
+}

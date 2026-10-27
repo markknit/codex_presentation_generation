@@ -1,0 +1,127 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/chemicals_of_life/Bio_G10_ChemicalsOfLife_L2_Elements_and_Compounds.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 2 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Predict what each food contains",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Compare predictions",
+      "phase": "Predict",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Safety \u00b7 teacher demonstration",
+      "phase": "Safety",
+      "minutes": 0.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Station A \u00b7 the meal card",
+      "phase": "Observe",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Station B \u00b7 elements in food",
+      "phase": "Observe",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Station C \u00b7 observe the demonstration",
+      "phase": "Observe",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Share the evidence",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Sort the chemical groups",
+      "phase": "Explain",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Which chemical is a candidate?",
+      "phase": "Explain",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Update our questions",
+      "phase": "Driving Question Board",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Revise the food-chemicals box",
+      "phase": "Model Building",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Summary Table \u00b7 Lesson 2",
+      "phase": "Driving Question Board",
+      "minutes": 5.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "f47f6802d037a0481c91b75619b87afb56941add7f911112f3108519b54a1ac1",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

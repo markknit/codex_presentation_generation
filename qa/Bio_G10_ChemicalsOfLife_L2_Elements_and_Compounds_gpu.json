@@ -1,0 +1,165 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.9794840015698911,
+      "dark_fraction": 0.9264448162607671,
+      "sha256": "8a490105fddfc09f680af2cc5f4f3e9039bc3004585bff660135011a8728fe5f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.12280597384891863,
+      "dark_fraction": 0.10907768895498957,
+      "sha256": "5fa3df0a10c06ddc4e0dea2328bbb1bffb7a8586ec11f94869da43c8a0aebc44"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1318444155253971,
+      "dark_fraction": 0.11422941067112846,
+      "sha256": "c6f947d98a57bbb29bea7a3db6eca1f7ca48ddd6f37f178f1b15d6f945752c16"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.19751874573960462,
+      "dark_fraction": 0.18177025882547354,
+      "sha256": "eb2d1f852412076a6fcf7b8f6423390b55fa506c80634578392c79cbf53eb665"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.17721261696721818,
+      "dark_fraction": 0.04084608869884943,
+      "sha256": "4184326e89c65bca2d14524b86f13f7f9c5d301006741edc5d735b4d6c09fc8d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06372931771704778,
+      "dark_fraction": 0.05200388341492636,
+      "sha256": "174284ce423da278aa4a7383d1b4071971fd8916d1780e4ac0551a17f15468d4"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05748941356303319,
+      "dark_fraction": 0.04733387040135507,
+      "sha256": "ce75ca7501b4d94ef8f1b8de69ec9eb47139d48a7dd234e6ba44e1f4baa64e32"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.058617256408667454,
+      "dark_fraction": 0.04556237218813906,
+      "sha256": "0072b23384a713a771e43bcabde199baefbd61d79c3b7d092f1d2786f535c1b6"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.11352130714093904,
+      "dark_fraction": 0.10086881080746112,
+      "sha256": "ba7fb5734f917191e5e3eba90a48424255ac2c4a01a844bd4ccfe675207b0110"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.18131416413625004,
+      "dark_fraction": 0.045528495589845286,
+      "sha256": "32afeaa7bb8be65c8ddeeeaa15d8f64a04ad8e69149bd28f99c9a5f32b6574c6"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06305756956063704,
+      "dark_fraction": 0.05167999008489806,
+      "sha256": "5f6a8e8976e6cd1a78d9f36a10bd934e1030e280fc30efb1c75d9e240b1d3b2c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.04846667079795914,
+      "dark_fraction": 0.03760219784759662,
+      "sha256": "629d784f8a1af871d6b57771be6c327990179ba308ebfe6ee277b8667b055a2a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.34422837784800975,
+      "dark_fraction": 0.04333064799322468,
+      "sha256": "beeb5da50afb9a2a18f923d33581ac161497b8e087f6b55b331df6a555edee5c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06463241825205016,
+      "dark_fraction": 0.05250872735535312,
+      "sha256": "bd6bbf4b063481ed3ed99619a94c1ccb8a57c192fa70994d9febf563c72601fa"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06651215632810725,
+      "dark_fraction": 0.05500485426865795,
+      "sha256": "914585fb0c84dba4f61f0d9c2dc8348be8837f1df303b378a29aff3900987747"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06238251637024643,
+      "dark_fraction": 0.050444733634917686,
+      "sha256": "df4aca1444b2a307f6e1ae6090f422aed8a57cebdce8d9c474ff9d607665a848"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/chemicals_of_life/l2/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.059114664022639485,
+      "dark_fraction": 0.04761314577265498,
+      "sha256": "709cade25b2ccc9c6662deedb310835ac06cb2a2083a75259119d5ba8b42d86a"
+    }
+  ],
+  "deck_sha256": "f47f6802d037a0481c91b75619b87afb56941add7f911112f3108519b54a1ac1"
+}

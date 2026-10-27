@@ -1,6 +1,6 @@
 # Project status
 
-Last updated: 2026-10-24
+Last updated: 2026-10-27
 
 ## Active Threads
 
@@ -19,12 +19,15 @@ Last updated: 2026-10-24
 | Biology L1/L2/L4/L6 redesign | Built; awaiting user and teacher comparison | L1: 21 slides/40 min; L2: 25/80; new L4: 37/80; L6: 27/80, 110 total. Each has hidden teacher slides 2–3 and full notes. Structural, timing and PDF-text/reveal-order checks passed; all slides rendered, CUDA-processed and visually inspected. Four per-deck manifests/validation/GPU reports and `qa/CellStructure_v2_visual_review.json` record evidence. |
 | Reusable generation method | Extended across complete unit | Shared frames, native specialised-cell figures, hierarchy/guard-pore/poster models, source-specific builders, renderer, checks and complete packager are implemented. L8 uses credited published microscopy with morphology separated from mechanism. L9 geographic stomata and L10 microscopy are explicitly models; no invented experiment. Teacher/student engagement feedback is still needed. |
 | Complete Biology Cell Structure v2 | Built; review gates open | L3 21/40 min; L5 21/80; L7 17/80; L8 27/80; L9 26/80; L10 18/80; L11 14/40; L12 22/80: 166 new slides. With prior L1/L2/L4/L6, all 12 now have v2 drafts: 276 slides / 840 scheduled minutes. All new slides rendered/inspected; structural, notes-font/order, timing, PDF text and CUDA checks passed. See `qa/CellStructure_complete_v2_checks.json`, source hashes, visual/print records and per-lesson logs. Earlier L3 remains historical only. |
+| Biology 1.2 Chemicals of Life | Six review drafts built; review gates open | Six 80-minute decks, 111 slides total; structural and selected sequencing checks pass (`qa/ChemicalsOfLife_checks.json`); all slides rendered and inspected, CUDA previews on GB10. Local review ZIP `outputs/drafts/ChemicalsOfLife_Lessons1-6_Review.zip`: SHA-256 `8ada1ebdb85aa080b12f115a98567e9515b3b334345dc08bf0c007f362587495`; CRC and all 51 manifest member hashes verified. Native PowerPoint, teacher/source-owner, practical-safety and ARES checks remain open. |
+| Chemicals of Life source coverage and practicals | Source-owner and teacher decisions open | The sequence does not clearly supply the stated vitamin C and living-tissue/catalase investigations. L2 flame, L3–4 reagents/allergens and L5 human saliva, controls, reagents and waste require local approval. Case provenance and source assumptions need review; original key/rubric require adaptation to actual results. The five-part assessment needs follow-up time. |
 | Biology practical readiness | Teacher safety/equipment review open | L6 stain/product/SDS, local risk/PPE/waste, equipment/calibration/visibility remain open. L5 prerequisite now built. L7 uses the V2 school-approved prepared epithelial-slide alternative; specimen provenance/local controls remain teacher decisions. No learner swabs or staining are used in this draft. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
 | Windows review handoff | Complete twelve-lesson snapshot pushed | `outputs/review/CellStructure_Complete_Lessons1-12_v2_Review.zip`: 79,941,881 bytes; SHA-256 `27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24`. CRC, every manifest member and all twelve deck hashes verified. Review README has fresh-folder Windows extraction. Earlier snapshots preserved; no classroom release. |
 
 ## Known Issues and Lessons Learned
 
+- Food-test source tables can present expected colours as observed results and overstate the evidence of a single case graph. Keep blank results records, label the case provenance, state test limitations, and require teacher review of any adapted key. Source outcomes missing from the lesson sequence need owner resolution, not invented activities.
 - Copied Word tables can exceed the destination page width while text extraction still succeeds. Reflow inherited rubric widths, render the actual print document and inspect the final page; preserve criteria and scoring bands when repairing layout.
 - Timer graphics can cover board/seedling captions despite all objects being inside the slide canvas. Reserve a clear timer area in the shared layout and inspect rendered captions.
 
@@ -218,3 +221,17 @@ Still open:
 Still open:
 
 - Windows pull/extraction and the previously recorded native PowerPoint/Presenter View, font/resources, teacher/source-owner and practical-readiness checks before classroom release.
+
+## Updates - 2026-10-27 (Chemicals of Life review drafts)
+
+- The user requested all Grade 10 Biology 1.2 presentations in the 1.1 style, authorising these six drafts before the earlier pilot's external approval; no release or push was authorised. Startup verification passed the repository inventory (425 sources, three templates), confirmed `jhm-spark`, `main` and NVIDIA GB10. An existing untracked extracted Cell Structure review folder was identified; the user directed continuation and it was left untouched.
+- Built six individual 80-minute decks (20, 17, 19, 19, 19 and 17 slides; 111 total). Reused the phase colours, teacher-only slides, notes, footer and editable PowerPoint diagrams/tables. Used two generated contextual illustrations, with prompts and hashes in `assets/chemicals_of_life/provenance.json`. Source and per-deck changes are tracked in the manifest and build logs.
+- The six structural checks and selected reveal/sequence/hash checks passed. All 111 final slide renders and 12 printable pages were inspected and processed by CUDA on GB10; PowerPoint/DOCX assembly, PDF conversion/rasterisation, image encoding and package layout are CPU-only. Calibri is specified but local previews use Carlito; the separate notes runs were checked for Calibri. These checks do not establish external science, safety or teaching approval.
+- Added editable case/cards, blank practical records, role cards, an adapted five-part student assessment and teacher review notes. The local review archive has six PPTX, slide PDFs, support documents, logs and QA; CRC and all 51 manifest hashes verified. The adapted assessment requests actual observations and corrects unsupported assumptions; the source teacher key and rubric still need teacher adaptation.
+- Identified open source-owner questions: no clear vitamin C or catalase investigation in the six-lesson sequence despite relevant outcome/value statements; supplied case provenance is not independently established; incomplete element-card information; and the full assessment needs supervised time outside the allocated Lesson 6 writing segment. L5 pooled saliva is not endorsed, and all practical safety and equipment decisions remain local teacher decisions.
+
+Still open:
+
+- Native PowerPoint/Slide Show/Presenter View, exact Calibri, ARES, science, pedagogy, teacher and source-owner reviews before release; user comparison with 1.1 style.
+- Teacher-approved flame, reagents, concentrations, allergy, human-specimen, controls, equipment, waste and emergency plans. No fabricated results or unapproved replacement practicals.
+- Review the assessment and original marking guide/rubric against the actual approved practical route, and resolve the unit coverage gaps. New 1.2 review drafts are local and ignored by Git; cross-host transport requires an explicit authorised handoff.

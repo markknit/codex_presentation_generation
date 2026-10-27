@@ -1,0 +1,54 @@
+{
+  "deck": "outputs/drafts/chemicals_of_life/Bio_G10_ChemicalsOfLife_L6_Absorption_and_Regulation.pptx",
+  "sha256": "072a7776bea6a88b7a24ebfb432d275c663af1f46d630d7516b3c038cb2d7eaf",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 17,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.5,
+    0.0,
+    0.0,
+    0.5,
+    1.0,
+    3.0,
+    3.0,
+    10.0,
+    15.0,
+    5.0,
+    2.0,
+    10.0,
+    8.0,
+    8.0,
+    9.0,
+    3.0,
+    2.0
+  ],
+  "total_minutes": 80.0,
+  "formative_check_slides": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}
