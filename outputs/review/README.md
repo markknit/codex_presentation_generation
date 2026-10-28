@@ -1,4 +1,23 @@
-# Current review snapshot — complete Cell Structure version 2
+# Current review snapshot — Grade 10 Biology 1.2 Chemicals of Life
+
+`ChemicalsOfLife_Lessons1-6_Review.zip` contains six separate 80-minute PowerPoint review drafts (111 slides total), all-slide PDFs including hidden teacher slides, editable case and element cards, practical records, role cards, an adapted student assessment, teacher review notes, per-lesson build logs and QA reports. The user explicitly authorised committing and pushing this review output on 27 October 2026; this is transport for review, not approval for classroom release.
+
+Native PowerPoint/Presenter View, teacher and source-owner review, ARES access, practical safety and equipment decisions remain open. The source's vitamin C and living-tissue/catalase coverage requires owner clarification, and the five-part assessment needs supervised follow-up time. See the included README and build logs before use.
+
+Archive CRC, all 51 manifest member hashes and all six PPTX hashes against their passing structural reports were verified. Size: 7,052,980 bytes. SHA-256: `8ada1ebdb85aa080b12f115a98567e9515b3b334345dc08bf0c007f362587495`.
+
+From the Windows checkout, extract into a fresh folder:
+
+```powershell
+git pull --ff-only origin main
+Expand-Archive -Path ".\outputs\review\ChemicalsOfLife_Lessons1-6_Review.zip" -DestinationPath ".\outputs\drafts\ChemicalsOfLife_Review"
+```
+
+Previous snapshots are preserved below.
+
+---
+
+# Complete Cell Structure version 2 review snapshot
 
 `CellStructure_Complete_Lessons1-12_v2_Review.zip`
 
