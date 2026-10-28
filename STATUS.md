@@ -11,7 +11,7 @@ Last updated: 2026-10-27
 | Approved instructions | Done | General science manual selected. Cells-specific manual excluded. |
 | Visual references | Reviewed; new quality target applied | Original templates remain for theme/logos. User-selected `presentations2` L1/L2/L6 references (21/28/24 slides) were fully rendered and inspected on 2026-10-24. Style evidence and hashes: `qa/CellStructure_v2_sources.json`; reusable rules: `content/cellstructure_v2/DESIGN.md`. |
 | V2 source inventory | Done | 425 files total: 340 DOCX and 85 JSON across 85 units. |
-| GitHub repository | Complete handoff pushed and verified | Source commit `224f210` and snapshot commit `ef91839` pushed to `origin/main`. `git ls-remote origin refs/heads/main` matched local HEAD after the push; checkout clean. Complete twelve-deck review snapshot is tracked under `outputs/review`. |
+| GitHub repository | Review handoffs pushed and verified | On 2026-10-27, `git ls-remote origin refs/heads/main` matched local HEAD at `b1d5515` before this continuity update. Cell Structure and Chemicals of Life review snapshots are tracked under `outputs/review`. The previously identified extracted Cell Structure folder is untracked and intentionally untouched. |
 | `jhm-spark` connection | Done | Live `hostname` returned `jhm-spark`; Codex commands run locally against `/home/markk/codex_presentation_generation`. Saving this checkout as a Codex project remains unverified. |
 | GPU raster processing | Verified | CUDA sm_121 on NVIDIA GB10 processed all 166 new slide previews, two new published-image assets, 28 print pages and two corrected rubric pages; prior 110 slides/four art assets retain previous evidence. CPU-only assembly/conversion/rasterisation/encoding/layout/ZIP operations are disclosed. No semantic GPU or local inference approval claimed. |
 | Python authoring environment | Done | `.venv` contains the pinned `requirements.txt` packages; `pip check` passed and all three templates plus the manual loaded successfully. Activate the environment before running authoring tools. |
@@ -23,7 +23,7 @@ Last updated: 2026-10-27
 | Chemicals of Life source coverage and practicals | Source-owner and teacher decisions open | The sequence does not clearly supply the stated vitamin C and living-tissue/catalase investigations. L2 flame, L3–4 reagents/allergens and L5 human saliva, controls, reagents and waste require local approval. Case provenance and source assumptions need review; original key/rubric require adaptation to actual results. The five-part assessment needs follow-up time. |
 | Biology practical readiness | Teacher safety/equipment review open | L6 stain/product/SDS, local risk/PPE/waste, equipment/calibration/visibility remain open. L5 prerequisite now built. L7 uses the V2 school-approved prepared epithelial-slide alternative; specimen provenance/local controls remain teacher decisions. No learner swabs or staining are used in this draft. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
-| Windows review handoff | Complete twelve-lesson snapshot pushed | `outputs/review/CellStructure_Complete_Lessons1-12_v2_Review.zip`: 79,941,881 bytes; SHA-256 `27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24`. CRC, every manifest member and all twelve deck hashes verified. Review README has fresh-folder Windows extraction. Earlier snapshots preserved; no classroom release. |
+| Windows review handoff | Both unit snapshots pushed; review pending | Cell Structure's twelve-lesson review ZIP and Chemicals of Life's six-lesson review ZIP are tracked under `outputs/review`; see that folder's README for checksums and fresh-folder Windows extraction. Native PowerPoint/Presenter View and teacher reviews remain open; neither snapshot is a classroom release. |
 
 ## Known Issues and Lessons Learned
 
@@ -245,3 +245,12 @@ Still open:
 Still open:
 
 - Pull on the review host and extract to a fresh folder. Review and approval gates for classroom release remain unchanged.
+
+## Updates - 2026-10-27 (Continuity update)
+
+- Re-read the active status, checked Git status, diff and recent commits, and rechecked the Chemicals of Life review ZIP SHA-256: `8ada1ebdb85aa080b12f115a98567e9515b3b334345dc08bf0c007f362587495`. `git ls-remote origin refs/heads/main` matched local `b1d5515` before this update; no tracked changes were pending.
+- Refreshed the GitHub and Windows handoff rows to include both units. The previously identified extracted Cell Structure review folder remains untracked and untouched. No new decks, approvals, or source decisions were recorded during this checkpoint.
+
+Still open:
+
+- Extract the review snapshots on the review host and complete native PowerPoint/Presenter View, teacher/source-owner, practical-safety, ARES and other recorded release checks. Resolve the Chemicals of Life source-coverage and assessment decisions; Mathematics guidance remains blocked.
