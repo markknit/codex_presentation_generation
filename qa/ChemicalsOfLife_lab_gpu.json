@@ -1,0 +1,20 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "assets/chemicals_of_life/laboratory.png",
+      "preview": "qa/renders/chemicals_of_life_lab_asset/laboratory_preview.png",
+      "width": 1536,
+      "height": 1024,
+      "nonwhite_fraction": 0.9845905303955078,
+      "dark_fraction": 0.5481344858805338,
+      "sha256": "70c625103b4960f2b458b2d976ed952b2acaf8d15e55e2623fdc69be56855da1"
+    }
+  ]
+}

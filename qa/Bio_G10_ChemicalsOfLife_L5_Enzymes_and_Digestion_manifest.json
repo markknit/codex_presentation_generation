@@ -1,0 +1,141 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/chemicals_of_life/Bio_G10_ChemicalsOfLife_L5_Enzymes_and_Digestion.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 5 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Where are we in the investigation?",
+      "phase": "Unit map",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Predict the investigation",
+      "phase": "Predict",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Compare and record predictions",
+      "phase": "Predict",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Safety \u00b7 before the investigation",
+      "phase": "Safety",
+      "minutes": 0.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Set up the comparison",
+      "phase": "Observe",
+      "minutes": 7.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Record iodine observations",
+      "phase": "Observe",
+      "minutes": 12.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Test for reducing sugar",
+      "phase": "Observe",
+      "minutes": 7.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Compare temperature evidence",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Explain the evidence",
+      "phase": "Explain",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "From starch to smaller sugars",
+      "phase": "Explain",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Temperature, water and minerals",
+      "phase": "Explain",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Water and minerals have roles",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Update the Driving Question Board",
+      "phase": "Driving Question Board",
+      "minutes": 10.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Revise the digestion box",
+      "phase": "Model Building",
+      "minutes": 6.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Summary Table \u00b7 Lesson 5",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 80.0,
+  "sha256": "721d8f85942191fd04b19d2caac287ccc0d0348076dab6ed2fb6204c3d0b0947",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

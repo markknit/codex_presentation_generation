@@ -1,0 +1,56 @@
+{
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED",
+  "sources": [
+    {
+      "path": "inputs/v2/Biology/SS1.2_Chemicals_of_Life/Biology_Chemicals_of_Life_CBE_LessonSequence.docx",
+      "sha256": "dc675780293594e41fa9067f387b86ecbaeec694c43821108c8fbd4b76355d04"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.2_Chemicals_of_Life/Biology_Chemicals_of_Life_FinalExplanation.docx",
+      "sha256": "9f6abce66145a63549a3cccbb37f46654673a5d433005b903e7519816c599c65"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.2_Chemicals_of_Life/Biology_Chemicals_of_Life_FinalExplanation_TeacherKey.docx",
+      "sha256": "e66aee3aee5eafb7fd6d79a83f141f293b953e9815f03f16f883e81fe8c7e682"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.2_Chemicals_of_Life/Biology_Chemicals_of_Life_SummaryTable.docx",
+      "sha256": "68ea2a467741c1a2de6d11c441501a9c4d5fb1ba7d6aafd3c98d51d9b60b9237"
+    },
+    {
+      "path": "inputs/v2/Biology/SS1.2_Chemicals_of_Life/Biology_Chemicals_of_Life_data.json",
+      "sha256": "03e80eaca1fc5b0702c82af8cb6ad57e3c5c9e5e64bd87ef066ad0363cf1e2fb"
+    },
+    {
+      "path": "references/templates/Bio_G10_CellStructure_L1_The_Healing_Cut.pptx",
+      "sha256": "27a7395b5668dc0519ba20c57f85cdd8b2feefefd82224b7548039b35d800899"
+    },
+    {
+      "path": "references/templates/Bio_G10_CellStructure_L2_What_Is_a_Cell.pptx",
+      "sha256": "cc3cc509d7c870922f64671507d656d09e76445c48c694b19ad93a6ad4703806"
+    },
+    {
+      "path": "references/templates/Bio_G10_CellStructure_L6_Onion_Cells_Practical.pptx",
+      "sha256": "aad5554950c3421e0f400128364592c16aa135402fa5af37ff34b89459b56ec0"
+    },
+    {
+      "path": "references/instructions/SeaVuria_Science_Lesson_PPT_Build_Manual.docx",
+      "sha256": "0c082ad4947fb7e89b8dddcf400bf62ec687624c9ded639d556118f91b70da51"
+    },
+    {
+      "path": "content/cellstructure_v2/DESIGN.md",
+      "sha256": "99d5d5eb47d645cbdb5393c2127d3084e8cab25ad475c9b707a0229b4866d346"
+    }
+  ],
+  "unit": "Biology Grade 10 \u00b7 Chemicals of Life \u00b7 source sub-strand 1.2",
+  "lessons": 6,
+  "scheduled_minutes": 480,
+  "pending": [
+    "Science and source-owner review",
+    "Native PowerPoint, Slide Show and Presenter View",
+    "Teacher approval",
+    "Practical safety and equipment decisions",
+    "ARES content and offline access",
+    "Calibri fidelity"
+  ]
+}

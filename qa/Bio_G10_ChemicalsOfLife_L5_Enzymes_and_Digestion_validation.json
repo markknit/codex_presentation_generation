@@ -1,0 +1,57 @@
+{
+  "deck": "outputs/drafts/chemicals_of_life/Bio_G10_ChemicalsOfLife_L5_Enzymes_and_Digestion.pptx",
+  "sha256": "721d8f85942191fd04b19d2caac287ccc0d0348076dab6ed2fb6204c3d0b0947",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 19,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.5,
+    0.0,
+    0.0,
+    0.5,
+    1.0,
+    4.0,
+    4.0,
+    0.0,
+    7.0,
+    12.0,
+    7.0,
+    4.0,
+    8.0,
+    6.0,
+    4.0,
+    2.0,
+    10.0,
+    6.0,
+    4.0
+  ],
+  "total_minutes": 80.0,
+  "formative_check_slides": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}

@@ -1,0 +1,20 @@
+{
+  "method": "OpenAI built-in image generation; model, seed and device not exposed",
+  "purpose": "context illustrations, not observational evidence",
+  "assets": [
+    {
+      "path": "assets/chemicals_of_life/meal.png",
+      "sha256": "9d254ef137c36c9193d9fdf8ad08e21be4ed157b2f704fd875b5d26dfad0a750",
+      "prompt": "Use case: illustration-story. Asset type: contextual image for Kenyan Grade 10 Biology classroom slides. Create a warm, polished, editorial digital illustration in a clean educational style: a Kenyan lunch on a simple table, a plate with ugali, cooked beans and sukuma wiki, viewed in three-quarter perspective in a Nairobi home. Inviting warm light, natural proportions, uncluttered background, coherent palette of teal, navy and warm ochre. No people, no text, no numerals, no labels, no chart. Depict context only, not a scientific observation.",
+      "gpu_preview": "meal_gpu_preview.png",
+      "gpu_preview_sha256": "ba0579fcf98e64c143af3e9510161b7b0949d4b7ce11ab53030ced4dfca4ab1e"
+    },
+    {
+      "path": "assets/chemicals_of_life/laboratory.png",
+      "sha256": "36c84af5849fe904e725e4cf3fc7bab0efe724f98ec85b36c343d2a890b05c9b",
+      "prompt": "Use case: illustration-story. Asset type: contextual illustration on Grade 10 Kenyan Biology classroom presentation title slides. A welcoming school science laboratory table with a few clean empty test tubes in a rack, notebook, glass dropper and small samples of maize flour, beans and groundnuts in separate dishes. Warm natural light, clean polished editorial educational illustration, teal, ochre and navy accents, no people. No chemicals in use, no flames, no simulated test results, no writing, text or labels, no numbers. Context only, not scientific evidence.",
+      "gpu_preview": "laboratory_gpu_preview.png",
+      "gpu_preview_sha256": "5521a5a7f7ae659ec4ca5603f81765b874ceee05f3990c429c3ccf9b65fb1fe3"
+    }
+  ]
+}
