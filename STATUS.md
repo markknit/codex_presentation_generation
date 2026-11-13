@@ -1,6 +1,6 @@
 # Project status
 
-Last updated: 2026-10-27
+Last updated: 2026-11-13
 
 ## Active Threads
 
@@ -11,8 +11,8 @@ Last updated: 2026-10-27
 | Approved instructions | Done | General science manual selected. Cells-specific manual excluded. |
 | Visual references | Reviewed; new quality target applied | Original templates remain for theme/logos. User-selected `presentations2` L1/L2/L6 references (21/28/24 slides) were fully rendered and inspected on 2026-10-24. Style evidence and hashes: `qa/CellStructure_v2_sources.json`; reusable rules: `content/cellstructure_v2/DESIGN.md`. |
 | V2 source inventory | Done | 425 files total: 340 DOCX and 85 JSON across 85 units. |
-| GitHub repository | Review handoffs pushed; Windows merge resolved locally | Cell Structure and Chemicals of Life review snapshots are tracked under `outputs/review`. On 2026-10-27, Windows previously fetched `0726095`; the `jhm-spark` continuity update recorded `origin/main` matching `b1d5515`. Windows uses HTTPS; `jhm-spark` previously used SSH. The extracted Cell Structure review folder remains untracked. |
-| `jhm-spark` connection | Previously verified | `hostname` returned `jhm-spark` and Codex commands ran locally against `/home/markk/codex_presentation_generation` in prior sessions, including the Chemicals of Life work. The connection was not rechecked from Windows on 2026-10-27; saving that checkout as a Codex project remains unverified. |
+| GitHub repository | Review handoffs pushed; merged checkout verified | On 2026-11-13, SSH fetch succeeded on `jhm-spark`; `main` and `origin/main` matched `5aaf454` before this continuity update. Both review snapshots remain tracked. The extracted Cell Structure review folder remains untracked and untouched. |
+| `jhm-spark` connection | Verified 2026-11-13 | `hostname` returned `jhm-spark`; Step 0 environment and repository checks passed at `/home/markk/codex_presentation_generation` on `main`. Saved Codex project registration remains unverified. |
 | GPU raster processing | Verified | CUDA sm_121 on NVIDIA GB10 processed all 166 new slide previews, two new published-image assets, 28 print pages and two corrected rubric pages; prior 110 slides/four art assets retain previous evidence. CPU-only assembly/conversion/rasterisation/encoding/layout/ZIP operations are disclosed. No semantic GPU or local inference approval claimed. |
 | Python authoring environment | Host-specific | On `jhm-spark`, `.venv` was built with pinned requirements and `pip check`, templates and manual loading passed previously. On Windows, `python`, `python3` and `py` were unavailable on PATH on 2026-10-27; the Python Step 0 checks could not run there. |
 | Science pilot design | Revised drafts; user review pending | User found the earlier samples technically correct but visually/pedagogically weak. New version 2 has original contextual art, editable science visuals and smaller explanation steps. No teacher or classroom approval is implied by the technical feedback. |
@@ -23,6 +23,7 @@ Last updated: 2026-10-27
 | Chemicals of Life source coverage and practicals | Source-owner and teacher decisions open | The sequence does not clearly supply the stated vitamin C and living-tissue/catalase investigations. L2 flame, L3–4 reagents/allergens and L5 human saliva, controls, reagents and waste require local approval. Case provenance and source assumptions need review; original key/rubric require adaptation to actual results. The five-part assessment needs follow-up time. |
 | Biology practical readiness | Teacher safety/equipment review open | L6 stain/product/SDS, local risk/PPE/waste, equipment/calibration/visibility remain open. L5 prerequisite now built. L7 uses the V2 school-approved prepared epithelial-slide alternative; specimen provenance/local controls remain teacher decisions. No learner swabs or staining are used in this draft. |
 | Mathematics decks | Blocked | The approved science manual states that Mathematics has separate guidance. Add and approve the Mathematics manual before generation. |
+| Generation continuation | Awaiting unit selection | On 2026-11-13 the user requested resuming generation. Previously selected Biology 1.1 and 1.2 drafts are already built. Asked which unit to generate next; Biology 1.3 Cell Biology is next in source order. No new generation or approval is recorded. |
 | Windows review handoff | Both unit snapshots tracked; review pending | Cell Structure's twelve-lesson and Chemicals of Life's six-lesson review ZIPs are tracked under `outputs/review`; see its README for checksums and fresh-folder extraction. On 2026-10-27 the Cell Structure ZIP SHA-256 matched `27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24`, and all 12 extracted PPTX hashes matched the included manifest. That extracted folder is untracked and must be preserved. Archive CRC and all manifest members were verified previously. Native PowerPoint/Presenter View and teacher reviews remain open; neither snapshot is a classroom release. |
 
 ## Known Issues and Lessons Learned
@@ -271,3 +272,15 @@ Still open:
 
 - Reconciled Windows continuity observations with the incoming Chemicals of Life handoff and review updates. Preserved the existing untracked Cell Structure extraction and the staged incoming files. The review and release gates remain open.
 - Windows Step 0 Git checks and fetch ran; `python`, `python3` and `py` were unavailable on PATH, so the Python environment and repository validation scripts remain outstanding on this host. No active handoff document was found.
+
+## Updates - 2026-11-13 (Generation restart checkpoint)
+
+- Used the repository restart skill and re-read the controls, complete approved science manual and reusable v2 design guidance. No active handoff was found. High rigor and all existing review gates remain in force.
+- Confirmed `jhm-spark`, `main`, successful SSH fetch and `HEAD`/`origin/main` at `5aaf454` before this update. No tracked edits were pending; the known untracked Cell Structure review extraction was preserved.
+- Both Step 0 Python checks passed: 425 V2 files (340 DOCX, 85 JSON) and three PPTX templates. NVIDIA GB10 detection reports driver 580.178.04 and compute capability 12.1. This session has not yet executed a CUDA processing job; PyTorch remains absent from system Python.
+- The user's resume request does not identify a new unit, and the saved state contains no unfinished generation batch. Asked for unit selection, suggesting Biology 1.3 Cell Biology as the next source unit. No decks were generated, altered, approved, released or pushed.
+
+Still open:
+
+- Identify the next unit, then read its full sources and inspect the reference decks before authoring. Reverify actual GPU execution for supported processing stages.
+- Native PowerPoint/Presenter View, teacher/source-owner, practical-readiness, ARES and font checks remain open for existing drafts. Mathematics remains blocked pending approved guidance.
