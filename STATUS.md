@@ -1,6 +1,6 @@
 # Project status
 
-Last updated: 2026-11-13
+Last updated: 2026-11-16 17:48 UTC
 
 ## Active Threads
 
@@ -11,6 +11,7 @@ Last updated: 2026-11-13
 | Approved instructions | Done | General science manual selected. Cells-specific manual excluded. |
 | Visual references | Reviewed; new quality target applied | Original templates remain for theme/logos. User-selected `presentations2` L1/L2/L6 references (21/28/24 slides) were fully rendered and inspected on 2026-10-24. Style evidence and hashes: `qa/CellStructure_v2_sources.json`; reusable rules: `content/cellstructure_v2/DESIGN.md`. |
 | V2 source inventory | Done | 425 files total: 340 DOCX and 85 JSON across 85 units. |
+| Completed curriculum output shortcut | Created and verified | `final_curriculum_outputs` is an absolute local symlink to `/home/markk/ares/cbe-generation-system/data/curriculum_expansion_2026-11`; final index, Word/JSON tree and PDF tree are accessible. Provides access to the newly completed curriculum collection; existing presentation source authority and approval gates remain in force. |
 | GitHub repository | Review handoffs pushed; merged checkout verified | On 2026-11-13, SSH fetch succeeded on `jhm-spark`; `main` and `origin/main` matched `5aaf454` before this continuity update. Both review snapshots remain tracked. The extracted Cell Structure review folder remains untracked and untouched. |
 | `jhm-spark` connection | Verified 2026-11-13 | `hostname` returned `jhm-spark`; Step 0 environment and repository checks passed at `/home/markk/codex_presentation_generation` on `main`. Saved Codex project registration remains unverified. |
 | GPU raster processing | Verified | CUDA sm_121 on NVIDIA GB10 processed all 166 new slide previews, two new published-image assets, 28 print pages and two corrected rubric pages; prior 110 slides/four art assets retain previous evidence. CPU-only assembly/conversion/rasterisation/encoding/layout/ZIP operations are disclosed. No semantic GPU or local inference approval claimed. |
@@ -284,3 +285,13 @@ Still open:
 
 - Identify the next unit, then read its full sources and inspect the reference decks before authoring. Reverify actual GPU execution for supported processing stages.
 - Native PowerPoint/Presenter View, teacher/source-owner, practical-readiness, ARES and font checks remain open for existing drafts. Mathematics remains blocked pending approved guidance.
+
+## Updates - 2026-11-16 (Curriculum output symlink)
+
+- At 2026-11-16 17:48 UTC, created the user-requested repository-root symlink `final_curriculum_outputs` pointing to `/home/markk/ares/cbe-generation-system/data/curriculum_expansion_2026-11`. Verified the link resolves to that exact directory and provides access to `FINAL_CURRICULUM_STATUS.md`, `FINAL_DELIVERY_INDEX.json`, `outputs/v2` (Word/JSON) and `outputs/PDF`. The final index identifies the current reviewed ZIPs and the separate frozen pilot. No curriculum files were copied or changed.
+- Applied the repository restart/update workflow. Fresh fetch succeeded; initial `main` was at `396ca5c`, one local commit ahead of `origin/main`. Environment check detected NVIDIA GB10; repository validation passed425V2sourcefiles and3templates. This filesystem/link operation ran on CPU; no generation or GPU processing was performed. High rigor and all existing deck review gates remain in force. The pre-existing untracked Cell Structure extracted review folder was preserved.
+- The symlink and this continuity record are committed locally. The absolute path is specific to this system; no push, deck generation, source promotion or release was performed.
+
+Still open:
+
+- Existing teacher/source-owner, practical-readiness, native PowerPoint/Presenter View, ARES and font checks; Mathematics guidance remains outstanding. The linked curriculum collection does not itself approve presentation generation or classroom release.
