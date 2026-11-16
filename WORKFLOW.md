@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | Windows workstation | `C:\Users\MRKni\OneDrive\codex_presentation_generation`, branch `main` | Repository assembly, review, and GitHub administration | Verified 2026-10-27: HTTPS `origin`, complete review ZIP and extracted twelve-deck folder present; Python commands unavailable on PATH. |
 | GitHub | `markknit/codex_presentation_generation` | Shared source of truth and transport between hosts | Windows HTTPS fetch verified 2026-10-27; `jhm-spark` SSH access was verified on 2026-10-23. Remote URLs are checkout-specific; check `git remote -v` on the active host. |
-| `jhm-spark` | `/home/markk/codex_presentation_generation`, branch `main` | Primary generation and GPU-accelerated work | Verified 2026-11-13: hostname, SSH fetch and both Python Step 0 checks passed; NVIDIA GB10 detected. Prior CUDA raster-QA evidence remains recorded; no new CUDA job ran during this checkpoint. Native PowerPoint/teacher pilot review and saved Codex project registration remain open. |
+| `jhm-spark` | `/home/markk/codex_presentation_generation`, branch `main` | Primary generation and GPU-accelerated work | Verified 2026-11-16: SSH fetch and both Python Step 0 checks passed; NVIDIA GB10 executed CUDA raster processing for all 36 Mathematics slide renders and 25 print pages. Native PowerPoint/teacher pilot review and saved Codex project registration remain open. |
 
 The repository and current branch are authoritative. OneDrive is not the transport mechanism to `jhm-spark`; GitHub is.
 
@@ -154,3 +154,23 @@ On 2026-10-27 the complete ZIP and an extracted review folder were found in `out
 The user requested the six Grade 10 Biology 1.2 presentations in the 1.1 style. This authorises the six review drafts before external pilot sign-off; it does not approve classroom release. The user subsequently authorised a GitHub review handoff on 27 October 2026. The tracked snapshot is `outputs/review/ChemicalsOfLife_Lessons1-6_Review.zip`; its checksum and fresh-folder extraction instructions are in `outputs/review/README.md`. The local working package is `outputs/drafts/ChemicalsOfLife_Lessons1-6_Review.zip`. Source hashes, checks and per-lesson logs are in `qa/` and `build_logs/`; `content/chemicals_of_life/README.md` explains open review decisions. Working drafts and renders remain ignored by Git.
 
 Use `scripts/build_chemicals_of_life.py`, `scripts/render_chemicals_of_life.py`, `scripts/log_chemicals_of_life.py`, `scripts/check_chemicals_of_life.py` and `scripts/package_chemicals_of_life.py`. The supplied sequence requires source-owner decisions on missing vitamin C and living-tissue/catalase coverage, and the Lesson 5 human-saliva route requires a teacher/school biosafety decision. Do not invent results or a replacement practical. The final five-part assessment requires supervised follow-up time and review of the adapted paper, original key and rubric.
+
+## Approved Mathematics review pilots, 2026-11-16
+
+The user approved `content/curriculum_pilots_2026-11/MATHEMATICS_PILOT_GUIDANCE.md`
+and instructed proceeding with the two Lesson 1 drafts: Essential Mathematics
+1.1 Real Numbers and Core Mathematics 1.1 Real Numbers. This is scoped pilot
+guidance; the science manual is not Mathematics pedagogy authority. Wider
+Mathematics generation still needs appropriately scoped guidance and pilot gates.
+
+Use the current reviewed November curriculum through `final_curriculum_outputs`.
+`scripts/build_math_pilots.py` builds one lesson at a time; the render/check/package
+commands are in `content/curriculum_pilots_2026-11/README.md`. Read the whole
+source unit before authoring, preserve RN1/CRN1 and exact 40-minute phase timings,
+and verify actual source hashes against the current delivery archives.
+
+Both drafts and local review ZIP are under `outputs/drafts/curriculum_pilots_2026-11`.
+They remain ignored working files. Track code, approved guidance, logs and QA;
+any tracked handoff snapshot or push needs its own authorisation. Native
+PowerPoint/Presenter View, teacher/source-owner, pacing, font and ARES checks
+remain open. No Mathematics module batching or classroom release is implied.

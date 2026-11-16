@@ -6,7 +6,7 @@ from pptx import Presentation
 ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser();p.add_argument('deck',type=Path);p.add_argument('--minutes',type=float,required=True);a=p.parse_args()
 d=Presentation(a.deck);errors=[];times=[];hidden=[];checks=[]
-order=['PURPOSE OF THIS LESSON','BEFORE CLASS','DO','SAY','WAIT TIME','LOOK FOR','IF…','WHY THIS WORKS','ANSWER KEY','SCIENCE NOTE FOR YOU','TEACHER REFLECTION']
+order=['PURPOSE OF THIS LESSON','BEFORE CLASS','DO','SAY','WAIT TIME','LOOK FOR','IF…','WHY THIS WORKS','ANSWER KEY','SCIENCE NOTE FOR YOU','MATHEMATICS NOTE FOR YOU','TEACHER REFLECTION']
 for i,s in enumerate(d.slides,1):
     n=s.notes_slide.notes_text_frame.text if s.notes_slide.notes_text_frame else ''
     if not n:errors.append(f'slide {i}: missing notes')

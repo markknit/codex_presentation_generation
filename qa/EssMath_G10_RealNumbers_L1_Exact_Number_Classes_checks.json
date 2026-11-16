@@ -1,0 +1,36 @@
+{
+  "deck": "outputs/drafts/curriculum_pilots_2026-11/EssMath_G10_RealNumbers_L1_Exact_Number_Classes.pptx",
+  "sha256": "151b7ba77031099f85348f867685de54f873813cf3d0b90277d89b4308658359",
+  "slides": 19,
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "pdf_text_retention": "PASS \u2014 every slide, including hidden pages and table cells",
+  "notes_fonts_and_two_logos": "PASS",
+  "source_current_archive_match": [
+    "Codex_Essential_Mathematics_Real_Numbers_AssessmentMaterials.docx",
+    "Codex_Essential_Mathematics_Real_Numbers_CBE_LessonSequence.docx",
+    "Codex_Essential_Mathematics_Real_Numbers_CompactTeacherGuide.docx",
+    "Codex_Essential_Mathematics_Real_Numbers_FinalExplanation.docx",
+    "Codex_Essential_Mathematics_Real_Numbers_FinalExplanation_TeacherKey.docx",
+    "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+    "Codex_Essential_Mathematics_Real_Numbers_StudentMaterials.docx",
+    "Codex_Essential_Mathematics_Real_Numbers_StudentSummaryTable.docx",
+    "Codex_Essential_Mathematics_Real_Numbers_SummaryTable.docx",
+    "Codex_Essential_Mathematics_Real_Numbers_data.json"
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "release_status": "REVIEW DRAFT \u2014 approval gates open",
+  "pending": [
+    "Native PowerPoint / Slide Show / Presenter View",
+    "Teacher and source-owner acceptance",
+    "Real-class pacing",
+    "Exact Calibri",
+    "ARES search/offline preview"
+  ]
+}

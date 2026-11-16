@@ -1,0 +1,165 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.9777835615872426,
+      "dark_fraction": 0.8930524054450435,
+      "sha256": "99966f74ee2ea6e4981057f6cd9e0dfb1a974c1850b08152d41a4e2563bed695"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13235752205077359,
+      "dark_fraction": 0.1160884922848113,
+      "sha256": "00df19c5b5b6619083ce2477bccc540be3294bb554dc455ad465fc7db2b55182"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.12058333849744893,
+      "dark_fraction": 0.10357728615397327,
+      "sha256": "6030c350b2a36350de3a15fda48b3aeb665b217707eac7777125768dddb71464"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1784726611720477,
+      "dark_fraction": 0.15728326206853815,
+      "sha256": "2c9fdcd857c7237a55e03c466669d4f6f4bea03c8291dfe086ac5e2efea19523"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.17273264340749003,
+      "dark_fraction": 0.042539918613538244,
+      "sha256": "d27af6e54d1315e4554fea1e0b15d4950c5c33856c7809f6c889039fd4ef5eca"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1796484270103902,
+      "dark_fraction": 0.043743777240709755,
+      "sha256": "12357c8e4aed984a07db980330e3573905bdeb090738fae49d77bf5c0ce083e1"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.043402532482287086,
+      "dark_fraction": 0.03395013529982855,
+      "sha256": "3734ad0940fe949f711564fc3e654808d018bc571406aef1d522eeb40ab3c930"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.24716779244386605,
+      "dark_fraction": 0.04807502427134329,
+      "sha256": "2d68d40d6dac2eb4f736f199a71e94e161a2310c89392ea40414c61c3a852223"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06256098820515998,
+      "dark_fraction": 0.050975191588688525,
+      "sha256": "ffa4ab857904dc2a222d125ab5b8a2f1e295eaa0cbc70074606de349a9f31a76"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16738922972051806,
+      "dark_fraction": 0.031234223626861665,
+      "sha256": "88e6d81743b8992e68404b0604a363c5dfb659e1dc1ba3f6d97698a877286bf5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16980603581830575,
+      "dark_fraction": 0.03504079651318915,
+      "sha256": "9858c19e0dc17c8c8f55343871bfbe490b6e05e9f629a3688782514f85f08815"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.4392117493957985,
+      "dark_fraction": 0.0537051496560699,
+      "sha256": "33641ff2009f9f022d7617169c113a51291068eba0f71130071ce34842a3ffbb"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13602610976844107,
+      "dark_fraction": 0.12521947491272645,
+      "sha256": "eb5928a8fa3f0f370b8904f78d6d7f1cbfc191f229493135388b1c982068f9e6"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06852740079733945,
+      "dark_fraction": 0.05633513044555989,
+      "sha256": "026b16c466a5ba7a098b189dbfc10c117dea0730287cf307827fd839e069c450"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.29989713081737623,
+      "dark_fraction": 0.051833674164962505,
+      "sha256": "8b0049ab7fb8fd2e22f69760846b0c07b5d448feb15cb20851b203f15dbcbfad"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05336720993162711,
+      "dark_fraction": 0.04340666377476193,
+      "sha256": "daf9c29618b6204219a09b0318701415802d34cfd6bee7b6c0a01de4e2d20c78"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.054980066513808844,
+      "dark_fraction": 0.04261428187808556,
+      "sha256": "e9ca52fd81c7f503cc044a95fe0754a201f4a6df4608c9a56ba4e04b2f056d8d"
+    }
+  ],
+  "deck_sha256": "346a4461b17c86bc19829703437be5daa12a4b316a53a2de87ec9a5e6395d965"
+}

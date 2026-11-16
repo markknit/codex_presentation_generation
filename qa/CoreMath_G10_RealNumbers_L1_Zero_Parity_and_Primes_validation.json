@@ -1,0 +1,54 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes.pptx",
+  "sha256": "346a4461b17c86bc19829703437be5daa12a4b316a53a2de87ec9a5e6395d965",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 17,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.25,
+    0.0,
+    0.0,
+    0.25,
+    0.5,
+    2.0,
+    1.0,
+    8.0,
+    6.0,
+    3.0,
+    2.0,
+    3.0,
+    2.0,
+    4.0,
+    4.0,
+    3.0,
+    1.0
+  ],
+  "total_minutes": 40.0,
+  "formative_check_slides": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}

@@ -1,0 +1,34 @@
+{
+  "sources": {
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_AssessmentMaterials.docx": "04fe03d703836c151cd3dba3649eafbc9e67afb9c2afef90c2e94435aa19af04",
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_CBE_LessonSequence.docx": "fd25b1a604e02f959c87c5ab48992ce6d2bd2bca54da63ba2758924947dc355a",
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_CompactTeacherGuide.docx": "1005f1c692081c5ee0474b48b03ec9f2e95bb530c325edc69e3315077484b9fd",
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_FinalExplanation.docx": "11affae16d78aeb5d9487d8e2853fa553dde2e1d668b45b26ee0d9e0bb1ebbe1",
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_FinalExplanation_TeacherKey.docx": "f53c7d5c629c65abe9146265e6de79ab4b4cd64e1987450a16d10bc38ec9a302",
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx": "c9bd18b473dd25c21b27fd6ac2c6aac3b51910b0f434f92e601784cecd2fb712",
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_StudentMaterials.docx": "0d54285ecc54202ab95799ed46449e3d57d54d55c81d50934c24481c63d2196b",
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_StudentSummaryTable.docx": "e613b95657a256991c3c31176b8e2ae76a4044ce433bc301832e5d408f25b8c9",
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_SummaryTable.docx": "597082043c5c20c74ada0cdc7fcb6abb98f182fba6261807ccedf1f70b9dff53",
+    "final_curriculum_outputs/outputs/v2/Essential_Mathematics/SS1.1_Real_Numbers/Codex_Essential_Mathematics_Real_Numbers_data.json": "a357fa3d3ecbe3ff66057e02525d53a2c0527d5ebd59de9065a938a4372fd77a"
+  },
+  "source_status": "User-selected reviewed November curriculum; classroom acceptance pending",
+  "lesson": 1,
+  "unit_lessons_read": 8,
+  "student_card": [
+    "RN1 — Exactly which numbers are rational?",
+    "Classify these exact numbers as rational or irrational and justify: −3;0;2/5;0.125;0.333… with 3 repeating forever;√9;√2;π. State whether each is also an integer. Give a fraction for every rational number and explain why a finite calculator display alone cannot classify an exact number. Diagnostic: evaluate −4+7 and 3/4+1/2. Integers include negative whole numbers, zero and positive whole numbers."
+  ],
+  "teacher_key": [
+    "RN1 — Exactly which numbers are rational?",
+    "Classify these exact numbers as rational or irrational and justify: −3;0;2/5;0.125;0.333… with 3 repeating forever;√9;√2;π. State whether each is also an integer. Give a fraction for every rational number and explain why a finite calculator display alone cannot classify an exact number. Diagnostic: evaluate −4+7 and 3/4+1/2. Integers include negative whole numbers, zero and positive whole numbers.",
+    "Teacher key and preparation",
+    "Rational:−3=−3/1,0=0/1,2/5,0.125=1/8,0.333…=1/3,√9=3=3/1. Integer members:−3,0,√9. Irrational:√2 andπ. A rational number is expressible as a/b for integers a,b with b≠0. Irrational real numbers cannot be expressed that way. A terminating or eventually repeating decimal is rational. A rounded display is an approximation, not an exact expansion. Diagnostic answers 3 and 5/4. Do not classify every radical as irrational."
+  ],
+  "source_authority": "New symlink collection explicitly selected by user on 2026-11-16; no changes to upstream artifacts.",
+  "approved_guidance": {
+    "path": "content/curriculum_pilots_2026-11/MATHEMATICS_PILOT_GUIDANCE.md",
+    "sha256": "d39dc4e285b3e6698b0a9d57e6702d6600dc2034313e6a51536f743f575c926b",
+    "approval": "User approved the proposal and instructed proceeding, 2026-11-16",
+    "scope": "Lesson 1 only; no wider Mathematics generation or release"
+  }
+}

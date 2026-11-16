@@ -1,0 +1,36 @@
+{
+  "deck": "outputs/drafts/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes.pptx",
+  "sha256": "346a4461b17c86bc19829703437be5daa12a4b316a53a2de87ec9a5e6395d965",
+  "slides": 17,
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 14.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 8.0
+  },
+  "pdf_text_retention": "PASS \u2014 every slide, including hidden pages and table cells",
+  "notes_fonts_and_two_logos": "PASS",
+  "source_current_archive_match": [
+    "Codex_Core_Mathematics_Real_Numbers_AssessmentMaterials.docx",
+    "Codex_Core_Mathematics_Real_Numbers_CBE_LessonSequence.docx",
+    "Codex_Core_Mathematics_Real_Numbers_CompactTeacherGuide.docx",
+    "Codex_Core_Mathematics_Real_Numbers_FinalExplanation.docx",
+    "Codex_Core_Mathematics_Real_Numbers_FinalExplanation_TeacherKey.docx",
+    "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+    "Codex_Core_Mathematics_Real_Numbers_StudentMaterials.docx",
+    "Codex_Core_Mathematics_Real_Numbers_StudentSummaryTable.docx",
+    "Codex_Core_Mathematics_Real_Numbers_SummaryTable.docx",
+    "Codex_Core_Mathematics_Real_Numbers_data.json"
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "release_status": "REVIEW DRAFT \u2014 approval gates open",
+  "pending": [
+    "Native PowerPoint / Slide Show / Presenter View",
+    "Teacher and source-owner acceptance",
+    "Real-class pacing",
+    "Exact Calibri",
+    "ARES search/offline preview"
+  ]
+}

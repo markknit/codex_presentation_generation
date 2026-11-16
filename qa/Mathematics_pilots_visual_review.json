@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-16",
+  "reviewer": "Codex builder",
+  "decks": [
+    {
+      "deck": "outputs/drafts/curriculum_pilots_2026-11/EssMath_G10_RealNumbers_L1_Exact_Number_Classes.pptx",
+      "deck_sha256": "151b7ba77031099f85348f867685de54f873813cf3d0b90277d89b4308658359",
+      "slides_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "hidden_slides_included": [
+        2,
+        3
+      ],
+      "review": "All slide renders inspected via CUDA contact sheets; final Essential goals, answer table and set diagram also inspected full size. All final student task and teacher-note pages inspected.",
+      "findings": "No unresolved clipping, diagram/caption collision or unreadable mathematical symbol seen. Student records expanded to two pages. Essential goal revised to withhold set inclusion until investigation.",
+      "print_documents": [
+        {
+          "document": "Student_Task",
+          "pages_reviewed": [
+            1,
+            2
+          ]
+        },
+        {
+          "document": "Teacher_Notes",
+          "pages_reviewed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ],
+      "limits": "Builder visual review only; native PowerPoint, exact Calibri and teacher acceptance remain open."
+    },
+    {
+      "deck": "outputs/drafts/curriculum_pilots_2026-11/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes.pptx",
+      "deck_sha256": "346a4461b17c86bc19829703437be5daa12a4b316a53a2de87ec9a5e6395d965",
+      "slides_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "hidden_slides_included": [
+        2,
+        3
+      ],
+      "review": "All slide renders inspected via CUDA contact sheets; final Essential goals, answer table and set diagram also inspected full size. All final student task and teacher-note pages inspected.",
+      "findings": "No unresolved clipping, diagram/caption collision or unreadable mathematical symbol seen. Student records expanded to two pages. Essential goal revised to withhold set inclusion until investigation.",
+      "print_documents": [
+        {
+          "document": "Student_Task",
+          "pages_reviewed": [
+            1,
+            2
+          ]
+        },
+        {
+          "document": "Teacher_Notes",
+          "pages_reviewed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "limits": "Builder visual review only; native PowerPoint, exact Calibri and teacher acceptance remain open."
+    }
+  ]
+}

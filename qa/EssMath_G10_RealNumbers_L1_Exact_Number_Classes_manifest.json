@@ -1,0 +1,141 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_pilots_2026-11/EssMath_G10_RealNumbers_L1_Exact_Number_Classes.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "One routine. Five phases.",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson 1 at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Our unit journey",
+      "phase": "Unit map",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Start with your own number sort",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "BEFORE \u00b7 our first classifications",
+      "phase": "Predict",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "RN1 \u00b7 a short diagnostic",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "RN1 \u00b7 classify every exact value",
+      "phase": "Observe",
+      "minutes": 9.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Compare the fraction evidence",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "What makes a number rational?",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Why does zero belong?",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Does every root have the same class?",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Check all eight RN1 classifications",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "What can a short display tell us?",
+      "phase": "Explain",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Our Driving Question Board",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Build the club\u2019s number reference sheet",
+      "phase": "Model Building",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 18,
+      "title": "Exit \u00b7 classify with a reason",
+      "phase": "Model Building",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 19,
+      "title": "Summary Table \u00b7 Lesson 1",
+      "phase": "Model Building",
+      "minutes": 1.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "151b7ba77031099f85348f867685de54f873813cf3d0b90277d89b4308658359",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

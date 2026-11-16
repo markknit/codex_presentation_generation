@@ -1,0 +1,58 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_pilots_2026-11/EssMath_G10_RealNumbers_L1_Exact_Number_Classes.pptx",
+  "sha256": "151b7ba77031099f85348f867685de54f873813cf3d0b90277d89b4308658359",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 19,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.25,
+    0.0,
+    0.0,
+    0.25,
+    0.5,
+    2.0,
+    1.0,
+    3.0,
+    9.0,
+    4.0,
+    2.0,
+    2.0,
+    2.0,
+    3.0,
+    1.0,
+    4.0,
+    3.0,
+    2.0,
+    1.0
+  ],
+  "total_minutes": 40.0,
+  "formative_check_slides": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}
