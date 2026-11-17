@@ -2,7 +2,7 @@
 
 This repository produces review-draft PowerPoint presentations from Kenya CBE Grade 10 lesson plans. Legacy sources are in `inputs/v2`; the current reviewed November collection is accessed through `final_curriculum_outputs`.
 
-Current design: periodic A–D comprehension quizzes with source-derived private keys and class aggregate projection. See [quiz design](content/curriculum_sets_2026-11/QUIZ_DESIGN.md) and [current checkpoint](content/curriculum_sets_2026-11/README.md). Pre-quiz drafts for the three current curricula are superseded and generation is paused for the authorised reset.
+Current design: periodic A–D comprehension quizzes with source-derived private keys and class aggregate projection. See [quiz design](content/curriculum_sets_2026-11/QUIZ_DESIGN.md) and [current checkpoint](content/curriculum_sets_2026-11/README.md). Pre-quiz drafts for the three current curricula are superseded. Lessons 1–2 from each are now built as a six-deck quiz-enabled review set; the full batch is on hold for user review.
 
 ## Priorities
 

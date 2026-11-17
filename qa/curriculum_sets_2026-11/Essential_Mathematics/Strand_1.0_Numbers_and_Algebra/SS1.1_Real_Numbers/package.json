@@ -1,0 +1,13 @@
+{
+  "archive": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/review/essmath_1_1_Review.zip",
+  "sha256": "4ab8f7acc9ec7e6b4be1913580bbfacfa8c11dbf0b32078481dcd254ebe14d51",
+  "bytes": 1066615,
+  "verified_members": 32,
+  "lessons": [
+    1,
+    2
+  ],
+  "total_lessons": 8,
+  "crc": "PASS",
+  "classroom_release": false
+}

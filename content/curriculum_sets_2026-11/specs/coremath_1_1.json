@@ -67,7 +67,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Fraction representations support rational membership",
           "kind": "table",
           "headers": [
@@ -122,7 +122,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Exact constants are not short displays",
           "kind": "columns",
           "columns": [
@@ -159,14 +159,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 5,
+          "minutes": 4,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Revise your exact-number classification model.",
             "Keep the fraction evidence and the display limit visible."
           ],
-          "timer": "5:00"
+          "timer": "4:00"
         },
         {
           "phase": "Model Building",
@@ -177,7 +177,8 @@
             "Explain why 0.125 is rational.",
             "Explain why a finite √2 display does not settle its exact class."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before the final quiz and its feedback. Keep first-attempt exit and quiz records separate."
         }
       ],
       "record": {
@@ -243,7 +244,113 @@
             ""
           ]
         ]
-      }
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "coremath_1_1.L02.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "Which integer-fraction form equals the exact number 0.125?",
+          "options": {
+            "A": "1/8",
+            "B": "1/125",
+            "C": "125/10",
+            "D": "No fraction can equal it."
+          },
+          "correct": "A",
+          "explanation": "0.125 = 125/1000 = 1/8. A terminating decimal is an exact rational number when treated as written.",
+          "distractor_feedback": {
+            "B": "1/125 equals 0.008, not 0.125.",
+            "C": "125/10 equals 12.5.",
+            "D": "The fraction 1/8 equals it exactly."
+          },
+          "objective": "Represent a terminating decimal exactly.",
+          "placement_reason": "After the rational fraction evidence table.",
+          "no_future_content_reason": "Uses only CRN2 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN2 — Teacher key and preparation",
+              "evidence": "0.125=1/8,0.777…=7/9,√16=4/1,22/7."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L02.Q02.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "Which statement correctly compares exact π and 22/7?",
+          "options": {
+            "A": "Both are irrational.",
+            "B": "They are exactly equal.",
+            "C": "π is irrational; 22/7 is a rational approximation.",
+            "D": "π is rational because 22/7 is a fraction."
+          },
+          "correct": "C",
+          "explanation": "22/7 is an integer ratio, so it is rational. Exact π is irrational and is not equal to 22/7.",
+          "distractor_feedback": {
+            "A": "22/7 is rational.",
+            "B": "The source explicitly distinguishes the values.",
+            "D": "An approximation does not redefine the exact constant."
+          },
+          "objective": "Distinguish an irrational constant from its rational approximation.",
+          "placement_reason": "After the exact-constant/display comparison.",
+          "no_future_content_reason": "Uses only CRN2 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN2 — Teacher key and preparation",
+              "evidence": "π is not22/7. Every whole number is rational; real numbers also include irrational values."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L02.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "For 0.777… with 7 repeating forever, which statement is correct?",
+          "options": {
+            "A": "It is irrational because it never ends.",
+            "B": "It is rational and equals 7/9.",
+            "C": "It is a finite approximation to 7/9.",
+            "D": "It is a whole number."
+          },
+          "correct": "B",
+          "explanation": "The repeating decimal 0.777… equals 7/9 exactly. A decimal can be infinite and rational when it repeats.",
+          "distractor_feedback": {
+            "A": "Repeating non-terminating decimals can be rational.",
+            "C": "The dots specify endless repetition, not a finite truncation.",
+            "D": "7/9 is not a whole number."
+          },
+          "objective": "Distinguish exact recurring notation from a finite screen.",
+          "placement_reason": "After the saved individual exit; repeats the representation principle with a different listed value.",
+          "no_future_content_reason": "Uses only CRN2 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN2 — Teacher key and preparation",
+              "evidence": "0.125=1/8,0.777…=7/9,√16=4/1,22/7."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        }
+      ],
+      "decisions": "User-authorised periodic quizzes. Preserve every source task and all source Observe subdivisions. Two one-minute checks use the existing ten-minute Explain/check allocation; a one-minute reinforcement check follows the saved exit within Model Building. Source phase totals remain unchanged. Real-class pacing and individual response-server provision require teacher review. Corrected missing spaces in the source-derived student inquiry without changing its meaning.",
+      "preparation": "Print the complete source task and blank record. Prepare notebooks, pencils, second colour, board and timer. Configure the matching versioned question IDs only if the future server is available; otherwise record individual paper responses privately. Project class aggregates only after closure. No practical or personal measurements.",
+      "route": "Source printed tasks; no invented practical, live poll chart, pupil response, media or URL. Native editable diagrams and source values. The response/report server is not implemented in this repository.",
+      "inquiry": "How do exact π and the rational approximation 22/7 differ?"
     },
     "3": {
       "code": "CRN3",
@@ -1567,7 +1674,351 @@
       ],
       "preparation": "CRN10 only, original assessment prompts and approved calculators where actually provided. Retain independent records of device provision/use; keep all teaching cards and exemplars private.",
       "route": "Independent source assessment. Unprovided or unobserved calculator performance remains pending; a paper key sequence does not complete it."
+    },
+    "1": {
+      "code": "CRN1",
+      "short": "Zero_Parity_and_Primes",
+      "goals": [
+        "Classify whole numbers with reasons.",
+        "Use positive factor pairs to check a claim.",
+        "Revise a number label using evidence."
+      ],
+      "words": "whole numbers: 0, 1, 2, …\n\nfactor pair: two positive integers whose product is the number",
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Could 0, 1 and 9 be prime? Record one reason before comparing.",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share your prediction and its reason.",
+            "Keep a different first idea visible."
+          ],
+          "timer": "1:00",
+          "mode": "share; do not correct"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 8,
+          "title": "CRN1 · classify all nine whole numbers",
+          "kind": "cards",
+          "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "9",
+            "11",
+            "15",
+            "21"
+          ],
+          "caption": "Odd/even AND prime/composite/neither · Positive factor pairs for 9 and 15.",
+          "timer": "8:00",
+          "mode": "work individually"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 6,
+          "title": "Compare the two kinds of classification",
+          "kind": "bullets",
+          "items": [
+            "Compare all nine numbers and your reasons.",
+            "Check the positive factor pairs for 9 and 15.",
+            "Decide whether every odd whole number is prime."
+          ],
+          "timer": "6:00",
+          "mode": "compare in pairs"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 2,
+          "title": "Is zero even?",
+          "kind": "equation",
+          "text": "0 = 2 × 0",
+          "caption": "Even means two times an integer; parity does not decide prime status."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Positive divisors decide prime status",
+          "kind": "table",
+          "headers": [
+            "Case",
+            "Positive-divisor evidence",
+            "Class"
+          ],
+          "rows": [
+            [
+              "1",
+              "Only the divisor 1",
+              "Neither"
+            ],
+            [
+              "2",
+              "Exactly 1 and 2",
+              "Prime"
+            ],
+            [
+              "9",
+              "1, 3 and 9",
+              "Composite"
+            ],
+            [
+              "0",
+              "Not an integer greater than 1",
+              "Neither"
+            ]
+          ],
+          "size": 22,
+          "caption": "Prime and composite numbers here must be greater than 1."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "One counterexample checks the label",
+          "kind": "table",
+          "headers": [
+            "Number",
+            "Positive factor pairs",
+            "What follows?"
+          ],
+          "rows": [
+            [
+              "9",
+              "(1, 9), (3, 3)",
+              "Odd and composite"
+            ],
+            [
+              "15",
+              "(1, 15), (3, 5)",
+              "Odd and composite"
+            ]
+          ],
+          "size": 24,
+          "height": 2.5,
+          "caption": "Every whole number n is rational as n/1; none is irrational."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post the claim your factor evidence corrected.",
+            "Ask how whole numbers fit among real numbers.",
+            "Keep new exact-number questions for Lesson 2."
+          ],
+          "timer": "4:00",
+          "mode": "sort questions"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 4,
+          "title": "Revise the supply label",
+          "kind": "bullets",
+          "items": [
+            "Keep the original “Every odd count is prime” claim.",
+            "Add a counterexample with positive-divisor evidence.",
+            "Keep parity and prime status as separate decisions."
+          ],
+          "timer": "4:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit · 21 and 0",
+          "kind": "bullets",
+          "items": [
+            "Classify both by parity and prime/composite/neither.",
+            "Give divisor or multiplication evidence."
+          ],
+          "timer": "2:00",
+          "mode": "write alone",
+          "do": "Save each individual exit before the last quiz. Use 21 factor pairs (1,21),(3,7) and 0=2×0 in the private key."
+        }
+      ],
+      "record": {
+        "headers": [
+          "Number",
+          "Odd / even",
+          "Prime / composite / neither",
+          "Reason"
+        ],
+        "rows": [
+          [
+            "0",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1",
+            "",
+            "",
+            ""
+          ],
+          [
+            "2",
+            "",
+            "",
+            ""
+          ],
+          [
+            "3",
+            "",
+            "",
+            ""
+          ],
+          [
+            "4",
+            "",
+            "",
+            ""
+          ],
+          [
+            "9",
+            "",
+            "",
+            ""
+          ],
+          [
+            "11",
+            "",
+            "",
+            ""
+          ],
+          [
+            "15",
+            "",
+            "",
+            ""
+          ],
+          [
+            "21",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "inquiry": "Does odd imply prime, and where do 0 and 1 belong?",
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "coremath_1_1.L01.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "Which reason establishes that zero is even?",
+          "options": {
+            "A": "Zero has no digits.",
+            "B": "0 = 2 × 0",
+            "C": "Zero is prime.",
+            "D": "Every whole number is even."
+          },
+          "correct": "B",
+          "explanation": "An even integer is twice an integer. Zero equals 2 × 0, so zero is even; this says nothing by itself about being prime.",
+          "distractor_feedback": {
+            "A": "Digit count is not the parity rule.",
+            "C": "Zero is not prime.",
+            "D": "The source list includes odd whole numbers."
+          },
+          "objective": "Justify zero parity using the defining multiplication.",
+          "placement_reason": "After individual classification and the zero-parity explanation.",
+          "no_future_content_reason": "Uses only CRN1 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN1 — Teacher key and preparation",
+              "evidence": "Odd9 is composite;0=2×0 is even."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L01.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Why does 9 disprove “Every odd whole number is prime”?",
+          "options": {
+            "A": "9 is even.",
+            "B": "9 has no positive divisors.",
+            "C": "9 is odd and has divisors 1, 3 and 9.",
+            "D": "9 is not a whole number."
+          },
+          "correct": "C",
+          "explanation": "9 is an odd whole number with more than two positive divisors. One such counterexample disproves the universal claim.",
+          "distractor_feedback": {
+            "A": "9 is odd.",
+            "B": "1, 3 and 9 are positive divisors.",
+            "D": "9 is a whole number."
+          },
+          "objective": "Use a factor-based counterexample.",
+          "placement_reason": "After the factor-pair comparison and counterexample explanation.",
+          "no_future_content_reason": "Uses only CRN1 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN1 — Teacher key and preparation",
+              "evidence": "Factorpairs9:(1,9),(3,3);15:(1,15),(3,5)."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L01.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "How is 1 classified by prime/composite status here?",
+          "options": {
+            "A": "Prime because it is odd",
+            "B": "Composite because it is a whole number",
+            "C": "Both prime and composite",
+            "D": "Neither: it has only one positive divisor"
+          },
+          "correct": "D",
+          "explanation": "1 has only the positive divisor 1. Prime and composite classifications here require an integer greater than 1.",
+          "distractor_feedback": {
+            "A": "Oddness does not imply primality.",
+            "B": "Being whole does not imply being composite.",
+            "C": "The categories are not both applicable to 1."
+          },
+          "objective": "Apply the greater-than-one/divisor conditions.",
+          "placement_reason": "After the saved written exit on 21 and 0, as reinforcement on a different listed case.",
+          "no_future_content_reason": "Uses only CRN1 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN1 — Teacher key and preparation",
+              "evidence": "Prime:2,3,11; composite:4,9,15,21; neither:0,1."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        }
+      ],
+      "decisions": "User-authorised periodic quizzes. Preserve every source task and all source Observe subdivisions. Two one-minute checks use the existing ten-minute Explain/check allocation; a one-minute reinforcement check follows the saved exit within Model Building. Source phase totals remain unchanged. Real-class pacing and individual response-server provision require teacher review. Corrected missing spaces in the source-derived student inquiry without changing its meaning.",
+      "preparation": "Print the complete source task and blank record. Prepare notebooks, pencils, second colour, board and timer. Configure the matching versioned question IDs only if the future server is available; otherwise record individual paper responses privately. Project class aggregates only after closure. No practical or personal measurements.",
+      "route": "Source printed tasks; no invented practical, live poll chart, pupil response, media or URL. Native editable diagrams and source values. The response/report server is not implemented in this repository."
     }
   },
-  "status": "Pre-quiz baseline only; author lesson-level quiz-v1 revision, questions and revised time allocations before building."
+  "status": "Lessons 1–2 authored for quiz-v1 review; all remaining lessons stay pre-quiz baselines."
 }

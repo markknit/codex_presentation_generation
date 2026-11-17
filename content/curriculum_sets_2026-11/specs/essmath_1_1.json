@@ -76,7 +76,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "What changes when equality becomes approximation?",
           "kind": "columns",
           "columns": [
@@ -95,15 +95,9 @@
           "phase": "Explain",
           "minutes": 3,
           "title": "Use squares to bracket the value",
-          "kind": "equation",
-          "text": "1.96 < 2 < 2.25",
-          "caption": "1.4² = 1.96 and 1.5² = 2.25, so 1.4 < √2 < 1.5."
-        },
-        {
-          "phase": "Explain",
-          "minutes": 4,
-          "title": "Same rounded display, different exact values",
           "kind": "numberline",
+          "text": "1.96 < 2 < 2.25",
+          "caption": "1.4 < √2 < 1.5. Locating √2 does not prove that it is irrational.",
           "bounds": [
             -3,
             2
@@ -130,7 +124,24 @@
               "2"
             ]
           ],
-          "caption": "1.411 and 1.414 both round to 1.41. The number line locates √2; it does not prove irrationality."
+          "headline": "1.4² = 1.96 < 2 < 2.25 = 1.5²"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Same rounded display, different exact values",
+          "kind": "columns",
+          "caption": "Rounding loses information; a shared rounded display does not make exact values equal.",
+          "columns": [
+            [
+              "DIFFERENT EXACT VALUES",
+              "1.411 ≠ 1.414"
+            ],
+            [
+              "SAME ROUNDED VALUE",
+              "Both round to 1.41\nat two decimal places."
+            ]
+          ]
         },
         {
           "phase": "Driving Question Board",
@@ -146,14 +157,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Add exact and approximate columns to the reference sheet.",
             "Keep one corrected claim and one exact/approximate pair."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -164,7 +175,8 @@
             "Explain the difference between 1/3 and 0.333333333 as written.",
             "Give a reason that uses exact meaning."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before the final quiz and its feedback. Keep first-attempt exit and quiz records separate."
         }
       ],
       "record": {
@@ -190,7 +202,113 @@
             ""
           ]
         ]
-      }
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "essmath_1_1.L02.Q01.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "Which statement uses exactness and approximation correctly?",
+          "options": {
+            "A": "π = 3.14 exactly",
+            "B": "√2 becomes rational on a calculator",
+            "C": "√16 is irrational",
+            "D": "π ≈ 3.14"
+          },
+          "correct": "D",
+          "explanation": "3.14 is a rounded approximation to π. The approximation sign preserves that distinction.",
+          "distractor_feedback": {
+            "A": "Exact π is not equal to 3.14.",
+            "B": "A finite display does not change the exact number.",
+            "C": "√16 equals the rational number 4."
+          },
+          "objective": "Choose notation that matches a rounded value.",
+          "placement_reason": "After correcting the three RN2 exact-value claims.",
+          "no_future_content_reason": "Uses only RN2 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN2 — Teacher key and preparation",
+              "evidence": "π≈3.14, not exact equality."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L02.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Since 1.4² = 1.96 and 1.5² = 2.25, which bound is correct?",
+          "options": {
+            "A": "√2 < 1.4",
+            "B": "1.4 < √2 < 1.5",
+            "C": "√2 = 1.5",
+            "D": "√2 > 1.5"
+          },
+          "correct": "B",
+          "explanation": "2 lies between 1.96 and 2.25. Its positive square root therefore lies between 1.4 and 1.5.",
+          "distractor_feedback": {
+            "A": "1.4² is smaller than 2.",
+            "C": "1.5² is 2.25, not 2.",
+            "D": "1.5² is already greater than 2."
+          },
+          "objective": "Use squared bounds to locate a positive root.",
+          "placement_reason": "After learners have bracketed √2 and compared the squares.",
+          "no_future_content_reason": "Uses only RN2 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN2 — Teacher key and preparation",
+              "evidence": "1.4²=1.96<2<2.25=1.5², so 1.4<√2<1.5."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L02.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "Both 1.411 and 1.414 round to 1.41 at two decimal places. What follows?",
+          "options": {
+            "A": "The exact numbers are different despite the same rounded display.",
+            "B": "The exact numbers are equal.",
+            "C": "Both exact numbers are 1.41.",
+            "D": "Rounding preserves every digit of the exact numbers."
+          },
+          "correct": "A",
+          "explanation": "Rounding loses information: 1.411 and 1.414 remain different exact values even though both are communicated as 1.41.",
+          "distractor_feedback": {
+            "B": "Their third decimal digits differ.",
+            "C": "1.41 is the common rounded value, not either exact value.",
+            "D": "Digits beyond the stated precision are lost."
+          },
+          "objective": "Explain information lost in rounding.",
+          "placement_reason": "After the individual 1/3 versus finite-decimal exit is saved.",
+          "no_future_content_reason": "Uses only RN2 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN2 — Teacher key and preparation",
+              "evidence": "Examples 1.411 and 1.414 both round to 1.41."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        }
+      ],
+      "decisions": "User-authorised periodic quizzes. Preserve every source task and all source Observe subdivisions. Two one-minute checks use the existing ten-minute Explain/check allocation; a one-minute reinforcement check follows the saved exit within Model Building. Source phase totals remain unchanged. Real-class pacing and individual response-server provision require teacher review. Corrected missing spaces in the source-derived student inquiry without changing its meaning. Matched the rounded-display heading to an explicit 1.411 versus 1.414 comparison; moved the complete source number line beside its squared bounds. No required task or phase time changed.",
+      "preparation": "Print the complete source task and blank record. Prepare notebooks, pencils, second colour, board and timer. Configure the matching versioned question IDs only if the future server is available; otherwise record individual paper responses privately. Project class aggregates only after closure. No practical or personal measurements.",
+      "route": "Source printed tasks; no invented practical, live poll chart, pupil response, media or URL. Native editable diagrams and source values. The response/report server is not implemented in this repository.",
+      "inquiry": "Is π exactly 3.14?"
     },
     "3": {
       "code": "RN3",
@@ -1204,7 +1322,361 @@
       ],
       "preparation": "RN8 data plus original final prompts; an accessible calculator per learner or supervised provision as source requires. Keep teaching cards and teacher key private.",
       "route": "Independent source assessment; no peer comparison, hints or worked exemplars before collection."
+    },
+    "1": {
+      "code": "RN1",
+      "short": "Exact_Number_Classes",
+      "goals": [
+        "Classify exact values with reasons.",
+        "Write a fraction for each rational example.",
+        "Compare number classes using your records."
+      ],
+      "words": "exact value: the value as written\n\nrepresentation: a way to write a value",
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Where would you place 0, √9 and √2? Keep a first classification and reason.",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share your prediction and its reason.",
+            "Keep a different first idea visible."
+          ],
+          "timer": "1:00",
+          "mode": "share; do not correct"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 3,
+          "title": "RN1 · prerequisite diagnostic",
+          "kind": "bullets",
+          "items": [
+            "Calculate −4 + 7.",
+            "Calculate 3/4 + 1/2; show your working."
+          ],
+          "timer": "3:00",
+          "mode": "write alone",
+          "do": "Give three minutes individually. Privately note fraction-addition support needs; do not replace the nine-minute classification task."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 9,
+          "title": "RN1 · classify every exact value",
+          "kind": "cards",
+          "values": [
+            "−3",
+            "0",
+            "2/5",
+            "0.125",
+            "0.333…",
+            "√9",
+            "√2",
+            "π"
+          ],
+          "caption": "3 repeats forever in 0.333… · Give fraction forms and identify integers.",
+          "timer": "9:00",
+          "mode": "classify alone"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Compare reasons and fraction forms",
+          "kind": "bullets",
+          "items": [
+            "Compare all eight classifications.",
+            "Check fraction representations and integer membership.",
+            "Keep a question where your reasons differ."
+          ],
+          "timer": "4:00",
+          "mode": "compare in pairs"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 2,
+          "title": "The exact rational-number rule",
+          "kind": "equation",
+          "text": "a/b, where a and b are integers and b ≠ 0",
+          "caption": "A rational number has at least one such exact representation."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Check the fraction evidence",
+          "kind": "table",
+          "headers": [
+            "Exact value",
+            "Equal fraction",
+            "Integer?"
+          ],
+          "rows": [
+            [
+              "−3",
+              "−3/1",
+              "Yes"
+            ],
+            [
+              "0",
+              "0/1",
+              "Yes"
+            ],
+            [
+              "2/5",
+              "2/5",
+              "No"
+            ],
+            [
+              "0.125",
+              "1/8",
+              "No"
+            ],
+            [
+              "0.333…",
+              "1/3",
+              "No"
+            ],
+            [
+              "√9 = 3",
+              "3/1",
+              "Yes"
+            ]
+          ],
+          "height": 3.7,
+          "size": 22,
+          "caption": "√2 and π are established irrational examples; a short display is not a proof."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "How the number classes fit together",
+          "kind": "sets",
+          "integers": [
+            "−3",
+            "0",
+            "√9 = 3"
+          ],
+          "other_rational": [
+            "2/5",
+            "0.125 = 1/8",
+            "0.333… = 1/3"
+          ],
+          "irrational": [
+            "√2",
+            "π"
+          ],
+          "caption": "Use exact values; do not classify every radical as irrational."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post a classification supported by a fraction.",
+            "Keep questions about exact values and displays.",
+            "Save the display investigation for Lesson 2."
+          ],
+          "timer": "4:00",
+          "mode": "sort questions"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Build your own number-class model",
+          "kind": "bullets",
+          "items": [
+            "Draw real, rational and integer regions.",
+            "Place all RN1 values using your fraction evidence."
+          ],
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit · classify with reasons",
+          "kind": "bullets",
+          "items": [
+            "Classify −3, √9 and π.",
+            "Give fraction evidence or the established irrational classification."
+          ],
+          "timer": "2:00",
+          "mode": "write alone",
+          "do": "Save the individual exit before the final quiz. Do not replace its reasons with the class distribution."
+        }
+      ],
+      "record": {
+        "headers": [
+          "Exact value",
+          "Rational / irrational",
+          "Fraction / reason",
+          "Integer?"
+        ],
+        "rows": [
+          [
+            "−3",
+            "",
+            "",
+            ""
+          ],
+          [
+            "0",
+            "",
+            "",
+            ""
+          ],
+          [
+            "2/5",
+            "",
+            "",
+            ""
+          ],
+          [
+            "0.125",
+            "",
+            "",
+            ""
+          ],
+          [
+            "0.333… (3 repeats)",
+            "",
+            "",
+            ""
+          ],
+          [
+            "√9",
+            "",
+            "",
+            ""
+          ],
+          [
+            "√2",
+            "",
+            "",
+            ""
+          ],
+          [
+            "π",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "essmath_1_1.L01.Q01.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "Which is a valid integer-fraction representation of zero?",
+          "options": {
+            "A": "0/0",
+            "B": "0/1",
+            "C": "1/0",
+            "D": "Zero has no fraction representation."
+          },
+          "correct": "B",
+          "explanation": "0/1 equals zero and has a nonzero denominator. Therefore zero is rational.",
+          "distractor_feedback": {
+            "A": "A zero denominator is not permitted.",
+            "C": "A zero denominator is not permitted.",
+            "D": "0/1 is a valid representation."
+          },
+          "objective": "Use the nonzero-denominator rule.",
+          "placement_reason": "After the rational-number definition and individual fraction evidence.",
+          "no_future_content_reason": "Uses only RN1 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN1 — Teacher key and preparation",
+              "evidence": "Rational:−3=−3/1,0=0/1,2/5,0.125=1/8,0.333…=1/3,√9=3=3/1."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L01.Q02.v1",
+          "after_slide": 8,
+          "phase": "Explain",
+          "stem": "How should the exact number √9 be classified?",
+          "options": {
+            "A": "Irrational because it has a root sign",
+            "B": "Rational but not an integer",
+            "C": "Neither rational nor irrational",
+            "D": "Integer and rational because √9 = 3"
+          },
+          "correct": "D",
+          "explanation": "√9 equals 3 exactly, and 3 = 3/1. It is both an integer and a rational number.",
+          "distractor_feedback": {
+            "A": "A root sign does not always give an irrational value.",
+            "B": "3 is an integer as well as rational.",
+            "C": "√9 is a real number with exact value 3."
+          },
+          "objective": "Distinguish a symbol from its exact value.",
+          "placement_reason": "After the complete classification explanation and set diagram.",
+          "no_future_content_reason": "Uses only RN1 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN1 — Teacher key and preparation",
+              "evidence": "Integer members:−3,0,√9. Irrational:√2 andπ."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L01.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "Which statement follows from the integer-fraction rule?",
+          "options": {
+            "A": "Every integer is rational.",
+            "B": "Every rational number is an integer.",
+            "C": "No irrational number is real.",
+            "D": "Every real number is rational."
+          },
+          "correct": "A",
+          "explanation": "Any integer n can be written as n/1. Rational numbers also include non-integers, and real numbers include irrationals.",
+          "distractor_feedback": {
+            "B": "2/5 is rational and not an integer.",
+            "C": "√2 and π are irrational real numbers.",
+            "D": "√2 and π are counterexamples."
+          },
+          "objective": "Connect integer and rational membership.",
+          "placement_reason": "After the individual diagram and written exit have been saved.",
+          "no_future_content_reason": "Uses only RN1 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN1 — Teacher key and preparation",
+              "evidence": "A rational number is expressible as a/b for integers a,b with b≠0."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        }
+      ],
+      "decisions": "User-authorised periodic quizzes. Preserve every source task and all source Observe subdivisions. Two one-minute checks use the existing ten-minute Explain/check allocation; a one-minute reinforcement check follows the saved exit within Model Building. Source phase totals remain unchanged. Real-class pacing and individual response-server provision require teacher review.",
+      "preparation": "Print the complete source task and blank record. Prepare notebooks, pencils, second colour, board and timer. Configure the matching versioned question IDs only if the future server is available; otherwise record individual paper responses privately. Project class aggregates only after closure. No practical or personal measurements.",
+      "route": "Source printed tasks; no invented practical, live poll chart, pupil response, media or URL. Native editable diagrams and source values. The response/report server is not implemented in this repository."
     }
   },
-  "status": "Pre-quiz baseline only; author lesson-level quiz-v1 revision, questions and revised time allocations before building."
+  "status": "Lessons 1–2 authored for quiz-v1 review; all remaining lessons stay pre-quiz baselines."
 }

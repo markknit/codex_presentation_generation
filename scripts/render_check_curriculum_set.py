@@ -81,7 +81,7 @@ def run(module,number):
             subprocess.run(['pdftoppm','-png','-r','85',str(dpdf),str(ddir/'page')],check=True)
             pngs=sorted(ddir.glob('page-*.png'))
             subprocess.run([str(ROOT/'.venv/bin/python'),str(ROOT/'scripts/gpu_visual_qa.py'),*map(str,pngs),
-                            '--out',str(ddir/'gpu')],check=True,stdout=subprocess.DEVNULL)
+                            '--out',str(ddir/'gpu'),'--preview-width','600','--columns','3','--per-sheet','9'],check=True,stdout=subprocess.DEVNULL)
             docs.append({'file':str(doc.relative_to(ROOT)),'sha256':digest(doc),'pdf_sha256':digest(dpdf),
                          'pages':len(pngs),'text_retention':'PASS','gpu_report':str((ddir/'gpu/gpu_report.json').relative_to(ROOT))})
     report={'deck':str(deck.relative_to(ROOT)),'sha256':digest(deck),'slides':len(pres.slides),

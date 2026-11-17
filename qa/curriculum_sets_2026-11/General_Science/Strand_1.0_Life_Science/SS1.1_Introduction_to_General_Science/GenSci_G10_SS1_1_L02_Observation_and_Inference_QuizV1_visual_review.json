@@ -1,0 +1,90 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "98798f07f216bf44e5a7515c29948aac7b1ba1ce3baf3cf00087e58d2c71fe99",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "409cd1b20c311a6c4372fd35464ac6efc16a26cf5cbbc8eefa7f4e4a0d60b59d",
+    "slide-02.png": "bff8d20c1ac9511b3a838b438baf323fa0b3f89e7634d8ac5e10c62a415d2d45",
+    "slide-03.png": "2c42ff0dad661b99dbaf43959dbae0cf8e3b20276f2e3630be63ee31ebb0cf7e",
+    "slide-04.png": "c3a18b7ea268c8a18ff3972da7a953633c6ffa8ef568a579d9096b621f6e2b81",
+    "slide-05.png": "e343886ce50a36b15dd56c09aa1be65516babb7aa81f666a4fc136d857a3c610",
+    "slide-06.png": "ebbaeada6e003b73a47da57b68c3ff5b2e23367db9370c5f640a1bb18182fd7a",
+    "slide-07.png": "c20ffc8a4d7dddc100c816dc353630f3a3c88a0ff65183bbdd71cf6da89e07ac",
+    "slide-08.png": "8523d327cd1ca5b9ae91309e8af9badd6d5a48ad1d8e9bc89770ffaa2fb06ff7",
+    "slide-09.png": "566e41db2c9c70112172f8801e1a972260fe7ad4591cfd831119874784575018",
+    "slide-10.png": "72f5ac9f2ac15cfaae950b4ebfcb7193fccd025859751069476e01489ee54ac5",
+    "slide-11.png": "b5d50405ba15f144cc9785c1ec370c2be22327cbeb24494da2afda2175d98456",
+    "slide-12.png": "ead133e3c7e76c5f350e4791ac0fbad78de360c8cbd0e63c3a5dbb3c60f85940",
+    "slide-13.png": "2c577663f6d2649c082bebe7de218b607ebd38761b2dac01b155528ee1db7c43",
+    "slide-14.png": "7f19653eee67eddb02bd0fbba789b148cd40c2cfb27480d7907210bad3050354",
+    "slide-15.png": "46f541c408538529f0d449d80a81c17f2175a49e6d51b6250e0c5d5d8d5f1b2b",
+    "slide-16.png": "6d979532d38af680b972794aa9673df9d632ac25650fee91dc8d878360d792ca",
+    "slide-17.png": "0ca157b95fbd5f87c36a5b0eb0cbb882d413747476e090fb564c9c69dca4fb8d",
+    "slide-18.png": "8606e58bc354f10ee12a0c1c8367a32fbce4723705a779f0c34c7c50689fe853",
+    "slide-19.png": "5cafbb32e03bbe631528bc04181c1049e8104d29ecd311cd99485479b5050a53",
+    "slide-20.png": "8cf4be0d2765b197f7b31ec9fa2ce427e94453600a8f6f2df065add3df5799e9",
+    "slide-21.png": "bfac9cec4a5758ef2954055c4a6568bc39d0040bd102945da65c8014490245a7",
+    "slide-22.png": "266d016220edcd4bf72dae72cb64129dc8b58b7f5ec4ee47673af6674ac56415",
+    "slide-23.png": "f5ea8220c4b5f60bb8dd2a6a37c18aa3b501512701e04a59f41fbaa88d43c50f"
+  },
+  "finding": "All lesson slides including hidden pages inspected; all student and teacher print pages visually checked for layout with full-size follow-up where needed. Quiz numbering/timers, neutral questions, subsequent feedback, notes and source timing checked. Core inquiry spacing and Essential L2 bounds/rounded-value visuals repaired and final changed slides rechecked. Native PowerPoint, actual class pacing, server integration and teacher approval remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L02_Observation_and_Inference_QuizV1_Student_Task.docx",
+      "sha256": "9dfd9eb06f86107e824d0045f7d71f008c65c65fd30b436f5235fbe6a2383d19",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L02_Observation_and_Inference_QuizV1_Teacher_Notes.docx",
+      "sha256": "d4b771c64e571a06ffb5c13dcdf463fd7c7e5e8f829b3fed9a2aa1eb4285ece3",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

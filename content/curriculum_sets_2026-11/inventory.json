@@ -47,15 +47,27 @@
           "number": 1,
           "title": "Can zero be even without being prime?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "CoreMath_G10_SS1_1_L01_Zero_Parity_and_Primes_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L01_Zero_Parity_and_Primes_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "19dc6168378e878b6ed1c05dbe7842a57dbdfc37c40449dd081ff9e4411bd300",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/CoreMath_G10_SS1_1_L01_Zero_Parity_and_Primes_QuizV1_visual_review.json"
         },
         {
           "number": 2,
           "title": "Does a decimal display classify the exact number?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "0505a836301b87d749709e83d2262a7607a3f202d97a9b6a2f36a686101dc054",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1_visual_review.json"
         },
         {
           "number": 3,
@@ -1588,15 +1600,27 @@
           "number": 1,
           "title": "Which exact numbers belong together?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "170cfb883933b163b9557bd3da2353a5e9b567c624d397327539210b03135b23",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1_visual_review.json"
         },
         {
           "number": 2,
           "title": "Can a rounded display tell the whole story?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "d668d8777d1acabaf80c0bb3337770cdaf74b4fbbb0e3c28366049272124aee5",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1_visual_review.json"
         },
         {
           "number": 3,
@@ -2794,15 +2818,27 @@
           "number": 1,
           "title": "What makes our notice-board questions scientific?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
+          "sha256": "eccd1b36f9a27fe6b549128573d2550440753a361924135695d1853a31aaee55",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1_visual_review.json"
         },
         {
           "number": 2,
           "title": "What did we observe, and what did we infer?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "GenSci_G10_SS1_1_L02_Observation_and_Inference_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L02_Observation_and_Inference_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
+          "sha256": "98798f07f216bf44e5a7515c29948aac7b1ba1ce3baf3cf00087e58d2c71fe99",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/GenSci_G10_SS1_1_L02_Observation_and_Inference_QuizV1_visual_review.json"
         },
         {
           "number": 3,

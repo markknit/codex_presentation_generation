@@ -1,0 +1,219 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23625704901778521,
+      "dark_fraction": 0.05168412137737291,
+      "sha256": "113b353e834bf4411d6c8f75825681c7cbf26b4067f73c8fda29e4c547418137"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0527475160603995,
+      "dark_fraction": 0.04126334923880936,
+      "sha256": "844b8ab4884ca73cd36a8865f64ffbc7b468f4d8e17a225fcf61d89d31852688"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1405705314907769,
+      "dark_fraction": 0.12087005019520357,
+      "sha256": "325603250526b678cce938412041433ea20fbb169338403b7afc167f9b4beed2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0850294354588833,
+      "dark_fraction": 0.06681291442027638,
+      "sha256": "4d63a9b00ff805964e9bbabbe74b105c2732112fe3c76e8ed6fce17ae4b2dc04"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16106752597550145,
+      "dark_fraction": 0.042546528681498004,
+      "sha256": "dd0ff4db41795c4937fa2cf5e93ce753ae2e94e3a9ba92e4765029418d2ab8e0"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2239747164900539,
+      "dark_fraction": 0.05348288612092293,
+      "sha256": "07b35617fcd26c81842370eccd8da1222d78a169e2f1c3f49043eb57908c7975"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05567577616657371,
+      "dark_fraction": 0.04536241763235628,
+      "sha256": "d77e3eadcc9fe0d83abca964a3325217614c5054150a5d251c4783a4b1b51589"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.43693127594968084,
+      "dark_fraction": 0.0807890768626965,
+      "sha256": "392c160e1237aa46044ebd538ec32a3868afcdfe5b8c553982ae8a19314a10bb"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.068595153993927,
+      "dark_fraction": 0.05495941005143459,
+      "sha256": "0a1a14ae018fc047d28ae359fb1ee5c7d62a0e173945436e66fe9599d6daee6f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06141083638016153,
+      "dark_fraction": 0.04959203486810849,
+      "sha256": "95aea52c65ed06581e83c72127535b16356bbdc9a8ba84e0d4ffcb0744ddef79"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.43644791473012334,
+      "dark_fraction": 0.04053789428022557,
+      "sha256": "0462bd1607c0b9d55c0ddfe14a5d37d197f005fe0cb3c5674e9deb78b4fd7644"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31725021172873935,
+      "dark_fraction": 0.05756377682758051,
+      "sha256": "a64e230c7860d3d675b653ca2939cd6b585af583e88cd6f2748dd98fe16483b8"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.27503749147920925,
+      "dark_fraction": 0.056833364318026894,
+      "sha256": "51ed77b993e51b5f4c127e3c37a142607236c9cd2d80f9b754e851486ae78562"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.4396901530643862,
+      "dark_fraction": 0.03884323810704179,
+      "sha256": "76baf2b6005613b7f49d7573d110c7a300131e3fda19f8025077b777c440f3df"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06763669413976163,
+      "dark_fraction": 0.053944764619611243,
+      "sha256": "c340014e4f48f70e4a4931ffc858196169bd2ea4f038c8dd3e17293cfd718330"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3195901757864948,
+      "dark_fraction": 0.058946933548160545,
+      "sha256": "f1c0a03911adec7c144e9aa36961c33202deddd34c559b55d97864b3716a2e01"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2734758629237157,
+      "dark_fraction": 0.05499659168370825,
+      "sha256": "c93adcaa76d89778f4a7dd34a6fbb7ca32baaf093fcc5078bfc4ec3fa16f7192"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.07180847328086593,
+      "dark_fraction": 0.05829501559562909,
+      "sha256": "61d3a4f49a35777df5437cf088ab079ca78dbc4f6b28092ab3b899a556b0f83d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06419698002520088,
+      "dark_fraction": 0.051175972402966265,
+      "sha256": "1ce098c8971c6db409bed1e913c1766ff2f64a1513e5c789357ffa47cefc7e8e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.061425709033071,
+      "dark_fraction": 0.04933589473466774,
+      "sha256": "6cb397b117399c34240ed435c4765c2d2c30f3a3b12d6462c49f08318221e6f0"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31594224453120157,
+      "dark_fraction": 0.05547995290326579,
+      "sha256": "00ea3197f31fa2b0d57faa427d98130a0b05c351add6e86aabaf19a28e2a9358"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2751416000495755,
+      "dark_fraction": 0.058079362128441885,
+      "sha256": "57bb7bf9e845904aa85633c011374a895b5b09f463ed21adc198d618a822e096"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/slide-23.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/gpu/slide-23_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0550478197103964,
+      "dark_fraction": 0.04123029889901055,
+      "sha256": "089be194a5c93d33bab20c510274b1f7ec7dd072af9f582f8b5563fd581315a1"
+    }
+  ],
+  "deck_sha256": "eccd1b36f9a27fe6b549128573d2550440753a361924135695d1853a31aaee55"
+}

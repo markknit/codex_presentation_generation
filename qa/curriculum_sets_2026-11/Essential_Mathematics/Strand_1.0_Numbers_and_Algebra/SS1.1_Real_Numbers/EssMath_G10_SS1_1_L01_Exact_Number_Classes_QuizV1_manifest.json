@@ -1,0 +1,194 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Which exact numbers belong together?",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "How to use this lesson",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Our unit journey",
+      "phase": "Unit map",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Your first idea and reason",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 1
+    },
+    {
+      "slide": 7,
+      "title": "BEFORE \u00b7 keep our reasons",
+      "phase": "Predict",
+      "minutes": 1.0,
+      "hidden": false,
+      "authored_slide": 2
+    },
+    {
+      "slide": 8,
+      "title": "RN1 \u00b7 prerequisite diagnostic",
+      "phase": "Observe",
+      "minutes": 3.0,
+      "hidden": false,
+      "authored_slide": 3
+    },
+    {
+      "slide": 9,
+      "title": "RN1 \u00b7 classify every exact value",
+      "phase": "Observe",
+      "minutes": 9.0,
+      "hidden": false,
+      "authored_slide": 4
+    },
+    {
+      "slide": 10,
+      "title": "Compare reasons and fraction forms",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false,
+      "authored_slide": 5
+    },
+    {
+      "slide": 11,
+      "title": "The exact rational-number rule",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 6
+    },
+    {
+      "slide": 12,
+      "title": "Quiz 1 \u00b7 pause and check your understanding",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L01.Q01.v1",
+      "quiz_stage": "question"
+    },
+    {
+      "slide": 13,
+      "title": "Quiz 1 \u00b7 check the reasoning",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L01.Q01.v1",
+      "quiz_stage": "feedback"
+    },
+    {
+      "slide": 14,
+      "title": "Check the fraction evidence",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false,
+      "authored_slide": 7
+    },
+    {
+      "slide": 15,
+      "title": "How the number classes fit together",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false,
+      "authored_slide": 8
+    },
+    {
+      "slide": 16,
+      "title": "Quiz 2 \u00b7 pause and check your understanding",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L01.Q02.v1",
+      "quiz_stage": "question"
+    },
+    {
+      "slide": 17,
+      "title": "Quiz 2 \u00b7 check the reasoning",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L01.Q02.v1",
+      "quiz_stage": "feedback"
+    },
+    {
+      "slide": 18,
+      "title": "Our Driving Question Board",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false,
+      "authored_slide": 9
+    },
+    {
+      "slide": 19,
+      "title": "Build your own number-class model",
+      "phase": "Model Building",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 10
+    },
+    {
+      "slide": 20,
+      "title": "Individual exit \u00b7 classify with reasons",
+      "phase": "Model Building",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 11
+    },
+    {
+      "slide": 21,
+      "title": "Quiz 3 \u00b7 pause and check your understanding",
+      "phase": "Model Building",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L01.Q03.v1",
+      "quiz_stage": "question"
+    },
+    {
+      "slide": 22,
+      "title": "Quiz 3 \u00b7 check the reasoning",
+      "phase": "Model Building",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L01.Q03.v1",
+      "quiz_stage": "feedback"
+    },
+    {
+      "slide": 23,
+      "title": "Summary Table",
+      "phase": "Model Building",
+      "minutes": 1.0,
+      "hidden": false,
+      "authored_slide": "summary"
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "170cfb883933b163b9557bd3da2353a5e9b567c624d397327539210b03135b23",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED",
+  "design_revision": "quiz-v1"
+}

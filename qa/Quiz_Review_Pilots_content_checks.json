@@ -1,0 +1,150 @@
+{
+  "scope": "Six user-authorised review drafts only; full batch on hold",
+  "lessons": [
+    {
+      "module": "coremath_1_1",
+      "lesson": 1,
+      "deck_sha256": "19dc6168378e878b6ed1c05dbe7842a57dbdfc37c40449dd081ff9e4411bd300",
+      "slides": 22,
+      "minutes": 40,
+      "quiz_ids": [
+        "coremath_1_1.L01.Q01.v1",
+        "coremath_1_1.L01.Q02.v1",
+        "coremath_1_1.L01.Q03.v1"
+      ],
+      "checks": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "source_quotes": "PASS",
+      "later_assessment_inputs": "not present on student slides"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 2,
+      "deck_sha256": "0505a836301b87d749709e83d2262a7607a3f202d97a9b6a2f36a686101dc054",
+      "slides": 22,
+      "minutes": 40,
+      "quiz_ids": [
+        "coremath_1_1.L02.Q01.v1",
+        "coremath_1_1.L02.Q02.v1",
+        "coremath_1_1.L02.Q03.v1"
+      ],
+      "checks": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "source_quotes": "PASS",
+      "later_assessment_inputs": "not present on student slides"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 1,
+      "deck_sha256": "170cfb883933b163b9557bd3da2353a5e9b567c624d397327539210b03135b23",
+      "slides": 23,
+      "minutes": 40,
+      "quiz_ids": [
+        "essmath_1_1.L01.Q01.v1",
+        "essmath_1_1.L01.Q02.v1",
+        "essmath_1_1.L01.Q03.v1"
+      ],
+      "checks": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "source_quotes": "PASS",
+      "later_assessment_inputs": "not present on student slides"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 2,
+      "deck_sha256": "d668d8777d1acabaf80c0bb3337770cdaf74b4fbbb0e3c28366049272124aee5",
+      "slides": 23,
+      "minutes": 40,
+      "quiz_ids": [
+        "essmath_1_1.L02.Q01.v1",
+        "essmath_1_1.L02.Q02.v1",
+        "essmath_1_1.L02.Q03.v1"
+      ],
+      "checks": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "source_quotes": "PASS",
+      "later_assessment_inputs": "not present on student slides"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 1,
+      "deck_sha256": "eccd1b36f9a27fe6b549128573d2550440753a361924135695d1853a31aaee55",
+      "slides": 23,
+      "minutes": 40,
+      "quiz_ids": [
+        "gensci_1_1.L01.Q01.v1",
+        "gensci_1_1.L01.Q02.v1",
+        "gensci_1_1.L01.Q03.v1"
+      ],
+      "checks": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "source_quotes": "PASS",
+      "later_assessment_inputs": "not present on student slides"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 2,
+      "deck_sha256": "98798f07f216bf44e5a7515c29948aac7b1ba1ce3baf3cf00087e58d2c71fe99",
+      "slides": 23,
+      "minutes": 40,
+      "quiz_ids": [
+        "gensci_1_1.L02.Q01.v1",
+        "gensci_1_1.L02.Q02.v1",
+        "gensci_1_1.L02.Q03.v1"
+      ],
+      "checks": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "source_quotes": "PASS",
+      "later_assessment_inputs": "not present on student slides"
+    }
+  ],
+  "source_archives": {
+    "coremath_1_1": {
+      "archive_sha256": "07c763b619ee3e8f720f82b2ce566ce5848e7438b4af8b4a4343ac1b8a3d1b9a",
+      "verified_source_members": 10
+    },
+    "essmath_1_1": {
+      "archive_sha256": "9a14a58a04f1b7a755c779fb116764da7a4fed09d80094779e8b6574b1e6b9fa",
+      "verified_source_members": 10
+    },
+    "gensci_1_1": {
+      "archive_sha256": "9a14a58a04f1b7a755c779fb116764da7a4fed09d80094779e8b6574b1e6b9fa",
+      "verified_source_members": 10
+    }
+  },
+  "unique_versioned_questions": 18,
+  "correct_option_distribution": {
+    "B": 6,
+    "C": 4,
+    "D": 4,
+    "A": 4
+  },
+  "exact_arithmetic": "PASS: fraction conversions, recurring fractions, squared bounds, rounding, roots and divisor lists",
+  "builder_content_review": "All 18 single-answer questions, explanations and distractor feedback compared with source keys; teacher review remains open.",
+  "server": "Future integration only; no class or individual responses fabricated",
+  "cpu_only": "Document/archive/text inspection and exact arithmetic; separate CUDA reports prove raster execution."
+}

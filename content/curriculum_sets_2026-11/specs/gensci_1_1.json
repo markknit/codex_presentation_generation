@@ -112,7 +112,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Which words report the evidence?",
           "kind": "table",
           "headers": [
@@ -150,14 +150,14 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Write a limited explanation",
           "kind": "bullets",
           "items": [
             "Name one observation and two interpretations.",
             "State a limit and a safe follow-up check."
           ],
-          "timer": "4:00"
+          "timer": "3:00"
         },
         {
           "phase": "Driving Question Board",
@@ -173,14 +173,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Keep observation and inference in separate boxes.",
             "Retain your first explanation; annotate changed confidence."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -191,7 +191,8 @@
             "Give one observation and two inferences.",
             "Add one useful, safe additional check."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before the final quiz and its feedback. Keep first-attempt exit and quiz records separate."
         }
       ],
       "record": {
@@ -232,7 +233,112 @@
             ""
           ]
         ]
-      }
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "gensci_1_1.L02.Q01.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "Which GS12 statement is a reported observation?",
+          "options": {
+            "A": "The paper beside the closed window is wet.",
+            "B": "Rain must have entered through a gap.",
+            "C": "Someone may have spilled water.",
+            "D": "Where did the water come from?"
+          },
+          "correct": "A",
+          "explanation": "Wet paper is reported. Rain entering and a spill interpret possible causes; asking where the water came from is a question.",
+          "distractor_feedback": {
+            "B": "Rain entering is an inference about a cause.",
+            "C": "A possible spill is an inference.",
+            "D": "This asks for information rather than reporting it."
+          },
+          "objective": "Distinguish observation, inference and question.",
+          "placement_reason": "After solo classification, comparison and the explanation table.",
+          "no_future_content_reason": "Uses only GS12 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS12 — Teacher key and preparation",
+              "evidence": "1,3,6 observations; 2,4 inferences; 5 question."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L02.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "An empty cup is beside wet paper. Which conclusion is justified?",
+          "options": {
+            "A": "It proves somebody spilled the water.",
+            "B": "It rules out rain entering.",
+            "C": "A spill is possible, but not proved.",
+            "D": "It proves condensation was the cause."
+          },
+          "correct": "C",
+          "explanation": "An empty cup is consistent with a spill, but it does not show where the water came from. Other explanations remain possible.",
+          "distractor_feedback": {
+            "A": "The cup does not identify the cause.",
+            "B": "The cup does not rule out rain.",
+            "D": "Condensation would also need supporting evidence."
+          },
+          "objective": "Limit a conclusion to what the evidence supports.",
+          "placement_reason": "After comparing consistent-with and proof claims.",
+          "no_future_content_reason": "Uses only GS12 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS12 — Teacher key and preparation",
+              "evidence": "An empty cup is not proof of a spill."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L02.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "Which follow-up could help test the rain explanation without accusing anyone?",
+          "options": {
+            "A": "Name the person nearest the window.",
+            "B": "Inspect weather records and state their limits.",
+            "C": "Repeat the spill claim more confidently.",
+            "D": "Treat the empty cup as conclusive proof."
+          },
+          "correct": "B",
+          "explanation": "Weather records could add relevant evidence about rain. They have limits and would not alone prove how the paper became wet.",
+          "distractor_feedback": {
+            "A": "Proximity is not evidence of responsibility.",
+            "C": "Repetition supplies no new evidence.",
+            "D": "The cup does not establish a spill."
+          },
+          "objective": "Choose relevant additional evidence without overclaiming.",
+          "placement_reason": "After the written observation/two-inferences/follow-up exit is saved.",
+          "no_future_content_reason": "Uses only GS12 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS12 — Teacher key and preparation",
+              "evidence": "Inspecting weather records or asking whether water was placed there can help; each has limitations."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        }
+      ],
+      "decisions": "User-authorised periodic quizzes. Preserve every source task and all source Observe subdivisions. Two one-minute checks use the existing ten-minute Explain/check allocation; a one-minute reinforcement check follows the saved exit within Model Building. Source phase totals remain unchanged. Real-class pacing and individual response-server provision require teacher review.",
+      "preparation": "Print the complete source task and blank record. Prepare notebooks, pencils, second colour, board and timer. Configure the matching versioned question IDs only if the future server is available; otherwise record individual paper responses privately. Project class aggregates only after closure. No practical or personal measurements.",
+      "route": "Source printed tasks; no invented practical, live poll chart, pupil response, media or URL. Native editable diagrams and source values. The response/report server is not implemented in this repository."
     },
     "3": {
       "code": "GS13",
@@ -1088,7 +1194,297 @@
           ]
         ]
       }
+    },
+    "1": {
+      "code": "GS11",
+      "short": "Scientific_Questions",
+      "goals": [
+        "Ask questions evidence could answer.",
+        "Separate a report from a proposed cause.",
+        "Connect an investigation to a possible use."
+      ],
+      "words": "report: what is stated\n\nevidence: information used to check a claim",
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Which of the three GS11 school cases needs science? Give a reason before discussing.",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share your prediction and its reason.",
+            "Keep a different first idea visible."
+          ],
+          "timer": "1:00",
+          "mode": "share; do not correct"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 9,
+          "title": "GS11 · three reports to investigate",
+          "kind": "notice_cases",
+          "timer": "9:00",
+          "mode": "case table in pairs",
+          "do": "Provide the complete GS11 table. Pairs spend nine minutes on all three cases. Each learner records the reported observation, question, needed evidence and possible benefit. These are fictional reports, not demonstrations or actual measurements."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Compare the evidence we would need",
+          "kind": "bullets",
+          "items": [
+            "Compare the three completed case rows.",
+            "Separate what is reported from what you propose.",
+            "Keep causes as questions until evidence is collected."
+          ],
+          "timer": "4:00",
+          "mode": "compare in pairs"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 3,
+          "title": "Report a question and possible benefit",
+          "kind": "bullets",
+          "items": [
+            "Report one evidence-seeking question.",
+            "Name what evidence would help and a possible use."
+          ],
+          "timer": "3:00",
+          "mode": "share case evidence"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 2,
+          "title": "What does General Science connect?",
+          "kind": "columns",
+          "columns": [
+            [
+              "INQUIRY",
+              "Ask questions.\nGather and check evidence.\nRevise explanations."
+            ],
+            [
+              "CONNECTED KNOWLEDGE",
+              "Living things\nMatter and chemical change\nPhysical processes"
+            ]
+          ],
+          "caption": "One case can connect more than one science area."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Which questions can measurements answer?",
+          "kind": "columns",
+          "columns": [
+            [
+              "EVIDENCE-SEEKING",
+              "How do the two lunchbox temperatures compare?"
+            ],
+            [
+              "PREFERENCE",
+              "Which gate colour is prettiest?"
+            ]
+          ],
+          "caption": "Measurements can inform a choice; they do not decide a preference."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Explain a useful investigation",
+          "kind": "bullets",
+          "items": [
+            "Define General Science in your own words.",
+            "Use one GS11 report, proposed evidence and possible benefit.",
+            "State what the report has not yet established."
+          ],
+          "timer": "3:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post evidence we have and questions still open.",
+            "Sort observation, cause and usefulness questions.",
+            "Keep untested cause questions on the board."
+          ],
+          "timer": "4:00",
+          "mode": "sort; evidence vote"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Version 0 · draw your evidence model",
+          "kind": "bullets",
+          "items": [
+            "Observation → question → evidence → explanation → possible use",
+            "Add one GS11 case; mark missing evidence with a question mark."
+          ],
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit · save your first response",
+          "kind": "bullets",
+          "items": [
+            "Explain General Science and one possible benefit.",
+            "Use a GS11 case and name evidence still needed."
+          ],
+          "timer": "2:00",
+          "mode": "write alone",
+          "do": "Collect or securely save each individual exit before the final quiz feedback. The later quiz is reinforcement, not independent exit evidence."
+        }
+      ],
+      "record": {
+        "headers": [
+          "Case",
+          "Reported observation",
+          "Question",
+          "Evidence needed",
+          "Possible benefit"
+        ],
+        "rows": [
+          [
+            "A",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "B",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "C",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "row_height": 0.85
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "gensci_1_1.L01.Q01.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "Which question could a temperature measurement help answer?",
+          "options": {
+            "A": "Which gate colour is prettiest?",
+            "B": "Which lunchbox do you like most?",
+            "C": "How do the lunchbox temperatures compare?",
+            "D": "Which science topic is your favourite?"
+          },
+          "correct": "C",
+          "explanation": "Comparing temperatures asks about a measurable property. A measurement alone does not decide a personal preference.",
+          "distractor_feedback": {
+            "A": "Colour preference is a value judgement.",
+            "B": "Liking a lunchbox is a preference.",
+            "D": "A favourite topic is a preference."
+          },
+          "objective": "Recognise an evidence-seeking question.",
+          "placement_reason": "After the inquiry definition; before the preference comparison.",
+          "no_future_content_reason": "Uses only GS11 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS11 — Teacher key and preparation",
+              "evidence": "A value judgement such as which gate colour is prettiest is not settled by measurement alone."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L01.Q02.v1",
+          "after_slide": 8,
+          "phase": "Explain",
+          "stem": "The garden report gives fewer seedlings after a dry week. What is established?",
+          "options": {
+            "A": "Dry weather was the only cause.",
+            "B": "A lower seedling count was reported.",
+            "C": "Pests caused the seedling loss.",
+            "D": "Watering will certainly solve the problem."
+          },
+          "correct": "B",
+          "explanation": "The reported lower count is evidence to investigate. The report alone does not establish a cause or guarantee a solution.",
+          "distractor_feedback": {
+            "A": "An exclusive cause has not been tested.",
+            "C": "Pests have not been measured or established.",
+            "D": "The report does not test a solution."
+          },
+          "objective": "Separate a reported observation from a cause claim.",
+          "placement_reason": "After learners write a bounded GS11 explanation.",
+          "no_future_content_reason": "Uses only GS11 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS11 — Teacher key and preparation",
+              "evidence": "Reported observations are warmth, reddish-brown patches and lower seedling count, not established causes."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L01.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "What should support a proposed scientific explanation?",
+          "options": {
+            "A": "The most confident speaker",
+            "B": "A guess repeated by many people",
+            "C": "The benefit we hope for",
+            "D": "Relevant observable or measurable evidence"
+          },
+          "correct": "D",
+          "explanation": "An explanation needs relevant evidence and remains open to revision. Confidence, repetition and hoped-for benefits do not replace checking.",
+          "distractor_feedback": {
+            "A": "Confidence is not evidence of the cause.",
+            "B": "Agreement does not replace investigation.",
+            "C": "A possible benefit is not proof of an explanation."
+          },
+          "objective": "Reinforce evidence before a useful explanation.",
+          "placement_reason": "After the individual exit is saved; before the summary.",
+          "no_future_content_reason": "Uses only GS11 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS11 — Teacher key and preparation",
+              "evidence": "Investigations need observable/measurable evidence and explanations open to revision."
+            }
+          ],
+          "accuracy_check": "Checked against the named source key, every alternative and the independent item checks in qa/Quiz_Review_Pilots_content_checks.json."
+        }
+      ],
+      "decisions": "User-authorised periodic quizzes. Preserve every source task and all source Observe subdivisions. Two one-minute checks use the existing ten-minute Explain/check allocation; a one-minute reinforcement check follows the saved exit within Model Building. Source phase totals remain unchanged. Real-class pacing and individual response-server provision require teacher review.",
+      "preparation": "Print the complete source task and blank record. Prepare notebooks, pencils, second colour, board and timer. Configure the matching versioned question IDs only if the future server is available; otherwise record individual paper responses privately. Project class aggregates only after closure. No practical or personal measurements.",
+      "route": "Source printed tasks; no invented practical, live poll chart, pupil response, media or URL. Native editable diagrams and source values. The response/report server is not implemented in this repository."
     }
   },
-  "status": "Pre-quiz baseline only; author lesson-level quiz-v1 revision, questions and revised time allocations before building."
+  "status": "Lessons 1–2 authored for quiz-v1 review; all remaining lessons stay pre-quiz baselines."
 }

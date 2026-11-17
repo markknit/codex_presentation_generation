@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1.pptx",
+  "sha256": "0505a836301b87d749709e83d2262a7607a3f202d97a9b6a2f36a686101dc054",
+  "slides": 22,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 14.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 8.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1_Student_Task.docx",
+      "sha256": "2341bd454353575778ac83926fe117db4705e7a25af7fa3fbab751d49ac57f5c",
+      "pdf_sha256": "3d34ffbccdbb7e19c6278e59282ce1d016935ebf2cb9aadb74dd6e1022da71ab",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1_Teacher_Notes.docx",
+      "sha256": "e06ac7e3a01037334d403eb55d1df323046d533b2befe1a916ebfe70f6b34cb9",
+      "pdf_sha256": "d5eeeb3ccef23af326bc97c4eb98d1587c6e39987e1b7dbba5e8f12cb396eef8",
+      "pages": 17,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

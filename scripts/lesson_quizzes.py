@@ -79,12 +79,13 @@ def validate_quizzes(spec, module, number, source_hashes):
 
 def render_quiz(lesson, q):
     # CPU-only editable PowerPoint shapes. Raster review is a separate CUDA gate.
-    from lesson_visuals import tx, box, INK, MUTED, CREAM
+    from lesson_visuals import tx, box, timer, INK, MUTED, CREAM
     key = f"{q['id']}\nCorrect: {q['correct']}. {q['options'][q['correct']]}\n{q['explanation']}\n"
     key += '\n'.join(f'{k}: {v}' for k, v in q['distractor_feedback'].items())
     source = '\n'.join(f"{r['file']} — {r['locator']}: {r['evidence']}" for r in q['source_refs'])
     phase = q['phase']
-    slide = lesson.slide('Pause and check your understanding', phase, q['response_minutes'],
+    ordinal=int(re.search(r'\.Q([0-9]+)\.',q['id']).group(1))
+    slide = lesson.slide(f'Quiz {ordinal} · pause and check your understanding', phase, q['response_minutes'],
         'Open the configured question for individual responses. Keep all keys and class results private until closure. '
         'Use the server only if actually configured; otherwise record paper choices privately. '
         'Close the response window before showing aggregates or advancing to feedback. No automatic advance.',
@@ -104,7 +105,9 @@ def render_quiz(lesson, q):
         box(slide, x, y, 5.72, 1.12, CREAM)
         tx(slide, f"{label}  {q['options'][label]}", x + .18, y + .07, 5.35, .99, 21, INK)
     tx(slide, 'Respond individually. Keep a reason for your choice.', .85, 6.4, 11.5, .45, 19, MUTED)
-    slide = lesson.slide('Check the reasoning', phase, q['feedback_minutes'],
+    seconds=round(q['response_minutes']*60)
+    timer(slide,f'{seconds//60}:{seconds%60:02}','respond alone',x=6.9,y=.18)
+    slide = lesson.slide(f'Quiz {ordinal} · check the reasoning', phase, q['feedback_minutes'],
         'Only after responses close: switch to the configured class aggregate A–D display, showing no individual data. '
         'Return to this feedback slide. If the server is unavailable, discuss a class tally only if actually collected. '
         'Use the observed distribution to decide whether to revisit the source representation; do not invent results. '
@@ -119,6 +122,8 @@ def render_quiz(lesson, q):
     box(slide, .8, 3.55, 11.7, 1.85, CREAM)
     tx(slide, q['explanation'], 1.0, 3.78, 11.25, 1.35, 25, INK)
     tx(slide, 'Explain the reason, then decide whether your first idea needs revising.', .85, 5.85, 11.5, .75, 21, MUTED)
+    seconds=round(q['feedback_minutes']*60)
+    timer(slide,f'{seconds//60}:{seconds%60:02}','feedback',x=6.9,y=.18)
     return {'id': q['id'], 'question_slide': question_slide, 'feedback_slide': feedback_slide}
 
 

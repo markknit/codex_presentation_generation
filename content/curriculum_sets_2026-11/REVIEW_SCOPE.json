@@ -1,0 +1,23 @@
+{
+  "status": "active",
+  "design_revision": "quiz-v1",
+  "authorisation": "User requested two lessons from each curriculum for review before the full batch.",
+  "modules": {
+    "gensci_1_1": [
+      1,
+      2
+    ],
+    "essmath_1_1": [
+      1,
+      2
+    ],
+    "coremath_1_1": [
+      1,
+      2
+    ]
+  },
+  "full_batch": "ON HOLD \u2014 requires user review of this six-deck set",
+  "server_integration": "Future system; no live capture claimed",
+  "review_state": "Six decks ready; awaiting user review before expanding the scope",
+  "built_lessons": 6
+}

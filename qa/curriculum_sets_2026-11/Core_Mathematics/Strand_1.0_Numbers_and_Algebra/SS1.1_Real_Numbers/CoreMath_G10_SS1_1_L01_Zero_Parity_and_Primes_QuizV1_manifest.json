@@ -1,0 +1,186 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L01_Zero_Parity_and_Primes_QuizV1.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Can zero be even without being prime?",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "How to use this lesson",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Our unit journey",
+      "phase": "Unit map",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Your first idea and reason",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 1
+    },
+    {
+      "slide": 7,
+      "title": "BEFORE \u00b7 keep our reasons",
+      "phase": "Predict",
+      "minutes": 1.0,
+      "hidden": false,
+      "authored_slide": 2
+    },
+    {
+      "slide": 8,
+      "title": "CRN1 \u00b7 classify all nine whole numbers",
+      "phase": "Observe",
+      "minutes": 8.0,
+      "hidden": false,
+      "authored_slide": 3
+    },
+    {
+      "slide": 9,
+      "title": "Compare the two kinds of classification",
+      "phase": "Observe",
+      "minutes": 6.0,
+      "hidden": false,
+      "authored_slide": 4
+    },
+    {
+      "slide": 10,
+      "title": "Is zero even?",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 5
+    },
+    {
+      "slide": 11,
+      "title": "Quiz 1 \u00b7 pause and check your understanding",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "coremath_1_1.L01.Q01.v1",
+      "quiz_stage": "question"
+    },
+    {
+      "slide": 12,
+      "title": "Quiz 1 \u00b7 check the reasoning",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "coremath_1_1.L01.Q01.v1",
+      "quiz_stage": "feedback"
+    },
+    {
+      "slide": 13,
+      "title": "Positive divisors decide prime status",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false,
+      "authored_slide": 6
+    },
+    {
+      "slide": 14,
+      "title": "One counterexample checks the label",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false,
+      "authored_slide": 7
+    },
+    {
+      "slide": 15,
+      "title": "Quiz 2 \u00b7 pause and check your understanding",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "coremath_1_1.L01.Q02.v1",
+      "quiz_stage": "question"
+    },
+    {
+      "slide": 16,
+      "title": "Quiz 2 \u00b7 check the reasoning",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "coremath_1_1.L01.Q02.v1",
+      "quiz_stage": "feedback"
+    },
+    {
+      "slide": 17,
+      "title": "Our Driving Question Board",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false,
+      "authored_slide": 8
+    },
+    {
+      "slide": 18,
+      "title": "Revise the supply label",
+      "phase": "Model Building",
+      "minutes": 4.0,
+      "hidden": false,
+      "authored_slide": 9
+    },
+    {
+      "slide": 19,
+      "title": "Individual exit \u00b7 21 and 0",
+      "phase": "Model Building",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 10
+    },
+    {
+      "slide": 20,
+      "title": "Quiz 3 \u00b7 pause and check your understanding",
+      "phase": "Model Building",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "coremath_1_1.L01.Q03.v1",
+      "quiz_stage": "question"
+    },
+    {
+      "slide": 21,
+      "title": "Quiz 3 \u00b7 check the reasoning",
+      "phase": "Model Building",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "coremath_1_1.L01.Q03.v1",
+      "quiz_stage": "feedback"
+    },
+    {
+      "slide": 22,
+      "title": "Summary Table",
+      "phase": "Model Building",
+      "minutes": 1.0,
+      "hidden": false,
+      "authored_slide": "summary"
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "19dc6168378e878b6ed1c05dbe7842a57dbdfc37c40449dd081ff9e4411bd300",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED",
+  "design_revision": "quiz-v1"
+}

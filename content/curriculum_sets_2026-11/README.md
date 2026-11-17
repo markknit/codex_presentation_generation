@@ -1,39 +1,49 @@
-# Quiz design reset — generation paused
+# Six quiz-enabled lessons ready for review
 
-Current design: **quiz-v1**. Read `QUIZ_DESIGN.md` and `GUIDANCE.md`.
-The user requested deleting the pre-quiz drafts and starting over with periodic
-A–D comprehension checks. This task updates the process and resets the working
-files; it does not resume curriculum generation or implement the future server.
+The user authorised Lessons 1–2 from General Science Introduction, Essential
+Mathematics Real Numbers and Core Mathematics Real Numbers before the full batch.
+All six review drafts are built: **136 slides, 18 A–D quizzes, 240 minutes**.
+Each lesson has three question/feedback pairs and remains exactly 40 minutes.
 
-The deletion audit is `qa/curriculum_quiz_reset_2026-11.json` (repository root).
-The reset is applied: 782 superseded files were deleted from four explicit
-working-output/render roots, including all 13 PPTX copies of ten lessons.
-All 210 unrelated output hashes were reverified. Sources, unrelated Biology review work and
-historical QA/logs are preserved. Original pilot drafts must not be reimported.
+Local review index: `outputs/drafts/curriculum_sets_2026-11/REVIEW_INDEX.md`.
+Combined teacher bundle: `outputs/drafts/curriculum_sets_2026-11/review/Six_Lesson_Quiz_Review.zip`.
+The index links each PPTX/PDF and lists its quiz question slide numbers.
+Files retain curriculum → strand → sub-strand folders and artifact types.
 
-The collection has 43 sub-strands / 514 lessons and 430 verified source files.
-The reset inventory has zero deck files and 514 `pending_quiz_design` rows.
-All 43 folder hierarchies are retained, including public/private quiz folders.
-All 514 lessons require quiz-v1 design and fresh review. The 22
-continuation lesson specifications under `specs` are source-work baselines;
-they intentionally fail the new build gate until lesson-level revision,
-questions, placement/source evidence and response/feedback timing are authored.
-Lesson 1 must also be converted to the organised specification format.
+Source/archive, source phase timing, exact arithmetic, font/notes, geometry,
+slide/print text, versioned manifests and actual CUDA checks passed. All 136
+slides, including hidden teacher slides, and all 119 final print pages were
+visually inspected for layout; repaired slides received a final recheck.
+Evidence: `qa/Quiz_Review_Pilots_content_checks.json`, per-lesson reports,
+visual reviews, `qa/Quiz_Review_Core_title_repair.json` and the combined package
+record. CRC and all 105 content-member hashes passed for the combined archive.
+These are builder checks, not native PowerPoint or teacher approval.
 
-On explicit resume, read the repository restart skill and the complete chosen
-source unit. Author a representative quiz-enabled pilot, preserving required
-content and phase/lesson totals. Each quiz needs the fields validated by
-`scripts/lesson_quizzes.py`; `tests/test_lesson_quizzes.py` provides synthetic
-schema/layout examples, not curriculum questions. Do not copy their test items
-into teaching material. A documented independent-assessment exception is valid.
+The **full batch is on hold for user review**. `REVIEW_SCOPE.json` keeps the
+builder limited to these six lessons; do not expand that scope without the
+user's instruction. Inventory: six review drafts and 508 pending lessons.
+Six specifications are quiz-v1; 19 later lesson specifications remain pre-quiz
+baselines requiring quiz authoring/timing, with other units unauthored.
 
-Build one lesson with `build_curriculum_set_lesson.py`, run
-`render_check_curriculum_set.py`, inspect every final slide/print page, then
-record review/package using `review_package_curriculum_set.py`. Those stages
-reject the old revision and stale/altered quiz manifests. All native PowerPoint,
-teacher and classroom release gates remain. Working outputs/renders stay ignored.
+Native PowerPoint/Slide Show/Presenter View, exact Calibri (local previews use
+Carlito), teacher/source-owner, real-class pacing/access and ARES checks remain
+open. Review especially the 30-second response plus 30-second feedback slots,
+question difficulty, distractors, placement and reinforcement.
 
-Public questions go under `quizzes/public`, private teacher/server keys under
-`quizzes/private`. IDs, option order, slide positions and deck hashes link the
-future response reports to exact question versions. The live collection,
-aggregate projector and individual-report integration still require a server.
+Teacher review files contain private answers/notes. Public questions and private
+keys are separated under quizzes/public and quizzes/private. The future server
+must capture individual attempts privately and project actual class aggregates
+only after closure. No live collection/reporting system or pupil data is
+included. Use the private paper response record if the server is unavailable.
+
+Rebuild commands: `build_curriculum_set_lesson.py`, then
+`render_check_curriculum_set.py`; inspect changed slides/print pages before
+recording review with `review_package_curriculum_set.py`. Package the three
+sub-strands, then run `package_quiz_review_pilots.py` for the combined bundle.
+`author_quiz_review_pilots.py` reproduces the six source-specific specifications.
+All review outputs/renders remain ignored by Git. No push or release requested.
+
+The preceding authorised pre-quiz deletion remains recorded in
+`qa/curriculum_quiz_reset_2026-11.json`; it is a historical reset checkpoint,
+not the current zero-deck state. Original sources and unrelated Biology work
+remain unchanged. Do not reimport deleted pilot drafts or use their old QA.

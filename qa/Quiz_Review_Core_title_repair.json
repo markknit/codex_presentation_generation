@@ -1,0 +1,11 @@
+{
+  "changed_visible_parts": {
+    "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L01_Zero_Parity_and_Primes_QuizV1.pptx": [
+      "ppt/slides/slide1.xml"
+    ],
+    "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1.pptx": [
+      "ppt/slides/slide1.xml"
+    ]
+  },
+  "result": "Only Core title slide visible XML changed; all other previously inspected Core slides remain byte-identical."
+}

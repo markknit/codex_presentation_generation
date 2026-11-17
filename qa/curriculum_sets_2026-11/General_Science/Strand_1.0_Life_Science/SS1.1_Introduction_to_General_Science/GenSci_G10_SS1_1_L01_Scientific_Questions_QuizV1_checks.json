@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1.pptx",
+  "sha256": "eccd1b36f9a27fe6b549128573d2550440753a361924135695d1853a31aaee55",
+  "slides": 23,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1_Student_Task.docx",
+      "sha256": "e689a231cc824553aa65e87d5c7dcca9347fd9c1df366ad5dffe935cff16002e",
+      "pdf_sha256": "3f138be11ee2b4b383ec87754546c7200ba872c66763366d278dea5545d874ef",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1_Teacher_Notes.docx",
+      "sha256": "499a19bf25c3327d55b4a52fe333092ad3b693f04e89a9a72d8d63e5513c13b5",
+      "pdf_sha256": "92740c524505fd6dfd338393e531da3d09ec93589097152589ebaf3926f6b1fe",
+      "pages": 19,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

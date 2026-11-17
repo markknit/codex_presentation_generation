@@ -66,12 +66,49 @@ def visual(slide,spec,phase):
             tx(slide,value,x+.13,3.08,w-.26,1.12,23,INK,True,A.CENTER)
             if i<len(nodes)-1:arrow(slide,x+w+.06,3.4,.23,COL.get(phase,'CF128C'))
     elif kind=='numberline':
+        if spec.get('headline'):tx(slide,spec['headline'],.85,2.25,11.6,.8,27,INK,True,A.CENTER)
         lo,hi=spec['bounds'];left=.95;width=11.25;y=3.7
         line(slide,left,y,left+width,y,INK,2)
         for value,label in spec['points']:
             x=left+(value-lo)/(hi-lo)*width
             line(slide,x,y-.12,x,y+.12,INK,2);oval(slide,x-.045,y-.045,.09,.09,'CF128C')
             tx(slide,label,x-.55,y+.35,1.1,.6,22,INK,True,A.CENTER)
+    elif kind=='sets':
+        box(slide,.8,2.18,11.75,3.62,'F0F4F4',INK)
+        tx(slide,'REAL NUMBERS',1.0,2.35,10.9,.4,21,INK,True)
+        box(slide,1.15,2.92,8.15,2.52,'E9F8FC','47C6E4')
+        tx(slide,'RATIONAL',1.35,3.06,7.6,.35,18,INK,True)
+        box(slide,1.5,3.6,3.35,1.5,'FFF9EB','D7DF23')
+        tx(slide,'INTEGERS',1.7,3.72,2.95,.35,17,INK,True)
+        tx(slide,'  ·  '.join(spec['integers']),1.7,4.18,2.95,.7,23,INK,True)
+        tx(slide,'\n'.join(spec['other_rational']),5.18,3.6,3.8,1.55,21)
+        tx(slide,'IRRATIONAL',9.6,3.06,2.65,.4,17,INK,True)
+        tx(slide,'\n'.join(spec['irrational']),9.95,3.8,2.0,1.3,26,INK,True)
+    elif kind=='notice_cases':
+        cases=[('A · LUNCHBOX','Sunlight box feels warmer\nthan a similar indoor box.'),
+               ('B · GATE','Reddish-brown patches\nafter a wet season.'),
+               ('C · GARDEN','Fewer seedlings reported\nafter a dry week.')]
+        for i,(title,report) in enumerate(cases):
+            x=.78+i*4.0;box(slide,x,2.3,3.78,3.45,CREAM)
+            tx(slide,title,x+.18,2.48,3.4,.4,18,INK,True)
+            if i==0:
+                oval(slide,x+.35,3.12,.62,.62,'FCBA63')
+                for k in range(3):line(slide,x+1.15+k*.55,3.2,x+1.35+k*.55,3.65,'FCBA63',3)
+                box(slide,x+.65,3.75,2.5,.48,'47C6E4',INK)
+                box(slide,x+1.35,3.52,1.1,.2,'47C6E4',INK)
+            elif i==1:
+                for k in range(5):box(slide,x+.62+k*.5,3.12,.13,1.25,'52636A')
+                line(slide,x+.55,3.43,x+2.95,3.43,INK,3)
+                line(slide,x+.55,4.08,x+2.95,4.08,INK,3)
+                for dx,dy in [(1.15,3.4),(2.12,3.95),(2.6,3.32)]:oval(slide,x+dx,dy,.25,.17,'A65D38')
+            else:
+                line(slide,x+.55,4.3,x+3.12,4.3,'A65D38',3)
+                for dx in [1.05,2.1]:
+                    line(slide,x+dx,4.3,x+dx,3.55,'52636A',3)
+                    oval(slide,x+dx-.38,3.57,.42,.22,'D7DF23')
+                    oval(slide,x+dx+.03,3.36,.42,.22,'D7DF23')
+            tx(slide,report,x+.18,4.78,3.4,.8,21)
+        tx(slide,'Fictional reports · editable schematic drawings, not measured results',.85,6.45,9.1,.35,16,MUTED)
     elif kind=='bars':
         data=CategoryChartData();data.categories=spec['categories']
         for name,values in spec['series']:data.add_series(name,values)
@@ -94,6 +131,9 @@ def visual(slide,spec,phase):
 
 class Lesson:
     def __init__(self,module,number):
+        scope=json.loads((CONTROL/'REVIEW_SCOPE.json').read_text())
+        if scope.get('status')=='active' and number not in scope['modules'].get(module,[]):
+            raise ValueError('Generation is limited to the six authorised review lessons; the full batch is on hold.')
         self.inventory=json.loads((CONTROL/'inventory.json').read_text())
         self.u=next(u for u in self.inventory['units'] if u['module']==module)
         self.path=Path(self.u['source_folder']);self.paths=unit_paths(self.u)
@@ -148,7 +188,7 @@ class Lesson:
                    +('Independent assessment: no teaching examples or peer discussion before collection.' if self.assessment else 'Do not show Explain slides until individual evidence is recorded.'),
             background='Anchor: '+self.data['UNIT']['phenomenon'],key='Title introduces the investigation; no answer is endorsed.')
         tx(s,f'{self.u["subject"]} · Grade 10 · {self.u["topic"]}',.75,2.35,11.7,.55,24,INK,True)
-        question(s,self.l['slo']['keyInquiry'],'Predict',y=3.2,size=30)
+        question(s,self.spec.get('inquiry',self.l['slo']['keyInquiry']),'Predict',y=3.2,size=30)
         tx(s,f'LESSON {self.n} OF {len(self.data["LESSONS"])} · 40 MINUTES · REVIEW DRAFT',.8,5.1,11.5,.4,18,MUTED,True)
         tx(s,self.anchor,.8,5.62,11.5,.4,18,INK,True)
         for i,(p,c) in enumerate(COL.items()):
@@ -164,7 +204,10 @@ class Lesson:
         s=self.slide('Lesson at a glance','Glance',0,
             self.spec.get('preparation','Source task per learner; notebooks, pencils, second colour, board and timer.')
             +' '+self.spec.get('route','Follow the supplied paper task. No practical or media is required.')
-            +' Source-specific resource fallback is a search URL, not verified matched media. Preview first; retain offline print route.',hidden=True)
+            +' Source-specific resource fallback is a search URL, not verified matched media. Preview first; retain offline print route.',
+            background='Whole-phase source guidance (not extra time):\n'+'\n'.join(
+                f'{p}: {f["teacherMoves"]} {f["learnerExperience"]}' for p,f in zip(PHASES,self.l['framework']))
+                +'\nQuiz allocations: '+str([(q['id'],q['phase'],q['response_minutes']+q['feedback_minutes']) for q in self.quizzes]),hidden=True)
         table(s,['Phase','min','Source focus'],[[p,str(int(self.totals[p])),textwrap.shorten(self.data['LESSONS'][self.n-1]['framework'][i]['learnerExperience'],width=66,placeholder='…')] for i,p in enumerate(PHASES)],
               .75,2.25,11.8,3.45,[3.0,.7,8.1],16)
         tx(s,self.spec.get('glance','Print the task. Keep the key private. Prepare board, timer and a second colour.'),.8,5.95,8.8,.65,18)
@@ -180,7 +223,7 @@ class Lesson:
         for i,l in enumerate(lessons):
             x=.75+(i//rows)*6.0;y=2.15+(i%rows)*dy
             box(s,x,y,5.8,dy-.05,'D7DF23' if l['number']==self.n else 'F0F4F4')
-            tx(s,f'{l["number"]}. {l["title"]}',x+.12,y+.06,5.56,dy-.1,13,INK,l['number']==self.n)
+            tx(s,f'{l["number"]}. {l["title"]}',x+.12,y+.06,5.56,dy-.1,15,INK,l['number']==self.n)
         tx(s,f'YOU ARE HERE: Lesson {self.n} · So far: '+('we begin with an untested claim.' if self.n==1 else 'retain the evidence and questions from earlier lessons.'),.8,6.08,11.5,.3,14,MUTED,True)
         tx(s,self.data['UNIT']['drivingQuestion'],.8,6.48,11.6,.52,15,INK,True)
         s=self.slide('By the end of this lesson you can…','Today',.5,
@@ -195,7 +238,9 @@ class Lesson:
         self.opening()
         for position,row in enumerate(self.spec['slides'],1):
             p=row['phase'];framework=self.l['framework'][PHASES.index(p)]
-            do=row.get('do',framework['teacherMoves']+' '+framework['learnerExperience'])
+            do=row.get('do','Guide this source step using the on-screen prompts and the complete printed '+self.code+' task. '
+                       +'Grouping: '+row.get('mode','elicit individual reasoning, then compare reasons as directed')+'. '
+                       +'Use this slide’s TIME allocation; the full source-phase instructions are in the hidden glance notes.')
             do+=' '+('Do not coach mathematical/scientific answers or permit comparison before collection.' if self.assessment else 'Keep an individual record; retain earlier ideas and use a new colour for justified revisions.')
             if self.assessment:
                 look='Check access, independent working and completion; record actual device action separately if supplied. '+framework['formativeAssessment']
@@ -266,14 +311,22 @@ class Lesson:
             r=self.spec['record'];t=student.add_table(rows=1,cols=len(r['headers']));t.style='Table Grid'
             for c,h in zip(t.rows[0].cells,r['headers']):c.text=h
             for row in r['rows']:
-                rr=t.add_row();rr.height=Inches(.43)
+                rr=t.add_row();rr.height=Inches(r.get('row_height',.43))
                 for c,value in zip(rr.cells,row):c.text=str(value)
             for row in t.rows:
                 row._tr.get_or_add_trPr().append(OxmlElement('w:cantSplit'))
             t.rows[0]._tr.get_or_add_trPr().append(OxmlElement('w:tblHeader'))
         if not self.assessment:student.add_page_break()
         student.add_heading('Your individual working and reasons',1)
-        for _ in range(6):student.add_paragraph('________________________________________________________________________________')
+        for _ in range(4 if self.quizzes else 6):student.add_paragraph('________________________________________________________________________________')
+        if self.quizzes:
+            student.add_heading('Quiz first responses — keep before feedback',1)
+            t=student.add_table(rows=1,cols=3);t.style='Table Grid'
+            for c,h in zip(t.rows[0].cells,['Check','First choice A–D','My short reason']):c.text=h
+            for i,q in enumerate(self.quizzes,1):
+                row=t.add_row();row.height=Inches(.38);row.cells[0].text=f'Q{i}'
+                row._tr.get_or_add_trPr().append(OxmlElement('w:cantSplit'))
+            student.add_paragraph('Keep first choices visible. Record a later revision separately in your notebook. The teacher keeps this response sheet private.')
         if not self.assessment:
             student.add_paragraph('Keep your first idea and a justified revision in different colours. Use your notebook if you need more room.')
             student.add_heading('Summary Table',1)

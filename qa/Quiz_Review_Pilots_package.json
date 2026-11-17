@@ -1,0 +1,57 @@
+{
+  "archive": "outputs/drafts/curriculum_sets_2026-11/review/Six_Lesson_Quiz_Review.zip",
+  "sha256": "6410c1ed915e982f8960605ca6ba71f61a563dd6288d58d848c346988671d130",
+  "bytes": 3212882,
+  "verified_members": 105,
+  "crc": "PASS",
+  "lessons": [
+    {
+      "module": "gensci_1_1",
+      "lesson": 1,
+      "deck_sha256": "eccd1b36f9a27fe6b549128573d2550440753a361924135695d1853a31aaee55",
+      "slides": 23,
+      "quizzes": 3
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 2,
+      "deck_sha256": "98798f07f216bf44e5a7515c29948aac7b1ba1ce3baf3cf00087e58d2c71fe99",
+      "slides": 23,
+      "quizzes": 3
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 1,
+      "deck_sha256": "170cfb883933b163b9557bd3da2353a5e9b567c624d397327539210b03135b23",
+      "slides": 23,
+      "quizzes": 3
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 2,
+      "deck_sha256": "d668d8777d1acabaf80c0bb3337770cdaf74b4fbbb0e3c28366049272124aee5",
+      "slides": 23,
+      "quizzes": 3
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 1,
+      "deck_sha256": "19dc6168378e878b6ed1c05dbe7842a57dbdfc37c40449dd081ff9e4411bd300",
+      "slides": 22,
+      "quizzes": 3
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 2,
+      "deck_sha256": "0505a836301b87d749709e83d2262a7607a3f202d97a9b6a2f36a686101dc054",
+      "slides": 22,
+      "quizzes": 3
+    }
+  ],
+  "slides": 136,
+  "questions": 18,
+  "minutes": 240,
+  "index": "outputs/drafts/curriculum_sets_2026-11/REVIEW_INDEX.md",
+  "full_batch": "On hold for user review",
+  "classroom_release": false
+}

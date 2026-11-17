@@ -1,0 +1,10 @@
+{
+  "host": "jhm-spark / NVIDIA GB10",
+  "initial_cuda_result": "cudaMemGetInfo and 4096-byte cudaMalloc returned out of memory",
+  "observed_memory": "About 1.7 GiB free RAM; about 108.9 GiB available, mostly reclaimable cache",
+  "recovery": "Touched and released a bounded 8 GiB owned anonymous allocation after checking available RAM exceeded four times that amount. No privileged cache command, file deletion or other process change.",
+  "post_recovery": "cudaMemGetInfo succeeded, free=10032123904 bytes; 4096-byte cudaMalloc succeeded",
+  "final_raster_processing": "All 136 slide renders and 119 final print pages processed on CUDA sm_121; no CPU fallback",
+  "cpu_only": "PPTX/DOCX/vector assembly, LibreOffice conversion, PDF rasterisation, exact arithmetic/text/archive/file operations and bounded host-memory management",
+  "limits": "No semantic GPU review or live response-server claim"
+}

@@ -3,8 +3,9 @@
 Current November design: `content/curriculum_sets_2026-11/QUIZ_DESIGN.md`
 (`quiz-v1`). The user authorised deleting the pre-quiz drafts and restarting.
 Earlier pilot-preservation and continuation entries below are historical; do
-not restore those files or run their superseded writers. Generation remains
-paused while this design reset is recorded.
+not restore those files or run their superseded writers. The reset is complete. The user has now authorised Lessons 1–2 from each
+current curriculum as a six-deck quiz-enabled review set; the full batch stays
+on hold pending that review.
 
 ## Environment reference
 
@@ -240,3 +241,14 @@ private/public separation and exact timing. Build and review a representative
 quiz-enabled pilot before further batching. Existing native PowerPoint and
 teacher/release gates still apply. This reset does not resume generation or
 change the previously agreed usage stopping rule.
+
+## Six-deck quiz-enabled review set, 2026-11-16 (17 November UTC)
+
+The user authorised two lessons per curriculum before the full batch. Build
+Lessons 1–2 of General Science Introduction, Essential Real Numbers and Core
+Real Numbers as separate review decks. `REVIEW_SCOPE.json` records this active
+limit; do not generate beyond it. This resumes only the six review drafts,
+not the full 514-lesson collection or classroom release. Use three source-backed
+checks per lesson, preserving all source tasks, exact phase totals and private
+individual/aggregate-only reporting boundaries. Timings and engagement remain
+review questions for the teacher. No live server, push or publication implied.

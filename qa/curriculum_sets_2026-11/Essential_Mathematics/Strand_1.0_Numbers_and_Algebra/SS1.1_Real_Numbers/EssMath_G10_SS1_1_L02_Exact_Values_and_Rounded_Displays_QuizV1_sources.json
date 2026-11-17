@@ -1,0 +1,34 @@
+{
+  "module": "essmath_1_1",
+  "lesson": 2,
+  "name": "EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1",
+  "source_code": "RN2",
+  "spec_sha256": "342af7a783c0307152e33c6e7899265eb68164d12231cfaa389d19df9c07ea4d",
+  "spec_scope": "Canonical JSON for this lesson and its shared anchor line",
+  "source_hashes": {
+    "Codex_Essential_Mathematics_Real_Numbers_AssessmentMaterials.docx": "04fe03d703836c151cd3dba3649eafbc9e67afb9c2afef90c2e94435aa19af04",
+    "Codex_Essential_Mathematics_Real_Numbers_CBE_LessonSequence.docx": "fd25b1a604e02f959c87c5ab48992ce6d2bd2bca54da63ba2758924947dc355a",
+    "Codex_Essential_Mathematics_Real_Numbers_CompactTeacherGuide.docx": "1005f1c692081c5ee0474b48b03ec9f2e95bb530c325edc69e3315077484b9fd",
+    "Codex_Essential_Mathematics_Real_Numbers_FinalExplanation.docx": "11affae16d78aeb5d9487d8e2853fa553dde2e1d668b45b26ee0d9e0bb1ebbe1",
+    "Codex_Essential_Mathematics_Real_Numbers_FinalExplanation_TeacherKey.docx": "f53c7d5c629c65abe9146265e6de79ab4b4cd64e1987450a16d10bc38ec9a302",
+    "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx": "c9bd18b473dd25c21b27fd6ac2c6aac3b51910b0f434f92e601784cecd2fb712",
+    "Codex_Essential_Mathematics_Real_Numbers_StudentMaterials.docx": "0d54285ecc54202ab95799ed46449e3d57d54d55c81d50934c24481c63d2196b",
+    "Codex_Essential_Mathematics_Real_Numbers_StudentSummaryTable.docx": "e613b95657a256991c3c31176b8e2ae76a4044ce433bc301832e5d408f25b8c9",
+    "Codex_Essential_Mathematics_Real_Numbers_SummaryTable.docx": "597082043c5c20c74ada0cdc7fcb6abb98f182fba6261807ccedf1f70b9dff53",
+    "Codex_Essential_Mathematics_Real_Numbers_data.json": "a357fa3d3ecbe3ff66057e02525d53a2c0527d5ebd59de9065a938a4372fd77a"
+  },
+  "source_archive_sha256": "9a14a58a04f1b7a755c779fb116764da7a4fed09d80094779e8b6574b1e6b9fa",
+  "design_revision": "quiz-v1",
+  "quiz_count": 3,
+  "quiz_exception": null,
+  "phase_minutes": {
+    "Predict": 4,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "assessment": false,
+  "status": "built; rendering and visual review pending",
+  "notes": "CPU assembly; no GPU processing claimed until separate render report."
+}

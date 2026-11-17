@@ -1,0 +1,87 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "0505a836301b87d749709e83d2262a7607a3f202d97a9b6a2f36a686101dc054",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "ce6f1e195175fcb4fa55b6e0cc7633b59353a2766207ae7b0e82d9b8be303469",
+    "slide-02.png": "b497e4010ef2ee96570509bea4106d2dc06e9f381b1a60a535d9631f83556552",
+    "slide-03.png": "c5238c4d1f3fc88fab9a4af13f30449ec8d24c2be3ed8db1225f4f0694f0eecf",
+    "slide-04.png": "6a9db1df9910ef626e7f3dcd1c9725d816f8474c530aac90f42c839f4b541acf",
+    "slide-05.png": "835c73cc59e8a760910c59477786c657d83c0f9603b36fed3cb05ae44b333de4",
+    "slide-06.png": "2c80de0d5ae5255981356bcc7096d66c5784070803e857b716fa586b9a2d824a",
+    "slide-07.png": "67667d688ad363063a52a583d4adec7f3b115eb5badd9d00c08338a0bc0c69a9",
+    "slide-08.png": "01864b2b9555bd5dc28664542431cfaa02b6f8b187a816e1e861958865c3d515",
+    "slide-09.png": "018145b68793322d74f70df4a1de4a556351093de05c904087ebea822bece619",
+    "slide-10.png": "bfb2921c6a0a6d4fa7dd6f0c78c0ab80b4681c77264662d3286636715fe9e026",
+    "slide-11.png": "1ec0e747228b0ae8147032e090fb772d00ecc0e58945ecd697abf11385dd3ae9",
+    "slide-12.png": "5de5a4a48110eff7b5d20bfcd0d4f8c2678027b2f6dd952e01c2a931b850e348",
+    "slide-13.png": "e6bcde0dabd47698f465ec6d929ea4ea343b0243825d367b176a7a9c135fcba8",
+    "slide-14.png": "51e2264f9688d15910d8737eab23137dcdd204f3837dc9e4728bb46f2f9b77aa",
+    "slide-15.png": "1bcd48054a12368df90decc1b1c6a0c0490da8c6f5eb9e4f00b685102996dd62",
+    "slide-16.png": "1ff607851eebd07b496ddb64af2ed8cd0512b42a85e5317b3727507e0a05e894",
+    "slide-17.png": "1bd4433f36d1c8f0b075fb4d82d45580819161e805f8eb1db5f5dada1253d855",
+    "slide-18.png": "dc38f416966d616f808b928667a6de6291f07ebaa41715ee719d227db1c0917f",
+    "slide-19.png": "f5c2a6cfb569f9912f22625b79e483a686757ef136f0bc995aaaef4d66273de8",
+    "slide-20.png": "4a7bd75b74155599d18631b9130300827dd4589d299c249ebe1ee3b43c780ca8",
+    "slide-21.png": "4546f9bdfcd8538400721f911b8bb9c2f960a8bf7c38cb0254c8b26be3c2f945",
+    "slide-22.png": "0c22220014382627beedbfcf242c69ef4f9900a316cef3a2d79191ad4987a022"
+  },
+  "finding": "All lesson slides including hidden pages inspected; all student and teacher print pages visually checked for layout with full-size follow-up where needed. Quiz numbering/timers, neutral questions, subsequent feedback, notes and source timing checked. Core inquiry spacing and Essential L2 bounds/rounded-value visuals repaired and final changed slides rechecked. Native PowerPoint, actual class pacing, server integration and teacher approval remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1_Student_Task.docx",
+      "sha256": "2341bd454353575778ac83926fe117db4705e7a25af7fa3fbab751d49ac57f5c",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1_Teacher_Notes.docx",
+      "sha256": "e06ac7e3a01037334d403eb55d1df323046d533b2befe1a916ebfe70f6b34cb9",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

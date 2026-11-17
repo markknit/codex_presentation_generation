@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1.pptx",
+  "sha256": "d668d8777d1acabaf80c0bb3337770cdaf74b4fbbb0e3c28366049272124aee5",
+  "slides": 23,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1_Student_Task.docx",
+      "sha256": "9248a49d4bd1901cea173a44eacbab67b47ef294cd260576cd6eab9ca4bde224",
+      "pdf_sha256": "24cc9037fc9ce27b0c6a5b06d63085a3fe57fa07c19dfb6bb34672158e91e27f",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1_Teacher_Notes.docx",
+      "sha256": "e0393041e7983914fb9d2a30abb65fcdb43cf960dd9317cbd4de2628d5adc581",
+      "pdf_sha256": "1dfdb08a0e405cfb2995d9dd819c59a736a415d94ba92310903bf57e95bf6e53",
+      "pages": 18,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

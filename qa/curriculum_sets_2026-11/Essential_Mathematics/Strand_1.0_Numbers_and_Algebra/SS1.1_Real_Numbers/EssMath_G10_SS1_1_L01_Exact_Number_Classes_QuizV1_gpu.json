@@ -1,0 +1,219 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.232830555039144,
+      "dark_fraction": 0.05155026750118775,
+      "sha256": "f91a3cb500223815ceca3db1bd7fe10328f11cb118ae064e2a2ce37c196b9165"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.052554997831071454,
+      "dark_fraction": 0.04126748053128421,
+      "sha256": "7a4c54148825ed93ebad31d87c7eb58de51f5dcd8523e662aa0238932946ef2a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13824626634442586,
+      "dark_fraction": 0.11975046993451902,
+      "sha256": "cbd24d4a155ba551647f65f4441e0028dbe2dc1e104e72032f09cd031c731a38"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08892111297019273,
+      "dark_fraction": 0.06924128813699366,
+      "sha256": "8b99e8230da094ff3ef31afb06351cc04f539fcd6f0df325d69fc1acafdf8a95"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16069653591125985,
+      "dark_fraction": 0.04257792650430687,
+      "sha256": "7ed2cb72fcc3630bdc84041cb00df77f8ae739b8132b1379f7c176eb25ef9591"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22378219826072587,
+      "dark_fraction": 0.05167007498295842,
+      "sha256": "c2e242c3b28ca922d173d5535dee3a29cb8bf4f3824ce9b562577202306380b7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.055483257937245664,
+      "dark_fraction": 0.045366548924831135,
+      "sha256": "46612ada6a930f0d261996d1e716d07cc78c0f1ca0f49f61932f12f292845d29"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05395550598004586,
+      "dark_fraction": 0.044493193695647686,
+      "sha256": "ab0ecf9279793c91d31794ef1f3942b29660a69ed266bd6e3d16fdd138ef8af2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3000615562578753,
+      "dark_fraction": 0.04265063725186424,
+      "sha256": "bc5f986e39fffe930604ddc6d75422b95d2a9e71bf558e2f01b46ffd77048445"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06689140897729855,
+      "dark_fraction": 0.05391997686476214,
+      "sha256": "fc7c5bd1725451131409665cafb73d5b398b134b18b5cd05e90476b90dc60d5b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23419966536530953,
+      "dark_fraction": 0.03543905310776477,
+      "sha256": "4d35cfd2759975e602edbcbafe80d59e2ffbf93086e3964806d7ffe12efe79a5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3155233314742517,
+      "dark_fraction": 0.050906612133606,
+      "sha256": "a9c76b7a7ab659579d9527997e61a1ade44f45c3250536daef5c388223664830"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.26611307347503665,
+      "dark_fraction": 0.04582181735555969,
+      "sha256": "e733ad0e3d03a10ca6edf7e4640ec2a5643401375fe0ee03337213058ab4dc22"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.09975501435624134,
+      "dark_fraction": 0.087280163599182,
+      "sha256": "8a3f62231130543f5f4bbd9930597941cd38a70cbd3cf457c6a89aa7eedd22b5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2520559377001095,
+      "dark_fraction": 0.03497800086757142,
+      "sha256": "c23532b90f8df48fb43ad99118aeabec717959609df886ea0695fe52a12449f5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31409886182892316,
+      "dark_fraction": 0.05422982380037595,
+      "sha256": "c0fd3c4343ad2b0fa619cbd6a224269f235ceb963c5c3c206769e155ffe091c4"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.272609944020987,
+      "dark_fraction": 0.05092231104501043,
+      "sha256": "e57ace1652b21b7c8c4fd49d1574d47adbbac41d0aaf95f1632204f2805f76c2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.07109293342422177,
+      "dark_fraction": 0.057931461857842224,
+      "sha256": "231363b8dfe036d7c11965e6f0453a8e968ba471d61e61a4a612f7b5424c8d8e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05934188510875627,
+      "dark_fraction": 0.04802462250315011,
+      "sha256": "2b7c2287377a756f176a960cd3db49f4f42045dfff0860184586463064789b11"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.059148540620933256,
+      "dark_fraction": 0.0477701348866993,
+      "sha256": "98058425e6847c6d43b2d734c71451e165bfaa577c89e4f25b214c83950b953a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31564479147301233,
+      "dark_fraction": 0.05448018012435191,
+      "sha256": "b5d6c31f76d4178934358856b91ab1ee00ce70650098aeb27cc49b01030d3be8"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.270339385676809,
+      "dark_fraction": 0.05223110450104315,
+      "sha256": "6c33c57cb702f6350412d1e015eed1ed63f3383e5902161cf1d310dc4fb100c0"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/slide-23.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1/gpu/slide-23_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05501394311210262,
+      "dark_fraction": 0.04127243808225403,
+      "sha256": "c5c0236c475244ab981b355d9a06004641038b2b80e410e96990ed3e8a06efac"
+    }
+  ],
+  "deck_sha256": "170cfb883933b163b9557bd3da2353a5e9b567c624d397327539210b03135b23"
+}

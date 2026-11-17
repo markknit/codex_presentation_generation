@@ -13,7 +13,11 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('images',nargs='+',type=Path)
     parser.add_argument('--out',required=True,type=Path)
+    parser.add_argument('--preview-width',type=int,default=800)
+    parser.add_argument('--columns',type=int,default=2)
+    parser.add_argument('--per-sheet',type=int,default=8)
     args=parser.parse_args()
+    if min(args.preview_width,args.columns,args.per_sheet)<1:parser.error('Preview dimensions must be positive')
     repo=Path(__file__).resolve().parents[1]
     cache=repo/'.cache';cache.mkdir(exist_ok=True)
     src=repo/'scripts/gpu_image_ops.cu';lib=cache/'gpu_image_ops.so'
@@ -26,7 +30,7 @@ def main():
     reports=[];thumbs=[]
     for file in args.images:
         with Image.open(file) as im: im=im.convert('RGB')
-        w,h=im.size;ow,oh=800,round(800*h/w)
+        w,h=im.size;ow,oh=args.preview_width,round(args.preview_width*h/w)
         host=ctypes.create_string_buffer(im.tobytes());out=ctypes.create_string_buffer(ow*oh*3);counts=(ctypes.c_uint*2)()
         rc=gpu(host,w,h,out,ow,oh,counts)
         if rc: raise RuntimeError(f'CUDA operation failed ({rc}); CPU fallback is prohibited')
@@ -34,12 +38,13 @@ def main():
         reports.append({'image':str(file),'preview':str(target),'width':w,'height':h,'nonwhite_fraction':counts[0]/(w*h),'dark_fraction':counts[1]/(w*h),'sha256':hashlib.sha256(im.tobytes()).hexdigest()})
         thumbs.append((file.stem,thumb))
     # Compositing labels/tiles is CPU file-layout work; all resampling and pixel metrics above execute on CUDA.
-    for start in range(0,len(thumbs),8):
-        page=thumbs[start:start+8];tileh=page[0][1].height+36
-        sheet=Image.new('RGB',(1600,tileh*((len(page)+1)//2)),'#e5e7eb');draw=ImageDraw.Draw(sheet)
+    for start in range(0,len(thumbs),args.per_sheet):
+        page=thumbs[start:start+args.per_sheet];tileh=page[0][1].height+36
+        cols=min(args.columns,len(page));tilew=args.preview_width
+        sheet=Image.new('RGB',(tilew*cols,tileh*((len(page)+cols-1)//cols)),'#e5e7eb');draw=ImageDraw.Draw(sheet)
         for i,(label,im) in enumerate(page):
-            x=(i%2)*800;y=(i//2)*tileh;draw.text((x+12,y+10),label,fill='black');sheet.paste(im,(x,y+36))
-        sheet.save(args.out/f'contact_{start//8+1:02}.jpg',quality=92)
+            x=(i%cols)*tilew;y=(i//cols)*tileh;draw.text((x+12,y+10),label,fill='black');sheet.paste(im,(x,y+36))
+        sheet.save(args.out/f'contact_{start//args.per_sheet+1:02}.jpg',quality=92)
     record={'backend':'CUDA sm_121','operations':['nearest-neighbour preview resizing','pixel ink/darkness counts'],'limits':'No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.','device':subprocess.check_output(['nvidia-smi','--query-gpu=name,driver_version,compute_cap','--format=csv,noheader'],text=True).strip(),'slides':reports}
     (args.out/'gpu_report.json').write_text(json.dumps(record,indent=2))
     print(f'CUDA processed {len(reports)} slides; output: {args.out}')
