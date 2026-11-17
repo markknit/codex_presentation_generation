@@ -1,4 +1,5 @@
 {
+  "design_revision": "quiz-v1",
   "source_delivery_index_sha256": "37f7d46704c18a476b6c87751bef41c04e9a33a6812187d904b59506f76436f1",
   "total_units": 43,
   "total_lessons": 514,
@@ -46,64 +47,71 @@
           "number": 1,
           "title": "Can zero be even without being prime?",
           "duration": "40 minutes",
-          "status": "review_draft",
-          "existing_pilot": true,
-          "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes.pptx",
-          "sha256": "346a4461b17c86bc19829703437be5daa12a4b316a53a2de87ec9a5e6395d965"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Does a decimal display classify the exact number?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "What does one divided by a number undo?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Can mixed-number digits simply be swapped?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How does a reciprocal table scale?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What evidence shows actual calculator use?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Why can multiplying by an inverse count portions?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How can evidence make useful advice persuasive?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Which shortcuts survive a counterexample?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Can an independent number audit support a decision?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -136,85 +144,99 @@
           "number": 1,
           "title": "How can repeated factors be written compactly?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Which factor patterns justify the laws?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Why is a negative index a reciprocal?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What does the denominator of a fractional index mean?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "When do similar-looking expressions need different rules?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Which exponent does a common logarithm name?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How do common-log tables handle small numbers?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "What did the calculator actually do?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Why can multiplication become addition?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What happens when a negative logarithm is subtracted?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "How can a root be found through its logarithm?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Can one logarithm expression preserve a whole computation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Which rule-chart claims survive a counterexample?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 14,
           "title": "Can an independent law audit produce a reliable calculation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -247,85 +269,99 @@
           "number": 1,
           "title": "What exactly makes an expression quadratic?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "How do four regions derive a square identity?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Why must an overlap be added back?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "How can an identity simplify a numerical calculation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Can a common x factor be discarded?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Which constant pairs reproduce a quadratic?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How do two leading coefficients change factoring?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How can roots or a context determine an equation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Why does a zero product require separate cases?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "How can rearrangement reveal every distinct root?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which roots describe a positive length or count?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Does every area problem produce a quadratic?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Can correct algebra still give an unusable dimension?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 14,
           "title": "Can an independent quadratic model survive every check?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -358,79 +394,92 @@
           "number": 1,
           "title": "Which corresponding features establish similarity?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Where do corresponding vertex rays meet?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How does a centre control a positive image?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What changes when the centre is not the origin?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "What does a negative signed factor actually reverse?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Why does area square the length ratio?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Why does volume cube the length ratio?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How can area or volume reveal a length ratio?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How can a model area become an actual area?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What makes a model plan mathematically reproducible?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "What did the constructed models actually show?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Which scale advice survives a numerical audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Can an independent scale model justify its decision?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -463,79 +512,92 @@
           "number": 1,
           "title": "Which lines map the whole figure onto itself?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Where does an ideal plane mirror place the image?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Which line bisects every object-image segment?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What remains unchanged at a horizontal or vertical mirror?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Why is a diagonal reflection different from a negative enlargement?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "How can image pairs determine a shifted mirror equation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Can the perpendicular-bisector method handle another slope?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How do labels distinguish direct and opposite congruence?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Which given measurements establish SSS or SAS?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Why can two angles and a matching side fix the size?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Why must RHS include the hypotenuse?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "How can a checked example promote responsible use?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Can an independent geometric audit justify a use?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -568,73 +630,85 @@
           "number": 1,
           "title": "What must a rotation specify?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Which coordinate rule describes each quarter turn?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "What can an endpoint reveal about a full turn?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Why must the centre be subtracted first?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How do independent perpendicular bisectors locate a centre?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "When is the midpoint itself the centre?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "When does the turned figure match itself?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Which line is the cube rotating around?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Which solids have finite or continuous symmetry?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Why does a rotation imply direct congruence?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "How can a useful turn be checked and reproduced?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Can an independent rotation audit justify its conclusion?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -667,91 +741,106 @@
           "number": 1,
           "title": "Which angle gives a side its role?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "What does a rounded ratio table actually supply?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Did the calculator evaluate the intended angle?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Why do complementary sines and cosines agree?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How is tangent related to sine and cosine?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "How does an isosceles right triangle give45°ratios?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How does halving an equilateral triangle give30°and60°?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Why is90°not another ordinary acute triangle?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Which ratio fits the missing quantity?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Where does an elevation triangle begin?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Why does a depression angle match an elevation angle?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Can a simple clinometer be made and calibrated reproducibly?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "What did a real observation establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 14,
           "title": "Which use survives a domain and evidence audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 15,
           "title": "Can an independent ratio model support a reliable decision?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -784,73 +873,85 @@
           "number": 1,
           "title": "Which part of the circle is the ring?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Can the given dimensions really be used as radii?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How much of the disk does a sector occupy?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Can an area determine the angle?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "What if the sector has a circular hole?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What lies between a chord and its arc?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How does the major segment differ?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Why does an overlap contain two segments?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "What changes when the circle radii differ?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Can we make a useful and safe circular design?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which decomposition deserves our confidence?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent part-circle design commission",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -883,85 +984,99 @@
           "number": 1,
           "title": "Which faces cover a prism?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Which height belongs to a pyramid face?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How does a curved surface become a flat area?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What surface remains after a cone is cut?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Can a sphere have the same kind of net?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Which faces disappear inside a composite solid?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "What does capacity measure inside a prism?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How much does a cone or pyramid hold?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Which cone volumes make the frustum?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "How do sphere volumes scale?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "When does a composite volume add or subtract?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Does this decision need area,capacity or both?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Can we defend a usable solid model?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 14,
           "title": "Independent solids commission",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -994,79 +1109,92 @@
           "number": 1,
           "title": "When is a number without direction insufficient?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "How can the same vector be named three ways?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Can an arrow move without changing its vector?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Where does a head-to-tail route end?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Can signed columns check a route drawing?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What do positive,negative and zero scalars do?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Which vectors change when the origin changes?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How can signed components give a nonnegative magnitude?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Is half a displacement the midpoint's position?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What makes a whole-shape translation consistent?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "What can a scaled campus route model establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Can another team reproduce our vector audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Independent vector model audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1099,73 +1227,85 @@
           "number": 1,
           "title": "Can a return journey have positive distance but small displacement?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Which units belong in a velocity calculation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "What can a safe timed activity measure?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "How does a displacement-time table become a graph?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Is graph height the journey's displacement?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Does negative acceleration always mean slowing?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "What do slope and area mean on a velocity graph?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How do we count area when velocity crosses zero?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Are the objects closing or separating?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What does an ideal passing time leave out?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Can another learner reproduce our graph audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent linear-motion evidence audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1198,97 +1338,113 @@
           "number": 1,
           "title": "What data would support a local decision?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Can we collect an auditable real record?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How does a frequency table preserve a count?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Where do class-boundary values belong?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How sensitive is the mean to one value?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "When do median and mode answer different questions?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Is a grouped mean exact?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "What can grouped counts tell us about the median?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "What does a modal class establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Why do histogram areas represent counts?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Why can the tallest bar contain fewer observations?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "What can a frequency polygon support?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Can our actual data become a checked digital graph?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 14,
           "title": "What recommendation does our evidence warrant?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 15,
           "title": "Which data claims survive an audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 16,
           "title": "Independent statistics evidence and representation",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1321,73 +1477,85 @@
           "number": 1,
           "title": "What probabilities can a model assign?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "What does an honest coin experiment show?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Do die frequencies prove a model fair?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "How can a complete sample space prevent double counting?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "When does the addition law need overlap?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Are independent events the same as exclusive events?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Which multiplication rule fits replacement?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Why do paths multiply and terminal alternatives add?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How do unequal branch weights change a tree?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Can we make and play an honest modelled game?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which probability applications respect their limits?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent probability model and evidence",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1420,57 +1588,57 @@
           "number": 1,
           "title": "Which exact numbers belong together?",
           "duration": "40 minutes",
-          "status": "review_draft",
-          "existing_pilot": true,
-          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_RealNumbers_L1_Exact_Number_Classes.pptx",
-          "sha256": "151b7ba77031099f85348f867685de54f873813cf3d0b90277d89b4308658359"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Can a rounded display tell the whole story?",
           "duration": "40 minutes",
-          "status": "automated_pass_visual_pending",
-          "name": "EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays",
-          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays.pptx",
-          "qa_folder": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
-          "sha256": "a875557c6cc7e4b8554a5bd6f658fb055fad7ebd78a4677902d30a89ffcb64f6",
-          "slides": 17
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Do signs and fractions follow the same rules?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Which operation does the expression actually request?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "What undoes multiplication by a nonzero number?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Which signed calculation matches the situation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Can we defend the number of full servings?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Independent numerical decision and explanation",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1503,49 +1671,57 @@
           "number": 1,
           "title": "What is being multiplied repeatedly?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Why do exponents add in a same-base product?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Why do exponents subtract in a quotient?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "How many groups of factors does a power contain?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "What value keeps the zero-exponent pattern consistent?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Which count model actually uses a power?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Can we audit and source-check our four-law sheet?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Independent index-model audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1578,55 +1754,64 @@
           "number": 1,
           "title": "What does the letter measure?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Which condition makes an equation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Can multiplication be undone?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Which pair has both the right sum and product?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How does a non-unit leading coefficient change factoring?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Which roots does zero product permit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Which algebraic roots describe possible designs?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Can another team reproduce our model audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Independent quadratic design audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1659,73 +1844,85 @@
           "number": 1,
           "title": "What makes two shapes similar?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Where do corresponding rays meet?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Can a positive enlargement make a figure smaller?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What changes when the centre is not the origin?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Why does tripling lengths multiply area by nine?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Why does a container's ideal volume scale by k cubed?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Does a square or cube root prove the shapes are similar?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "What does proportional resizing promise—and what does it leave open?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Which nets preserve all three container proportions?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Do the made containers match the planned ratios?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Can we reproduce a digital resize and save the project evidence?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent similarity and enlargement audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1758,67 +1955,78 @@
           "number": 1,
           "title": "Which folds establish a line of symmetry?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "What does a plane reflection preserve?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How can we draw a reflection without axes?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Which coordinate changes across x=0?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Which coordinate changes across y=0?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Why does y=x swap the coordinates?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Can we recover the missing mirror?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Do all supplied pairs fit one reflection?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How does reflection help a practical design?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Which claims survive a construction audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Independent reflection construction and explanation",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1851,73 +2059,85 @@
           "number": 1,
           "title": "Which angle gives a side its name?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Why do similar triangles give the same ratios?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "What changes when a calculator uses degrees?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Why does sine match complementary cosine?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Which ratio connects the known and needed lengths?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Where does an elevation angle begin?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How does depression relate to elevation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Can we build and calibrate a working clinometer?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "What do repeated elevation and depression readings show?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What makes a real-life ratio claim useful?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which trigonometry claims survive a labelled diagram?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent trigonometry model and application",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -1950,67 +2170,78 @@
           "number": 1,
           "title": "Why must the two sides enclose the angle?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Can actual measurements check the sine-area method?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How does Heron use three sides?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Can every three lengths form a triangle?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Which height belongs to a parallelogram base?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "When do two rhombus area methods agree?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How does regularity determine a pentagon area?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Why does a regular hexagon split into equilateral triangles?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "What can a measured design area actually predict?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Which area claims survive a formula audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Independent polygon area and application",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2043,61 +2274,71 @@
           "number": 1,
           "title": "Which boundary makes a sector or a segment?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "How does central angle determine a sector fraction?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Can we make and measure a genuine sector?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Why is a minor segment smaller than its sector?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How does the major segment differ from the major sector?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What does a measured segment model establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "What does a door-sweep sector represent?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Which area remains after removing a cap?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Which curved-area claims survive an audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Independent circle-part area and application",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2130,73 +2371,85 @@
           "number": 1,
           "title": "Which cone net actually fits its base?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "How do four triangular faces meet a square base?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Why does a rectangular pyramid need two face heights?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Why is a sphere not an exact flat net?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Which hemisphere surface is being counted?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What does an open-top cone frustum omit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How do four trapezoids form a pyramid frustum?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Can our models show both open and closed frustums?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How accurately can a safe ball represent a sphere?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Does a volume ratio determine an area ratio?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which solid-area claims survive a net audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent solid surface and application audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2229,73 +2482,85 @@
           "number": 1,
           "title": "Does exterior volume equal usable capacity?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "When is a cone one-third of a cylinder?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Which height belongs in a pyramid volume?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Why does a cone frustum need similar-cone geometry?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Can a measured tapered object be treated as a frustum?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Which pyramid-frustum ends belong together?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Can different-size models preserve the intended shape?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Can different-size frustums keep matching ends?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "What documentation proves an actual process step?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "How does usable fill affect a capacity plan?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which capacity claims survive a dimension audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent volume and capacity evidence",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2328,67 +2593,78 @@
           "number": 1,
           "title": "Which actual data would support a stock decision?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Can a table preserve all observations?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How sensitive is an ungrouped mean?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "When do median and mode differ?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "What makes a category bar graph readable?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Why does a line graph need ordered times?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Which whole does a pie chart represent?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Which graph reports overstate their evidence?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Can we construct all three actual digital graphs?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What decision does the actual project support?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Independent ungrouped statistics and graph decisions",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2421,61 +2697,71 @@
           "number": 1,
           "title": "Which weights belong to two outcomes?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Can we perform an honest single coin chance?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Can a different binary draw be equally likely?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Are exclusive events independent?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How can two binary components be independent?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Can we perform the same two components in paired trials?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Which selected joint events should add?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How can probability help without promising a win?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Which claims survive a binary-evidence audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Independent binary probability and evidence",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2508,76 +2794,50 @@
           "number": 1,
           "title": "What makes our notice-board questions scientific?",
           "duration": "40 minutes",
-          "status": "review_draft",
-          "existing_pilot": true,
-          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_Introduction_L1_Scientific_Questions.pptx",
-          "sha256": "c108455cc804ff7af254ac43e88567e593d4dddfee9123eaff693dc83e7cafdd"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "What did we observe, and what did we infer?",
           "duration": "40 minutes",
-          "status": "automated_pass_visual_pending",
-          "name": "GenSci_G10_SS1_1_L02_Observation_and_Inference",
-          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L02_Observation_and_Inference.pptx",
-          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
-          "sha256": "d06466871e2ef7723e549fd8836e87fa86b28e857ea09f3091ca1db2bd967f3c",
-          "slides": 17
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How do we collect evidence worth interpreting?",
           "duration": "40 minutes",
-          "status": "automated_pass_visual_pending",
-          "name": "GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence",
-          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence.pptx",
-          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
-          "sha256": "65a28699b496e9b94b15d78a6bdf5cf14aa069443f497149d1d9ff09a3b76c8e",
-          "slides": 17
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "When does a comparison fail to identify a cause?",
           "duration": "40 minutes",
-          "status": "automated_pass_visual_pending",
-          "name": "GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds",
-          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds.pptx",
-          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
-          "sha256": "61094a248dbfafb03592e20ac2292823439931a14006b2375befa21f53a785db",
-          "slides": 17
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Which careers use scientific evidence?",
           "duration": "40 minutes",
-          "status": "automated_pass_visual_pending",
-          "name": "GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence",
-          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence.pptx",
-          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
-          "sha256": "6a40fc4d1b8a0e9b8a0433f74209ffae5593ae34fd93c34b82436d7dd7e8d219",
-          "slides": 17
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Can we make our science-use message defensible?",
           "duration": "40 minutes",
-          "status": "automated_pass_visual_pending",
-          "name": "GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message",
-          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message.pptx",
-          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
-          "sha256": "e94fc6e677ae0e8f52700cb0fc4b9f060f4e4f142f44d63e1940e72b721db5c9",
-          "slides": 17
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Independent transfer: repair a new claim",
           "duration": "40 minutes",
-          "status": "automated_pass_visual_pending",
-          "name": "GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer",
-          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer.pptx",
-          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
-          "sha256": "524751f047f56568506ea90d9bd9010b11ae8fb52d97d4f3c7fe1d4fe0aa3bd7",
-          "slides": 11
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2610,73 +2870,85 @@
           "number": 1,
           "title": "Does a bigger image always reveal more detail?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "What can we actually see in an onion root light image?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Which cheek-cell labels are supported by a light image?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What does a genuine plant TEMsection show?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Is the animal TEMa whole generic cell?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Which component functions support a cell?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Can generalised plant and animal models allow exceptions?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How do cells connect to tissues,organs and organisms?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Can a made cell model explain a function and its limits?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Can we retrieve and credit an electron-cell claim?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which cell-poster claims go beyond the evidence?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent cell-image and organisation audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2709,79 +2981,92 @@
           "number": 1,
           "title": "Where does food travel and where do secretions enter?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Does breaking food into pieces change its molecules?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Is the stomach the end of protein digestion?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "How do emulsification and absorption differ from digestion?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "When is a food-test inference trustworthy?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What does the controlled iodine test show?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Does a negative Benedict test mean no sugar?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Which controls support a protein inference?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "When is a cloudy lipid result inconclusive?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Can a constructed model explain an adaptation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Can we retrieve,save and share a checked enzyme claim?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Which conclusions survive a control-and-mechanism audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Independent digestive-system evidence audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2814,73 +3099,85 @@
           "number": 1,
           "title": "What can an actual root observation establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Do water and mineral ions enter by the same mechanism?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "What supports a moving water column?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Why can a source become a sink?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Does coloured water prove sugar translocation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What will our investigation actually measure?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How does gentle airflow affect measured water loss?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Does more leaf area imply more loss per area?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "When does transpiration support or threaten plant life?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Can we share a useful,qualified plant-care message?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which transport claims survive an audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent plant transport evidence audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -2913,73 +3210,85 @@
           "number": 1,
           "title": "Is respiration the same as breathing?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "What does an aerobic equation establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Do all anaerobic processes make the same products?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Can RQ identify a substrate uniquely?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Why does warming not always increase respiration?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What do yeast gas and acidity records support?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "What must an approved lactic project record?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Can we start an actual approved project honestly?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "What does the follow-up batch actually show?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What economic value can controlled fermentation provide?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which respiration claims survive an evidence audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent respiration evidence and application",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3012,73 +3321,85 @@
           "number": 1,
           "title": "Is every increase in size new growth?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Does failure to germinate prove dormancy?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Which conditions can our actual experiment isolate?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Can we establish a traceable germination trial?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "What do the actual records support?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Which part lifts the cotyledons?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Does secondary growth replace primary growth?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Do germination and later growth need identical inputs?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Does every hormone always increase growth?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Can we check three growth claims safely?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which growth claims survive an evidence audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent plant growth and development audit",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3111,73 +3432,85 @@
           "number": 1,
           "title": "Which microorganism groups affect people?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Are all microorganisms harmful?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How can microorganisms reach a person?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Which infections are fungal, bacterial or viral?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Does each prevention measure match the route?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "How are prevention and control connected?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How can microorganisms affect livelihoods?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Which food-preservation choice fits the evidence?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How could a mould-growth investigation be made safe?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What do sealed observations establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "How can a preservation message stay accurate?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "How do route, prevention and daily life connect?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3210,91 +3543,106 @@
           "number": 1,
           "title": "What does atomic number count?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "How do the first twenty atoms arrange electrons?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How do groups and periods reflect structure?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What does electron affinity measure?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How do atoms become ions?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What do dot and cross diagrams explain?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How do valency and oxidation number differ?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How do polyatomic ions make neutral formulae?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Can a compound chart be corrected with evidence?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What changes when an equation is balanced?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "How do compound groups affect atom counts?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Can five actual models show electron arrangement?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Can a substance chart explain formula choices?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 14,
           "title": "Which model claims survive an audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 15,
           "title": "Can atomic structure support an independent explanation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3327,73 +3675,85 @@
           "number": 1,
           "title": "Which family definition fits the evidence?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Where do all first twenty elements belong?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "What physical properties can be investigated safely?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What do sodium records establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How do magnesium conditions change a record?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "When is a reaction comparison not applicable?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How can records be compared fairly?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "How do named metals relate to uses?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How can unreactive gases be useful?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Why distinguish an element from its compounds?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "What evidence supports road-lighting decisions?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Can family,property and use claims be defended?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3426,85 +3786,99 @@
           "number": 1,
           "title": "What does a bond description explain?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "How does electron transfer relate to an ionic lattice?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How do shared pairs make molecular bonds?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Can one atom donate a whole bonding pair?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Which attractions act between molecules?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "How does a metal conduct while solid?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Which structures explain the supplied properties?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "What would count as a property investigation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How can the same element have different uses?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "What does a bond model tell us about cookware?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which material fits the stated job?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Can models distinguish molecules from ionic structures?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "How can a community message remain accurate?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 14,
           "title": "Can bonding evidence support an independent material choice?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3537,79 +3911,92 @@
           "number": 1,
           "title": "What does reaction rate measure?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "How does a graph describe change through time?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "What would count as an actual approved experiment?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "How do repeats change a comparison?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Does higher temperature always help?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "When does concentration affect rate?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How can the same amount expose more surface?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Which pressure change is relevant?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How do catalysts change a pathway?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "When can light influence a process?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "What makes a condition appropriate?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Can six factor claims survive an audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Can rate evidence support an independent decision?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3642,73 +4029,85 @@
           "number": 1,
           "title": "Which distance gives a moment?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "How do units and unknown forces connect?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How do force direction and position set turning sense?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What conditions balance an ideal bar?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Can an actual metre rule demonstrate the principle?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "How should a small balance mismatch be interpreted?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Why can equal opposite forces still turn a body?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "When are anti-parallel forces not a couple?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How can a turning model support a practical choice?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Where are moments used around the school?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Which moment claims withstand an audit?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Can turning-effect evidence support an independent explanation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3741,79 +4140,92 @@
           "number": 1,
           "title": "How do distance and displacement differ?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "What does a position-time graph show?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Does negative acceleration always mean slowing?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "When is v=u+at valid?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How is displacement calculated during acceleration?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What can an equation without time determine?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How can one trip need two models?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "What can a safe low-drop investigation establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "How do equal-time positions support a gravity model?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "How are downward free-fall variables calculated?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "What is acceleration at the highest point?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "How do motion models support safer decisions?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Can motion evidence support an independent explanation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3846,79 +4258,92 @@
           "number": 1,
           "title": "Which graph gives which wave quantity?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "What relationship does the wave equation express?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Can units check a wave calculation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What changes across a stationary boundary?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "How is reflection represented?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "What would demonstrate an echo safely?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "How can a temperature gradient bend sound?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "When is diffraction most obvious?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "What does hearing around a corner establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "How can different waves affect environments?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "What makes a mitigation proposal defensible?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "How can wave knowledge support road-use reasoning?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "Can wave evidence support an independent application?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -3951,91 +4376,106 @@
           "number": 1,
           "title": "What changes when soft iron is magnetised?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Which magnetisation method suits a stated purpose?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "How can net magnetisation be reduced?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "What does a magnetic field-line pattern represent?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "When is e.m.f. induced?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Why must conductor geometry be specified?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Can the four source movements be investigated?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Which direction claims survive a controlled reversal?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "What factors can increase induced magnitude?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Which daily devices use induction?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Can magnetisation and induction claims be audited?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "How can a simple bell be designed correctly?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 13,
           "title": "What counts as making and testing the project?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 14,
           "title": "What exactly did the evidence establish?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 15,
           "title": "Can magnetic evidence support an independent explanation?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -4068,73 +4508,85 @@
           "number": 1,
           "title": "A sloping side is not a height",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Derive and use the sine area rule",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Heron’s formula and valid triangles",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Scale and measurement precision",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Parallelograms and trapezia",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Diagonals with and without right angles",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Regular polygons as congruent triangles",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Calculate the heptagon and octagon",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Decompose an irregular region",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Read an irregular polygon from coordinates",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 11,
           "title": "Defend a real-life estimate",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 12,
           "title": "Independent polygon-area assessment",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -4167,55 +4619,64 @@
           "number": 1,
           "title": "Can the club afford its plan?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Which discount saves the most?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Who receives commission?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Profit and loss: percentage of what?",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Read the exchange board",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Reverse conversion and the round trip",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Defend a revised club budget",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Communicate a fair financial decision",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Independent application and reflection",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     },
@@ -4248,61 +4709,71 @@
           "number": 1,
           "title": "Classify safe aqueous samples",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 2,
           "title": "Acids and bases in familiar processes",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 3,
           "title": "Observe neutralisation",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 4,
           "title": "Explain bubbling with a carbonate",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 5,
           "title": "Explain an acid–metal reaction",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 6,
           "title": "Classify water gain and loss",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 7,
           "title": "Plan a fair salt-exposure comparison",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 8,
           "title": "Use salts without ignoring consequences",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 9,
           "title": "Explain the cupboard and communicate safely",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Independent evidence-based explanation",
           "duration": "40 minutes",
-          "status": "pending"
+          "status": "pending_quiz_design",
+          "design_revision": "quiz-v1"
         }
       ]
     }

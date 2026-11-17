@@ -1,5 +1,5 @@
 {
-  "state": "planned",
+  "state": "applied",
   "created_at": "2026-11-17T02:15:15.066610+00:00",
   "design_revision": "quiz-v1",
   "authorisation": "User requested deleting completed drafts and restarting with periodic A\u2013D quizzes.",
@@ -3368,5 +3368,14 @@
     "outputs/review/CellStructure_Complete_Lessons1-12_v2_Review/build_logs/Bio_G10_CellStructure_L7_Animal_Cells_Practical_v2.md": "b75d96345fc9f4e9fb4774334efbb05a21172f7c7d2327fd2887dbb6483f6b11",
     "outputs/review/CellStructure_Complete_Lessons1-12_v2_Review/build_logs/Bio_G10_CellStructure_L4_Plant_Cell_Ultrastructure_v2.md": "2e44a84b5a73d109e635337de5a05e2045f64333b15cf4513481e8fc34361933"
   },
-  "verified_source_files_before_reset": 430
+  "verified_source_files_before_reset": 430,
+  "applied_at": "2026-11-17T02:24:26.847721+00:00",
+  "deleted_files_verified": 782,
+  "preserved_outputs_verified_after_reset": 210,
+  "source_files_verified_after_reset": 430,
+  "current_curriculum_decks": 0,
+  "pending_quiz_design": 514,
+  "recreated_metadata_after_reset": [
+    "outputs/drafts/curriculum_sets_2026-11/README.md"
+  ]
 }

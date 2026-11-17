@@ -6,12 +6,15 @@ A–D comprehension checks. This task updates the process and resets the working
 files; it does not resume curriculum generation or implement the future server.
 
 The deletion audit is `qa/curriculum_quiz_reset_2026-11.json` (repository root).
-At the pre-deletion checkpoint it contains 782 planned files in four explicit
-working-output/render roots. Sources, unrelated Biology review work and
+The reset is applied: 782 superseded files were deleted from four explicit
+working-output/render roots, including all 13 PPTX copies of ten lessons.
+All 210 unrelated output hashes were reverified. Sources, unrelated Biology review work and
 historical QA/logs are preserved. Original pilot drafts must not be reimported.
 
 The collection has 43 sub-strands / 514 lessons and 430 verified source files.
-After reset, all 514 lessons require quiz-v1 design and fresh review. The 22
+The reset inventory has zero deck files and 514 `pending_quiz_design` rows.
+All 43 folder hierarchies are retained, including public/private quiz folders.
+All 514 lessons require quiz-v1 design and fresh review. The 22
 continuation lesson specifications under `specs` are source-work baselines;
 they intentionally fail the new build gate until lesson-level revision,
 questions, placement/source evidence and response/feedback timing are authored.
