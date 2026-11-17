@@ -7,6 +7,11 @@ sources, source sequence, approved subject guidance and release gates remain.
 
 ## Current checkpoint — paused for session reset
 
+**Next-session priority:** execute the user-authorised cost-efficiency pilot in
+`content/efficiency_pilot_2026-11/PLAN.md` before further production. Include Spark
+CPU/Blackwell GPU offload candidates and actual review/repair/operating costs.
+The pilot is documented, not run; all quality gates and the usage pause remain.
+
 - General Science Introduction (`gensci_1_1`): Lessons 1–7 reviewed drafts.
 - Essential Real Numbers (`essmath_1_1`): Lessons 1–8 reviewed drafts.
 - Core Real Numbers (`coremath_1_1`): Lessons 1–8 reviewed drafts; 9–10 authored
@@ -35,8 +40,8 @@ completed. The saved pause applies to that thread even after context refresh;
 Account remaining during the checkpoint was 23%.
 
 Resume in a new session with the repository `restart` skill, `STATUS.md` and
-`HANDOFF_2026-11-17_QUIZ_CONTINUATION.md`. Next: **Core Lesson 9**, then independent
-Lesson 10. New sessions must verify live meters/source archives and read the
+`HANDOFF_2026-11-17_QUIZ_CONTINUATION.md`. Next: **the efficiency pilot**, then production **Core Lesson 9** and independent
+Lesson 10 after the pilot decision. New sessions must verify live meters/source archives and read the
 whole unit before building. At 5% account or context remaining, stop at a clean
 boundary, run repository `update`, commit status and resume steps, then pause.
 Unexpected compaction during low remaining capacity is also a stopping boundary.

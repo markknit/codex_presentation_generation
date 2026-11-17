@@ -1,0 +1,30 @@
+{
+  "recorded_at_utc": "2026-11-17T20:23:21.318637+00:00",
+  "host": "jhm-spark",
+  "machine": "aarch64",
+  "gpu_query": "NVIDIA GB10, 580.178.04, 12.1, [N/A]",
+  "physical_system_memory_bytes": 130660773888,
+  "runtime_commands": {
+    "nvcc": "/usr/local/cuda/bin/nvcc",
+    "docker": "/usr/bin/docker",
+    "ollama": null,
+    "llama-server": null,
+    "vllm": null
+  },
+  "project_venv_packages": {
+    "torch": false,
+    "transformers": false,
+    "vllm": false,
+    "paddleocr": false
+  },
+  "package_check_evidence": "All four importlib.util.find_spec checks returned false in .venv during this session.",
+  "existing_gpu_evidence": "qa/Quiz_Continuation_environment.json",
+  "existing_gpu_work": "CUDA sm_121 preview resampling and pixel ink/darkness metrics; 493 slides and 447 print pages recorded in current reviewed set.",
+  "scope": "Read-only host/package inventory. No local model or Docker image/container inventory, model downloads, installations, inference benchmarks or pilot execution performed. Docker binary presence does not establish a working GPU container runtime. GPU memory.total was N/A; system memory is shared, not a separately measured dedicated VRAM capacity.",
+  "primary_sources": [
+    "https://docs.nvidia.com/dgx/dgx-spark/hardware.html",
+    "https://build.nvidia.com/spark/vllm/advanced",
+    "https://build.nvidia.com/spark"
+  ],
+  "status": "Pilot authorised for next session; local inference suitability and savings unmeasured"
+}

@@ -5,6 +5,23 @@ Recorded 17 November 2026 on `jhm-spark`; branch `main` at
 Read `STATUS.md` and use the repository `restart` skill before resuming. This
 handoff is active until a later documented continuation supersedes it.
 
+## New priority — efficiency pilot before production
+
+The user subsequently accepted a cost-efficiency pilot and asked for its
+recommendation and Spark/Blackwell offload assessment to be logged for a new
+session. **Read `content/efficiency_pilot_2026-11/PLAN.md` and run that bounded
+pilot first; do not immediately build Core L9.** Quality remains first, cost
+second, speed third. Current production status and the thread pause are unchanged.
+
+The plan covers compact context/status, complete-unit evidence packets, script
+orchestration/caching, targeted cheaper-model tasks, optional API batch/cache and
+local CPU/GPU work. Existing CUDA resampling/pixel QA is verified; local text/
+vision inference is only a candidate. Hardware/package inventory is in
+`qa/Efficiency_Pilot_host_snapshot_2026-11-17.json`. No model/container setup,
+weight download, inference benchmark, driver change or pilot run was performed.
+Measure total cost including review/repairs/setup and retain all existing gates.
+The production resume sequence below applies after the efficiency assessment.
+
 ## Locked decisions
 
 - User authorises checked review drafts across all 43 units/514 lessons in
@@ -25,7 +42,9 @@ handoff is active until a later documented continuation supersedes it.
   speaker notes, hidden teacher slides 2–3, Calibri/phase colours/logos/timers.
   Files grouped curriculum → strand → substrand → artifact folders.
 - Actual GPU execution is mandatory for supported raster stages, fail closed.
-  Current CUDA sm_121/GB10 pipeline works. Document CPU-only stages; no GPU claim
+  Current CUDA sm_121/GB10 raster pipeline works; local inference remains
+  unqualified. Include that candidate in the efficiency pilot. Document CPU-only
+  stages; no GPU claim
   for python-pptx, LibreOffice, PDF rasterisation, text/arithmetic or packaging.
 - Stop at 5% account OR context remaining, whichever is first. Check before each
   lesson and after inspection. Unexpected compaction during low remaining context
@@ -115,7 +134,7 @@ resetting/resuming this same thread, deliberately clear the latch after `/restar
 do not let automatic compaction clear it or simply ignore a guard refusal.
 When reviewing images near the limit, emit one or two contact sheets at a time.
 
-## Exact resume sequence
+## Production resume sequence — after efficiency pilot decision
 
 1. Run repository `/restart` and Step 0; read current STATUS/WORKFLOW/this handoff,
    `GUIDANCE.md`, `QUIZ_DESIGN.md` and approved subject guidance. Compare branch,

@@ -8,6 +8,8 @@ The 17 November authorisation covers all 514 quiz-enabled review drafts and
 supersedes the six-lesson hold. External release gates remain open. Current work
 is paused at the usage checkpoint documented in `STATUS.md` and
 `HANDOFF_2026-11-17_QUIZ_CONTINUATION.md`.
+The user’s next-session priority is the efficiency pilot in
+`content/efficiency_pilot_2026-11/PLAN.md`, before further production generation.
 
 ## Environment reference
 
@@ -275,7 +277,8 @@ review and `/update`, and latched the pause in
 new lesson in that thread (exit 75), regardless of renewed context. A new session
 must run `/restart`, read the active handoff and verify live meters. Same-thread
 explicit reset/resume requires deliberately clearing that latch; compaction alone
-never clears it. Next build is Core `coremath_1_1` Lesson 9.
+never clears it. Next production build is Core `coremath_1_1` Lesson 9, after
+the subsequently authorised efficiency pilot described below.
 
 
 ## GitHub continuity handoff, 2026-11-17
@@ -290,3 +293,22 @@ open. Working presentations, PDFs, current review ZIPs and render caches remain
 ignored on `jhm-spark`; the push transfers tracked controls/specifications/code/
 logs/QA, not those generated binaries. Read the active handoff and `/restart` in
 the next session before resuming.
+
+
+## Cost-efficiency pilot and local Spark offload, 2026-11-17
+
+User authorised a bounded efficiency pilot for a new session, prioritising quality,
+then total processing cost, then speed. Read `content/efficiency_pilot_2026-11/PLAN.md`
+and the active handoff before any further production generation; Core L9 remains
+the next production lesson after the assessment. The pilot is planned, not run.
+
+Compare focused context/complete source packets, scripted orchestration and caches,
+model-task allocation and optional API batch/caching. Include existing Spark CPU
+work and GB10 GPU local text/vision/comparison candidates, recording actual GPU
+execution and repair/review/operating costs. Current CUDA raster QA is verified;
+local inference runtime/model suitability is unmeasured. Host evidence is in
+`qa/Efficiency_Pilot_host_snapshot_2026-11-17.json`. No silent CPU fallback or
+relaxation of source, every-page visual, native PowerPoint or teacher gates.
+Keep existing drafts/sources/packages intact, experiments isolated, the current
+thread paused and the 5% stopping rule enforced. Documented priority supersedes
+earlier instructions to resume immediately at Core L9.
