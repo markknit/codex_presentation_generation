@@ -49,7 +49,10 @@ strand, sub-strand and artifact type. Keep original pilot identities and hashes
 only as historical audit records; the user has authorised deleting the
 pre-quiz draft files, pilot copies and packages. Do not restore old pilots.
 Working drafts/renders remain ignored; track guidance, source
-inventory, builders, logs, QA and progress. No push or publication requested.
+inventory, builders, logs, QA and progress. A subsequent 17 November user
+instruction authorises pushing this committed continuity work to GitHub;
+working PPTX/PDF/ZIP files remain ignored and host-local. No classroom release
+or publication is authorised.
 
 Usage: inspect the calling thread's emitted Codex rate-limit meter using
 `scripts/session_usage.py --guard` before starting each lesson. The exposed

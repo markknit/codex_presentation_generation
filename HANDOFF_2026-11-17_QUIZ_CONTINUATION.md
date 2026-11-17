@@ -10,7 +10,9 @@ handoff is active until a later documented continuation supersedes it.
 - User authorises checked review drafts across all 43 units/514 lessons in
   General Science (197), Essential Mathematics (135), Core Mathematics (182).
   This supersedes the old six-deck hold; no need to ask for that authorisation
-  again. It does not authorise push, classroom release or waive external gates.
+  again. A subsequent 17 November user instruction authorises pushing committed
+  continuity work to GitHub; it does not authorise classroom release or waive
+  external gates.
 - Periodic neutral A–D quizzes, source-backed keys/distractors, independent
   collection, response closure, then actual class aggregates and reinforcement.
   Keep individual attempts/private reports off the projector. No live server
@@ -89,7 +91,12 @@ expects Lessons [1,2]. Use current unit packages and the cumulative index.
 
 Working outputs/renders remain ignored and host-local. This local checkpoint
 tracks scripts, specs, controls, build logs and QA; it is not a Git transfer of
-PPTX files. No push. Preserve unrelated untracked extracted Cell Structure review
+PPTX files. User subsequently authorised a GitHub continuity push: all eight
+outstanding commits through `c1d8351` were pushed and the remote hash verified
+against local HEAD. This status follow-up uses the same authorised push scope.
+Generated working
+PPTX/PDF/ZIP files remain local on `jhm-spark`; switching hosts requires an explicit
+deliverable transfer. Preserve unrelated untracked extracted Cell Structure review
 folder and five `qa/GenSci_G10_Introduction_L1_Scientific_Questions_*.json` files.
 Do not restore deleted pre-quiz pilots or reuse their superseded QA.
 

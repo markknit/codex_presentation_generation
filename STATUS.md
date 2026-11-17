@@ -1,6 +1,6 @@
 # Project status
 
-Last updated: 2026-11-17 18:26 UTC
+Last updated: 2026-11-17 20:06 UTC
 
 ## Active Threads
 
@@ -12,7 +12,7 @@ Last updated: 2026-11-17 18:26 UTC
 | Visual references | Reviewed; new quality target applied | Original templates remain for theme/logos. User-selected `presentations2` L1/L2/L6 references (21/28/24 slides) were fully rendered and inspected on 2026-10-24. Style evidence and hashes: `qa/CellStructure_v2_sources.json`; reusable rules: `content/cellstructure_v2/DESIGN.md`. |
 | V2 source inventory | Legacy and current collections distinguished | Legacy repository inputs: 425 files (340 DOCX/85 JSON), unchanged. Current November three-curriculum collection: 43 sub-strands, 514 lessons, 430 archive-verified source files; see `content/curriculum_sets_2026-11/inventory.json`. |
 | Completed curriculum output shortcut | Created and verified | `final_curriculum_outputs` is an absolute local symlink to `/home/markk/ares/cbe-generation-system/data/curriculum_expansion_2026-11`; final index, Word/JSON tree and PDF tree are accessible. Provides access to the newly completed curriculum collection; existing presentation source authority and approval gates remain in force. |
-| GitHub repository | Continuation checkpoint local; no push | Restart matched `e1c1d00`, seven commits ahead of freshly fetched `origin/main` (`5aaf454`). This continuation and `/update` are included with this local continuity checkpoint; working drafts/renders stay ignored. No push, publication or classroom release authorised. |
+| GitHub repository | Generation checkpoint pushed; generation still paused | User authorised a continuity push on 17 November. Pushed all eight outstanding commits to `origin/main`; `git ls-remote origin refs/heads/main` verified `c1d8351b5d3bf83f2b36a20d4eca3ad82d737e52`, matching local HEAD with 0/0 ahead/behind before this status follow-up. STATUS, handoff, specs, tooling, logs and QA are on GitHub; generated working PPTX/PDF/ZIP files remain ignored on `jhm-spark`. |
 | `jhm-spark` connection | Verified 17 November | Fresh SSH fetch and both Step 0 Python checks passed on `main`; current-source archive/member hashes reverified. Actual GB10 CUDA processing verified for all 23 current reviewed lessons. Saved project registration remains unverified. |
 | GPU raster processing | Verified for 23 current reviewed drafts | CUDA sm_121 on GB10 processed 493 slides and 447 final print pages, including 357 slides/328 print pages newly built this session. Counts/deck hashes checked in `qa/Quiz_Continuation_environment.json`; no CPU fallback or new CUDA failure. CPU-only stages disclosed. |
 | Python authoring environment | Host-specific | On `jhm-spark`, `.venv` was built with pinned requirements and `pip check`, templates and manual loading passed previously. On Windows, `python`, `python3` and `py` were unavailable on PATH on 2026-10-27; the Python Step 0 checks could not run there. |
@@ -416,3 +416,16 @@ Still open:
 - Read and author the remaining 40 units/489 lessons from their own complete sources. Next unit choices: General Science `gensci_1_2` The Cell (12 lessons), Essential `essmath_1_2` Indices (8), Core `coremath_1_2` Indices and Logarithms (14). No new unit has been read/approved by this continuation; no legacy Biology Cell content or science pedagogy may substitute for Mathematics authority.
 - Native PowerPoint/Slide Show/Presenter View, exact Calibri, teacher/source-owner accuracy/pacing (including 30+30-second quizzes), classroom access/practical readiness and ARES checks before release. All 23 files are review drafts.
 - Implement/test future private per-student capture/versioned attempts and scoring, actual class aggregate-only projection after closure and separately authorised individual reports. Static PPTX notes and feedback do not enforce this server/privacy boundary.
+
+## Updates - 2026-11-17 (Authorised GitHub continuity handoff)
+
+- User authorised pushing the current checkpoint before switching sessions. This supersedes the earlier no-push restriction for committed repository continuity work; generation remains paused, with no classroom release or new draft generation.
+- Re-applied repository restart checks at High rigor: `main` at `c1d8351`, eight commits ahead of freshly fetched `origin/main`, no incoming commits or tracked edits. Both Step 0 checks passed (425 legacy source files, three templates, GB10 visible). Current inventory remains 23 reviewed drafts, two authored/unbuilt Core lessons and 489 awaiting quiz design; next lesson is Core Real Numbers L9. Preserved the unrelated extracted Biology folder and five historical General Science QA files.
+- Ran `git push origin main`; GitHub advanced from `5aaf454` to `c1d8351`. Independent `git ls-remote origin refs/heads/main` matched the full local hash `c1d8351b5d3bf83f2b36a20d4eca3ad82d737e52`, with 0/0 ahead/behind. This transports all eight outstanding commits, including the quiz reset/design, source-specific specifications, builders, build logs, QA, STATUS and active handoff.
+- Follow-up continuity edits cover five files: STATUS, active HANDOFF, WORKFLOW, current curriculum README and GUIDANCE. They record the now-authorised push and verified checkpoint. The handoff also covers this follow-up; final remote/local refs establish its sync. No code, source, output or rendering changes; no installer/configuration changes. Existing teacher ZIPs remain the unchanged review snapshots created before this push-authorisation note.
+- Working presentation files, PDFs, review ZIPs and render intermediates are excluded from Git and remain on `jhm-spark`; this is a repository/status sync, not a transfer of current presentation binaries. A new session on this same checkout can resume using them. A different host needs its own deliberate source/deliverable transfer. No new tracked deck snapshot or release is implied.
+
+Still open:
+
+- Start a new session on `jhm-spark`, run repository `/restart`, read `HANDOFF_2026-11-17_QUIZ_CONTINUATION.md` and verify live usage/source state before explicitly resuming Core `coremath_1_1` L9. The current thread's generation pause remains latched.
+- Native PowerPoint/Presenter View, teacher/source-owner approval, exact Calibri, pacing/access/practical and ARES checks, plus future live quiz capture/reporting remain open as recorded above.

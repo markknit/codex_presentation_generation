@@ -81,8 +81,10 @@ For a new authorised lesson: check usage, build using
 `check_quiz_continuation.py --built`, inspect every slide/print page, then record
 review and package using `review_package_curriculum_set.py`. Refresh the cumulative
 index with `index_curriculum_set_reviews.py`. Working drafts and render caches stay
-ignored; track scripts, source-specific specs, build logs, QA and controls. No push
-or release is authorised.
+ignored; track scripts, source-specific specs, build logs, QA and controls. A subsequent 17 November instruction authorises the GitHub continuity
+push: all eight outstanding commits through `c1d8351` are pushed and the remote
+hash verified. Working presentation binaries remain local on `jhm-spark`.
+Generation stays paused; no classroom release is authorised.
 
 The pre-quiz reset remains historical in `qa/curriculum_quiz_reset_2026-11.json`.
 Do not reimport deleted pilots or treat their old QA as current. Preserve unrelated

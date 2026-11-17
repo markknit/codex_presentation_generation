@@ -276,3 +276,17 @@ new lesson in that thread (exit 75), regardless of renewed context. A new sessio
 must run `/restart`, read the active handoff and verify live meters. Same-thread
 explicit reset/resume requires deliberately clearing that latch; compaction alone
 never clears it. Next build is Core `coremath_1_1` Lesson 9.
+
+
+## GitHub continuity handoff, 2026-11-17
+
+After the usage pause, the user authorised pushing the committed checkpoint
+before switching sessions. All eight outstanding commits through `c1d8351` were
+pushed to `origin/main`; `git ls-remote` verified the exact remote/local hash.
+This supersedes earlier no-push statements for repository continuity work.
+The follow-up status/authorisation documentation is pushed with the same scope.
+Generation remains paused at Core Real Numbers L9; external release gates stay
+open. Working presentations, PDFs, current review ZIPs and render caches remain
+ignored on `jhm-spark`; the push transfers tracked controls/specifications/code/
+logs/QA, not those generated binaries. Read the active handoff and `/restart` in
+the next session before resuming.
