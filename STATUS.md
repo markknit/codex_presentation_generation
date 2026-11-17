@@ -1,6 +1,6 @@
 # Project status
 
-Last updated: 2026-11-17 20:24 UTC
+Last updated: 2026-11-17 20:45 UTC
 
 ## Active Threads
 
@@ -28,7 +28,7 @@ Last updated: 2026-11-17 20:24 UTC
 | General Science November collection | Introduction L1–7 reviewed drafts; 190 other lessons remain | 149 slides, 18 quizzes, 280 minutes; L7 independent assessment has a documented no-coaching exception. All final slides/146 print pages inspected, source/phase/PDF/CUDA checks passed, seven-lesson package verified. Teacher/native PowerPoint approval remains open. |
 | Windows review handoff | Both unit snapshots tracked; review pending | Cell Structure's twelve-lesson and Chemicals of Life's six-lesson review ZIPs are tracked under `outputs/review`; see its README for checksums and fresh-folder extraction. On 2026-10-27 the Cell Structure ZIP SHA-256 matched `27c8518111623de7ea420c1b6d6e3574d1442f91666dc75e5677043acdf7ea24`, and all 12 extracted PPTX hashes matched the included manifest. That extracted folder is untracked and must be preserved. Archive CRC and all manifest members were verified previously. Native PowerPoint/Presenter View and teacher reviews remain open; neither snapshot is a classroom release. |
 | Periodic quiz design and tooling | 23 reviewed drafts; server and teaching review open | 63 source-backed A–D questions with later feedback, versioned IDs, private paper first-response records and public/private manifests. Seven tests pass. No live capture, projector dashboard or reports implemented. All 25 initial-unit specs are quiz-v1; remaining 40 units require complete source reading and authoring. |
-| Cost-efficiency pilot and Blackwell offload | Authorised for next session; plan logged, unexecuted | User accepted a cost-first efficiency pilot with unchanged quality gates. Compare compact contexts/script orchestration, narrowly scoped cheaper/local models, optional API batch/cache and actual repair/review cost. GB10/CUDA driver/ARM64 rechecked; existing raster CUDA supported, local inference not installed or benchmarked by this step. Plan: `content/efficiency_pilot_2026-11/PLAN.md`; host evidence: `qa/Efficiency_Pilot_host_snapshot_2026-11-17.json`. |
+| Cost-efficiency pilot and Blackwell offload | Authorised for next session; plan logged, unexecuted | User accepted a cost-first efficiency pilot with unchanged quality gates. Electricity is excluded from the cost comparison; no power-cost measurement required. Compare compact contexts/script orchestration, narrowly scoped cheaper/local models, optional API batch/cache and actual repair/review cost. GB10/CUDA driver/ARM64 rechecked; existing raster CUDA supported, local inference not installed or benchmarked by this step. Plan: `content/efficiency_pilot_2026-11/PLAN.md`; host evidence: `qa/Efficiency_Pilot_host_snapshot_2026-11-17.json`. |
 | Usage checkpoint and session handoff | Paused; guard latched for this thread | Last emitted context before compaction: 6.56% at 18:19 UTC; account 25%. Compacted 18:21 UTC during Core L8 inspection; only its review and continuity completed afterwards. No numerical 5% reading observed this run. Guard and builder refuse a new lesson with exit 75 despite refreshed context. See `qa/Quiz_Continuation_usage_checkpoint.json`; new-session `/restart` required. |
 
 ## Known Issues and Lessons Learned
@@ -450,3 +450,13 @@ Still open:
 - New session: `/restart`, read the active handoff and `content/efficiency_pilot_2026-11/PLAN.md`, verify live usage/host/source state, then execute the bounded pilot. Record measured costs/quality and recommend a route before expanding production. Do not immediately start Core L9.
 - Inventory/qualify any local runtime/model/container and verify actual GPU inference before relying on it. Consider available memory, licensing, quantisation/context memory, setup and operating cost; no local inference suitability or net saving has been established.
 - All existing native PowerPoint, teacher/source-owner, exact font, classroom/practical/access, ARES and future quiz-server integration gates remain open. After the pilot decision, Core L9–10 remain ready specifications for production continuation.
+
+## Updates - 2026-11-17 (Final handoff clarification: electricity excluded)
+
+- User clarified electricity cost is not a concern and asked whether all guidance is saved for closing this session. Exclude electricity from the efficiency pilot cost comparison; do not spend effort on power-cost instrumentation. Focus on cloud/API charges, Codex account/context consumption, setup, repairs and reviewer effort. Runtime/memory/GPU execution can still inform feasibility and verification.
+- Five documentation files updated consistently: STATUS, WORKFLOW, current curriculum README, active HANDOFF and `content/efficiency_pilot_2026-11/PLAN.md`. Prior recommendations mentioning electricity are historical and superseded by this clarification. No code, dependencies, source, specs, deck files or pilot execution changed.
+- Fresh fetch matched local/GitHub `e8da9c7` with 0/0 ahead/behind before this follow-up; tracked controls matched the committed checkpoint. The authorised GitHub continuity handoff includes this clarification. Verify the final remote/local hash after pushing.
+
+Still open:
+
+- New session on `jhm-spark`: `/restart`, read the active handoff and efficiency pilot plan, verify live usage/host/source state, then begin the bounded pilot before production Core L9. Current generation remains paused; all quality gates and the 5% stopping rule remain unchanged.

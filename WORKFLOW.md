@@ -305,7 +305,8 @@ the next production lesson after the assessment. The pilot is planned, not run.
 Compare focused context/complete source packets, scripted orchestration and caches,
 model-task allocation and optional API batch/caching. Include existing Spark CPU
 work and GB10 GPU local text/vision/comparison candidates, recording actual GPU
-execution and repair/review/operating costs. Current CUDA raster QA is verified;
+execution and setup/repair/review costs. Electricity cost is excluded per the
+user; no power-cost measurement is required. Current CUDA raster QA is verified;
 local inference runtime/model suitability is unmeasured. Host evidence is in
 `qa/Efficiency_Pilot_host_snapshot_2026-11-17.json`. No silent CPU fallback or
 relaxation of source, every-page visual, native PowerPoint or teacher gates.

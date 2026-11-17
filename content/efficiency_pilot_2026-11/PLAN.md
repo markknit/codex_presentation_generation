@@ -3,6 +3,9 @@
 Authorised by the user on 17 November 2026. **Documented, not executed.**
 Priority: quality first, processing cost second, speed third. The user explicitly
 accepts slower completion when it reduces total cost without reducing quality.
+User clarification: electricity cost is excluded from the pilot comparison.
+Prioritise cloud/API charges, Codex allowance/context use, setup, retries and
+review effort; power-cost measurement is not required.
 This pilot precedes further production generation. Current drafts remain paused;
 Core Real Numbers L9 is the next production lesson after the pilot decision.
 
@@ -139,8 +142,8 @@ weight download, driver change or benchmark was installed/run in this step.
 
 Local inference avoids cloud token charges only for work actually completed
 locally. Any cloud orchestration/review remains metered. Include setup, downloads,
-local electricity/operating time, retries and review; if no usable power telemetry
-exists, label estimates and assumptions. Running every local result through the
+setup effort, retries and review. Exclude electricity charges as instructed by
+the user; runtime remains useful operational data, not a required energy costing. Running every local result through the
 same full cloud job may remove the intended saving. Do not weaken review to
 manufacture a favourable result. No savings percentage is established yet.
 
@@ -149,7 +152,8 @@ manufacture a favourable result. No savings percentage is established yet.
 Record task/run IDs, source/spec/template/model/runtime hashes, arm, tokens
 (uncached/cached input, output/reasoning where exposed), measured charges/credits
 or explicitly labelled estimates, model calls/retries, runtime, setup/reviewer
-work, local memory/power data if available, defects and each quality-gate result.
+work, local memory/GPU-execution data, defects and each quality-gate result. No power
+cost instrumentation is needed.
 Account allowance percentages are approximate and are not dollar measurements;
 context capacity is separate. Report one-time setup separately from repeatable
 cost and calculate a break-even range with assumptions rather than promise savings.

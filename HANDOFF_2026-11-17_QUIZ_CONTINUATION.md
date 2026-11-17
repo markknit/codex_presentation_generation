@@ -20,6 +20,8 @@ vision inference is only a candidate. Hardware/package inventory is in
 `qa/Efficiency_Pilot_host_snapshot_2026-11-17.json`. No model/container setup,
 weight download, inference benchmark, driver change or pilot run was performed.
 Measure total cost including review/repairs/setup and retain all existing gates.
+The user excludes electricity cost: focus on cloud/API charges, session usage,
+setup and review/repair effort. No power-cost measurement is required.
 The production resume sequence below applies after the efficiency assessment.
 
 ## Locked decisions

@@ -9,7 +9,8 @@ sources, source sequence, approved subject guidance and release gates remain.
 
 **Next-session priority:** execute the user-authorised cost-efficiency pilot in
 `content/efficiency_pilot_2026-11/PLAN.md` before further production. Include Spark
-CPU/Blackwell GPU offload candidates and actual review/repair/operating costs.
+CPU/Blackwell GPU offload candidates and actual setup/review/repair costs.
+Electricity cost is excluded per the user; no power-cost measurement is required.
 The pilot is documented, not run; all quality gates and the usage pause remain.
 
 - General Science Introduction (`gensci_1_1`): Lessons 1–7 reviewed drafts.
