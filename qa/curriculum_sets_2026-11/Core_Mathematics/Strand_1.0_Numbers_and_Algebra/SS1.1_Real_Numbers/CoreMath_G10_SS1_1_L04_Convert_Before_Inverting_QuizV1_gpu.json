@@ -1,0 +1,210 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2326058127285121,
+      "dark_fraction": 0.05689368118815972,
+      "sha256": "254bc0bf547726a8e0b72ccd01f6abbc76dc9a6211d2e897e995ecd6683f35ad"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05244180041726054,
+      "dark_fraction": 0.04125839168783954,
+      "sha256": "a8e236130b19ab87d92991728d375d4dcb2dc08675153e18101ccb7ed24dc3a8"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13979302224700998,
+      "dark_fraction": 0.12061391006176282,
+      "sha256": "490f7565f7dea94f1b09b0ec56caaa4ff5eb66356ca6281bd3a3a93d16f03bae"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08936233500650678,
+      "dark_fraction": 0.06877940963830534,
+      "sha256": "bdebe1110c42576700c64647b2fa99ccf61995328394fd1e6b61549a4b05bb1d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1595381215013117,
+      "dark_fraction": 0.042633285823469876,
+      "sha256": "943a0ad381bbc15435409799218b27cf4b624618c242f1f0bdcb89ad62a9951e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22366900084691496,
+      "dark_fraction": 0.04991592819813679,
+      "sha256": "69d6cac5ec608d25ee65b43cd165e20bcfa3d5d06d3f71c3947e812de5c76f8a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05448348515833178,
+      "dark_fraction": 0.04494267831691145,
+      "sha256": "8e5eef432838dde2c22f28110c173e3efa37c83436e6e06ff6035aded750cfbd"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.20479147301233191,
+      "dark_fraction": 0.04076511536634236,
+      "sha256": "bdf3a09c3b67a5f9497d379b0a58d9853c2e8fa6d50fea807d41ca6c746c6696"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.059826898845303754,
+      "dark_fraction": 0.048540207804011484,
+      "sha256": "078b9586f02e67b3e537b9c01aa496c7fcab2a8d25b0b90595ce417fed6aadf0"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.10379624465514035,
+      "dark_fraction": 0.09320030571564314,
+      "sha256": "9f14eeffbabedadbd720075af08665ce0fbe6b0566ba6ae5957c1efee5788382"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3148614984197806,
+      "dark_fraction": 0.04874925120323893,
+      "sha256": "5c67662a1b28918687695c6998c8d7b4484c76580f88d060a8d751e8cb65b6fc"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2659519530685175,
+      "dark_fraction": 0.047071946458449525,
+      "sha256": "86d0bddb01691a020940c02006df32f01e5da2dcb1490562660918123e39ec5d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23627522670467455,
+      "dark_fraction": 0.03142508933919977,
+      "sha256": "d080eb48b07f205709916357cf88f4b1fba1ce284e4b5714010b18550b691dad"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06436388424118486,
+      "dark_fraction": 0.05204932763214972,
+      "sha256": "223a7adf675359a01e549896def7419e69ab48743efaec429e1f3868983eac00"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3179103922662205,
+      "dark_fraction": 0.05337712503356675,
+      "sha256": "1ed982e8b08075cc4a997fc96d1329ab98f1b8908a2784e8e1bc1fc43e1b072b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.26881245997810416,
+      "dark_fraction": 0.05015967445415298,
+      "sha256": "a1c8ae1e43d4cbb1f7e50f32d9fdf3ad60a94de2efaa4aa8869eb1997cd2264f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06763008407180186,
+      "dark_fraction": 0.0557286567102518,
+      "sha256": "6fc38b527f0a17cd4a58cc6351b8b5596f4d314e3657f87d54c12764a7b0db3e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.057807523083596705,
+      "dark_fraction": 0.04662163557869079,
+      "sha256": "15c136cd4cea62cb5aa80e51fb714574cb2e416a7cb67ed3abfc7fa340086038"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05339860775443597,
+      "dark_fraction": 0.043357914523558694,
+      "sha256": "49b059be6743780334ff4e1efa6a2dbcffa9cad5cfc44f10c7879e6f05d29f18"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31201173287062856,
+      "dark_fraction": 0.046288653405217824,
+      "sha256": "6bc82dee8006c8be01c4446c3dc778992bc8bfc3118f365fc3fec2712fe75750"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.265937906674103,
+      "dark_fraction": 0.04731156142199087,
+      "sha256": "59f09452da54bc1a69281b8557da56bba7c0dd8d718d979afd09d5c128b26ee6"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05322261469500733,
+      "dark_fraction": 0.040332155914978,
+      "sha256": "d360e535870cd5b7f5aec915f26287146d0d41af7ae41f2c3b71e330f7f64d1e"
+    }
+  ],
+  "deck_sha256": "89f59d7c0e2476c611b65dbd91c469981d7caa12094ef490aaecb0a95fcdb6ad"
+}

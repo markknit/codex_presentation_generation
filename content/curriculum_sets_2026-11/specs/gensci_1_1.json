@@ -437,7 +437,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Mean rise in this printed trial",
           "kind": "equation",
           "text": "A: (18 + 20 + 22)/3 = 20 mm",
@@ -467,7 +467,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "What can we infer?",
           "kind": "bullets",
           "items": [
@@ -475,7 +475,7 @@
             "Name what was kept comparable.",
             "State one untested property or limitation."
           ],
-          "timer": "4:00"
+          "timer": "3:00"
         },
         {
           "phase": "Driving Question Board",
@@ -491,14 +491,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Add collection, organisation and analysis to your evidence model.",
             "Cite the labelled printed data; retain untested properties."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -509,12 +509,13 @@
             "Give a numerical conclusion with units.",
             "State one limit of that conclusion."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before the final reinforcement quiz. Retain first-attempt exit and quiz records separately."
         }
       ],
       "route": "Use the source-permitted printed illustrative fallback. This draft does not claim hands-on measurement. The optional real trial requires teacher preparation/access review; follow the unchanged source procedure and safety notes if selected.",
       "preparation": "One labelled GS13 data sheet per learner; notebook, pencil, ruler for the printed table and timer. The printed route requires no water or apparatus. Show or describe the two paper samples before prediction, without hinting at the result. If descriptions are unavailable, retain that uncertainty rather than invent paper properties.",
-      "decisions": "Printed fallback chosen explicitly. Never present means or printed values as class observations. Source clean-water/paper trial remains an optional teacher-reviewed route, not a fabricated practical.",
+      "decisions": "Printed fallback chosen explicitly. Never present means or printed values as class observations. Source clean-water/paper trial remains an optional teacher-reviewed route, not a fabricated practical. Periodic quiz-v1 checks: two one-minute response/feedback pairs use the existing ten-minute Explain/check time; one one-minute reinforcement follows the saved exit in Model Building. All required source tasks, original Observe subdivisions and phase totals remain. Teacher must confirm 30-second response plus 30-second feedback pacing.",
       "record": {
         "headers": [
           "Paper",
@@ -539,7 +540,109 @@
             ""
           ]
         ]
-      }
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "gensci_1_1.L03.Q01.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "What is the mean of the printed paper A rises: 18, 20 and 22 mm?",
+          "options": {
+            "A": "60 mm",
+            "B": "22 mm",
+            "C": "20 mm",
+            "D": "18 mm"
+          },
+          "correct": "C",
+          "explanation": "Add the three rises to get 60 mm, then divide by three readings: 20 mm. Keep the measurement unit.",
+          "distractor_feedback": {
+            "A": "60 mm is the sum, not the mean.",
+            "B": "22 mm is the largest reading.",
+            "D": "18 mm is the smallest reading."
+          },
+          "objective": "Calculate a mean with its unit.",
+          "placement_reason": "After the individual calculations, comparison and worked mean; no later data used.",
+          "no_future_content_reason": "Uses only GS13 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS13 — Teacher key and preparation",
+              "evidence": "Printed means A20 mm and B10 mm."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L03.Q02.v1",
+          "after_slide": 8,
+          "phase": "Explain",
+          "stem": "Which conclusion stays within the printed GS13 test?",
+          "options": {
+            "A": "Paper A is best for every job.",
+            "B": "Paper A had greater mean rise in these conditions.",
+            "C": "Paper B had the greater mean rise.",
+            "D": "The test establishes every paper property."
+          },
+          "correct": "B",
+          "explanation": "The means are A 20 mm and B 10 mm in this small trial. The test compares water rise under stated conditions, not every property or use.",
+          "distractor_feedback": {
+            "A": "One water-rise test does not compare every possible job.",
+            "C": "10 mm is smaller than 20 mm.",
+            "D": "Other properties require other measurements."
+          },
+          "objective": "Limit a conclusion to the measured property and conditions.",
+          "placement_reason": "After the conditional conclusion and test-limit explanation.",
+          "no_future_content_reason": "Uses only GS13 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS13 — Teacher key and preparation",
+              "evidence": "Paper A shows greater mean rise in this small trial; the result does not establish every property of the paper or prove a microscopic explanation."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L03.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "You analysed GS13’s printed data without a practical. Which label is honest?",
+          "options": {
+            "A": "Our own experimental measurements",
+            "B": "Proof of our hands-on measuring skill",
+            "C": "A measurement of every paper property",
+            "D": "Analysis of printed illustrative readings"
+          },
+          "correct": "D",
+          "explanation": "Printed readings support data analysis and inference. They are not your own measurements and do not show that you carried out the measuring procedure.",
+          "distractor_feedback": {
+            "A": "The readings came from the supplied sheet.",
+            "B": "Hands-on measuring was not observed.",
+            "C": "Only water rise is represented."
+          },
+          "objective": "Distinguish supplied data analysis from observed practical competence.",
+          "placement_reason": "After the saved individual numerical conclusion and limit; reinforce honest data provenance.",
+          "no_future_content_reason": "Uses only GS13 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS13 — Teacher key and preparation",
+              "evidence": "Printed analysis provides inference/data skills, not evidence of hands-on measuring."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        }
+      ]
     },
     "4": {
       "code": "GS14",
@@ -648,7 +751,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "What changed in the counts?",
           "kind": "equation",
           "text": "P: 10 − 6 = 4 seedlings lost",
@@ -673,7 +776,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Defend a bounded conclusion",
           "kind": "bullets",
           "items": [
@@ -681,7 +784,7 @@
             "Explain why water alone is not isolated.",
             "Describe one concrete design improvement."
           ],
-          "timer": "4:00"
+          "timer": "3:00"
         },
         {
           "phase": "Driving Question Board",
@@ -697,14 +800,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Add competing explanations and fair comparison to your model.",
             "Preserve the initial claim and revise with today’s record."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -715,7 +818,8 @@
             "Name one confound.",
             "Give one concrete design change."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before the final reinforcement quiz. Retain first-attempt exit and quiz records separately."
         }
       ],
       "route": "Written planning from illustrative GS14 records only; no seed-growing practical is added.",
@@ -750,7 +854,110 @@
             ""
           ]
         ]
-      }
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "gensci_1_1.L04.Q01.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "Tray P went from 10 seedlings to 6. How many seedlings were lost?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "10",
+            "D": "16"
+          },
+          "correct": "A",
+          "explanation": "The loss is the starting count minus the final count: 10 − 6 = 4 seedlings. The count change alone does not establish its cause.",
+          "distractor_feedback": {
+            "B": "6 is the final count, not the loss.",
+            "C": "10 is the initial count.",
+            "D": "Adding the counts does not give the loss."
+          },
+          "objective": "Use starting and final counts to describe a change.",
+          "placement_reason": "After the individual count extraction and worked differences.",
+          "no_future_content_reason": "Uses only GS14 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS14 — Teacher key and preparation",
+              "evidence": "Losses P4 and Q1; observed counts differ."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L04.Q02.v1",
+          "after_slide": 8,
+          "phase": "Explain",
+          "stem": "Why do GS14’s records fail to isolate water as the cause?",
+          "options": {
+            "A": "The initial counts were different.",
+            "B": "No seedling counts were recorded.",
+            "C": "The water amounts were equal.",
+            "D": "Light, temperature and location also differed."
+          },
+          "correct": "D",
+          "explanation": "The water amounts and environments differed together. Light, temperature or location could also contribute, so the records do not isolate water.",
+          "distractor_feedback": {
+            "A": "Both trays started with 10 seedlings.",
+            "B": "Monday and Friday counts are supplied.",
+            "C": "P received 20 mL daily and Q 40 mL."
+          },
+          "objective": "Identify a changed factor that confounds a causal claim.",
+          "placement_reason": "After comparing the changed conditions and defending a bounded conclusion.",
+          "no_future_content_reason": "Uses only GS14 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS14 — Teacher key and preparation",
+              "evidence": "Less water may contribute, but light/temperature/location also differ, and counts alone do not identify mechanism."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L04.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "Which plan would better test the effect of water amount?",
+          "options": {
+            "A": "Change water, light and soil together.",
+            "B": "Use one tray and assume its cause.",
+            "C": "Vary water; keep other conditions comparable and repeat.",
+            "D": "Choose a cause before checking counts."
+          },
+          "correct": "C",
+          "explanation": "Vary water while keeping relevant conditions comparable. Define the outcome and observation period, and use several trays per condition; uncertainty still remains.",
+          "distractor_feedback": {
+            "A": "Changing several factors together prevents isolating water.",
+            "B": "One tray does not compare the two conditions.",
+            "D": "A cause must be evaluated using evidence."
+          },
+          "objective": "Choose a fairer comparison with repeats.",
+          "placement_reason": "After saving the individual confound and concrete design-change exit.",
+          "no_future_content_reason": "Uses only GS14 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS14 — Teacher key and preparation",
+              "evidence": "A fairer comparison varies water amount with comparable seed type, initial condition, soil, container, light and temperature, measures a defined outcome over a fixed interval and uses several trays per condition."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": " Periodic quiz-v1 checks: two one-minute response/feedback pairs use the existing ten-minute Explain/check time; one one-minute reinforcement follows the saved exit in Model Building. All required source tasks, original Observe subdivisions and phase totals remain. Teacher must confirm 30-second response plus 30-second feedback pacing."
     },
     "5": {
       "code": "GS15",
@@ -797,7 +1004,9 @@
               "A national research role concerning human health."
             ]
           ],
-          "caption": "Source-supplied paraphrases checked 13 November 2026; not quotations or qualification advice."
+          "caption": "Source-supplied paraphrases checked 13 November 2026; not quotations or qualification advice.",
+          "timer": "4:00",
+          "mode": "read both sources"
         },
         {
           "phase": "Observe",
@@ -825,7 +1034,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "What do the source roles support?",
           "kind": "columns",
           "columns": [
@@ -853,7 +1062,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Explain an interest without an overclaim",
           "kind": "bullets",
           "items": [
@@ -861,7 +1070,7 @@
             "Name a training question that remains unverified.",
             "Keep the two source limits visible."
           ],
-          "timer": "4:00"
+          "timer": "3:00"
         },
         {
           "phase": "Driving Question Board",
@@ -877,14 +1086,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Add careers to your evidence model.",
             "Write one attainable personal learning action and a reason."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -895,36 +1104,151 @@
             "Submit your individual chart.",
             "Explain why your next learning action matters."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before the final reinforcement quiz. Retain first-attempt exit and quiz records separately."
         }
       ],
       "route": "Printed summaries remain the offline route. Optional official-page navigation uses only teacher-approved pages/cached copies. Print work is not evidence of digital navigation; no personal data or unrelated links.",
       "preparation": "GS15 printed source summaries and blank chart per learner. Optional supervised device access only if locally provided and observed.",
       "record": {
         "headers": [
-          "Direction",
-          "Questions / evidence",
-          "Possible benefit",
-          "Source support",
-          "Still needed"
+          "Chart heading",
+          "Weather/climate science",
+          "Human-health research"
         ],
         "rows": [
           [
-            "Weather/climate science",
-            "",
-            "",
+            "Science question (proposed example)",
             "",
             ""
           ],
           [
-            "Human-health research",
+            "Evidence used (proposed example)",
             "",
+            ""
+          ],
+          [
+            "Possible community benefit",
             "",
+            ""
+          ],
+          [
+            "Source support",
+            "",
+            ""
+          ],
+          [
+            "Further information needed",
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.8,
+        "page_break_before": true
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "gensci_1_1.L05.Q01.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "Which career direction is supported by source A’s weather observations and forecasts?",
+          "options": {
+            "A": "Human-health research",
+            "B": "Weather/climate science",
+            "C": "A guaranteed job placement",
+            "D": "A specified salary grade"
+          },
+          "correct": "B",
+          "explanation": "Source A describes weather/climate observations, analysis, forecasts and early warnings. This supports a weather/climate science direction, without promising a job or salary.",
+          "distractor_feedback": {
+            "A": "The human-health research role is described by source B.",
+            "C": "The summary does not guarantee employment.",
+            "D": "The summary does not establish a salary."
+          },
+          "objective": "Connect a career direction to its stated institutional evidence.",
+          "placement_reason": "After individual chart construction, source checking and the supported-direction explanation.",
+          "no_future_content_reason": "Uses only GS15 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS15 — Teacher key and preparation",
+              "evidence": "Weather/climate scientist is a reasonable inference from A; suggested evidence includes instrument measurements and weather records."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L05.Q02.v1",
+          "after_slide": 8,
+          "phase": "Explain",
+          "stem": "What remains unverified by the two GS15 source summaries?",
+          "options": {
+            "A": "Entry qualifications for a particular course.",
+            "B": "A weather/climate observation role.",
+            "C": "A human-health research role.",
+            "D": "That the summaries describe institutional work."
+          },
+          "correct": "A",
+          "explanation": "The summaries describe institutional roles. They do not specify entry qualifications; a training question needs a separate reliable source check.",
+          "distractor_feedback": {
+            "B": "Source A supports that role.",
+            "C": "Source B supports that role.",
+            "D": "The summaries explicitly concern institutional roles."
+          },
+          "objective": "Distinguish source-supported roles from training claims.",
+          "placement_reason": "After explaining benefits and source limits; career choices remain private.",
+          "no_future_content_reason": "Uses only GS15 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS15 — Teacher key and preparation",
+              "evidence": "The sources support institutional roles, not every proposed job title, duty, qualification or salary."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L05.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "Your chart proposes a question about rainfall patterns. How should you label it?",
+          "options": {
+            "A": "An exact quotation from source A",
+            "B": "A guaranteed duty of every weather scientist",
+            "C": "An established entry qualification",
+            "D": "My proposed example of a science question"
+          },
+          "correct": "D",
+          "explanation": "The source supports a weather/climate role. Your suggested rainfall question is a proposed example, rather than a quotation, guaranteed duty or qualification.",
+          "distractor_feedback": {
+            "A": "The proposed question is not an exact source quotation.",
+            "B": "The summary does not specify every person’s duties.",
+            "C": "A question about rainfall does not establish a qualification."
+          },
+          "objective": "Distinguish a proposed example from a source statement.",
+          "placement_reason": "After the saved chart/reflection; tests source labelling rather than the learner’s career preference.",
+          "no_future_content_reason": "Uses only GS15 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS15 — Teacher key and preparation",
+              "evidence": "Require learners to label proposed questions/evidence as examples and training as unverified."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": " Periodic quiz-v1 checks: two one-minute response/feedback pairs use the existing ten-minute Explain/check time; one one-minute reinforcement follows the saved exit in Model Building. All required source tasks, original Observe subdivisions and phase totals remain. Teacher must confirm 30-second response plus 30-second feedback pacing. Career worksheet uses a dedicated page with separate question/evidence rows and space for both directions; all six required source chart headings retained. Four-minute reading timer made explicit."
     },
     "6": {
       "code": "GS16",
@@ -992,7 +1316,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "From evidence to a possible use",
           "kind": "flow",
           "nodes": [
@@ -1022,7 +1346,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Explain why your revision is stronger",
           "kind": "bullets",
           "items": [
@@ -1030,7 +1354,7 @@
             "State the limit or uncertainty.",
             "Explain the possible usefulness without promising an outcome."
           ],
-          "timer": "4:00"
+          "timer": "3:00"
         },
         {
           "phase": "Driving Question Board",
@@ -1046,14 +1370,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Revise the same message in a new colour.",
             "Record a personal next action and retain a still-open question."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -1064,7 +1388,8 @@
             "Define General Science in your own words.",
             "Give one useful link and one remaining uncertainty."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before the final reinforcement quiz. Retain first-attempt exit and quiz records separately."
         }
       ],
       "preparation": "GS16 and earlier GS11–GS15 cards, learners’ own records, two colours and paper. No new practical or treatment/weather advice.",
@@ -1095,7 +1420,115 @@
             ""
           ]
         ]
-      }
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "gensci_1_1.L06.Q01.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Which claim respects the earlier GS13 paper test?",
+          "options": {
+            "A": "A is always best for every material use.",
+            "B": "The trial proves how paper works microscopically.",
+            "C": "A had greater mean rise in the stated trial.",
+            "D": "Every property of A was tested."
+          },
+          "correct": "C",
+          "explanation": "The water-rise comparison supports a limited statement about this trial. A proposed material choice still needs testing of the property required for that job.",
+          "distractor_feedback": {
+            "A": "A single measured property does not settle every use.",
+            "B": "The trial does not establish a microscopic mechanism.",
+            "D": "Only water rise under stated conditions was compared."
+          },
+          "objective": "Replace an all-purpose claim with a test-bounded conclusion.",
+          "placement_reason": "After the evidence/use chain and limited-claim comparison, using previously taught data only.",
+          "no_future_content_reason": "Uses only GS16 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Explain allocation after the limited-claim comparison; the second check follows the written revision explanation. Eight minutes of explanation plus two minutes of quiz response/feedback retain ten minutes.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS16 — Teacher key and preparation",
+              "evidence": "One absorption test cannot certify a product for every use."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L06.Q02.v1",
+          "after_slide": 8,
+          "phase": "Explain",
+          "stem": "Which peer comment would best help make a science-use message defensible?",
+          "options": {
+            "A": "Remove every uncertainty to sound confident.",
+            "B": "Name the evidence and limit the claimed use.",
+            "C": "Choose the most popular wording regardless of evidence.",
+            "D": "Treat a proposed benefit as a measured result."
+          },
+          "correct": "B",
+          "explanation": "A defensible message connects evidence to a possible decision and states its limits. Respectful critique concerns the claim and reasoning, rather than the person.",
+          "distractor_feedback": {
+            "A": "Removing a real uncertainty makes the claim less defensible.",
+            "C": "Popularity does not replace evidence.",
+            "D": "A suggested application has not necessarily been tested."
+          },
+          "objective": "Use evidence and limits in respectful revision.",
+          "placement_reason": "After learners explain why their evidence-based revision improves the message.",
+          "no_future_content_reason": "Uses only GS16 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS16 — Teacher key and preparation",
+              "evidence": "Distinguish established trial evidence from suggested application."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "gensci_1_1.L06.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "What should happen to a question whose required evidence is still missing?",
+          "options": {
+            "A": "Keep it open and name the evidence still needed.",
+            "B": "Erase it because the unit is ending.",
+            "C": "Mark it answered after a confident vote.",
+            "D": "Replace its evidence with a career preference."
+          },
+          "correct": "A",
+          "explanation": "Keep an unanswered question visible and identify evidence that could help. Completion of a message or unit does not establish an answer.",
+          "distractor_feedback": {
+            "B": "An ending does not supply missing evidence.",
+            "C": "A vote cannot replace the relevant evidence.",
+            "D": "A personal preference does not answer the evidence question."
+          },
+          "objective": "Preserve a still-open evidence question after communication.",
+          "placement_reason": "After the question-board audit, revised message and saved independent exit.",
+          "no_future_content_reason": "Uses only GS16 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_MaterialsTeacherKey.docx",
+              "locator": "GS16 — Teacher key and preparation",
+              "evidence": "Keep career information within GS15 source limits."
+            },
+            {
+              "file": "Codex_General_Science_Introduction_to_General_Science_data.json",
+              "locator": "LESSONS[5].framework[3].teacherMoves",
+              "evidence": "Require evidence for closure; retain training and untested material-property questions."
+            }
+          ],
+          "accuracy_check": "Reviewed every alternative against the complete GS1 unit, the exact cited source-key text, required task and source arithmetic; source evidence and arithmetic checks in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": " Periodic quiz-v1 checks: two one-minute response/feedback pairs use the existing ten-minute Explain/check time; one one-minute reinforcement follows the saved exit in Model Building. All required source tasks, original Observe subdivisions and phase totals remain. Teacher must confirm 30-second response plus 30-second feedback pacing."
     },
     "7": {
       "code": "GS17",
@@ -1193,7 +1626,11 @@
             ""
           ]
         ]
-      }
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [],
+      "quiz_exception": "Independent transfer assessment: preserve all 40 source minutes for independent section work, separate still-open-question reflection and collection. No coached A–D poll or answer reveal before collection; plan later reinforcement from actual individual responses.",
+      "decisions": "No quiz added to the independent assessment; no teaching cards, peers, hints or exemplars before all work is collected. Phase tags are scheduling labels. Existing final rubric and source data retained. Assessment print layout starts the original rubric on a fresh page, repeats its headers and prevents a criterion row splitting across pages; all source text and scoring bands unchanged."
     },
     "1": {
       "code": "GS11",
@@ -1486,5 +1923,5 @@
       "route": "Source printed tasks; no invented practical, live poll chart, pupil response, media or URL. Native editable diagrams and source values. The response/report server is not implemented in this repository."
     }
   },
-  "status": "Lessons 1–2 authored for quiz-v1 review; all remaining lessons stay pre-quiz baselines."
+  "status": "All seven source-specific lessons authored for quiz-v1; independent Lesson 7 has a documented no-coaching quiz exception. Draft generation authorised 17 November; external release gates open."
 }

@@ -1,0 +1,257 @@
+{
+  "checked_at_utc": "2026-11-17T18:24:38.924971+00:00",
+  "by_module": {
+    "coremath_1_1": {
+      "lessons": 8,
+      "slides": 175,
+      "quizzes": 24,
+      "print_pages": 148,
+      "minutes": 320
+    },
+    "essmath_1_1": {
+      "lessons": 8,
+      "slides": 169,
+      "quizzes": 21,
+      "print_pages": 153,
+      "minutes": 320
+    },
+    "gensci_1_1": {
+      "lessons": 7,
+      "slides": 149,
+      "quizzes": 18,
+      "print_pages": 146,
+      "minutes": 280
+    }
+  },
+  "lessons": [
+    {
+      "module": "coremath_1_1",
+      "lesson": 1,
+      "deck_sha256": "19dc6168378e878b6ed1c05dbe7842a57dbdfc37c40449dd081ff9e4411bd300",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 19,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 2,
+      "deck_sha256": "0505a836301b87d749709e83d2262a7607a3f202d97a9b6a2f36a686101dc054",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 19,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 3,
+      "deck_sha256": "e5d03d6065f83d3cba9b0d51ce0b794ec630218ba90b20cfa7870fbf092eac42",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 18,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 4,
+      "deck_sha256": "89f59d7c0e2476c611b65dbd91c469981d7caa12094ef490aaecb0a95fcdb6ad",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 18,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 5,
+      "deck_sha256": "4451e5fbd3b902d881c0e9c38cbd30b374a56c2ced1e8a971d921fe331dd4a29",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 18,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 6,
+      "deck_sha256": "488234e6c015296222d3929a7c376a27b0a145a0610df970b78f52b6abc3c0d3",
+      "slide_cuda_pages": 21,
+      "print_cuda_pages": 18,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 7,
+      "deck_sha256": "ad85511cd54ee8a2e582a3476f982a41066d86af62c32e9a31215dba649fc02d",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 19,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 8,
+      "deck_sha256": "a24c50b4588e273b2d1238a57baf115e237f71121cd2bad8fa25fd9613218410",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 19,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 1,
+      "deck_sha256": "170cfb883933b163b9557bd3da2353a5e9b567c624d397327539210b03135b23",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 20,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 2,
+      "deck_sha256": "d668d8777d1acabaf80c0bb3337770cdaf74b4fbbb0e3c28366049272124aee5",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 20,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 3,
+      "deck_sha256": "d89d6ea6a1145babbc3d8f028924812d3ffb0c69bbf0ecd403ead3884224d670",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 19,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 4,
+      "deck_sha256": "cb3c1d94e62e7b52e3034c4a403fee4dd3ab0a80d50f36a6c69da737ab81da98",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 19,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 5,
+      "deck_sha256": "7b9ca5a0437c99e709bd60c1865d03f212a174020894aae6ef9da1ebf52cafa0",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 19,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 6,
+      "deck_sha256": "8f24ba5707bada131676afd5537bc054e00af11fa2809df64e043273c7078ad2",
+      "slide_cuda_pages": 22,
+      "print_cuda_pages": 20,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 7,
+      "deck_sha256": "0f662b802768acdba9cca6647ff2de8f6a11b0099142952cc8b6d91e9736fd87",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 20,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 8,
+      "deck_sha256": "18ca87e727fdfb10a9157ee2776bd7319f124a92038a304271c677b83c5feeb9",
+      "slide_cuda_pages": 11,
+      "print_cuda_pages": 16,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 1,
+      "deck_sha256": "eccd1b36f9a27fe6b549128573d2550440753a361924135695d1853a31aaee55",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 21,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 2,
+      "deck_sha256": "98798f07f216bf44e5a7515c29948aac7b1ba1ce3baf3cf00087e58d2c71fe99",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 20,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 3,
+      "deck_sha256": "e961e567c0aadc1e631671c7b6eb2497501b083a7f70882eee57914d32c4b007",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 21,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 4,
+      "deck_sha256": "f18bf864e75ef73f8039f9a5da8e5aeee55e1cd758231add91e133cebb6b0c7e",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 20,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 5,
+      "deck_sha256": "5a1bc605f212063c1182530ff4543b7d3661e0932e2fa95e9ad2d674b7973d64",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 24,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 6,
+      "deck_sha256": "503b431725c97a8ffb44cc9642cce98fad9500f96e3f164721953bc454d16fd8",
+      "slide_cuda_pages": 23,
+      "print_cuda_pages": 21,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 7,
+      "deck_sha256": "b3235619d6d199b639a99e41169a9d4c8e6083d543dee58fe03c029914dbc158",
+      "slide_cuda_pages": 11,
+      "print_cuda_pages": 19,
+      "backend": "CUDA sm_121",
+      "device": "NVIDIA GB10, 580.178.04, 12.1"
+    }
+  ],
+  "source_inventory": {
+    "units": 43,
+    "lessons": 514,
+    "archive_verified_members": 430
+  },
+  "gpu": "Verified recorded actual CUDA execution and page counts for every current reviewed deck and print document; no CPU fallback.",
+  "cpu_only": [
+    "Source/archive hashing and exact arithmetic",
+    "Editable PPTX/DOCX/vector construction",
+    "LibreOffice conversion",
+    "Poppler PDF rasterisation and text checks",
+    "PNG I/O and contact-sheet composition",
+    "Archive packaging and file operations"
+  ],
+  "external_gates_open": [
+    "Native PowerPoint and Presenter View",
+    "Exact Calibri: Carlito substituted locally",
+    "Teacher/source-owner accuracy and pacing",
+    "Practical/classroom access and ARES checks",
+    "Future server capture, class aggregate projection and private reports"
+  ],
+  "classroom_release": false
+}

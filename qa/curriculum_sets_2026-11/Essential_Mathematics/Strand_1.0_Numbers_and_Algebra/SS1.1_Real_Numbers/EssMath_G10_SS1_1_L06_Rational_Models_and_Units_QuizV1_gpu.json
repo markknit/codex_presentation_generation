@@ -1,0 +1,210 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2349424717522877,
+      "dark_fraction": 0.05179401375720394,
+      "sha256": "ad070ad2e735ff429f980e240005c0f369eae69dbbd5f59b9e5d0aa0d8d90899"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.052562434157526185,
+      "dark_fraction": 0.04126582801429427,
+      "sha256": "cfee36b98bc7512418fc2b08d16ab2738974e07c6cb2d0f00fa1a40e5b266218"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13967404102373426,
+      "dark_fraction": 0.12056020325958976,
+      "sha256": "54db4d1b77a9a11f806d36e4899bab2c15dd80627f4869409dbe7644cb96103a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08954080684142034,
+      "dark_fraction": 0.0695420462291628,
+      "sha256": "89d1d89c5de94c25a7c97b64352a1ebf47cabac778c22334e0d12ddbb9e3510a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16116832951188778,
+      "dark_fraction": 0.043722294519840534,
+      "sha256": "49f7ee04aad38df31d9627e603af12552fb3011f626c491290d5582c927172ee"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2237896345871806,
+      "dark_fraction": 0.052365784635723285,
+      "sha256": "55e9890cc6aeead676c361e9ce67f4fd3faf9749916f15a8361603aca2d9b228"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.054604118898597426,
+      "dark_fraction": 0.04495011464336618,
+      "sha256": "9b3719c71b5e0096086c6253fa55ccd552df90c4f01524784e65dce3c5625b11"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.07098882485385553,
+      "dark_fraction": 0.05658879180351573,
+      "sha256": "6ed4a370c096b3c97fe8faa3063adc2a89605b1b1294680e0eba8d8f16c464e2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06486129185515689,
+      "dark_fraction": 0.05268472041478176,
+      "sha256": "51443568b4b3aff21e8c343c6201be8e832dbdccbfec40dc0056feed9221dd55"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1345694160418087,
+      "dark_fraction": 0.12034372353390758,
+      "sha256": "f4b6d40990f8a7cc3117c9f678c59fe800f077ca60ce04b2f56b9bbd8c64d73d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31845076532193095,
+      "dark_fraction": 0.0517758360703146,
+      "sha256": "e7bb7cf60d1a64030f2082c9d292902bf927b95e2acdec8b0337221ff7b6a662"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2667864741484373,
+      "dark_fraction": 0.04835677841812811,
+      "sha256": "d255f54ac942cc3671aa40084e18ba314d8fd2d7dfab1e2cfdb91bcb4b929fda"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23423188944661338,
+      "dark_fraction": 0.034011278428456346,
+      "sha256": "3fec10fb32f9f0bd7b156b2d0e7b773922dd749dc1de90225a713fa5f3ac1eba"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16976637541054718,
+      "dark_fraction": 0.15767903988762885,
+      "sha256": "b973460191112c27a9468320be8f681a8b524b578cafa02282b2d62db8212391"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3172989609799426,
+      "dark_fraction": 0.05932701245584681,
+      "sha256": "346a3797b72b2640f1a41bee016a7f89f3213409e0dd7e2be1ed425f4b9a7f19"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.27848794695420465,
+      "dark_fraction": 0.06259486480345376,
+      "sha256": "1663a684bb029c0c6f1b976b619b4410d13461e7820c5babc195644d2a7a1ff2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0677507178120675,
+      "dark_fraction": 0.055736093036706534,
+      "sha256": "e667867a40773e8de69bfe4667dad3370a2bc32bdf7826f68a537934e4bd3606"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.057981863626035406,
+      "dark_fraction": 0.046673689863873914,
+      "sha256": "475de2fff69b6289192f72142453f0d23c94a868714a9bbdda3157fbedd06df3"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05069839499287352,
+      "dark_fraction": 0.041513705562785316,
+      "sha256": "e1eb6e3dc617429299586101753fdbd8f00c45f3f902d0ba712f5c4d7296fd01"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3176988700915081,
+      "dark_fraction": 0.05452397182458532,
+      "sha256": "1db2860f657a77864e5e37a181e9486c73cbdfff728d230bd6842d223aee2ec5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2687389229720518,
+      "dark_fraction": 0.05182541158001281,
+      "sha256": "fff17499370dd7a74355a7c168445bc1cad27b6a5e52a1a92d4891d443d0d959"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05503459957447687,
+      "dark_fraction": 0.04123690896697032,
+      "sha256": "3052c7f47ea901c808cecf9d8b11dc7c4959d584ce185adf14b99fc91f4cebb1"
+    }
+  ],
+  "deck_sha256": "8f24ba5707bada131676afd5537bc054e00af11fa2809df64e043273c7078ad2"
+}

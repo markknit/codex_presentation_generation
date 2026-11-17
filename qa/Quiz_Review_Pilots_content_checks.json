@@ -1,5 +1,5 @@
 {
-  "scope": "Six user-authorised review drafts only; full batch on hold",
+  "scope": "Original six user-authorised review drafts; later generation uses separate checks",
   "lessons": [
     {
       "module": "coremath_1_1",

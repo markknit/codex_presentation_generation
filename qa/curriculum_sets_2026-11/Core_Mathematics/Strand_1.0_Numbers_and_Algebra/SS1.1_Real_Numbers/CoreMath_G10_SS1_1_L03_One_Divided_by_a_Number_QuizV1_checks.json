@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1.pptx",
+  "sha256": "e5d03d6065f83d3cba9b0d51ce0b794ec630218ba90b20cfa7870fbf092eac42",
+  "slides": 22,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 14.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 8.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1_Student_Task.docx",
+      "sha256": "3b9abfa2eefa66cf6669c06a4f89aad02b8972d2a2834d4f799d00e3369a7355",
+      "pdf_sha256": "c8ea5bd08bf59dff8771aa321786b9ed59f858b0000a9339c615f1f035c176dd",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1_Teacher_Notes.docx",
+      "sha256": "ed7c4a76b61c5125ca0b3ec9e788d1647c282a20411ab0838bf5fb82ee607d8a",
+      "pdf_sha256": "644af6b931d920f6b3e34f8554cdff4b13cd6e2cb6851407fa9eea04a6d6ba58",
+      "pages": 16,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

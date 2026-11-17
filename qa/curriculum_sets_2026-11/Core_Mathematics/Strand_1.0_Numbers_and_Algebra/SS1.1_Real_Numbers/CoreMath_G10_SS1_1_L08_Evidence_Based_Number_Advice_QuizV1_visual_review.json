@@ -1,0 +1,87 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "a24c50b4588e273b2d1238a57baf115e237f71121cd2bad8fa25fd9613218410",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "cea0bda308fb6ee0a3fa85b61f43ce46a496136f7faf3abccdab64376b90134e",
+    "slide-02.png": "94868763dd554a8ac4e2eb5dfa883d2cc97f9e07701ff82efbfff843063bb659",
+    "slide-03.png": "7987b208eca974e7fa7fab2b1733a28537c868ae9adeed7dcd4f98ea46581655",
+    "slide-04.png": "c359309786c87162f56e84a271275520b1c1c78573b511a83e95e263060a4e3b",
+    "slide-05.png": "da79980944134e085635cf3ddbc486b91e7cc34dffa9bb41c1d906fb0316fd4b",
+    "slide-06.png": "225e2cfc08fd62c3513754a9c33f167007adc557b431aabc55aeefef0e5bf3c3",
+    "slide-07.png": "666fb70908a73874dc60c977bf4eba061bc83bfd3f11ec31800b1aafe1e819a5",
+    "slide-08.png": "d24f80307247666a815f20eb99e5afa55c8a1b25dd75bc1fa2cb503e449207c3",
+    "slide-09.png": "f19ad02e7f4e4c23b2823938d47a8bc890e3145abc12b571d9ac0b2f30048931",
+    "slide-10.png": "5a1ffc563744c0490548d55b9794beb22ad2882ece7a92cebe1ab3ba2f830b62",
+    "slide-11.png": "388a5749757020d66a8ae2dd8bef41ac81ad42777ac123570de758cda2e19c47",
+    "slide-12.png": "007b7d941ed4800bb935e23fcdb6848beee738d27454365f016a5c8c22bc1dc6",
+    "slide-13.png": "aa080045baee4f663dfd402342bb7707e2b7f8b24b4243e7d8ea5e267fa30a03",
+    "slide-14.png": "c4db644394a8f53fa8fd484c8bbc3be21fed5046f527f56695a6e558ad3fd078",
+    "slide-15.png": "1220f2cf7694614e0dcfd79593ae9e8d55d7879362d6504d2586b74fb5e0d1d5",
+    "slide-16.png": "34e35348bb16be372d046cc0d729e6210867c2d2b483e457a5bbb452dcf81414",
+    "slide-17.png": "638209caf9b7504a4c0d6fa8e27cfb4ce6e373b59c244389034326e45628bdbc",
+    "slide-18.png": "351a8638759805a26230c1fd44ccafa753aab5d48f60e5329db92928c52aa685",
+    "slide-19.png": "37680da7abefb9f3e22df3fae19d60450b49371e13e939aa40c592b06bc77f4d",
+    "slide-20.png": "0c8818da9a376bac9b66314efb566aab24d327d9322bce63986e711dc5aea3db",
+    "slide-21.png": "777d2c71a75fe5791e10c48ad2becbefaeef61c5415ceecdb6571d12384c8473",
+    "slide-22.png": "b36dea1dc1b271f3e2a1465595cf6c3311ac1fcbb945a853d175d0e5d93b2e52"
+  },
+  "finding": "Inspected all 22 final slide renders and all 19 final print pages (2 student, 17 teacher). Source-specific advice-card sequence, exact reciprocal/portion reasoning, visible units/assumptions, A\u2013D questions and subsequent feedback, saved exit before final check, legible layouts and complete ordered notes verified. No native PowerPoint or teacher approval implied. In-flight review finished at context-compaction stopping boundary; no new lesson started.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1_Student_Task.docx",
+      "sha256": "f8f855e37d48cd6325be64503e1375ec31e2ddd52d04f12c24ae2589b5120086",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1_Teacher_Notes.docx",
+      "sha256": "32b57629679556153ef73d4314da6f3f62298e6be6961a2738cd1e13c4fcd19d",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

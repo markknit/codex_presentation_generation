@@ -1,0 +1,92 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Independent numerical decision and explanation",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "How to use this lesson",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Our unit journey",
+      "phase": "Unit map",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Independent work \u00b7 procedure",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false,
+      "authored_slide": 1
+    },
+    {
+      "slide": 7,
+      "title": "Assessment \u00b7 classification and operations",
+      "phase": "Observe",
+      "minutes": 16.0,
+      "hidden": false,
+      "authored_slide": 2
+    },
+    {
+      "slide": 8,
+      "title": "Assessment \u00b7 reciprocals and contexts",
+      "phase": "Explain",
+      "minutes": 12.0,
+      "hidden": false,
+      "authored_slide": 3
+    },
+    {
+      "slide": 9,
+      "title": "Assessment \u00b7 usefulness and assumption",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false,
+      "authored_slide": 4
+    },
+    {
+      "slide": 10,
+      "title": "Check and submit all work",
+      "phase": "Model Building",
+      "minutes": 4.0,
+      "hidden": false,
+      "authored_slide": 5
+    },
+    {
+      "slide": 11,
+      "title": "Summary Table",
+      "phase": "Model Building",
+      "minutes": 0.0,
+      "hidden": false,
+      "authored_slide": "summary"
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "18ca87e727fdfb10a9157ee2776bd7319f124a92038a304271c677b83c5feeb9",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED",
+  "design_revision": "quiz-v1"
+}

@@ -411,7 +411,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Each exact reciprocal passes a product test",
           "kind": "table",
           "headers": [
@@ -458,7 +458,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Two different kinds of undoing",
           "kind": "columns",
           "columns": [
@@ -487,14 +487,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 5,
+          "minutes": 4,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Retain the original claim and add product evidence.",
             "Keep reciprocal and additive opposite separate."
           ],
-          "timer": "5:00"
+          "timer": "4:00"
         },
         {
           "phase": "Model Building",
@@ -505,7 +505,8 @@
             "Give the reciprocal and additive opposite of −5.",
             "Verify each by its different operation."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before final reinforcement feedback. Keep first-attempt exit and quiz records separate."
         }
       ],
       "record": {
@@ -540,8 +541,113 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "inquiry": "Why is −4 not the reciprocal of 4?",
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "coremath_1_1.L03.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "Which exact value is the reciprocal of 2/3?",
+          "options": {
+            "A": "−2/3",
+            "B": "2/3",
+            "C": "−3/2",
+            "D": "3/2"
+          },
+          "correct": "D",
+          "explanation": "1 ÷ (2/3) = 3/2, and (2/3) × (3/2) = 1. A reciprocal undoes multiplication by the original nonzero value.",
+          "distractor_feedback": {
+            "A": "This is the additive opposite, not the reciprocal.",
+            "B": "Multiplying 2/3 by itself does not give 1.",
+            "C": "A positive original has a positive reciprocal."
+          },
+          "objective": "Find a reciprocal by division and verify the product.",
+          "placement_reason": "After all CRN3 divisions, checks and the worked reciprocal table.",
+          "no_future_content_reason": "Uses only CRN3 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN3 — Teacher key and preparation",
+              "evidence": "Results1/4,−1/5,3/2,1/√2. Each nonzero original times its reciprocal equals1."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full source unit and exact cited key; independently verified fraction/sign/grouping/domain/scaling arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L03.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Which pair correctly distinguishes the reciprocal and additive opposite of 4?",
+          "options": {
+            "A": "Reciprocal 1/4; opposite −4",
+            "B": "Reciprocal −4; opposite 1/4",
+            "C": "Reciprocal 4; opposite −4",
+            "D": "Reciprocal 1/4; opposite 4"
+          },
+          "correct": "A",
+          "explanation": "4 × 1/4 = 1 tests the reciprocal. 4 + (−4) = 0 tests the additive opposite. The two undoing operations are different.",
+          "distractor_feedback": {
+            "B": "This swaps the two different inverse operations.",
+            "C": "4 × 4 is 16, not 1.",
+            "D": "4 + 4 is 8, not 0."
+          },
+          "objective": "Match each inverse to its defining operation.",
+          "placement_reason": "After the zero-domain explanation and reciprocal/opposite comparison.",
+          "no_future_content_reason": "Uses only CRN3 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN3 — Teacher key and preparation",
+              "evidence": "Reciprocal4 is1/4, while its additive opposite is−4."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full source unit and exact cited key; independently verified fraction/sign/grouping/domain/scaling arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L03.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "Could zero have a real reciprocal r?",
+          "options": {
+            "A": "Yes: r = 0",
+            "B": "No: 0 × r is always 0, never 1",
+            "C": "Yes: r = 1",
+            "D": "Yes: r = −1"
+          },
+          "correct": "B",
+          "explanation": "Every real r gives 0 × r = 0. A reciprocal would require a product of 1, so zero has no real reciprocal.",
+          "distractor_feedback": {
+            "A": "0 × 0 = 0, not 1.",
+            "C": "0 × 1 = 0, not 1.",
+            "D": "0 × (−1) = 0, not 1."
+          },
+          "objective": "Use a product argument for the zero exception.",
+          "placement_reason": "After the saved individual −5 reciprocal/opposite exit; no later mixed-number or table inputs.",
+          "no_future_content_reason": "Uses only CRN3 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN3 — Teacher key and preparation",
+              "evidence": "For0,0r=0 for every real r, never1; so not defined."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full source unit and exact cited key; independently verified fraction/sign/grouping/domain/scaling arithmetic in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": "Source mathematics guidance governs this lesson. Retain every original Observe subdivision and source task. Two one-minute response/feedback pairs use the existing ten-minute Explain/check allocation; one one-minute reinforcement follows the saved two-minute exit within Model Building. Phase totals unchanged; teacher must assess 30+30-second quiz pacing. No later assessment inputs or fabricated device evidence."
     },
     "4": {
       "code": "CRN4",
@@ -602,7 +708,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "The sign belongs to the whole mixed number",
           "kind": "table",
           "headers": [
@@ -655,7 +761,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Which value is being inverted?",
           "kind": "bullets",
           "items": [
@@ -663,7 +769,7 @@
             "Use the product to check sign and magnitude.",
             "Keep zero outside the reciprocal domain."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Driving Question Board",
@@ -679,14 +785,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 5,
+          "minutes": 4,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Revise the representation before its reciprocal.",
             "Keep a complete conversion and multiplicative check."
           ],
-          "timer": "5:00"
+          "timer": "4:00"
         },
         {
           "phase": "Model Building",
@@ -697,7 +803,8 @@
             "Find the reciprocal of 0.25.",
             "Show its exact fraction conversion and product check."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before final reinforcement feedback. Keep first-attempt exit and quiz records separate."
         }
       ],
       "record": {
@@ -738,8 +845,112 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "coremath_1_1.L04.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "What is the reciprocal of the entire signed value −2½?",
+          "options": {
+            "A": "−2/3",
+            "B": "2/5",
+            "C": "−2/5",
+            "D": "−5/2"
+          },
+          "correct": "C",
+          "explanation": "−2½ = −5/2, so its reciprocal is −2/5. The sign belongs to the whole mixed number; (−5/2) × (−2/5) = 1.",
+          "distractor_feedback": {
+            "A": "Swapping mixed-number digits misrepresents the value.",
+            "B": "The reciprocal of a negative original must be negative.",
+            "D": "−5/2 is the original value, not its reciprocal."
+          },
+          "objective": "Convert the whole signed mixed number before inversion.",
+          "placement_reason": "After all five conversions, individual product checks and the worked table.",
+          "no_future_content_reason": "Uses only CRN4 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN4 — Teacher key and preparation",
+              "evidence": "1½=3/2 gives2/3;−2½=−5/2 gives−2/5;0.25=1/4 gives4;−0.4=−2/5 gives−5/2;1/9 gives9."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full source unit and exact cited key; independently verified fraction/sign/grouping/domain/scaling arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L04.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Which product exposes the proposed −2/3 reciprocal of −2½ as incorrect?",
+          "options": {
+            "A": "(−5/2) × (−2/3) = 1",
+            "B": "(−5/2) × (−2/3) = −1",
+            "C": "(−5/2) × (−2/3) = 0",
+            "D": "(−5/2) × (−2/3) = 5/3"
+          },
+          "correct": "D",
+          "explanation": "The product is 10/6 = 5/3, which is not 1. The proposed value therefore fails the defining reciprocal test.",
+          "distractor_feedback": {
+            "A": "The numerator and denominator give 10/6, not 1.",
+            "B": "The product of two negative values is positive.",
+            "C": "Neither factor is zero."
+          },
+          "objective": "Use a product check to reject a plausible digit-swapping claim.",
+          "placement_reason": "After the proposed/actual product comparison and full signed-value explanation.",
+          "no_future_content_reason": "Uses only CRN4 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN4 — Teacher key and preparation",
+              "evidence": "Convert the entire signed mixed number first; the proposed−2/3 does not multiply−5/2 to1."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full source unit and exact cited key; independently verified fraction/sign/grouping/domain/scaling arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L04.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "Which is the exact reciprocal of −0.4?",
+          "options": {
+            "A": "−5/2",
+            "B": "−2/5",
+            "C": "5/2",
+            "D": "−4"
+          },
+          "correct": "A",
+          "explanation": "−0.4 = −2/5, so its reciprocal is −5/2. Multiplying those fractions gives 1; the negative sign is retained.",
+          "distractor_feedback": {
+            "B": "−2/5 is the original value.",
+            "C": "The negative original needs a negative reciprocal.",
+            "D": "(−0.4) × (−4) = 1.6, not 1."
+          },
+          "objective": "Convert a terminating decimal before finding its reciprocal.",
+          "placement_reason": "After the saved 0.25 exit; reinforces the representation rule with another taught signed value.",
+          "no_future_content_reason": "Uses only CRN4 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN4 — Teacher key and preparation",
+              "evidence": "1½=3/2 gives2/3;−2½=−5/2 gives−2/5;0.25=1/4 gives4;−0.4=−2/5 gives−5/2;1/9 gives9."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full source unit and exact cited key; independently verified fraction/sign/grouping/domain/scaling arithmetic in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": "Source mathematics guidance governs this lesson. Retain every original Observe subdivision and source task. Two one-minute response/feedback pairs use the existing ten-minute Explain/check allocation; one one-minute reinforcement follows the saved two-minute exit within Model Building. Phase totals unchanged; teacher must assess 30+30-second quiz pacing. No later assessment inputs or fabricated device evidence."
     },
     "5": {
       "code": "CRN5",
@@ -816,7 +1027,9 @@
           ],
           "size": 25,
           "height": 3.55,
-          "caption": "Source-supplied instructional table, not an official KICD table. Read and derive all five requested values."
+          "caption": "Source-supplied instructional table, not an official KICD table. Read and derive all five requested values.",
+          "timer": "10:00",
+          "mode": "table tasks alone"
         },
         {
           "phase": "Observe",
@@ -832,7 +1045,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Same table, different precision",
           "kind": "columns",
           "columns": [
@@ -875,7 +1088,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Explain the scale instead of guessing digits",
           "kind": "bullets",
           "items": [
@@ -883,7 +1096,7 @@
             "Explain the inverse scale factor.",
             "Use an exact or approximate sign to match the evidence."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Driving Question Board",
@@ -899,14 +1112,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 5,
+          "minutes": 4,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Add a table-reading and scale check to your model.",
             "Retain which rows are exact and which are rounded."
           ],
-          "timer": "5:00"
+          "timer": "4:00"
         },
         {
           "phase": "Model Building",
@@ -917,7 +1130,8 @@
             "Show why 1/0.32 = 3.125.",
             "Explain why the 0.036 answer needs ≈."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before final reinforcement feedback. Keep first-attempt exit and quiz records separate."
         }
       ],
       "record": {
@@ -958,8 +1172,113 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "coremath_1_1.L05.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "Which statement correctly reads the table’s precision?",
+          "options": {
+            "A": "Both 0.3125 and 0.2778 are exact reciprocals.",
+            "B": "1/3.2 = 0.3125; 1/3.6 ≈ 0.2778.",
+            "C": "1/3.2 ≈ 0.3125; 1/3.6 = 0.2778 exactly.",
+            "D": "No decimal table entry can ever be exact."
+          },
+          "correct": "B",
+          "explanation": "1/3.2 equals 5/16 = 0.3125 exactly. 1/3.6 equals 5/18, whose recurring decimal is rounded to 0.2778 in the table.",
+          "distractor_feedback": {
+            "A": "5/18 is not exactly the terminating decimal 0.2778.",
+            "C": "This gives exact equality to the rounded 5/18 entry.",
+            "D": "A terminating exact reciprocal can be shown in full."
+          },
+          "objective": "Distinguish a full terminating value from a rounded table entry.",
+          "placement_reason": "After all table tasks and the exact/rounded comparison; no calculator-use evidence claimed.",
+          "no_future_content_reason": "Uses only CRN5 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN5 — Teacher key and preparation",
+              "evidence": "1/3.2=0.3125 exact;1/3.6≈0.2778, since exact5/18 repeats."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full source unit and exact cited key; independently verified fraction/sign/grouping/domain/scaling arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L05.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Since 32 = 10 × 3.2, how does 1/32 relate to 1/3.2?",
+          "options": {
+            "A": "It is ten times as large.",
+            "B": "It is unchanged.",
+            "C": "It is one tenth as large.",
+            "D": "It is ten more."
+          },
+          "correct": "C",
+          "explanation": "Multiplying the nonzero input by 10 divides its reciprocal by 10. Thus 1/32 = 0.3125 ÷ 10 = 0.03125.",
+          "distractor_feedback": {
+            "A": "This scales the reciprocal in the same direction as the input.",
+            "B": "Changing the nonzero input changes its reciprocal.",
+            "D": "The relationship is multiplicative, not additive."
+          },
+          "objective": "Track inverse scaling instead of guessing decimal positions.",
+          "placement_reason": "After the complete scaling table and the explanation of its inverse factor.",
+          "no_future_content_reason": "Uses only CRN5 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN5 — Teacher key and preparation",
+              "evidence": "32=10×3.2 so1/32=0.03125;"
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full source unit and exact cited key; independently verified fraction/sign/grouping/domain/scaling arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L05.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "Which statement respects the precision of the supplied table?",
+          "options": {
+            "A": "1/0.036 = 27.78 exactly",
+            "B": "1/0.036 = 0.2778 exactly",
+            "C": "The table proves actual calculator use",
+            "D": "1/0.036 ≈ 27.78"
+          },
+          "correct": "D",
+          "explanation": "0.036 is 0.01 × 3.6, so its reciprocal is 100 × (1/3.6). Scaling the rounded entry gives an approximation, 27.78.",
+          "distractor_feedback": {
+            "A": "The scaled rounded entry remains approximate.",
+            "B": "This omits the inverse factor of 100.",
+            "C": "Reading a table is not an observed calculator action."
+          },
+          "objective": "Preserve approximation when scaling a rounded entry.",
+          "placement_reason": "After the saved exact/approximate exit; reinforce why the scaled table entry needs ≈.",
+          "no_future_content_reason": "Uses only CRN5 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN5 — Teacher key and preparation",
+              "evidence": "0.036=0.01×3.6 so1/0.036≈27.78."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full source unit and exact cited key; independently verified fraction/sign/grouping/domain/scaling arithmetic in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": "Source mathematics guidance governs this lesson. Retain every original Observe subdivision and source task. Two one-minute response/feedback pairs use the existing ten-minute Explain/check allocation; one one-minute reinforcement follows the saved two-minute exit within Model Building. Phase totals unchanged; teacher must assess 30+30-second quiz pacing. No later assessment inputs or fabricated device evidence. Added spaces after source-card commas so the complete reciprocal list wraps between numbers instead of splitting a decimal; source values/text tokens unchanged. Explicit table-task timer retained.",
+      "space_after_commas": true
     },
     "6": {
       "code": "CRN6",
@@ -1008,7 +1327,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Exact meaning and permitted precision",
           "kind": "table",
           "headers": [
@@ -1055,7 +1374,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Keep two kinds of evidence separate",
           "kind": "bullets",
           "items": [
@@ -1063,7 +1382,7 @@
             "Use parentheses for a compound denominator.",
             "Do not invent device action from a paper answer."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Driving Question Board",
@@ -1079,14 +1398,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 5,
+          "minutes": 4,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Retain actual entry, display, precision and observation status.",
             "Explain the comparison with the supplied table."
           ],
-          "timer": "5:00"
+          "timer": "4:00"
         },
         {
           "phase": "Model Building",
@@ -1097,7 +1416,8 @@
             "Submit your individual actual-action record.",
             "If no device was provided, retain NOT OBSERVED and the exact paper work."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the complete individual exit before the final reinforcement quiz. Keep first-attempt exit and quiz records separate."
         }
       ],
       "preparation": "CRN6 records and teacher-approved calculators/supervised equivalents; CRN5 table. Each learner’s own action is observed separately where provided.",
@@ -1146,8 +1466,112 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "coremath_1_1.L06.Q01.v1",
+          "after_slide": 4,
+          "phase": "Explain",
+          "stem": "Which exact value equals 1 ÷ (2 ÷ 3)?",
+          "options": {
+            "A": "2/3",
+            "B": "1/6",
+            "C": "3/2",
+            "D": "−3/2"
+          },
+          "correct": "C",
+          "explanation": "The entire denominator is 2/3. Dividing 1 by that fraction gives 3/2, verified by (2/3) × (3/2) = 1.",
+          "distractor_feedback": {
+            "A": "This retains the denominator rather than its reciprocal.",
+            "B": "This fails to divide by the whole fractional denominator.",
+            "D": "Both 1 and the denominator are positive."
+          },
+          "objective": "Protect a compound denominator with parentheses.",
+          "placement_reason": "After source CRN6 individual task/checks and first worked explanation.",
+          "no_future_content_reason": "Uses only CRN6 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN6 — Teacher key and preparation",
+              "evidence": "Exact results5/18,−2/5,3/2,1/√2;"
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L06.Q02.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "No calculator was supplied. Which record is accurate?",
+          "options": {
+            "A": "NOT OBSERVED for device use; retain exact paper work.",
+            "B": "Invent a plausible copied display.",
+            "C": "A correct paper answer proves device use.",
+            "D": "A partner’s entry proves my device use."
+          },
+          "correct": "A",
+          "explanation": "Paper mathematics can be checked on its own. Actual calculator performance remains unobserved until an individual device action is provided and recorded.",
+          "distractor_feedback": {
+            "B": "A fabricated display is not an observed record.",
+            "C": "Written correctness does not establish an action.",
+            "D": "A partner’s action is not the learner’s own evidence."
+          },
+          "objective": "Keep actual device evidence distinct from written mathematical correctness.",
+          "placement_reason": "After source CRN6 complete explanation, before question-board work.",
+          "no_future_content_reason": "Uses only CRN6 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN6 — Teacher key and preparation",
+              "evidence": "Never invent a pupil key sequence, display or observed-use record."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L06.Q03.v1",
+          "after_slide": 9,
+          "phase": "Model Building",
+          "stem": "Which approximation gives 1/√2 to four significant figures?",
+          "options": {
+            "A": "0.707",
+            "B": "0.7071",
+            "C": "0.7072",
+            "D": "0.7000"
+          },
+          "correct": "B",
+          "explanation": "The value begins 0.707106… . Its first four significant figures are 7, 0, 7, 1; the next digit is 0, giving 0.7071. This is approximate.",
+          "distractor_feedback": {
+            "A": "0.707 has three significant figures.",
+            "C": "The next digit does not round the last retained digit up.",
+            "D": "This discards significant digits incorrectly."
+          },
+          "objective": "Round an already-investigated reciprocal to the source precision.",
+          "placement_reason": "After source CRN6 saved individual exit; reinforcement only, not independent-transfer evidence.",
+          "no_future_content_reason": "Uses only CRN6 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN6 — Teacher key and preparation",
+              "evidence": "4sig approximate0.2778 and0.7071."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": " Three source-backed quiz pairs at taught concept transitions and after the saved exit. Two one-minute pairs use Explain/check time; one uses Model Building reinforcement. Preserve all Observe subdivisions, every original task and exact source phase totals. Teacher must confirm 30+30-second response/feedback pacing. No future assessment data, live class results or fabricated tool evidence."
     },
     "7": {
       "code": "CRN7",
@@ -1206,7 +1630,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Count exact full portions",
           "kind": "equation",
           "text": "(9/2) × (4/3) = 6 portions",
@@ -1222,7 +1646,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "The signed quotient still needs a nonzero divisor",
           "kind": "equation",
           "text": "(−3/5) × (7/2) = −21/10",
@@ -1242,14 +1666,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 5,
+          "minutes": 4,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Choose one context for the model you keep.",
             "State exact count, unit, product check and loss assumption."
           ],
-          "timer": "5:00"
+          "timer": "4:00"
         },
         {
           "phase": "Model Building",
@@ -1260,7 +1684,8 @@
             "Explain what the quotient counts.",
             "Name the assumption that limits the conclusion."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the complete individual exit before the final reinforcement quiz. Keep first-attempt exit and quiz records separate."
         }
       ],
       "route": "Paper planning only: no actual liquid handling or cutting. Exact whole counts in these tasks do not justify rounding a fractional count upwards.",
@@ -1290,8 +1715,112 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "coremath_1_1.L07.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "How many exact 3/4 L portions fit in 4½ L with no spills?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "6",
+            "D": "8"
+          },
+          "correct": "C",
+          "explanation": "(9/2) ÷ (3/4) = (9/2) × (4/3) = 6 portions. The count assumes the stated exact quantities and no spills.",
+          "distractor_feedback": {
+            "A": "Three portions use only 9/4 L.",
+            "B": "Four portions use only 3 L.",
+            "D": "Eight portions would require 6 L."
+          },
+          "objective": "Use a reciprocal to count exact full portions.",
+          "placement_reason": "After source CRN7 individual task/checks and first worked explanation.",
+          "no_future_content_reason": "Uses only CRN7 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN7 — Teacher key and preparation",
+              "evidence": "(a)(9/2)×(4/3)=6full portions;6×3/4L=9/2L."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L07.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Which exact value equals (−3/5) ÷ (2/7)?",
+          "options": {
+            "A": "−6/35",
+            "B": "21/10",
+            "C": "−10/21",
+            "D": "−21/10"
+          },
+          "correct": "D",
+          "explanation": "Multiply by the nonzero divisor’s reciprocal: (−3/5) × (7/2) = −21/10. Multiplying this result by 2/7 returns −3/5.",
+          "distractor_feedback": {
+            "A": "This multiplies by 2/7 rather than its reciprocal.",
+            "B": "The quotient must be negative.",
+            "C": "This reverses the required quotient."
+          },
+          "objective": "Apply signed division and verify by multiplication.",
+          "placement_reason": "After source CRN7 complete explanation, before question-board work.",
+          "no_future_content_reason": "Uses only CRN7 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN7 — Teacher key and preparation",
+              "evidence": "(c)(−3/5)×(7/2)=−21/10; times2/7 gives−3/5."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L07.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "Which check verifies eight 0.3 m pieces account for a 2.4 m strip?",
+          "options": {
+            "A": "8 × 0.3 m = 2.4 m",
+            "B": "8 + 0.3 m = 8.3 m",
+            "C": "8 ÷ 0.3 m = 2.4 m",
+            "D": "8 − 0.3 m = 2.4 m"
+          },
+          "correct": "A",
+          "explanation": "Multiply count by length per piece: 8 × 0.3 m = 2.4 m. This paper model assumes exact lengths and no cutting loss.",
+          "distractor_feedback": {
+            "B": "Adding count to length does not verify the used length.",
+            "C": "The stated division does not equal 2.4 or check the length.",
+            "D": "Subtraction does not verify the total used length."
+          },
+          "objective": "Check a piece count with length and the no-loss assumption.",
+          "placement_reason": "After source CRN7 saved individual exit; reinforcement only, not independent-transfer evidence.",
+          "no_future_content_reason": "Uses only CRN7 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN7 — Teacher key and preparation",
+              "evidence": "(b)(12/5)×(10/3)=8pieces;8×0.3m=2.4m."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": " Three source-backed quiz pairs at taught concept transitions and after the saved exit. Two one-minute pairs use Explain/check time; one uses Model Building reinforcement. Preserve all Observe subdivisions, every original task and exact source phase totals. Teacher must confirm 30+30-second response/feedback pacing. No future assessment data, live class results or fabricated tool evidence."
     },
     "8": {
       "code": "CRN8",
@@ -1349,7 +1878,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "An advice message needs a checkable link",
           "kind": "flow",
           "nodes": [
@@ -1370,7 +1899,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Audit your message against earlier work",
           "kind": "bullets",
           "items": [
@@ -1378,7 +1907,7 @@
             "Keep units, assumptions and the zero limit.",
             "Explain how the evidence changes a decision."
           ],
-          "timer": "4:00"
+          "timer": "3:00"
         },
         {
           "phase": "Driving Question Board",
@@ -1394,14 +1923,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 5,
+          "minutes": 4,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Revise your own advice card from the actual question received.",
             "Retain the original claim and actual sharing status."
           ],
-          "timer": "5:00"
+          "timer": "4:00"
         },
         {
           "phase": "Model Building",
@@ -1412,7 +1941,8 @@
             "Submit the advice, computation, assumption and revision.",
             "Do not claim a presentation that was not observed."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the complete individual exit before the final reinforcement quiz. Keep first-attempt exit and quiz records separate."
         }
       ],
       "route": "Individual advice first, then the source-directed peer stage. Written work alone does not certify an unobserved oral presentation.",
@@ -1430,8 +1960,112 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "coremath_1_1.L08.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "Which statement would make a numerical advice card verifiable?",
+          "options": {
+            "A": "Everyone should agree because I am confident.",
+            "B": "Use a checked calculation tied to a specific decision.",
+            "C": "Remove units so the message is shorter.",
+            "D": "Copy a slogan without any evidence."
+          },
+          "correct": "B",
+          "explanation": "Useful advice links a correct classification or computation to a concrete decision. Include the numerical evidence, units, assumptions and relevant limits.",
+          "distractor_feedback": {
+            "A": "Confidence is not the mathematical evidence.",
+            "C": "Units explain what the result means.",
+            "D": "A slogan does not establish a checked result."
+          },
+          "objective": "Connect correct numerical evidence to a useful decision.",
+          "placement_reason": "After source CRN8 individual task/checks and first worked explanation.",
+          "no_future_content_reason": "Uses only CRN8 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN8 — Teacher key and preparation",
+              "evidence": "Accept varied advice only when the classification and worked computation are correct and linked to a concrete decision."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L08.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Which advice correctly combines a classification with the reciprocal domain limit?",
+          "options": {
+            "A": "Zero is prime, so divide by it.",
+            "B": "Zero is odd, so its reciprocal is −1.",
+            "C": "Zero is even, but it has no real reciprocal.",
+            "D": "Every even number has reciprocal zero."
+          },
+          "correct": "C",
+          "explanation": "Zero is even because 0 = 2 × 0. It cannot be a divisor in real-number division: 0 × r cannot equal 1 for any real r.",
+          "distractor_feedback": {
+            "A": "Zero is neither prime nor composite and cannot be a divisor.",
+            "B": "Zero is even and has no real reciprocal.",
+            "D": "A nonzero original times zero is not 1."
+          },
+          "objective": "Keep parity and reciprocal existence as different decisions.",
+          "placement_reason": "After source CRN8 complete explanation, before question-board work.",
+          "no_future_content_reason": "Uses only CRN8 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN8 — Teacher key and preparation",
+              "evidence": "Example:0 is even but cannot be a divisor;"
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L08.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "What does the CRN7 check 6 × 3/4 L = 4½ L support in an advice card?",
+          "options": {
+            "A": "Any fraction of a portion can be rounded up.",
+            "B": "Losses never matter in a real situation.",
+            "C": "The same count works for every portion size.",
+            "D": "Six exact full portions fit under the no-spill assumption."
+          },
+          "correct": "D",
+          "explanation": "The product checks this stated supply and portion size. It supports six full portions under the stated exact-quantity and no-spill assumptions, with those limits visible.",
+          "distractor_feedback": {
+            "A": "These exact whole counts do not justify rounding any fractional count up.",
+            "B": "The no-spill assumption is a condition, not a universal fact.",
+            "C": "Changing portion size changes the count."
+          },
+          "objective": "State the scope of an evidence-based planning recommendation.",
+          "placement_reason": "After source CRN8 saved individual exit; reinforcement only, not independent-transfer evidence.",
+          "no_future_content_reason": "Uses only CRN8 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN8 — Teacher key and preparation",
+              "evidence": "4½L÷3/4L=6full portions with no spills."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": " Three source-backed quiz pairs at taught concept transitions and after the saved exit. Two one-minute pairs use Explain/check time; one uses Model Building reinforcement. Preserve all Observe subdivisions, every original task and exact source phase totals. Teacher must confirm 30+30-second response/feedback pacing. No future assessment data, live class results or fabricated tool evidence."
     },
     "9": {
       "code": "CRN9",
@@ -1489,7 +2123,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "A counterexample or exact representation",
           "kind": "table",
           "headers": [
@@ -1527,7 +2161,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "An error does not make the reciprocal zero",
           "kind": "equation",
           "text": "0 × r = 0, never 1",
@@ -1547,14 +2181,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 5,
+          "minutes": 4,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Repair your most significant earlier error independently.",
             "Attach a check and keep any remaining confusion visible."
           ],
-          "timer": "5:00"
+          "timer": "4:00"
         },
         {
           "phase": "Model Building",
@@ -1565,7 +2199,8 @@
             "Submit the corrected claim and its check.",
             "Name the definition that rules out the shortcut."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the complete individual exit before the final reinforcement quiz. Keep first-attempt exit and quiz records separate."
         }
       ],
       "record": {
@@ -1600,8 +2235,112 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "coremath_1_1.L09.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "Which counterexample disproves “Every odd whole number is prime”?",
+          "options": {
+            "A": "9 has the positive divisors 1, 3 and 9.",
+            "B": "2 has exactly two positive divisors.",
+            "C": "0 equals 2 × 0.",
+            "D": "Every integer n can be written as n/1."
+          },
+          "correct": "A",
+          "explanation": "9 is odd and has more than two positive divisors, so it is composite. One odd composite example disproves the universal prime claim.",
+          "distractor_feedback": {
+            "B": "2 is even and does not test the odd-number claim.",
+            "C": "Zero’s parity does not test this universal odd claim.",
+            "D": "Rational membership does not decide prime status."
+          },
+          "objective": "Choose a counterexample relevant to a particular universal claim.",
+          "placement_reason": "After source CRN9 individual task/checks and first worked explanation.",
+          "no_future_content_reason": "Uses only CRN9 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN9 — Teacher key and preparation",
+              "evidence": "A counterexample9 has divisors1,3,9;"
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L09.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Which correction repairs the claim that an error display makes zero’s reciprocal 0?",
+          "options": {
+            "A": "An error display changes the real-number definition.",
+            "B": "0 × r is always 0, so no real reciprocal exists.",
+            "C": "0 × 0 = 1.",
+            "D": "Zero’s reciprocal is the number of display digits."
+          },
+          "correct": "B",
+          "explanation": "A reciprocal must give a product of 1. Since zero times any real r is zero, an error display cannot supply or redefine a real reciprocal.",
+          "distractor_feedback": {
+            "A": "Device messages do not redefine the product-of-one rule.",
+            "C": "0 × 0 equals 0.",
+            "D": "Display length does not define a reciprocal."
+          },
+          "objective": "Use the defining rule to reject a misleading device shortcut.",
+          "placement_reason": "After source CRN9 complete explanation, before question-board work.",
+          "no_future_content_reason": "Uses only CRN9 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN9 — Teacher key and preparation",
+              "evidence": "E0×r=0 can never equal1."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "coremath_1_1.L09.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "Which exact comparison checks the direction of reciprocal scaling?",
+          "options": {
+            "A": "1/3.2 = 0.3125; 1/32 = 3.125",
+            "B": "1/3.2 = 0.3125; 1/32 = 0.3125",
+            "C": "1/3.2 = 0.3125; 1/32 = 0.03125",
+            "D": "1/3.2 = 0.3125; 1/32 = 32"
+          },
+          "correct": "C",
+          "explanation": "32 is ten times 3.2, so its reciprocal is one tenth as large: 0.3125 ÷ 10 = 0.03125. This checks the claim with exact values.",
+          "distractor_feedback": {
+            "A": "This increases the reciprocal tenfold instead of dividing it by ten.",
+            "B": "A changed nonzero input does not keep this reciprocal unchanged.",
+            "D": "32 is the input, not its reciprocal."
+          },
+          "objective": "Repair a scaling shortcut with exact numerical evidence.",
+          "placement_reason": "After source CRN9 saved individual exit; reinforcement only, not independent-transfer evidence.",
+          "no_future_content_reason": "Uses only CRN9 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Core_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "CRN9 — Teacher key and preparation",
+              "evidence": "D 1/3.2=0.3125 but1/32=0.03125, divided by10;"
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": " Three source-backed quiz pairs at taught concept transitions and after the saved exit. Two one-minute pairs use Explain/check time; one uses Model Building reinforcement. Preserve all Observe subdivisions, every original task and exact source phase totals. Teacher must confirm 30+30-second response/feedback pacing. No future assessment data, live class results or fabricated tool evidence."
     },
     "10": {
       "code": "CRN10",
@@ -1673,7 +2412,11 @@
         }
       ],
       "preparation": "CRN10 only, original assessment prompts and approved calculators where actually provided. Retain independent records of device provision/use; keep all teaching cards and exemplars private.",
-      "route": "Independent source assessment. Unprovided or unobserved calculator performance remains pending; a paper key sequence does not complete it."
+      "route": "Independent source assessment. Unprovided or unobserved calculator performance remains pending; a paper key sequence does not complete it.",
+      "design_revision": "quiz-v1",
+      "quizzes": [],
+      "quiz_exception": "Independent source assessment: all original phase/section work and checking/collection time retained. No coached A–D poll or feedback before collection; use actual collected work to plan later reinforcement.",
+      "decisions": "Independent assessment quiz exception. Phase labels schedule original sections, not coached teaching. Preserve source rubric and tasks. Print rubric begins on a separate page with non-splitting rows and repeated headers; wording and scoring unchanged. No device observation is inferred from written answers."
     },
     "1": {
       "code": "CRN1",
@@ -2020,5 +2763,5 @@
       "route": "Source printed tasks; no invented practical, live poll chart, pupil response, media or URL. Native editable diagrams and source values. The response/report server is not implemented in this repository."
     }
   },
-  "status": "Lessons 1–2 authored for quiz-v1 review; all remaining lessons stay pre-quiz baselines."
+  "status": "10 of 10 lessons authored for quiz-v1; any others remain pre-quiz baselines. External review gates open."
 }

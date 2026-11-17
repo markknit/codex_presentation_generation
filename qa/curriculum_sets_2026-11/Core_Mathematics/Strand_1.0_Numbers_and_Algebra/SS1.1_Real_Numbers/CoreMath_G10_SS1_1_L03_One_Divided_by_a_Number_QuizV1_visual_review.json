@@ -1,0 +1,86 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "e5d03d6065f83d3cba9b0d51ce0b794ec630218ba90b20cfa7870fbf092eac42",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "50ac784b04115179a49fa4a80eee3c1b85187cbe9c0490a1fc0238e467d5d392",
+    "slide-02.png": "2ba3e82fdf722d94bc90c30910aaaf2cb680b001afbe943e1c52265a71803252",
+    "slide-03.png": "3eeef69a67a868312caa03eaff0b290a5a3449adcd51f50bdbc8ad1bb1108220",
+    "slide-04.png": "3838336b2bbe438b35de8cae91cbcdefbbeb18a71106cf5eaec5638a574daf53",
+    "slide-05.png": "b42a3fb4d8c85e70b79edeae212ca298c89b2a2c6eb7bae5f8cb981bfb84bbb5",
+    "slide-06.png": "3934b3d2c5a0787104b34e20122c23731ba0ee96a09c003358f6eb6a9d62f866",
+    "slide-07.png": "2041525f272dff10c24bb5a8c4e579793624cc66345431861a962fcc4f0dfc37",
+    "slide-08.png": "a3e9b07008ce6eb7de6f55a96cb08e6fbde119633154d2d1d2c8f68309aceef7",
+    "slide-09.png": "1223e7a5784a6e170e3ff770db8bc67ac317b2477d0b72e97bb2d3b5ccf4b337",
+    "slide-10.png": "94dc9089e48acc598a64e6a58d0ead32e58fe66377b5eccbe1ac159ce8b230d9",
+    "slide-11.png": "a15958e4cf0121169255d6629232aa37fb0762a7fea06da8c6a415e096d90c5b",
+    "slide-12.png": "8c68812cbe241ffb6687d6396f4b07efcf4751d1ad91bf072924c34cfc5d0aeb",
+    "slide-13.png": "ed5c792d7df181c7e96eda8d0f77a816711087ac996bff6ae8244719613ab955",
+    "slide-14.png": "91b06228622876fa44549c20669f675c0232117a233d6ec8cd3529580f86badf",
+    "slide-15.png": "30b52c867397112e573f539ae1eef4d6660f145bac8717747deb3e6080496a52",
+    "slide-16.png": "b204c722ae7ed4a8cca9b3e1e02b1ef142f54817d722553c93d055a73066d06f",
+    "slide-17.png": "38ed837c7ecd3ec27efd18174292342b2ad096467d86f03afa783959ddefd84a",
+    "slide-18.png": "e4906c84828c83397175407733f98ca316fbb56b0d67348538b1e2973833d974",
+    "slide-19.png": "ea3e76dc2bd91d2979aa513c23ece7f9472aee9c7cffb9155b498e13d0c94bea",
+    "slide-20.png": "daf982a8ce28ae9ca8a4de5498514da47a356c48bec41731a66a9a1e3ab4717b",
+    "slide-21.png": "ec14ef7b2ca1618f6e758dbb7044ca53798893ed1d8a9c7b349f21e016a7cdc8",
+    "slide-22.png": "6a3f9a8ff3c6e6b826fd52cdf41370472cc0ff2669e4672f58e8803522af16a8"
+  },
+  "finding": "Inspected all 22 final slides and 18 print pages. Division/product pairs, exact irrational reciprocal, zero exception, distinct additive opposite and multiplicative inverse, quiz reasoning and retained independent exit checked. External review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1_Student_Task.docx",
+      "sha256": "3b9abfa2eefa66cf6669c06a4f89aad02b8972d2a2834d4f799d00e3369a7355",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1_Teacher_Notes.docx",
+      "sha256": "ed7c4a76b61c5125ca0b3ec9e788d1647c282a20411ab0838bf5fb82ee607d8a",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

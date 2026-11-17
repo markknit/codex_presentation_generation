@@ -3,9 +3,11 @@
 Current November design: `content/curriculum_sets_2026-11/QUIZ_DESIGN.md`
 (`quiz-v1`). The user authorised deleting the pre-quiz drafts and restarting.
 Earlier pilot-preservation and continuation entries below are historical; do
-not restore those files or run their superseded writers. The reset is complete. The user has now authorised Lessons 1–2 from each
-current curriculum as a six-deck quiz-enabled review set; the full batch stays
-on hold pending that review.
+not restore those files or run their superseded writers. The reset is complete.
+The 17 November authorisation covers all 514 quiz-enabled review drafts and
+supersedes the six-lesson hold. External release gates remain open. Current work
+is paused at the usage checkpoint documented in `STATUS.md` and
+`HANDOFF_2026-11-17_QUIZ_CONTINUATION.md`.
 
 ## Environment reference
 
@@ -13,7 +15,7 @@ on hold pending that review.
 | --- | --- | --- | --- |
 | Windows workstation | `C:\Users\MRKni\OneDrive\codex_presentation_generation`, branch `main` | Repository assembly, review, and GitHub administration | Verified 2026-10-27: HTTPS `origin`, complete review ZIP and extracted twelve-deck folder present; Python commands unavailable on PATH. |
 | GitHub | `markknit/codex_presentation_generation` | Shared source of truth and transport between hosts | Windows HTTPS fetch verified 2026-10-27; `jhm-spark` SSH access was verified on 2026-10-23. Remote URLs are checkout-specific; check `git remote -v` on the active host. |
-| `jhm-spark` | `/home/markk/codex_presentation_generation`, branch `main` | Primary generation and GPU-accelerated work | Verified 2026-11-16: SSH fetch and both Python Step 0 checks passed; NVIDIA GB10 executed CUDA raster processing for all 36 Mathematics slide renders and 25 print pages. Native PowerPoint/teacher pilot review and saved Codex project registration remain open. |
+| `jhm-spark` | `/home/markk/codex_presentation_generation`, branch `main` | Primary generation and GPU-accelerated work | Verified 2026-11-17: SSH fetch and both Python Step 0 checks passed; GB10 CUDA sm_121 verified for 493 current slides/447 print pages in 23 review drafts. Paused after Core Real Numbers L8; see active handoff. Native PowerPoint/teacher review and saved project registration remain open. |
 
 The repository and current branch are authoritative. OneDrive is not the transport mechanism to `jhm-spark`; GitHub is.
 
@@ -193,7 +195,7 @@ native PowerPoint, teacher approval, classroom release or push authorisation.
 
 `content/curriculum_sets_2026-11/GUIDANCE.md` controls this continuation.
 `scripts/curriculum_set_inventory.py` verifies the current delivery archives and
-all 430 source members, preserves the three pilot deliverables and creates
+all 430 source members, preserves current quiz-enabled deliverables without reimporting deleted pre-quiz pilots and creates
 `outputs/drafts/curriculum_sets_2026-11/<curriculum>/<strand>/<sub-strand>/`.
 Inside each sub-strand use presentations, previews, student_materials,
 teacher_notes and review folders. Code, source-specific slide specifications,
@@ -246,9 +248,31 @@ change the previously agreed usage stopping rule.
 
 The user authorised two lessons per curriculum before the full batch. Build
 Lessons 1–2 of General Science Introduction, Essential Real Numbers and Core
-Real Numbers as separate review decks. `REVIEW_SCOPE.json` records this active
-limit; do not generate beyond it. This resumes only the six review drafts,
-not the full 514-lesson collection or classroom release. Use three source-backed
+Real Numbers as separate review decks. `REVIEW_SCOPE.json` recorded this historical
+limit, superseded by the 17 November full-draft authorisation below. This earlier
+instruction resumed six review drafts; it did not authorise classroom release. Use three source-backed
 checks per lesson, preserving all source tasks, exact phase totals and private
 individual/aggregate-only reporting boundaries. Timings and engagement remain
 review questions for the teacher. No live server, push or publication implied.
+
+## Full quiz-enabled draft continuation, 2026-11-17
+
+The user explicitly instructed proceeding with embedded quizzes for all three curricula. This supersedes the six-lesson generation limit and authorises small checked draft batches across all 514 lessons. `REVIEW_SCOPE.json` retains the authoritative module/lesson allow-list. This instruction does not claim native PowerPoint or teacher approval, classroom release, push or live response-server implementation. Check current-thread usage before each lesson and after inspection; stop at 5% account or context remaining, run `/update`, commit exact status and resume steps, then pause for the user to reset.
+
+
+Current checkpoint: 23 reviewed drafts (General Science L1–7, Essential L1–8,
+Core L1–8), 2 authored/unbuilt Core lessons and 489 awaiting quiz design. Current
+review links and packages are in
+`outputs/drafts/curriculum_sets_2026-11/CURRENT_REVIEW_INDEX.md`; the original
+six-deck index/archive remain historical. Refresh current unit packages, then
+use `index_curriculum_set_reviews.py`; do not rerun the original six-deck combined
+packager on expanded units.
+
+On 17 November context compacted during Core L8 image inspection after the last
+emitted reading of 6.56% remaining. Stopped conservatively, completed only that
+review and `/update`, and latched the pause in
+`qa/Quiz_Continuation_usage_checkpoint.json`. Both the guard and builder reject a
+new lesson in that thread (exit 75), regardless of renewed context. A new session
+must run `/restart`, read the active handoff and verify live meters. Same-thread
+explicit reset/resume requires deliberately clearing that latch; compaction alone
+never clears it. Next build is Core `coremath_1_1` Lesson 9.

@@ -1,11 +1,17 @@
 {
   "archive": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/review/coremath_1_1_Review.zip",
-  "sha256": "c727a6c37bc0cedf9c729761d7b725c5517bee961717cd30e6269c56548d7a07",
-  "bytes": 1051934,
-  "verified_members": 32,
+  "sha256": "8858f55004c1b7c62aa233e179896b444670cde37e65677aecc9b7a4d0af5d12",
+  "bytes": 4184324,
+  "verified_members": 122,
   "lessons": [
     1,
-    2
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
   ],
   "total_lessons": 10,
   "crc": "PASS",

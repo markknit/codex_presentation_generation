@@ -37,10 +37,18 @@ def latest_usage():
                           'remaining_percent':min(remaining,context) if context is not None else remaining,
                           'account_remaining_percent':remaining,'context_remaining_percent':round(context,2) if context is not None else None,
                           'windows':windows,'scope':'Minimum of account-window and context-capacity remaining; no separate session quota is exposed'}
-    return last or {'available':False,'reason':'No emitted rate-limit meter found'}
+    report=last or {'available':False,'reason':'No emitted rate-limit meter found'}
+    checkpoint=Path(__file__).resolve().parents[1]/'qa/Quiz_Continuation_usage_checkpoint.json'
+    if checkpoint.exists():
+        saved=json.loads(checkpoint.read_text())
+        if saved.get('pause_latched') and saved.get('thread_id')==thread:
+            report['pause_latched']=True
+            report['pause_reason']=saved['reason']
+    return report
 
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--guard',action='store_true');a=p.parse_args()
-    report=latest_usage();print(json.dumps(report,indent=2))
-    if a.guard and (not report['available'] or report['remaining_percent']<=5):raise SystemExit(75)
+    report=latest_usage()
+    print(json.dumps(report,indent=2))
+    if a.guard and (report.get('pause_latched') or not report['available'] or report['remaining_percent']<=5):raise SystemExit(75)

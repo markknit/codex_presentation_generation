@@ -1,0 +1,210 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2331238768048584,
+      "dark_fraction": 0.0529937410919006,
+      "sha256": "9e56538e6642225282fff83a9456217e7e5f099054eb251f432049583ee59dd6"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05244675796823036,
+      "dark_fraction": 0.04126087046332445,
+      "sha256": "999d6c7ea76fa1a575d56e4513da41f6cc451e6888a20345b2d498a3adf48db2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13865113300696122,
+      "dark_fraction": 0.11999504244903018,
+      "sha256": "7ab67ebb0fab63447d915eb3e9f1f6c88ef414dc1a57c8c2d8c7f9f9c3c71658"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08923839623226126,
+      "dark_fraction": 0.06872074528516246,
+      "sha256": "9482c41f503bee3751337669be9740ee537d6e0322107e7c6807c6f3413c36bb"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16023135237859165,
+      "dark_fraction": 0.04310838445807771,
+      "sha256": "a4fa5a13ab3d0d3fa59ef3e3b4fa1b38c9dc8da310cffff6cb6e6d7f37f84107"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2236739583978848,
+      "dark_fraction": 0.04901117514614447,
+      "sha256": "5716297af24b0af06471023654cb9e769ab85212fcf978bebc6b020f00ffd4a2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0544884427093016,
+      "dark_fraction": 0.044945157092396354,
+      "sha256": "3a44bb254eb45f6a3ab9ab8ee621c67f7b875b8c6fd0f9ce8c486dc5f7cc622d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06772345128173349,
+      "dark_fraction": 0.054441345975088304,
+      "sha256": "cfb642f91bb0e239783a66b202a3a883c77e06a1c39344c8bcb7e138570b802a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06845882134225692,
+      "dark_fraction": 0.05551713453553944,
+      "sha256": "58c38dfd37780de2af627a16f885f08a2fa7675fdd8d439b862008506f95f6a5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.21480159467889529,
+      "dark_fraction": 0.03422858441263349,
+      "sha256": "dd25aff89a8f477b6704a4ed8b47657c1c14cf46badaa41a055c4bc402bb03fc"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31692301336473117,
+      "dark_fraction": 0.058912230691371796,
+      "sha256": "6c17de7813fce567f53abe483f4360f7ebb1e3c3aa858bec322f0bf7235ae626"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.27606205201297224,
+      "dark_fraction": 0.060044204829480904,
+      "sha256": "01455b63af9089ce161780bedd89996d726d05eacdec1067f85f84fc289c870a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23771704777839747,
+      "dark_fraction": 0.037568321249302844,
+      "sha256": "740bda9182de9f24783e8500a125dbfcee28d313b02ddace43d45f9bd49cbd5c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06678069033897255,
+      "dark_fraction": 0.05397120489145029,
+      "sha256": "e7d4ab84a80b36531e0b64a97d6f313bfea08f8291631515019417f997f0b501"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31983309578401603,
+      "dark_fraction": 0.058862655181673586,
+      "sha256": "15c11026727723c0cc76bb35f0d90a5c2c78547b986dcfc4bce8a43e489931f0"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.27324946809609385,
+      "dark_fraction": 0.05380347441697135,
+      "sha256": "239317de5e6f1d0c2ab72f9c917dce6478a167bb7c73e96d3a6b64aed67043c8"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06763504162277169,
+      "dark_fraction": 0.055731135485736716,
+      "sha256": "49c8d7854afe725c2856d82d54f07354d330f79724c85372fbf51b4fac7ef221"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.059142756811468467,
+      "dark_fraction": 0.047547871351552334,
+      "sha256": "22eb91053310b081f88b0d0492961061713840ae3239b0f217e1b8c368476c4f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05678048377434881,
+      "dark_fraction": 0.045652434364090805,
+      "sha256": "d5526c5db7146b5e6037e61e6a4736b1d24b3b0382832807f0d588dbb2e67415"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3167139699655037,
+      "dark_fraction": 0.05890148933093718,
+      "sha256": "06c67e364f088652bb7ce4e0e7febde213315d785f06804a038e70cc813e962e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.27673875772035283,
+      "dark_fraction": 0.061462890665344654,
+      "sha256": "183f5112de7d1180d8bb6fcea740e9381c5e2293af25fafaeb7efab6f3504871"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05412488897151474,
+      "dark_fraction": 0.040897316725537584,
+      "sha256": "708b6cd8bac46ac95233240643b6d44368f27d1d3de2945a506da81d04f66926"
+    }
+  ],
+  "deck_sha256": "a24c50b4588e273b2d1238a57baf115e237f71121cd2bad8fa25fd9613218410"
+}

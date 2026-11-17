@@ -1,0 +1,210 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.229508169630869,
+      "dark_fraction": 0.048660015285782156,
+      "sha256": "3765fbf7a2087af024cc67ca8a0bdad3bcbf3d25526fe0c89dcd9fef53cdb501"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05243849538328066,
+      "dark_fraction": 0.04125921794633451,
+      "sha256": "08653f7c6f8b4e8df6baea7638eece9ebd80138cc6dabf6cfb25739504cb4540"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13908987626779037,
+      "dark_fraction": 0.12024870380698602,
+      "sha256": "aca31572f94906e8fdc1c635e20ff5d24bf39a4ea04d0dc1a539f9e34d33a16e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.09000599037408853,
+      "dark_fraction": 0.06912726446468778,
+      "sha256": "208aba4bda17fcfd9cd0ac1a536e5728536f9dbef3131b986e5b01d7fb529374"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16053293672925575,
+      "dark_fraction": 0.04331494908182025,
+      "sha256": "5abcc6a7084f7a89ab6b3710b1f8a8f4eafec39857bbb014680bfbab38e655d8"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22366569581293508,
+      "dark_fraction": 0.05111730804982339,
+      "sha256": "784271da707875dbacafd570b61aace3d070c65c45e661da52a46b815b4cda33"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05448018012435191,
+      "dark_fraction": 0.04494350457540642,
+      "sha256": "1effad85f9ceca0764dc445653c0a6ec016bf158e3bb63aad3ba35ed3fdf20f6"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13257895932742558,
+      "dark_fraction": 0.1161826857532379,
+      "sha256": "d4014ff2968dff6b8e21cb3213a6812334583e6d11f33049a28585572a8b9852"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06268740575489042,
+      "dark_fraction": 0.05127264464687777,
+      "sha256": "ae138871e8509ae644c451c6ca7c0157bb06d07d24fa0eb0472952bb45eb3e6d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.43695441118754,
+      "dark_fraction": 0.030934291793187497,
+      "sha256": "6eb2f69e56c7f71f9c216ba9fea2581c51a7c66ad708631ae9d0c34af197cad7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31522174712358764,
+      "dark_fraction": 0.0560360248703807,
+      "sha256": "1564ab4dbc824c19aed13bd6a76448ec6d5a3f8a772b61bb621e4621a2086420"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2707599512507488,
+      "dark_fraction": 0.05238891987358245,
+      "sha256": "f8ea82287bfe2889a81ad61aaf397e568c9b78c93f6f4bc40abfa1be94166718"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.12997541880977465,
+      "dark_fraction": 0.11814918097126687,
+      "sha256": "015c9cdf5c37ac3d55f886b955bc5034789861aeab1f25bc76e4ed8abd3ff434"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06826382433744398,
+      "dark_fraction": 0.05523620664724959,
+      "sha256": "f1ffaec649abbaaee4ad58eb60b39a264c0b1ff8c27916e064fca78d732f0bbb"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31365598727561916,
+      "dark_fraction": 0.05080746111420958,
+      "sha256": "22432ccc546005a83cb134067d9bcea946c92a6e666b31a710590428ac681f03"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2697436533019355,
+      "dark_fraction": 0.05060089649046704,
+      "sha256": "bd59395ab7d694f3f932bee7d4b18d1217ff37e767a871ca13b12b40b6ff60ac"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06762677903782198,
+      "dark_fraction": 0.055729482968746774,
+      "sha256": "7deedf5e2a8294047fd365f5eeaf9c0007e50d209dac7f70d457970c54c3eccd"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05792980934085228,
+      "dark_fraction": 0.046652207143004686,
+      "sha256": "82565661fb213f14206fb591a42977ffc1678aee93717b0ad9b7c94b99f60b5e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.051330482741525685,
+      "dark_fraction": 0.04197723657846357,
+      "sha256": "ec941286415dc5ebd4b01c8ace62bfee06e216951536a3546b08f3d1454a78f7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31654706574951974,
+      "dark_fraction": 0.05430749209890314,
+      "sha256": "b732b7ff4dd43e8e39e6018f7b14d42aa20a29e201c1c999442542dd8dc19fae"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2682613455619591,
+      "dark_fraction": 0.04986800520542852,
+      "sha256": "abad2e2359c05d073b58279ec77ace96bd1f5236b3dd4d24af65381d381e213f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.054142240399909114,
+      "dark_fraction": 0.04090723182747723,
+      "sha256": "e27339a53983abb833eb8f36c4a0d7104a66b72155b66b9c2e322ca7962e012e"
+    }
+  ],
+  "deck_sha256": "4451e5fbd3b902d881c0e9c38cbd30b374a56c2ced1e8a971d921fe331dd4a29"
+}

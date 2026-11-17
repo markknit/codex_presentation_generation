@@ -1,0 +1,91 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "e961e567c0aadc1e631671c7b6eb2497501b083a7f70882eee57914d32c4b007",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "2e680f9b44ab6cc13c474ac576f70c07b3deb1e6aa53445747933853d1a08995",
+    "slide-02.png": "a4dc654459679203014afb041aaa607c0b1ad4234f3260029f91f106e20a3756",
+    "slide-03.png": "79851bf2b57de768ca64650736e66c9d44e3d17301c9b45f04e469d8e93cb7e6",
+    "slide-04.png": "4a970361926ec27965d5938d61ab8acc8a2e5226e857d6d50011c1e1595803a5",
+    "slide-05.png": "5c11639220b68ac07760fae76d602053b2d5d4c67b1001684ff238e6e629e3d1",
+    "slide-06.png": "75ca651b12e798259e4f9ac74b61bd2b8ca574e04657c99266d0272fcc2f6757",
+    "slide-07.png": "028a18d1cb2d9a7faa25815ba2e885ec3a58bf2d42c693da3da915f7af4048e4",
+    "slide-08.png": "a941b0bd2647720cf11a5bcd7ce14beb4df78927386f36f33ddd1a5a005bbbfe",
+    "slide-09.png": "c81793f1521e0ca17dbf4b0ba7393cd4e8aed13954bbff55b1682f7595afefaf",
+    "slide-10.png": "29418d0e7b7faf8c239e3704b4287754710071648a5d003b9ee1d9b7d091f255",
+    "slide-11.png": "6dbe03669ec0e1a15a00548551833da7ec095387f0b668830d2940c8d6f6f5b0",
+    "slide-12.png": "b16e88be215369c56f97ed2924c2b6b41d500005cd42b9bb72ee2173430d970d",
+    "slide-13.png": "1dde3d7eef8a62635761f65a81970de3d50335ef3e58d460b5542c97c09c81ef",
+    "slide-14.png": "32662c92ad7d77b7e01c9d604b8c8003089d07f2f733697cc6923cade22914fa",
+    "slide-15.png": "f3f1753385a756588655eabc3060b74ec3018dfc9f0634fc4e568100eafb0d28",
+    "slide-16.png": "e464955bf1721a0a6fbb3cae793966272b779916673afa6ac8f11dbb43a395a9",
+    "slide-17.png": "d815bda5259096bef433ac40809e08a3bb3865df14dd38ab7f67c5f130a90db8",
+    "slide-18.png": "006384c44ba810e9107bf1451342e3d82a0a1a32831361b74a4c794baef93518",
+    "slide-19.png": "d8de3eedf7e229b5d7aec6abedd61df2ec77baaade7cd7d402b5f839aad84880",
+    "slide-20.png": "7d1db85e5b4d18328764a9c0c699315c96a42849dd60a82bd919f8ef0dcd9412",
+    "slide-21.png": "4d4a9ea7f8a402de43dff9c0867b622e957a1995c4ef46e1f367a9d18f050cd2",
+    "slide-22.png": "f8af803ff38c82f4c673368fbe906d237ededccd5a287c482cde56e007174707",
+    "slide-23.png": "d79f4a70e26526756d9c92ac6597ffde4f2bb6aa4462da358d5cc1828e1d8127"
+  },
+  "finding": "Inspected final slides 1\u201323 and all 21 print pages. Source-derived arithmetic, printed-data provenance, independent exit before reinforcement, readable quiz layouts and chart units checked; no unresolved layout defect. Native PowerPoint/teacher/ARES and pacing gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1_Student_Task.docx",
+      "sha256": "43c23f8c81fb554361042938c7c63728e622f273866b8c6f4d215b8470d9a33f",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1_Teacher_Notes.docx",
+      "sha256": "81dae194a3709fedcc41163d3fbc26e27f9f59e5619478922016cf63ce72b781",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

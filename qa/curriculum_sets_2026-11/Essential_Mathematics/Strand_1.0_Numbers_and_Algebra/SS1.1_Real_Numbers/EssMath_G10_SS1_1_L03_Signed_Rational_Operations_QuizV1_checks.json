@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1.pptx",
+  "sha256": "d89d6ea6a1145babbc3d8f028924812d3ffb0c69bbf0ecd403ead3884224d670",
+  "slides": 22,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1_Student_Task.docx",
+      "sha256": "f764479026c02ad5c7b4e33dface284d02fb871f4552a5f6ce1af2fd48c247a9",
+      "pdf_sha256": "a25092d7ff58fcfa370b19150e0a6bcf21b086ba915c80f8ad064911fa33e051",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1_Teacher_Notes.docx",
+      "sha256": "bd4550d1789cbf3688bd5bdeb02a668c6d9029b5bbbc92579d40cbec9b2bdaf6",
+      "pdf_sha256": "777be14ff0e59234d27c10ed482900ea631c3d1227f1027c03fb9fde251e3cff",
+      "pages": 17,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

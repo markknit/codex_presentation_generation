@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1.pptx",
+  "sha256": "8f24ba5707bada131676afd5537bc054e00af11fa2809df64e043273c7078ad2",
+  "slides": 22,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1_Student_Task.docx",
+      "sha256": "a2266ee8961c23cbfe88ff941aa55fddefac42f1cd9bf507529d553abb262a18",
+      "pdf_sha256": "4546e8d264061af2c8c075153b9a4a703d871b2ec392c44d279213749108b4a3",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1_Teacher_Notes.docx",
+      "sha256": "12d42f60bde08e66fa99e89138114f91896812d47c6149b18e1908a9a4785faa",
+      "pdf_sha256": "511f3da54388c4a30f21a0a74548864c3adbc42f184a1ac528ff479f7935480b",
+      "pages": 18,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

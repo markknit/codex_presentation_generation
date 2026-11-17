@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1.pptx",
+  "sha256": "4451e5fbd3b902d881c0e9c38cbd30b374a56c2ced1e8a971d921fe331dd4a29",
+  "slides": 22,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 14.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 8.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1_Student_Task.docx",
+      "sha256": "61f6e053676b037c2dee13308179e047217560e93ef6e63aa99b92bde9a81ace",
+      "pdf_sha256": "bd4dc7866331d43b94c3f7e2a20c11dd72a9ddb59de955380504abb3e0522acb",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1_Teacher_Notes.docx",
+      "sha256": "dfde0f2b960d52773dafc899038ca88df7b8681a27d8880b46b6adc97a7be041",
+      "pdf_sha256": "107c80e24c5c996d472d3b72a88069b73747626826163184c799c82221e8a42b",
+      "pages": 16,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

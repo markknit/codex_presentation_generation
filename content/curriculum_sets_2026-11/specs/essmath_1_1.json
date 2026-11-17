@@ -374,7 +374,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Exact results with visible working",
           "kind": "table",
           "headers": [
@@ -405,8 +405,8 @@
             ]
           ],
           "widths": [
-            0.9,
-            7.5,
+            1.4,
+            7.0,
             3.4
           ],
           "size": 25
@@ -421,7 +421,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Why is division by zero excluded?",
           "kind": "columns",
           "columns": [
@@ -450,14 +450,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Keep a corrected example and an annotated counterexample.",
             "Add an independent check to the same reference sheet."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -468,7 +468,8 @@
             "Correct 3/4 + 1/2.",
             "Explain why a common denominator is needed."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before final reinforcement feedback. Keep first-attempt exit and quiz records separate."
         }
       ],
       "record": {
@@ -503,8 +504,112 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "essmath_1_1.L03.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "What is (3/5) ÷ (−9/10) as an exact fraction?",
+          "options": {
+            "A": "−2/3",
+            "B": "2/3",
+            "C": "−3/2",
+            "D": "−27/50"
+          },
+          "correct": "A",
+          "explanation": "Divide by multiplying by the nonzero divisor’s reciprocal: (3/5) × (−10/9) = −2/3. A positive value divided by a negative value is negative.",
+          "distractor_feedback": {
+            "B": "The divisor is negative, so the quotient is negative.",
+            "C": "This reverses the required quotient.",
+            "D": "This multiplies by the divisor instead of its reciprocal."
+          },
+          "objective": "Use the divisor’s reciprocal and retain the sign.",
+          "placement_reason": "After all exact calculations, checks and worked results.",
+          "no_future_content_reason": "Uses only RN3 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN3 — Teacher key and preparation",
+              "evidence": "(d)(3/5)×(−10/9)=−2/3."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full RN source unit and exact cited key; independently verified fraction/sign/grouping/domain arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L03.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Why is 0 ÷ 0 undefined in real-number division?",
+          "options": {
+            "A": "No real x can satisfy 0 × x = 0.",
+            "B": "It has the unique answer 0.",
+            "C": "0 × x = 0 has no unique solution.",
+            "D": "It has the unique answer 1."
+          },
+          "correct": "C",
+          "explanation": "Every real x satisfies 0 × x = 0, so there is no unique quotient. For a nonzero numerator, 0 × x = a has no solution instead.",
+          "distractor_feedback": {
+            "A": "Every real x satisfies that equation.",
+            "B": "Zero is one of many solutions, not a unique quotient.",
+            "D": "One is one of many solutions, not a unique quotient."
+          },
+          "objective": "Distinguish no solution from no unique division result.",
+          "placement_reason": "After both cases of division by zero are explained; no operation-order examples from Lesson 4.",
+          "no_future_content_reason": "Uses only RN3 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN3 — Teacher key and preparation",
+              "evidence": "Division a÷0 would require a unique x with 0 x=a: no solution if a≠0 and no unique solution if a=0."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full RN source unit and exact cited key; independently verified fraction/sign/grouping/domain arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L03.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "Which product corrects the signed-multiplication error in RN3?",
+          "options": {
+            "A": "(−2) × (−5) = −10",
+            "B": "(−2) × (−5) = −7",
+            "C": "(−2) × (−5) = 7",
+            "D": "(−2) × (−5) = 10"
+          },
+          "correct": "D",
+          "explanation": "The product of the two negative values is positive: (−2) × (−5) = 10. Check both the sign and the magnitude.",
+          "distractor_feedback": {
+            "A": "Two negative factors give a positive product.",
+            "B": "This adds the values instead of multiplying.",
+            "C": "The magnitudes multiply to 10, not 7."
+          },
+          "objective": "Correct the sign of a product of negative numbers.",
+          "placement_reason": "After the saved common-denominator exit; reinforces a different operation from the source task.",
+          "no_future_content_reason": "Uses only RN3 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN3 — Teacher key and preparation",
+              "evidence": "(−2)×(−5)=10; common denominators are needed for addition, giving 5/4."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full RN source unit and exact cited key; independently verified fraction/sign/grouping/domain arithmetic in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": "Source mathematics guidance governs this lesson. Retain every original Observe subdivision and source task. Two one-minute response/feedback pairs use the existing ten-minute Explain/check allocation; one one-minute reinforcement follows the saved two-minute exit within Model Building. Phase totals unchanged; teacher must assess 30+30-second quiz pacing. No later assessment inputs or fabricated device evidence. Widened the Item column after rendered inspection found its header wrapping within the word; increased blank calculation-row writing space."
     },
     "4": {
       "code": "RN4",
@@ -575,7 +680,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Check A–D with the requested grouping",
           "kind": "table",
           "headers": [
@@ -606,8 +711,8 @@
             ]
           ],
           "widths": [
-            1.6,
-            7.0,
+            2.4,
+            6.2,
             3.2
           ],
           "size": 25
@@ -622,7 +727,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Make the calculator entry unambiguous",
           "kind": "equation",
           "text": "(3 ÷ 4) − ((1 ÷ 2) ÷ (−2))",
@@ -642,14 +747,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Add the C and B/D counterexamples to your reference sheet.",
             "Keep a bracketed entry and a reverse or estimation check."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -660,7 +765,8 @@
             "Explain the first operation in A.",
             "Show which part the brackets protect."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before final reinforcement feedback. Keep first-attempt exit and quiz records separate."
         }
       ],
       "record": {
@@ -695,8 +801,112 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "essmath_1_1.L04.Q01.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "Why do (−3)² and −3² have different values?",
+          "options": {
+            "A": "Every power ignores a negative sign.",
+            "B": "Both expressions have the base −3.",
+            "C": "Parentheses include the sign in the first base only.",
+            "D": "A calculator may choose either exact value."
+          },
+          "correct": "C",
+          "explanation": "(−3)² squares the whole negative value and equals 9. Without those parentheses, −3² means −(3²), which equals −9.",
+          "distractor_feedback": {
+            "A": "The sign’s grouping matters.",
+            "B": "Without parentheses the squared base is 3.",
+            "D": "The written expressions determine their mathematical values."
+          },
+          "objective": "Identify the base of a power using grouping.",
+          "placement_reason": "After individual work and the A–D worked comparison.",
+          "no_future_content_reason": "Uses only RN4 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN4 — Teacher key and preparation",
+              "evidence": "D=−(3²)=−9; parentheses determine whether the negative sign is part of the base."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full RN source unit and exact cited key; independently verified fraction/sign/grouping/domain arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L04.Q02.v1",
+          "after_slide": 8,
+          "phase": "Explain",
+          "stem": "How should 6 ÷ 3 × 2 be evaluated?",
+          "options": {
+            "A": "(6 ÷ 3) × 2 = 4",
+            "B": "6 ÷ (3 × 2) = 1",
+            "C": "6 ÷ (3 + 2) = 6/5",
+            "D": "(6 × 3) ÷ 2 = 9"
+          },
+          "correct": "A",
+          "explanation": "Multiplication and division have equal priority, so process them from left to right: 6 ÷ 3 = 2, then 2 × 2 = 4.",
+          "distractor_feedback": {
+            "B": "This adds parentheses not present in the expression.",
+            "C": "The expression requests multiplication, not addition.",
+            "D": "This changes the stated operations."
+          },
+          "objective": "Apply equal-priority processing rather than an incorrect mnemonic.",
+          "placement_reason": "After left-to-right processing and unambiguous entry have been explained.",
+          "no_future_content_reason": "Uses only RN4 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN4 — Teacher key and preparation",
+              "evidence": "C=(6÷3)×2=4 because multiplication/division have equal priority and are processed left to right."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full RN source unit and exact cited key; independently verified fraction/sign/grouping/domain arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L04.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "Which is an unambiguous calculator entry for A = 3/4 − [1/2 ÷ (−2)]?",
+          "options": {
+            "A": "((3 ÷ 4) − (1 ÷ 2)) ÷ (−2)",
+            "B": "(3 ÷ 4) − ((1 ÷ 2) ÷ (−2))",
+            "C": "(3 ÷ 4) − ((1 ÷ 2) × (−2))",
+            "D": "(3 ÷ 4) + ((1 ÷ 2) ÷ (−2))"
+          },
+          "correct": "B",
+          "explanation": "The bracketed division applies to 1/2 and −2 only. Then subtract that result from 3/4; the exact result is 1.",
+          "distractor_feedback": {
+            "A": "This divides the entire difference by −2.",
+            "C": "This changes division into multiplication.",
+            "D": "This changes subtraction into addition."
+          },
+          "objective": "Preserve the intended grouping in an entry.",
+          "placement_reason": "After the saved first-operation exit; use the already-taught complete expression.",
+          "no_future_content_reason": "Uses only RN4 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN4 — Teacher key and preparation",
+              "evidence": "Correct entry can be(3÷4)−((1÷2)÷(−2)); input method varies by calculator."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full RN source unit and exact cited key; independently verified fraction/sign/grouping/domain arithmetic in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": "Source mathematics guidance governs this lesson. Retain every original Observe subdivision and source task. Two one-minute response/feedback pairs use the existing ten-minute Explain/check allocation; one one-minute reinforcement follows the saved two-minute exit within Model Building. Phase totals unchanged; teacher must assess 30+30-second quiz pacing. No later assessment inputs or fabricated device evidence. Widened the Expression header after PDF text/visual checks found an intra-word wrap; all source expressions and values retained."
     },
     "5": {
       "code": "RN5",
@@ -758,7 +968,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Exact reciprocals and decimal forms",
           "kind": "table",
           "headers": [
@@ -811,7 +1021,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Zero cannot pass the product-of-one test",
           "kind": "equation",
           "text": "0 × r = 0, never 1",
@@ -831,14 +1041,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Add a definition, the zero exception and one actual calculator record.",
             "Keep exact and approximate results distinct."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -849,7 +1059,8 @@
             "Find the reciprocal of 3/4.",
             "Justify it by a product."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the individual written exit before final reinforcement feedback. Keep first-attempt exit and quiz records separate."
         }
       ],
       "preparation": "RN5 record per learner; teacher-approved scientific calculators for roots, shared fairly if needed. Each learner records an actual entry. If unavailable, retain paper work and schedule an accessible device station.",
@@ -898,8 +1109,112 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "essmath_1_1.L05.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "What is the exact reciprocal of −0.2?",
+          "options": {
+            "A": "0.2",
+            "B": "5",
+            "C": "−1/5",
+            "D": "−5"
+          },
+          "correct": "D",
+          "explanation": "−0.2 = −1/5, so its reciprocal is −5. Their exact product is (−1/5) × (−5) = 1.",
+          "distractor_feedback": {
+            "A": "Changing the sign alone does not give a product of 1.",
+            "B": "The reciprocal of a negative number remains negative.",
+            "C": "−1/5 is the original value, not its reciprocal."
+          },
+          "objective": "Use the product-of-one condition for a negative reciprocal.",
+          "placement_reason": "After actual calculator records, product checks and the complete reciprocal table.",
+          "no_future_content_reason": "Uses only RN5 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN5 — Teacher key and preparation",
+              "evidence": "The reciprocal of a negative number is negative."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full RN source unit and exact cited key; independently verified fraction/sign/grouping/domain arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L05.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "Why does zero have no real reciprocal?",
+          "options": {
+            "A": "Zero’s reciprocal is zero.",
+            "B": "0 × r always equals 0, never 1.",
+            "C": "Zero’s reciprocal is one.",
+            "D": "A calculator error is a new real number."
+          },
+          "correct": "B",
+          "explanation": "A reciprocal must multiply by the original value to give 1. Zero times any real r is 0, so it cannot pass that test.",
+          "distractor_feedback": {
+            "A": "0 × 0 is 0, not 1.",
+            "C": "0 × 1 is 0, not 1.",
+            "D": "An error message is not a real reciprocal."
+          },
+          "objective": "Explain the zero exception using the defining product.",
+          "placement_reason": "After the exact/rounded product comparison and zero explanation.",
+          "no_future_content_reason": "Uses only RN5 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN5 — Teacher key and preparation",
+              "evidence": "0 r cannot equal 1, so zero has no reciprocal."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full RN source unit and exact cited key; independently verified fraction/sign/grouping/domain arithmetic in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L05.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "Which statement about the displayed 0.707106781 for 1/√2 is correct?",
+          "options": {
+            "A": "It is an approximation to the exact reciprocal.",
+            "B": "It is exactly equal to 1/√2.",
+            "C": "The display makes √2 rational.",
+            "D": "It shows that no reciprocal exists."
+          },
+          "correct": "A",
+          "explanation": "The exact reciprocal is 1/√2 = √2/2. Its finite decimal display is approximate; a rounded product can differ slightly from 1.",
+          "distractor_feedback": {
+            "B": "The finite decimal omits part of the exact value.",
+            "C": "A finite display does not change the exact number class.",
+            "D": "√2 is nonzero, so it has a reciprocal."
+          },
+          "objective": "Keep an exact reciprocal distinct from a rounded display.",
+          "placement_reason": "After the saved reciprocal-of-3/4 exit; reinforces exactness with the already-investigated √2 example.",
+          "no_future_content_reason": "Uses only RN5 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN5 — Teacher key and preparation",
+              "evidence": "A calculator display is approximate for the irrational reciprocal."
+            }
+          ],
+          "accuracy_check": "Compared all choices with the full RN source unit and exact cited key; independently verified fraction/sign/grouping/domain arithmetic in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": "Source mathematics guidance governs this lesson. Retain every original Observe subdivision and source task. Two one-minute response/feedback pairs use the existing ten-minute Explain/check allocation; one one-minute reinforcement follows the saved two-minute exit within Model Building. Phase totals unchanged; teacher must assess 30+30-second quiz pacing. No later assessment inputs or fabricated device evidence."
     },
     "6": {
       "code": "RN6",
@@ -957,7 +1272,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 4,
+          "minutes": 3,
           "title": "Operations must represent the situation",
           "kind": "table",
           "headers": [
@@ -983,9 +1298,9 @@
             ]
           ],
           "widths": [
-            2.0,
-            5.0,
-            4.8
+            3.1,
+            4.5,
+            4.2
           ],
           "size": 25,
           "height": 3.1,
@@ -1001,7 +1316,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "The slash separates two readings",
           "kind": "table",
           "headers": [
@@ -1032,14 +1347,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Add expression → result with unit → conclusion → check.",
             "Retain one assumption for each fictional context."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -1050,7 +1365,8 @@
             "Identify one model assumption.",
             "Give one reverse check."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the complete individual exit before the final reinforcement quiz. Keep first-attempt exit and quiz records separate."
         }
       ],
       "route": "Fictional paper records only, preserving the source’s two-reading convention and limits. No liquid handling, real financial action, health measurement or medical advice.",
@@ -1086,8 +1402,127 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "essmath_1_1.L06.Q01.v1",
+          "after_slide": 5,
+          "phase": "Explain",
+          "stem": "The tank starts with 3/4 L, uses 1/6 L and adds 1/3 L. What is the final amount?",
+          "options": {
+            "A": "7/12 L",
+            "B": "11/12 L",
+            "C": "5/4 L",
+            "D": "−1/12 L"
+          },
+          "correct": "B",
+          "explanation": "Represent the actions as 3/4 − 1/6 + 1/3 = (9 − 2 + 4)/12 = 11/12 L. The signs describe what is used and added.",
+          "distractor_feedback": {
+            "A": "This omits the added 1/3 L.",
+            "C": "This treats the used volume as an addition.",
+            "D": "This does not match the stated changes."
+          },
+          "objective": "Match signed volume changes to exact operations.",
+          "placement_reason": "After source RN6 individual task/checks and first worked explanation.",
+          "no_future_content_reason": "Uses only RN6 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN6 — Teacher key and preparation",
+              "evidence": "3/4−1/6+1/3=11/12 L; assume exact amounts/no loss beyond stated use."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L06.Q02.v1",
+          "after_slide": 7,
+          "phase": "Explain",
+          "stem": "How should the fictional 120/80 mmHg record be copied in RN6?",
+          "options": {
+            "A": "Divide 120 by 80 and record 1.5.",
+            "B": "Record a single volume in litres.",
+            "C": "Put 120 and 80 in separate labelled columns, each with mmHg.",
+            "D": "Use the arithmetic alone to judge health status."
+          },
+          "correct": "C",
+          "explanation": "Here the slash separates two readings. Copy systolic 120 mmHg and diastolic 80 mmHg separately; the task does not ask for division or a health judgement.",
+          "distractor_feedback": {
+            "A": "The slash separates two readings, not a requested quotient.",
+            "B": "The source gives mmHg, not litres.",
+            "D": "The task provides no clinical interpretation."
+          },
+          "objective": "Preserve the meaning and units of a two-reading record.",
+          "placement_reason": "After source RN6 complete explanation, before question-board work.",
+          "no_future_content_reason": "Uses only RN6 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN6 — Teacher key and preparation",
+              "evidence": "Blood-pressure recording columns: systolic 120 mmHg,diastolic 80 mmHg; the slash separates readings, not a fraction calculation."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L06.Q03.v1",
+          "after_slide": 10,
+          "phase": "Model Building",
+          "stem": "For bottles holding 3/4 L each, what does the reciprocal 4/3 represent?",
+          "options": {
+            "A": "Litres per bottle",
+            "B": "The tank’s final liquid volume",
+            "C": "A temperature change",
+            "D": "Bottles per litre"
+          },
+          "correct": "D",
+          "explanation": "The original capacity is 3/4 litres per bottle. Its reciprocal is 4/3 bottles per litre, so 3 litres × 4/3 bottles per litre gives 4 bottles.",
+          "distractor_feedback": {
+            "A": "That is the original capacity’s unit, not its reciprocal.",
+            "B": "The reciprocal is a conversion rate, not the final tank volume.",
+            "C": "The bottle model concerns volume and counts."
+          },
+          "objective": "Interpret a reciprocal’s unit in a stated model.",
+          "placement_reason": "After source RN6 saved individual exit; reinforcement only, not independent-transfer evidence.",
+          "no_future_content_reason": "Uses only RN6 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN6 — Teacher key and preparation",
+              "evidence": "The reciprocal 4/3 has bottles per litre in this model, while 3/4 is litres per bottle."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": " Three source-backed quiz pairs at taught concept transitions and after the saved exit. Two one-minute pairs use Explain/check time; one uses Model Building reinforcement. Preserve all Observe subdivisions, every original task and exact source phase totals. Teacher must confirm 30+30-second response/feedback pacing. No future assessment data, live class results or fabricated tool evidence. Added a separate blank two-column record for the source blood-pressure readings; no clinical interpretation or personal measurement. Added a separate blank two-column record for the source blood-pressure readings; no clinical interpretation or personal measurement. Widened the context column so Temperature remains one word after PDF/visual inspection.",
+      "additional_records": [
+        {
+          "headers": [
+            "Systolic (mmHg)",
+            "Diastolic (mmHg)"
+          ],
+          "rows": [
+            [
+              "",
+              ""
+            ]
+          ],
+          "row_height": 0.5
+        }
+      ]
     },
     "7": {
       "code": "RN7",
@@ -1158,7 +1593,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "First preserve the reserve",
           "kind": "equation",
           "text": "2.5 − 0.25 = 2.25 L = 9/4 L",
@@ -1174,7 +1609,7 @@
         },
         {
           "phase": "Explain",
-          "minutes": 3,
+          "minutes": 2,
           "title": "The displayed error resembles a product",
           "kind": "equation",
           "text": "2.25 × 0.375 = 0.84375 ≈ 0.844",
@@ -1194,14 +1629,14 @@
         },
         {
           "phase": "Model Building",
-          "minutes": 3,
+          "minutes": 2,
           "title": "Revise your own model",
           "kind": "bullets",
           "items": [
             "Correct the poster and explain why the decision is useful.",
             "Cite exact amounts, units, the reserve and a reverse check."
           ],
-          "timer": "3:00"
+          "timer": "2:00"
         },
         {
           "phase": "Model Building",
@@ -1212,7 +1647,8 @@
             "Explain a benefit of real-number reasoning.",
             "Name one specific check of the serving promise."
           ],
-          "timer": "2:00"
+          "timer": "2:00",
+          "do": "Save the complete individual exit before the final reinforcement quiz. Keep first-attempt exit and quiz records separate."
         }
       ],
       "route": "Paper club plan only; no real food or liquid distribution. Device-care observations remain distinct from the numerical rubric.",
@@ -1248,8 +1684,112 @@
             "",
             ""
           ]
-        ]
-      }
+        ],
+        "row_height": 0.65
+      },
+      "design_revision": "quiz-v1",
+      "quizzes": [
+        {
+          "id": "essmath_1_1.L07.Q01.v1",
+          "after_slide": 6,
+          "phase": "Explain",
+          "stem": "The plan has 2.5 L and reserves 1/4 L. What volume remains usable?",
+          "options": {
+            "A": "9/4 L",
+            "B": "11/4 L",
+            "C": "5/8 L",
+            "D": "1/4 L"
+          },
+          "correct": "A",
+          "explanation": "Subtract the reserve once: 2.5 − 0.25 = 2.25 L = 9/4 L. The reserve is kept out of the serving calculation.",
+          "distractor_feedback": {
+            "B": "This adds the reserve instead of subtracting it.",
+            "C": "This multiplies by the reserve instead of subtracting it.",
+            "D": "This is the reserve alone, not the usable volume."
+          },
+          "objective": "Subtract a reserve before planning full servings.",
+          "placement_reason": "After source RN7 individual task/checks and first worked explanation.",
+          "no_future_content_reason": "Uses only RN7 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN7 — Teacher key and preparation",
+              "evidence": "2.5−0.25=2.25 L=9/4 L; (9/4)÷(3/8)=6 servings exactly."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L07.Q02.v1",
+          "after_slide": 8,
+          "phase": "Explain",
+          "stem": "Why does the reported 0.844 resemble an operation error in 2.25 ÷ 0.375?",
+          "options": {
+            "A": "It is the exact quotient.",
+            "B": "It is the volume of seven full servings.",
+            "C": "It is the rounded product 2.25 × 0.375.",
+            "D": "It proves that the reserve is zero."
+          },
+          "correct": "C",
+          "explanation": "2.25 × 0.375 = 0.84375, which rounds to 0.844. The intended quotient is 6; compare the requested operation with the actual entry.",
+          "distractor_feedback": {
+            "A": "The quotient is 6, not 0.844.",
+            "B": "Seven servings require 2.625 L.",
+            "D": "The source explicitly reserves 1/4 L."
+          },
+          "objective": "Diagnose an operation mismatch rather than trust a plausible display.",
+          "placement_reason": "After source RN7 complete explanation, before question-board work.",
+          "no_future_content_reason": "Uses only RN7 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source ten-minute Explain allocation. Authored explanation screens total eight minutes; two quizzes total two.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN7 — Teacher key and preparation",
+              "evidence": "0.844 is the rounded product 2.25×0.375=0.84375, not the quotient; multiplication by reciprocal 8/3 gives 6."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        },
+        {
+          "id": "essmath_1_1.L07.Q03.v1",
+          "after_slide": 11,
+          "phase": "Model Building",
+          "stem": "Which reverse check verifies six full 3/8 L servings use the available serving volume?",
+          "options": {
+            "A": "6 + 3/8 = 51/8",
+            "B": "6 − 3/8 = 45/8",
+            "C": "6 ÷ 3/8 = 16",
+            "D": "6 × 3/8 = 9/4 L"
+          },
+          "correct": "D",
+          "explanation": "Multiply the count by the volume per serving: 6 × 3/8 L = 9/4 L. That equals the usable volume, with the reserve already subtracted.",
+          "distractor_feedback": {
+            "A": "Adding count and volume does not check the total serving volume.",
+            "B": "Subtraction does not reverse the original division.",
+            "C": "Dividing again does not check volume used."
+          },
+          "objective": "Verify a full-serving decision with a product and units.",
+          "placement_reason": "After source RN7 saved individual exit; reinforcement only, not independent-transfer evidence.",
+          "no_future_content_reason": "Uses only RN7 content already investigated and explained; no later lesson or final assessment inputs.",
+          "timing_source": "One minute of the source Model Building allocation after the written exit is saved; summary remains last. Required model and exit tasks are retained.",
+          "response_minutes": 0.5,
+          "feedback_minutes": 0.5,
+          "source_refs": [
+            {
+              "file": "Codex_Essential_Mathematics_Real_Numbers_MaterialsTeacherKey.docx",
+              "locator": "RN7 — Teacher key and preparation",
+              "evidence": "Check 6×3/8=9/4 L."
+            }
+          ],
+          "accuracy_check": "Reviewed each choice and feedback against the complete source unit and exact cited key; exact arithmetic and source checks recorded in qa/Quiz_Continuation_content_checks.json."
+        }
+      ],
+      "decisions": " Three source-backed quiz pairs at taught concept transitions and after the saved exit. Two one-minute pairs use Explain/check time; one uses Model Building reinforcement. Preserve all Observe subdivisions, every original task and exact source phase totals. Teacher must confirm 30+30-second response/feedback pacing. No future assessment data, live class results or fabricated tool evidence."
     },
     "8": {
       "code": "RN8",
@@ -1321,7 +1861,11 @@
         }
       ],
       "preparation": "RN8 data plus original final prompts; an accessible calculator per learner or supervised provision as source requires. Keep teaching cards and teacher key private.",
-      "route": "Independent source assessment; no peer comparison, hints or worked exemplars before collection."
+      "route": "Independent source assessment; no peer comparison, hints or worked exemplars before collection.",
+      "design_revision": "quiz-v1",
+      "quizzes": [],
+      "quiz_exception": "Independent source assessment: all original phase/section work and checking/collection time retained. No coached A–D poll or feedback before collection; use actual collected work to plan later reinforcement.",
+      "decisions": "Independent assessment quiz exception. Phase labels schedule original sections, not coached teaching. Preserve source rubric and tasks. Print rubric begins on a separate page with non-splitting rows and repeated headers; wording and scoring unchanged. No device observation is inferred from written answers."
     },
     "1": {
       "code": "RN1",
@@ -1678,5 +2222,5 @@
       "route": "Source printed tasks; no invented practical, live poll chart, pupil response, media or URL. Native editable diagrams and source values. The response/report server is not implemented in this repository."
     }
   },
-  "status": "Lessons 1–2 authored for quiz-v1 review; all remaining lessons stay pre-quiz baselines."
+  "status": "Complete source-specific unit authored for quiz-v1. Final independent assessment has a documented quiz exception. Native PowerPoint/teacher/release gates open."
 }

@@ -1,0 +1,219 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23639255541096033,
+      "dark_fraction": 0.049344983578112414,
+      "sha256": "070a656e1885393bebf1c8c8aa14f02c9f496e7830b224ff3e7a676fbea4ea75"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05255747660655636,
+      "dark_fraction": 0.04126748053128421,
+      "sha256": "e6582bc6135caaddc231ab4fc9c9d319cb6c13d8b4f4598689cd1158af160432"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13903451694862737,
+      "dark_fraction": 0.12030654190163392,
+      "sha256": "f9fdbd413d4fa1c1c5556c03a314f7bf5dfaa70c4bad603138e1618df82a27ba"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0892127822189172,
+      "dark_fraction": 0.06942884881535188,
+      "sha256": "75af00560eecda551f38c74395107f7989d10105c8cc5141a18f281bec7ec92c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16070727727169445,
+      "dark_fraction": 0.04340501125777199,
+      "sha256": "d918edea1edff26b4c3a7d606a2ecd2d8ff92844141e9b399ebfdb0ebe921574"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22378467703621077,
+      "dark_fraction": 0.04922517609634174,
+      "sha256": "b97142c063bdfce0c5c19b72b30a21b571cc4e2bd6b9b861edf504706ea46fcb"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05459916134762761,
+      "dark_fraction": 0.04495176716035612,
+      "sha256": "d5bedd110c9e51b6e015b122e561e2fbd09648df53873a7898ef833e8a7cf6fe"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3082390365825949,
+      "dark_fraction": 0.044884840222263536,
+      "sha256": "1f7480c775a48c78243d2f0f32dc22b82454a7ceac054e2739c0b5e965ea5ee2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06086715829047117,
+      "dark_fraction": 0.049675486976100476,
+      "sha256": "19403ae3b924e22262475a7af36cac0a6862d6531d93beda345216dab10b09c7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05816033546094896,
+      "dark_fraction": 0.047269422238747395,
+      "sha256": "99a0617981dfd962ec055dcfda22b11ce4fb3ee3f16019887e7234f220639d2b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1168246886038297,
+      "dark_fraction": 0.10703848298940323,
+      "sha256": "547eab3b1cf4339b6fcc9f5da16056174b6e93f201e6eff1db97a623e98733b9"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3132122864638202,
+      "dark_fraction": 0.05529487100039247,
+      "sha256": "aa658f08d480227c397fb64bb804e77c8b1b6e2cb907a817e47dc9f7ef806575"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2756671004523765,
+      "dark_fraction": 0.05659953316395034,
+      "sha256": "37ce3065c64b3272459599e3516915c6d144d1195db2dcc0a66999cd01b0aace"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23733201131974138,
+      "dark_fraction": 0.03318667245047613,
+      "sha256": "bac037f54fdd867265b1121ce08c2ff065f4d1a9aece88ad815e63541429e9b7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23772365784635724,
+      "dark_fraction": 0.032759496808576566,
+      "sha256": "56cd6522f50c1dbb326ff94609683316f1cd3e6384ad81758b170d7821aa314f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3118828365454132,
+      "dark_fraction": 0.04798496209539154,
+      "sha256": "b786fce0481743218c4c3f673b5c811d52596520a0953fb964c6bd66588d55ad"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2674854888351821,
+      "dark_fraction": 0.04893020181363739,
+      "sha256": "9298be54988334db498277c104a224206b7f54aba842e92c0cb917738facc846"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06774576026109769,
+      "dark_fraction": 0.055737745553696476,
+      "sha256": "9cccd3227cb51e5634b63c575164adec3c27815f252f39905bdbfe9639668c9c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05977401830162566,
+      "dark_fraction": 0.04789324740244986,
+      "sha256": "5fb625b109a8b9137e5b1ee57419411f356e27f1593cdba3cdabc1e13fc3440b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05239139864906736,
+      "dark_fraction": 0.04269938650306748,
+      "sha256": "d72d34ad6f435761aec861a0bb9ce6c38f7db8d9f065d8a082a7c0230d93b61c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31641403813182956,
+      "dark_fraction": 0.05244427919274545,
+      "sha256": "7a68fa23f3e93f7abcf78634fc5e1f5781bd8f76657f4437e5e5d3f5a37443b7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.26891491603148043,
+      "dark_fraction": 0.04997707132676458,
+      "sha256": "cd48d14a903abb3af8df478e0c4dab327b2a1402d7c5e41bbb7115b6eb3d84e4"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/slide-23.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1/gpu/slide-23_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05571626283282725,
+      "dark_fraction": 0.0417549730433166,
+      "sha256": "3b7c5e5ecbfb12b0bd9f4de5a37312f0125037069f6d9b88a5ca653f3af0dc69"
+    }
+  ],
+  "deck_sha256": "cb3c1d94e62e7b52e3034c4a403fee4dd3ab0a80d50f36a6c69da737ab81da98"
+}

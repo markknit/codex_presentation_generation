@@ -1,0 +1,210 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23532337691846894,
+      "dark_fraction": 0.05073392410815724,
+      "sha256": "e143eb256e352477c4f2cfbc0528e4e3a5a3d14aac1110c73aa659d0910c9bd5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.052562434157526185,
+      "dark_fraction": 0.04126417549730433,
+      "sha256": "ed09e5f9895bd0e17e1c437026c02b6a7470edfffa5c2cc6bd8a6406e86b2486"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13842391192084444,
+      "dark_fraction": 0.11980004544421723,
+      "sha256": "ef5b9429a3ed2ef98b17a905d867c1f807cf0d4beae4fde0e36fb2dc546db8e0"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08950445146764165,
+      "dark_fraction": 0.0695833591539113,
+      "sha256": "9d49e4ab9e35ba3c47466c957f9d87f02f1a00bc339ad7fe2f95e2fc4c809fef"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16130300964656794,
+      "dark_fraction": 0.04379087397492305,
+      "sha256": "5ab93230d534cd766587bb7a771212d42e70410385dfd318695e85bc73432a16"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2237896345871806,
+      "dark_fraction": 0.05193447770134887,
+      "sha256": "2b97878b84cc859fb0f8a6aeb8216c317adaffc491afbdad9090227e136262ab"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.054604118898597426,
+      "dark_fraction": 0.04494846212637624,
+      "sha256": "71576a828b970ea623ba84cf960ce029bcf9168e16c419847c84d7aa9f3ef8ea"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.20787754849104542,
+      "dark_fraction": 0.042106132903678914,
+      "sha256": "69a93df4fdcf609cde47e70b75726b04728c5a5086f12e014b822c58aaf15572"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06923963562000372,
+      "dark_fraction": 0.05571461031583731,
+      "sha256": "a46fda1be348c75f0b8f10729d4bc8e9e4808abc64abb976618dc6382681e676"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1032054698312367,
+      "dark_fraction": 0.09252690504224247,
+      "sha256": "65b314c1b971cef70c81386eba53c88b740f8dc5f2b9809553ae02c456288d1c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31205965586333684,
+      "dark_fraction": 0.046283695854248,
+      "sha256": "439a9a31030d20b913b0bfaf3ff750903e7bc3894287438690697ef333608be1"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.26575943483918946,
+      "dark_fraction": 0.044513850158021936,
+      "sha256": "a79104f0a1642c58f9a10d122d315694a76ae92ae373308ef5adb9f6aa583f06"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23577781909070253,
+      "dark_fraction": 0.03128462539505484,
+      "sha256": "50be8359589ebb845a0a66c4cc5fc4d367b1e05f3c5522b332dc1c5121e8fb9c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23705686724091632,
+      "dark_fraction": 0.03134081097271281,
+      "sha256": "a80096cd2bed09433300c546e1ad5e3176b2920faa0086285478eb9420013a47"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3126553882382103,
+      "dark_fraction": 0.052106339468302655,
+      "sha256": "621ff30c5e57320218843fd06653efe4c6072a1513ed65833654398b61a54f9b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.27104335791452355,
+      "dark_fraction": 0.05227902749375142,
+      "sha256": "b83d5b9e0d41d7d62cd0f51113e9b6d3a46042bee7386df9d5bd42652065b87a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0677507178120675,
+      "dark_fraction": 0.05573444051971659,
+      "sha256": "18ccc6108f0123efc53915b887c95fef9ce26b93e6568ef5895ba0ee36760029"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05932122864638202,
+      "dark_fraction": 0.04753630373262275,
+      "sha256": "b6c7b2e4043f3a6cb33e65210ba33713e255381532de93d2805b7d78d8bb0c32"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.049756460308607545,
+      "dark_fraction": 0.04085930883476896,
+      "sha256": "14d291b3a15de67978f951172dce0c65db3390700a44f66eaa284115f5a359a7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3178046311788643,
+      "dark_fraction": 0.0570548015946789,
+      "sha256": "92e405e9ff789f4b026abaeef9980dd684280e7cebc4d8fb2ad118a81be9d04e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2745070335254384,
+      "dark_fraction": 0.05597653425874285,
+      "sha256": "dea0947d0c562d35ec8393ebd2f33749e273f19b643358180b948053e4640ff4"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05568486501001838,
+      "dark_fraction": 0.041673173452314555,
+      "sha256": "14fc0dcaa623bda6352f901ce1a5f5adba609736323143951b20434aaf06bee7"
+    }
+  ],
+  "deck_sha256": "7b9ca5a0437c99e709bd60c1865d03f212a174020894aae6ef9da1ebf52cafa0"
+}

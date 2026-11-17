@@ -1,0 +1,58 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1.pptx",
+  "sha256": "18ca87e727fdfb10a9157ee2776bd7319f124a92038a304271c677b83c5feeb9",
+  "slides": 11,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 0,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 12.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 4.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_Assessment_Prompts.docx",
+      "sha256": "924e526ff37a1385bd8481a1a271399401fd74f97d569edf5519d600c773252a",
+      "pdf_sha256": "c4d23c44069b3a6cd84fd243df937ef7c8f360880ce90d955170f47418697d0b",
+      "pages": 5,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_Assessment_Prompts/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_Student_Task.docx",
+      "sha256": "7fbbdb3dc1e191dbd7cecb82a329809e1ca70f8c28af9468ce508c4027304ff6",
+      "pdf_sha256": "431b42199e175cb5561c063d41c4b905926c93159808734e5e6ca2a58a4ae94b",
+      "pages": 1,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_Teacher_Notes.docx",
+      "sha256": "f39db2320216f064fd0b691d6fdb3278422b4e5054ad0393f2ee8c5289c97b56",
+      "pdf_sha256": "26b1ee8523c0eb6996c04beb3800e8e08998716fc72c586efca3157a16fe2700",
+      "pages": 10,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

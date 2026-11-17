@@ -1,0 +1,425 @@
+{
+  "lessons": [
+    {
+      "module": "coremath_1_1",
+      "lesson": 3,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 8.0,
+        "Observe": 14,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "e5d03d6065f83d3cba9b0d51ce0b794ec630218ba90b20cfa7870fbf092eac42",
+      "slides": 22,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 4,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 8.0,
+        "Observe": 14,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "89f59d7c0e2476c611b65dbd91c469981d7caa12094ef490aaecb0a95fcdb6ad",
+      "slides": 22,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 5,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 8.0,
+        "Observe": 14,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "4451e5fbd3b902d881c0e9c38cbd30b374a56c2ced1e8a971d921fe331dd4a29",
+      "slides": 22,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 6,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 8.0,
+        "Observe": 14,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "488234e6c015296222d3929a7c376a27b0a145a0610df970b78f52b6abc3c0d3",
+      "slides": 21,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 7,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 8.0,
+        "Observe": 14,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "ad85511cd54ee8a2e582a3476f982a41066d86af62c32e9a31215dba649fc02d",
+      "slides": 22,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 8,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 8.0,
+        "Observe": 14,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "a24c50b4588e273b2d1238a57baf115e237f71121cd2bad8fa25fd9613218410",
+      "slides": 22,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 9,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 8.0,
+        "Observe": 14,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 10,
+      "quizzes": 0,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 10,
+        "Observe": 8,
+        "Explain": 8,
+        "Driving Question Board": 10
+      },
+      "assessment_exception": "Independent source assessment: all original phase/section work and checking/collection time retained. No coached A–D poll or feedback before collection; use actual collected work to plan later reinforcement."
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 3,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 6.0,
+        "Observe": 16,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "d89d6ea6a1145babbc3d8f028924812d3ffb0c69bbf0ecd403ead3884224d670",
+      "slides": 22,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 4,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 6.0,
+        "Observe": 16,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "cb3c1d94e62e7b52e3034c4a403fee4dd3ab0a80d50f36a6c69da737ab81da98",
+      "slides": 23,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 5,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 6.0,
+        "Observe": 16,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "7b9ca5a0437c99e709bd60c1865d03f212a174020894aae6ef9da1ebf52cafa0",
+      "slides": 22,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 6,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 6.0,
+        "Observe": 16,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "8f24ba5707bada131676afd5537bc054e00af11fa2809df64e043273c7078ad2",
+      "slides": 22,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 7,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 6.0,
+        "Observe": 16,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "0f662b802768acdba9cca6647ff2de8f6a11b0099142952cc8b6d91e9736fd87",
+      "slides": 23,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 8,
+      "quizzes": 0,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 4,
+        "Observe": 16,
+        "Explain": 12,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": "Independent source assessment: all original phase/section work and checking/collection time retained. No coached A–D poll or feedback before collection; use actual collected work to plan later reinforcement.",
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 0,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "18ca87e727fdfb10a9157ee2776bd7319f124a92038a304271c677b83c5feeb9",
+      "slides": 11,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 3,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 6.0,
+        "Observe": 16,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "e961e567c0aadc1e631671c7b6eb2497501b083a7f70882eee57914d32c4b007",
+      "slides": 23,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 4,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 6.0,
+        "Observe": 16,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "f18bf864e75ef73f8039f9a5da8e5aeee55e1cd758231add91e133cebb6b0c7e",
+      "slides": 23,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 5,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 6.0,
+        "Observe": 16,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "5a1bc605f212063c1182530ff4543b7d3661e0932e2fa95e9ad2d674b7973d64",
+      "slides": 23,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 6,
+      "quizzes": 3,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 6.0,
+        "Observe": 16,
+        "Explain": 10.0,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": null,
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 3,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "503b431725c97a8ffb44cc9642cce98fad9500f96e3f164721953bc454d16fd8",
+      "slides": 23,
+      "automated_checks": "PASS"
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 7,
+      "quizzes": 0,
+      "source_evidence": "PASS",
+      "phase_minutes": {
+        "Predict": 4,
+        "Model Building": 4,
+        "Observe": 16,
+        "Explain": 12,
+        "Driving Question Board": 4
+      },
+      "assessment_exception": "Independent transfer assessment: preserve all 40 source minutes for independent section work, separate still-open-question reflection and collection. No coached A–D poll or answer reveal before collection; plan later reinforcement from actual individual responses.",
+      "exports": {
+        "design_revision": "quiz-v1",
+        "questions": 0,
+        "manifest_and_slide_checks": "PASS",
+        "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+      },
+      "deck_sha256": "b3235619d6d199b639a99e41169a9d4c8e6083d543dee58fe03c029914dbc158",
+      "slides": 11,
+      "automated_checks": "PASS"
+    }
+  ],
+  "status": "Source quote, archive/member hashes, unique IDs, exact phase totals and independent-assessment boundaries checked; mathematical/scientific teacher approval remains open.",
+  "cpu_only": "Document/archive/text inspection and exact arithmetic. Separate CUDA reports cover raster processing."
+}

@@ -1,0 +1,86 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "89f59d7c0e2476c611b65dbd91c469981d7caa12094ef490aaecb0a95fcdb6ad",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "b6bd79a54ccb624be32c823cc59b56e32a9c64d38bbfa50b1668c16b2bf8fb8f",
+    "slide-02.png": "a459d9dc0ba3e10d7cbc50a971d94fdaea0c011bf754b68ea85595bb5791e87c",
+    "slide-03.png": "5eff894642b020837b7e28061f2285ae5d913373759cde4595d7313a5e6e003a",
+    "slide-04.png": "0a6217538502df61f214fe8a6da58bfb6311c27920db27788b9d87f794d6a820",
+    "slide-05.png": "7534770a12ec17fdebdeb8916cfcaa8a3f3abd1fcade12d6f7136fcf1763e98a",
+    "slide-06.png": "b26bff5d8bd700f706d4bca2d9dd01b4b43bd4152badc1ca68fa24f6940363c1",
+    "slide-07.png": "9d7f2c1e862e3d6a347349a0e77c36cb5f505032b892a7b5421019fd8c69dd9f",
+    "slide-08.png": "3dd97b56142127091edf66e970427575dda9b9210cdc183aac7ed8e93e43c69a",
+    "slide-09.png": "d277f84ca2e2dabe53b465093ee98d98096675facfc4927adb6c910fa1ca3c4b",
+    "slide-10.png": "40c4fec3117bd7032bea33f75e18d97fadc30e616cffec301139cc0ff0372604",
+    "slide-11.png": "147b10d31b13322ffd9e4f94f7979c32dee0b286cdf2dcc00caf0f8191beaae0",
+    "slide-12.png": "dfe0b29e05961bd510c26bbfe3c3ec1d303aa0740f5ab0035e3887d0571da7aa",
+    "slide-13.png": "ae079cf89ecc39e9988fbde38ed11d054dc094aad6223a00c00908570e7bb771",
+    "slide-14.png": "6050daa8611b28609f73d36361d7672de2e5458f8910940831a3a63e8596133b",
+    "slide-15.png": "f548d34c59779596727e2019be6186321aa7492e47cadcb982319a356b2e47cc",
+    "slide-16.png": "1ec4f954b39d89327270c7b2113c41a832a4f898fa2d0be7e1f0779d965e242b",
+    "slide-17.png": "536b6d00363ad49da6ac44ad291f9a16cbe0f0a6f16902da2e67f2ce0e0bc507",
+    "slide-18.png": "71290a383b929f42f7caa52b8b92f49b60f8226e9a858ff53d9a0793c3d6b915",
+    "slide-19.png": "184203263399a0334276987045fb98f95ff82e8780d8261416c17882fbeaa791",
+    "slide-20.png": "8de9f8a6b08712130546c5fa12c6202303a80f2f1d8bc7dbe0dd6d8425fa0758",
+    "slide-21.png": "7611b07b52af2daad5e18783ae281850a8d05df438f407ac275ddeebc1b8d7e5",
+    "slide-22.png": "6c2357a969a3827d81f3ecfbed6a82144b5c8070c51686cd761af0447f21c152"
+  },
+  "finding": "Inspected all 22 final slides and 18 print pages. Whole signed mixed-number conversion, all five exact reciprocals and product checks, failed 5/3 proposal check, quiz choices and saved independent exit retained. No unresolved layout defect; external review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1_Student_Task.docx",
+      "sha256": "cd407e1f648a66b8c8afe74034a12da27edca223bbfb980b7069149614563058",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1_Teacher_Notes.docx",
+      "sha256": "b67870eb10f718b8319a2b1de64351c6322217ea4a61d29985e64422b8949927",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

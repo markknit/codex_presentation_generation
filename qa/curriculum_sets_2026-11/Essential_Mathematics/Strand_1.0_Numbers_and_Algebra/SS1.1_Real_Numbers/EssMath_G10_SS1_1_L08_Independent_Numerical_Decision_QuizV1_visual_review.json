@@ -1,0 +1,68 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "18ca87e727fdfb10a9157ee2776bd7319f124a92038a304271c677b83c5feeb9",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "85d4023f8b0a0d7d71ef18dc0c90e4553984bc9cbbcd42cd0c74386183513e89",
+    "slide-02.png": "c8394fe07652d9c62b6b325aa585e23de06ae63bebb7e3f8294b63f40590c759",
+    "slide-03.png": "a58ee213dd1f988f7f23a81625814c0f176959627fc76356650e70e50772fd5f",
+    "slide-04.png": "dcd98f78bf072154535de48460083508b94dd24b3a8461b13041c954589f6523",
+    "slide-05.png": "b2eb8961c08696c456740ab6e622ebc70874eaa3fd04f5d504c3d39f6c81d0a3",
+    "slide-06.png": "f07f00c4fa685a12b49b9738681d8e31dd17497956a41b0119d61c2f694df008",
+    "slide-07.png": "e4c2fe7ac74e1d7f595e6fa6443f175a06bd04a0abe207bdd6095ed82fe0c7a1",
+    "slide-08.png": "6dbf2b777951457de250c6ea5f5c41ead8038030e0751d80f270ac3a4a0e071c",
+    "slide-09.png": "9fef47932f32dda645354e34eb7562a3172c2b4662f827bfb4712cef7f05eab2",
+    "slide-10.png": "3bcfc0f2158293fe19f3f42623b1fe4f13458febeabafbe357a790c66efce23e",
+    "slide-11.png": "a4c8638c7f92b87279e82fd540749a6e0722973a1ac4776e966e0cd76404f0ab"
+  },
+  "finding": "Inspected all 11 final slides and all 16 print pages, including the original five-page assessment with complete rubric on its own page. Source 40-minute phase/section timing and independent work preserved; no quizzes/answers before collection. Device-use evidence remains separate. External review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_Assessment_Prompts.docx",
+      "sha256": "924e526ff37a1385bd8481a1a271399401fd74f97d569edf5519d600c773252a",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_Student_Task.docx",
+      "sha256": "7fbbdb3dc1e191dbd7cecb82a329809e1ca70f8c28af9468ce508c4027304ff6",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_Teacher_Notes.docx",
+      "sha256": "f39db2320216f064fd0b691d6fdb3278422b4e5054ad0393f2ee8c5289c97b56",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

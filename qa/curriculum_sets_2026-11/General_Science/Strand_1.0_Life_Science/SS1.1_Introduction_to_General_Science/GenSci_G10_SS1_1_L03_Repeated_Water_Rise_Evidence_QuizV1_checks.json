@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1.pptx",
+  "sha256": "e961e567c0aadc1e631671c7b6eb2497501b083a7f70882eee57914d32c4b007",
+  "slides": 23,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1_Student_Task.docx",
+      "sha256": "43c23f8c81fb554361042938c7c63728e622f273866b8c6f4d215b8470d9a33f",
+      "pdf_sha256": "26692d44121dbf45460847c6096c89cfb6bb3b66a07195abd7abaa4cdab0752e",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1_Teacher_Notes.docx",
+      "sha256": "81dae194a3709fedcc41163d3fbc26e27f9f59e5619478922016cf63ce72b781",
+      "pdf_sha256": "517d0a53a489cb0fbc8ce58cde8daa932a6e732635d384468601505498390d44",
+      "pages": 19,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

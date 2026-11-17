@@ -37,7 +37,7 @@ def run(module,number):
     subprocess.run(['pdftoppm','-png','-r','110',str(pdf),str(render/'slide')],check=True)
     images=sorted(render.glob('slide-*.png'))
     subprocess.run([str(ROOT/'.venv/bin/python'),str(ROOT/'scripts/gpu_visual_qa.py'),*map(str,images),
-                    '--out',str(render/'gpu')],check=True,stdout=subprocess.DEVNULL)
+                    '--out',str(render/'gpu'),'--preview-width','600','--columns','3','--per-sheet','9'],check=True,stdout=subprocess.DEVNULL)
     gpu=json.loads((render/'gpu/gpu_report.json').read_text());assert gpu['backend']=='CUDA sm_121'
     gpu['deck_sha256']=digest(deck);(qa/(name+'_gpu.json')).write_text(json.dumps(gpu,indent=2))
     pres=Presentation(deck);pages=subprocess.check_output(['pdftotext','-layout',str(pdf),'-'],text=True).split('\f')
@@ -80,8 +80,9 @@ def run(module,number):
             ddir=render/doc.stem;ddir.mkdir(exist_ok=True)
             subprocess.run(['pdftoppm','-png','-r','85',str(dpdf),str(ddir/'page')],check=True)
             pngs=sorted(ddir.glob('page-*.png'))
+            preview=['400','4','12'] if folder=='teacher_notes' else ['600','2','4']
             subprocess.run([str(ROOT/'.venv/bin/python'),str(ROOT/'scripts/gpu_visual_qa.py'),*map(str,pngs),
-                            '--out',str(ddir/'gpu'),'--preview-width','600','--columns','3','--per-sheet','9'],check=True,stdout=subprocess.DEVNULL)
+                            '--out',str(ddir/'gpu'),'--preview-width',preview[0],'--columns',preview[1],'--per-sheet',preview[2]],check=True,stdout=subprocess.DEVNULL)
             docs.append({'file':str(doc.relative_to(ROOT)),'sha256':digest(doc),'pdf_sha256':digest(dpdf),
                          'pages':len(pngs),'text_retention':'PASS','gpu_report':str((ddir/'gpu/gpu_report.json').relative_to(ROOT))})
     report={'deck':str(deck.relative_to(ROOT)),'sha256':digest(deck),'slides':len(pres.slides),

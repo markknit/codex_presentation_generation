@@ -1,0 +1,91 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "503b431725c97a8ffb44cc9642cce98fad9500f96e3f164721953bc454d16fd8",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "2261792e4deb17d7fa9c10b26be8f62d36abab91d5855f40e5854789652434c6",
+    "slide-02.png": "c27beb3efa816104086e5766c55490f43eb1b9dbe7ff259c16d20d4608e713e9",
+    "slide-03.png": "58acd2b2374f3621f6a3f53588b765de6cce3298a5a9c7dff10ae9617351943c",
+    "slide-04.png": "555cb82020d1ad338cc58b3e42bf312c7b21e12165dc4b35190fb9755a9ecd39",
+    "slide-05.png": "9886b168208aac8568b591ec07697ffeae0b2222082f7f629d78ed3fbecf65c0",
+    "slide-06.png": "21263d3cd9f34a1472f88e11454a99bd36fbfbd15f00f95b74ff13f7b35871b7",
+    "slide-07.png": "833df6e3e4a48a87605fa88d69a44b31c1d6789ccf12432b5777034b0537c829",
+    "slide-08.png": "f2eddb6394477cd42d6c20990a6b77bac524f98eacc624c51fb8f502b2960a0c",
+    "slide-09.png": "8a4e390b4140bf273727fc777ccca57510ee65c6520b91eba00763a5c6945536",
+    "slide-10.png": "5b60ce607b2adea96b239cb1d2249ed8d9f6948e2155e60aa865ff79600d593d",
+    "slide-11.png": "1de9b8992d6ec49b409d9e3b825fd32fb033c5b4c31d5a09cdbd93b7def27a8d",
+    "slide-12.png": "8aaa954c9e836e22a790ff49d8bff509f709aeb5f7e2d4999078cb3fbc48d567",
+    "slide-13.png": "6000e8cc1474cfc9d1043077c68257f3c2b7a89d0cdea1fb879917d4a580438e",
+    "slide-14.png": "1ebd322c1ccc804dadb7bb9a9c048a14a7743f061078a294e0e38afc0f9929de",
+    "slide-15.png": "0b9f4e46d3610d7ef18239440d1b7e79740304ea0ae7dea0e3e8811f7943bfeb",
+    "slide-16.png": "323ec575bb42bdd7272a0373620fc6ceb29d4083cae8f8c25519f865176cbf62",
+    "slide-17.png": "86095c69e6359e360d370489301db5951954d199f4606d10788f2d40eb847ba1",
+    "slide-18.png": "f5912fd1d4be7358997d0f75d9bb5d3976e51e51429d6aa13444cebfe21d69e9",
+    "slide-19.png": "549ca219e66347d9cbcb44df5223d732146d91cc1e7f0b87456d8c86bc693f31",
+    "slide-20.png": "aa43ef38a660f5b778a31f683e68a2c39759f56154ff12a1359e2fe906cc5cd0",
+    "slide-21.png": "c0eb4475273e821b673840975bd60ed78b4e310714deeb0b4bed18480f85846b",
+    "slide-22.png": "560be474e383f7df0403c134bfa7aa2610a779d25ff6900976329a2de8ae639c",
+    "slide-23.png": "518b0a047a319d37cc90a85f5db6975f1609871828062860b591c6562cb7a767"
+  },
+  "finding": "Inspected all 23 final slides and 21 print pages. Evidence-to-use chain, limited-claim comparison, 3 quiz pairs, retained initial/revised message and saved exit checked. No unresolved layout defect; source-owner/native PowerPoint/teacher/ARES and pacing acceptance remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_QuizV1_Student_Task.docx",
+      "sha256": "83fdf007d0eed9dd938b263705438c2641addd35793a984d1c8984cc40429d70",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_QuizV1_Teacher_Notes.docx",
+      "sha256": "0656ffef4f547810b878a37795679b09fa9c21b10ddbc94f7e70bbe137116cb5",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

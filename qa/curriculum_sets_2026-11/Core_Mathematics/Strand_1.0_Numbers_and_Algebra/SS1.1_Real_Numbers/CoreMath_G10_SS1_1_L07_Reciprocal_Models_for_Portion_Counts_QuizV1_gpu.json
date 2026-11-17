@@ -1,0 +1,210 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2332924335378323,
+      "dark_fraction": 0.051224721654169504,
+      "sha256": "87a35b5c2a2a4c1d8766dc12db3c901bcdb139b0407fca0caeb97623169cc635"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.052436016607795746,
+      "dark_fraction": 0.04126004420482948,
+      "sha256": "217c82c8883ba2196f7706e8ca8e0031b68b7e2d6605affeeb941b51a6c15d9a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.14037305571047903,
+      "dark_fraction": 0.12098985767697425,
+      "sha256": "c8b922c70356ab2c5d1b707ef7cbc825ee4bcf432517cd04b57f29845de02ce8"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0892127822189172,
+      "dark_fraction": 0.0687000888227882,
+      "sha256": "dc71cec622c1e11764706cf36e25afecba482e345d5d7404e1be5a7434286181"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16002396149635414,
+      "dark_fraction": 0.04291503997025469,
+      "sha256": "d71b6a6e4d8a848bfbea1f8dad9823765834d1b32dfb29ac55a732ae54d165e1"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22366321703745018,
+      "dark_fraction": 0.04873189977484456,
+      "sha256": "a3df79809ae02d82b94fa56611c0c55b8084d0b1bec583795ab08bb12a64eb93"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.054477701348866994,
+      "dark_fraction": 0.04494433083390138,
+      "sha256": "e37cc76751dff0f187fa76320ff50dc256c4a04e86c795c008e1c8d27b3cbed1"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.24382061928074197,
+      "dark_fraction": 0.04624981925595423,
+      "sha256": "3810b4c35808f36abc27e7f28950d2387a2db7c1d81b9fecbb8288739e8c8fd7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.060086344012724384,
+      "dark_fraction": 0.04881783065832145,
+      "sha256": "e1958b585f58bc31d0e25330ec5552df763fdb557f99ec91f55875f58638d642"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23081035301894198,
+      "dark_fraction": 0.029563528950032017,
+      "sha256": "a4695034c3ed837c7982ed3b844b2fba3c13b94725c00e918c12f53b6e74f183"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31486562971225546,
+      "dark_fraction": 0.04846749705645411,
+      "sha256": "bf6717316c070082d4a9f42a5a994cbc1cd76dfc7b3e32f74de464d551e43103"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2654718968829398,
+      "dark_fraction": 0.04709673421329863,
+      "sha256": "f0e897750a6f3497c1b19a3d95317bea66088ecf7c2d12bb78f68bdb1f1572c9"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.232082791101196,
+      "dark_fraction": 0.03094007560265229,
+      "sha256": "8571d92c9c808f226838a11cb10e9263202589cab2c18007bea17a86e408646a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23602569663919357,
+      "dark_fraction": 0.032891698167771787,
+      "sha256": "04872ad6517449e430e5d4b5ac8db466899f51be543b32579e082a5a3227f142"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3125711098717234,
+      "dark_fraction": 0.04756522277994671,
+      "sha256": "5bc6748c91d06dcb596b30d5a69d615aba86e4b0d50cb2e64c2133a514f9c4b6"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2666435314288075,
+      "dark_fraction": 0.04878312780153271,
+      "sha256": "081b61b0c21483009d8b0a6da98f4e0142b3c4327b7a177446891f26726522fd"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06762430026233707,
+      "dark_fraction": 0.055730309227241745,
+      "sha256": "9e3444fac4b271ea4804183712570dae972db11c18a03b153f1b97b0467b13ea"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.057743901179484004,
+      "dark_fraction": 0.04659436904835678,
+      "sha256": "c549188e52bbd7c23f03ea0393279501d154e391a37d5a8b46ef58873be38084"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.053826609654830514,
+      "dark_fraction": 0.04373386213877011,
+      "sha256": "b26a7544540a60a02a9ff702325d5515b03aa25e953b76f995627f238ef7b148"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31643138956022393,
+      "dark_fraction": 0.05193447770134887,
+      "sha256": "c2150bf58cfdd4d2c9b9cbd3f010b78a85a4bc972b2ef4e590bc76bf6666feb2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2679374522319308,
+      "dark_fraction": 0.05019437731094173,
+      "sha256": "1490cf3f6e1818586ce9c01b0111438c71cd763b72ad2d537d2f079c493e9fd2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.054632211687426414,
+      "dark_fraction": 0.04128400570118362,
+      "sha256": "8a9b0067041d53f57af43d12acb83f22cb88edab3b6a95dd4d37ba68ddb7614d"
+    }
+  ],
+  "deck_sha256": "ad85511cd54ee8a2e582a3476f982a41066d86af62c32e9a31215dba649fc02d"
+}

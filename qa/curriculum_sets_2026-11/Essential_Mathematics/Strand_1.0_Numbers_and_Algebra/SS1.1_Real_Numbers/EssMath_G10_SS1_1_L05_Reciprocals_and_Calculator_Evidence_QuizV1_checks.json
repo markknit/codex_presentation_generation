@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1.pptx",
+  "sha256": "7b9ca5a0437c99e709bd60c1865d03f212a174020894aae6ef9da1ebf52cafa0",
+  "slides": 22,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1_Student_Task.docx",
+      "sha256": "3266da4d9fb578e43ea5964f13e3135a3b29ee524691adc728f761b7053bcd2a",
+      "pdf_sha256": "e10757fe32426534cd52b99bb112d259095a10e17dced9df89ecb51360c5104e",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1_Teacher_Notes.docx",
+      "sha256": "e397204f172c9d83d2f4312800556fc857a775f8fd0a6fccd8158910e1e62d95",
+      "pdf_sha256": "1ce9305c90772a457bb82b9769a198cb0464c74e5faf7569f114cfef7d3396a7",
+      "pages": 17,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

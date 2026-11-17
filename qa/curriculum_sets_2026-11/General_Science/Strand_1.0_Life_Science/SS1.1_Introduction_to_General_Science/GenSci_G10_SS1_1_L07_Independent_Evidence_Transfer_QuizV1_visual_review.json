@@ -1,0 +1,71 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "b3235619d6d199b639a99e41169a9d4c8e6083d543dee58fe03c029914dbc158",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "64ba0fde61cf2a24fe86b8c7451e0a907a0fb2271dd7a709e2c30cd130b7fd1d",
+    "slide-02.png": "299739e5dc2973351c303587610b3e92a8ccf1353ca48e2dc0cf9395e527fc4e",
+    "slide-03.png": "d5ee70a23947c5c0ee2c10d6842a3b5716a4bf5ced051032b32dcf4393aa6ec1",
+    "slide-04.png": "8ba5cf49f8854935d5996acb07d92a5e9a0f77bd3e78eb905675ccfa1aa969ca",
+    "slide-05.png": "e7a823bdec4d8d9cb3d39b7d148f87d05995415b66aa15468a35f5826313ceea",
+    "slide-06.png": "b3a85b0537a837531d503d0998b8de47841f0a6698e14a3b09bd7e338ce3d554",
+    "slide-07.png": "d065fc85a7843f2377e50851f4cfdfa05554640c826540be2120fbad63dd2896",
+    "slide-08.png": "4622ebcf68898ca9c66356371f402e3c1bcbcb4a48a180f3e10d9c96cd406af5",
+    "slide-09.png": "c5625d17ebf5dfd43eb1ee8b106b69f83f535b705147fa165cfc7069347855f7",
+    "slide-10.png": "ad443b39440fd4b30d6f38fb43a45979e0b001784590cf8999b4877a60caed3d",
+    "slide-11.png": "2c4be6a0177ca1de1c5de1693613ef2c473a07c2c0e294ee1dfe36d88f51e7c7"
+  },
+  "finding": "Inspected all 11 slides and 19 print pages. Final rubric repair starts the complete original rubric on page 6 with repeat headers/non-splitting rows; all wording/scoring retained. Rebuilt final source-log version and proved all slide/print PNG hashes identical to the inspected repaired layout. No coached quizzes or answers before collection. External review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1_Assessment_Prompts.docx",
+      "sha256": "9a3cb52764ee041b667a6727b86683d5db6c1ddf421815386b3d4039006b73fb",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1_Student_Task.docx",
+      "sha256": "a7945a25e0774252838b9b18c849133ad26770cc908a491db79f6973fdd804aa",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1_Teacher_Notes.docx",
+      "sha256": "470cbeed5a17f9a153b7201b4af7b992925a59995c1cee900a4f29eb903a03be",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

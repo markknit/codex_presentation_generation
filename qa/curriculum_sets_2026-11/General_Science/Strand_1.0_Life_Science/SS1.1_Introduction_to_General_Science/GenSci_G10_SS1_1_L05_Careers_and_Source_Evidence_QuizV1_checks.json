@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1.pptx",
+  "sha256": "5a1bc605f212063c1182530ff4543b7d3661e0932e2fa95e9ad2d674b7973d64",
+  "slides": 23,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1_Student_Task.docx",
+      "sha256": "5fdb793b93ef3c06df0438781eac125f8e73e801ba4ecb8083d4fc5b03597c52",
+      "pdf_sha256": "a4535753f3a21570e9191df571e9f19fe13e94d445e1e3acbdf4f2237fece38c",
+      "pages": 3,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1_Teacher_Notes.docx",
+      "sha256": "4c78c3d356a888d274d4ec44822e677a97062718ba8d7382a1f951bbc7b89ec6",
+      "pdf_sha256": "74cf3318bcba69c7869b06a9f393adfd19efb8b5a08bffceb7a2f1436c320dd4",
+      "pages": 21,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

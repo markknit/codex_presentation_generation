@@ -1,0 +1,86 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "4451e5fbd3b902d881c0e9c38cbd30b374a56c2ced1e8a971d921fe331dd4a29",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "489ccc5ce2457bea56eb971ffb215980a048df2b44307f78c697d2eafd0c7fc3",
+    "slide-02.png": "ab39cd7e36a9b3870d7bbb6810471f83c77d1af4c4fd83822ffc4f6ae8cf8308",
+    "slide-03.png": "a60c30cb8780be6a3bc8647676bda0ea9e342e491318bfc4869f6482b11a71dc",
+    "slide-04.png": "5105fba740b028ea4de1170da9930f5c780b9d98be078a7cb64f553d28ba485e",
+    "slide-05.png": "b942c272e9084968b83d9429264e50fcac5833c93b7f2e8253620c14d0d10ace",
+    "slide-06.png": "64850d9d010299f347a2cdd9ac522d5a13a56399f5c347c55b6f87c9170fd4ae",
+    "slide-07.png": "d5f0ba7c272c8838af66c750ccd9a3b1efc768f7e012c973fe1286835ef3c63c",
+    "slide-08.png": "773650463f0ffdcf037e22d8ca5e56c2c5dc2f870d72a77bde0bef362379d6ca",
+    "slide-09.png": "081cf83fbff1571ffa31cc41caef33904b818d35494819e10734cdf593c65d21",
+    "slide-10.png": "49b8c846f8d5e5a138fa5d53ad99d34998c6cab238266adbd909ac3a48fc0538",
+    "slide-11.png": "2a353d733e42d90406e292a1ea17de121752977eb7c6e494badbdb7741877c1a",
+    "slide-12.png": "d9395b0a37ab22d884eb538c947ce0ac60a425397916d31815e9c2be63875ea3",
+    "slide-13.png": "6a4653f64c93a1b32c4491df41f555dea984f727548346bd7c28106c28b56f2b",
+    "slide-14.png": "b079bcc3639aaa2851a244b115d6454962c6603b74c3a7d8c8b6546ab0d089c9",
+    "slide-15.png": "c15c62b71e801c3b491b67bc532e91a9e99aab56c2b8373e57ea90f635fa2bd2",
+    "slide-16.png": "63b3c4ad1d207a7d55889d09112d28ab2cef45df0e06236c27093f77f8e4ee88",
+    "slide-17.png": "72d812bf7d817afcd63d91014c9d50aea4fec88c16265c666941c84561fb08dc",
+    "slide-18.png": "03bb0680eaa2b27fe16341877b1e5d0ebc48892aabd7ab873b477bc89f2b38ab",
+    "slide-19.png": "fd8c8927598e4857a77fcb6e343889b9126dcd573691f8215f36288ebf20472d",
+    "slide-20.png": "14c595b2ed779a36765daec0f46584f07839bfb161123f2c7fc17a9a44cefe88",
+    "slide-21.png": "ad586cf3fe05f324d31f9cde14f98a03edea590fc528f8a10f139406d7c58379",
+    "slide-22.png": "b398efdf5821c0bcf44677837e14d697b95f02923bcd7407ba33f834fc8747e6"
+  },
+  "finding": "Inspected all 22 final slides and 18 print pages. Complete ten-row source table retained; exact/rounded entries, inverse scale direction, quiz reasoning and independent exit checked. Added comma spacing after PDF check found a decimal split; final full-number text and layout pass. External review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1_Student_Task.docx",
+      "sha256": "61f6e053676b037c2dee13308179e047217560e93ef6e63aa99b92bde9a81ace",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1_Teacher_Notes.docx",
+      "sha256": "dfde0f2b960d52773dafc899038ca88df7b8681a27d8880b46b6adc97a7be041",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

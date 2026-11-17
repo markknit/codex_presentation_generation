@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1.pptx",
+  "sha256": "ad85511cd54ee8a2e582a3476f982a41066d86af62c32e9a31215dba649fc02d",
+  "slides": 22,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 14.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 8.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1_Student_Task.docx",
+      "sha256": "8592c1dccd3220a1a3b10184c591110388ae6270c6a37029e354b447b554fcec",
+      "pdf_sha256": "41baaeea4c84d08a0ca35253f5cf46bb2ec0a095cca4a4c87604f0d153574832",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1_Teacher_Notes.docx",
+      "sha256": "c8ea1c4a4998100eb9b5020070f09d0fb6e3aaa9ceacf06e191037cfdbf2ec92",
+      "pdf_sha256": "6aaaf3fb4897b60ffd5e3a5d4753da71b444be94883bcf0cd0f791610e350eb1",
+      "pages": 17,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

@@ -73,56 +73,92 @@
           "number": 3,
           "title": "What does one divided by a number undo?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "e5d03d6065f83d3cba9b0d51ce0b794ec630218ba90b20cfa7870fbf092eac42",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1_visual_review.json"
         },
         {
           "number": 4,
           "title": "Can mixed-number digits simply be swapped?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "89f59d7c0e2476c611b65dbd91c469981d7caa12094ef490aaecb0a95fcdb6ad",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1_visual_review.json"
         },
         {
           "number": 5,
           "title": "How does a reciprocal table scale?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "4451e5fbd3b902d881c0e9c38cbd30b374a56c2ced1e8a971d921fe331dd4a29",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1_visual_review.json"
         },
         {
           "number": 6,
           "title": "What evidence shows actual calculator use?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "488234e6c015296222d3929a7c376a27b0a145a0610df970b78f52b6abc3c0d3",
+          "slides": 21,
+          "visual_review": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1_visual_review.json"
         },
         {
           "number": 7,
           "title": "Why can multiplying by an inverse count portions?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "ad85511cd54ee8a2e582a3476f982a41066d86af62c32e9a31215dba649fc02d",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1_visual_review.json"
         },
         {
           "number": 8,
           "title": "How can evidence make useful advice persuasive?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "a24c50b4588e273b2d1238a57baf115e237f71121cd2bad8fa25fd9613218410",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1_visual_review.json"
         },
         {
           "number": 9,
           "title": "Which shortcuts survive a counterexample?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
+          "status": "authored_pending_build",
           "design_revision": "quiz-v1"
         },
         {
           "number": 10,
           "title": "Can an independent number audit support a decision?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
+          "status": "authored_pending_build",
           "design_revision": "quiz-v1"
         }
       ]
@@ -1626,43 +1662,79 @@
           "number": 3,
           "title": "Do signs and fractions follow the same rules?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "d89d6ea6a1145babbc3d8f028924812d3ffb0c69bbf0ecd403ead3884224d670",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1_visual_review.json"
         },
         {
           "number": 4,
           "title": "Which operation does the expression actually request?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "cb3c1d94e62e7b52e3034c4a403fee4dd3ab0a80d50f36a6c69da737ab81da98",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1_visual_review.json"
         },
         {
           "number": 5,
           "title": "What undoes multiplication by a nonzero number?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "7b9ca5a0437c99e709bd60c1865d03f212a174020894aae6ef9da1ebf52cafa0",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1_visual_review.json"
         },
         {
           "number": 6,
           "title": "Which signed calculation matches the situation?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "8f24ba5707bada131676afd5537bc054e00af11fa2809df64e043273c7078ad2",
+          "slides": 22,
+          "visual_review": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1_visual_review.json"
         },
         {
           "number": 7,
           "title": "Can we defend the number of full servings?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "0f662b802768acdba9cca6647ff2de8f6a11b0099142952cc8b6d91e9736fd87",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1_visual_review.json"
         },
         {
           "number": 8,
           "title": "Independent numerical decision and explanation",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers",
+          "sha256": "18ca87e727fdfb10a9157ee2776bd7319f124a92038a304271c677b83c5feeb9",
+          "slides": 11,
+          "visual_review": "qa/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1_visual_review.json"
         }
       ]
     },
@@ -2844,36 +2916,66 @@
           "number": 3,
           "title": "How do we collect evidence worth interpreting?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
+          "sha256": "e961e567c0aadc1e631671c7b6eb2497501b083a7f70882eee57914d32c4b007",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1_visual_review.json"
         },
         {
           "number": 4,
           "title": "When does a comparison fail to identify a cause?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
+          "sha256": "f18bf864e75ef73f8039f9a5da8e5aeee55e1cd758231add91e133cebb6b0c7e",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1_visual_review.json"
         },
         {
           "number": 5,
           "title": "Which careers use scientific evidence?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
+          "sha256": "5a1bc605f212063c1182530ff4543b7d3661e0932e2fa95e9ad2d674b7973d64",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1_visual_review.json"
         },
         {
           "number": 6,
           "title": "Can we make our science-use message defensible?",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
+          "sha256": "503b431725c97a8ffb44cc9642cce98fad9500f96e3f164721953bc454d16fd8",
+          "slides": 23,
+          "visual_review": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_QuizV1_visual_review.json"
         },
         {
           "number": 7,
           "title": "Independent transfer: repair a new claim",
           "duration": "40 minutes",
-          "status": "pending_quiz_design",
-          "design_revision": "quiz-v1"
+          "status": "review_draft",
+          "design_revision": "quiz-v1",
+          "name": "GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1",
+          "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1.pptx",
+          "qa_folder": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science",
+          "sha256": "b3235619d6d199b639a99e41169a9d4c8e6083d543dee58fe03c029914dbc158",
+          "slides": 11,
+          "visual_review": "qa/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1_visual_review.json"
         }
       ]
     },

@@ -1,0 +1,111 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23372126169672183,
+      "dark_fraction": 0.04895003201751668,
+      "sha256": "c2da2ad38064a95681b0f8ed9b10ff9da489db2cffae594a19de67f4d288812b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.051429633760922105,
+      "dark_fraction": 0.04051723781785131,
+      "sha256": "7398f2f4b43cfa66edd9e6b68a564fb85373d4eba8d63f3e6706a4cded930d17"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1384553097436533,
+      "dark_fraction": 0.11985127347090538,
+      "sha256": "1230b29705f75a23f4739fa9ad65542ca989664b97708aad0e0d7cfee336ad5b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08667616863935883,
+      "dark_fraction": 0.06771188366280391,
+      "sha256": "0b2083a0ba8cc3f59d0c5f8a3b9eb27d54a55de50e071adf92087f6cc94a88b2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1599421619053521,
+      "dark_fraction": 0.04273408935985623,
+      "sha256": "f54d2eb8c17e1953e9db06c177e63fee987bd14254bbc9b254b57f90539d8fe3"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06521410423250915,
+      "dark_fraction": 0.05248228708351408,
+      "sha256": "cd2923626fa57a650597d494fab849f5035707290618daa3096db91fada1ef7a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06529342504802628,
+      "dark_fraction": 0.05222449443308339,
+      "sha256": "0d6a778905ae085044dce54510e286e048064659fc718dd19f1a426b387bf159"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06487120695709653,
+      "dark_fraction": 0.05176013715891017,
+      "sha256": "4430e19d9e714159490d1acd49549e6c6e9e187feb56c10feb19cfeb70246519"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0730214207514821,
+      "dark_fraction": 0.059477391501931376,
+      "sha256": "949b8cf5f3a9f1b1b636486d990fdaa822984158f05b1c49c129969f9e28af22"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05401830162566359,
+      "dark_fraction": 0.04370907438392101,
+      "sha256": "94a4b9c92f8f48df2d3a843ef55ce1b231d6cb528804622a877633003b497147"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.21443390964863357,
+      "dark_fraction": 0.036492532688851706,
+      "sha256": "bb25768415df401a5866865b247cf9c4c8f90f3c65d6ea923b1dceb8fe72afb7"
+    }
+  ],
+  "deck_sha256": "b3235619d6d199b639a99e41169a9d4c8e6083d543dee58fe03c029914dbc158"
+}

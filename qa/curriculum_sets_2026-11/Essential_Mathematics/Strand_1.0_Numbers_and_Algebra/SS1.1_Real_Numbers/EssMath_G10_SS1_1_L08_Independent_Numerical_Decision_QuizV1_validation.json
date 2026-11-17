@@ -1,0 +1,42 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1.pptx",
+  "sha256": "18ca87e727fdfb10a9157ee2776bd7319f124a92038a304271c677b83c5feeb9",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 11,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.25,
+    0.0,
+    0.0,
+    0.25,
+    0.5,
+    3.0,
+    16.0,
+    12.0,
+    4.0,
+    4.0,
+    0.0
+  ],
+  "total_minutes": 40.0,
+  "formative_check_slides": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}

@@ -1,0 +1,210 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23374935448555081,
+      "dark_fraction": 0.05248146082501911,
+      "sha256": "7cabb77499ff6f803c90c7d937fb18a9c71037e683555080e56aad362d560851"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05255995538204127,
+      "dark_fraction": 0.04126417549730433,
+      "sha256": "f2a56c2228cfaf9fe557a442a6678746c140e133fdd6f490c56b856103dee752"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13941129082233378,
+      "dark_fraction": 0.12034207101691764,
+      "sha256": "17da417f4d8e5e2f08972a27576b7e06b69a7ca91e737af42f308681f13dc868"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08980851459379066,
+      "dark_fraction": 0.0696858152072876,
+      "sha256": "5039bc37c94ea8fe900b0e19d33d00195a2a7f4d98ef5852596cb3820d34a860"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.159585218235525,
+      "dark_fraction": 0.04269938650306748,
+      "sha256": "796a3e045c30e6a01d9222b4b03afe8d221d8497c3a893d9ae25d868f3898172"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1766061432319101,
+      "dark_fraction": 0.041383982979075,
+      "sha256": "cdced0a571b0dda8942cbe9d0c67fc18167511959a33cfe3be4e7edaea6c69eb"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05460164012311251,
+      "dark_fraction": 0.04494846212637624,
+      "sha256": "5d2d437c48802ae12df556bd0f86633c455a428a7a9fb68c97cd0738a567ef4c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.30707153332920206,
+      "dark_fraction": 0.04573340769659788,
+      "sha256": "7a68bad5a96f21262eb0bc54b39528af78ade2b6b1576d0b6bc5952e8e98af28"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06665675156472703,
+      "dark_fraction": 0.05366218421433146,
+      "sha256": "982ee629e3d4ac06f2ff21b95da016d174b85bf49077fb35e79ca246eb8a2839"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.11827146722852244,
+      "dark_fraction": 0.10803412447584226,
+      "sha256": "3a506f3dcb45fdcb461a18d59eaa227f0cbc073dd352b38b64ff1fa1a55d3b42"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3130321621119167,
+      "dark_fraction": 0.04749581706636921,
+      "sha256": "de80f843f8af95967c5b9972f713a049f61721f3be70d169b5773e85738f9e14"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2661229885769763,
+      "dark_fraction": 0.05041581458759373,
+      "sha256": "c3f933f5210d0ff40fcca97290a9000d818b880d4641e5dd701748602d538647"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23704034207101693,
+      "dark_fraction": 0.03338332197227903,
+      "sha256": "281d3649083af4abee2b95464db0800dfaefab4a3d93157c881afc3d76dc66b5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.4376030241060916,
+      "dark_fraction": 0.03198116130631468,
+      "sha256": "0abd630205e7874c9a392623ae21e3f853dd20675d538472e2f7339b873dc422"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3140567226456797,
+      "dark_fraction": 0.05300530871083018,
+      "sha256": "c6748b18f08cb65b108dfc34d28cef81421cd7ec5ab12b9051301f2df91afb2f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.27144739831856396,
+      "dark_fraction": 0.0529218566028382,
+      "sha256": "2886af6c3427b76224ecc302e383a17646b79b1f58aa4e696e1386273f42a32a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0677482390365826,
+      "dark_fraction": 0.05573444051971659,
+      "sha256": "56bf5e48408b1e513b46c61e846079e1a6cba98301904483a02b0ca7218ee53d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0599086984363058,
+      "dark_fraction": 0.04783127801532709,
+      "sha256": "879bd21d475377414e45a1f031dd5139455929f687c2c692b5d98a3c1748dcfb"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05153704736526822,
+      "dark_fraction": 0.04208547644130466,
+      "sha256": "b59c04d86f6f0cd3b91ef9e99cc589c5daeac354c59cac3df09f21e4864dc247"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.316761892958212,
+      "dark_fraction": 0.05146764165169073,
+      "sha256": "45f9df44b0d6aa7fa309e19c1eaa47106af52199c64d0b2122f401dfcc84fc70"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.26777467930842164,
+      "dark_fraction": 0.04922930738881659,
+      "sha256": "08c83b513bfbfe6ab5a35ba4507ef5237cf6b82cb2fb4025c8db799159670efd"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05623019561669868,
+      "dark_fraction": 0.04201111317675735,
+      "sha256": "5eb4f09e816159181061bb88ac89c687479102c2f0d36b989ee90aac2dfd43a1"
+    }
+  ],
+  "deck_sha256": "d89d6ea6a1145babbc3d8f028924812d3ffb0c69bbf0ecd403ead3884224d670"
+}

@@ -16,7 +16,8 @@ from lesson_quizzes import check_exports
 
 def main():
     inventory=json.loads((CONTROL/'inventory.json').read_text())
-    scope=json.loads((CONTROL/'REVIEW_SCOPE.json').read_text())
+    scope={'modules':{m:[1,2] for m in ['gensci_1_1','essmath_1_1','coremath_1_1']}}
+    # Immutable six-deck review checkpoint; current generation scope can expand.
     lessons=[];all_ids=[];archives={}
     for u in inventory['units']:
         if u['module'] not in scope['modules']:continue
@@ -65,7 +66,7 @@ def main():
     assert divisors[9]==[1,3,9] and divisors[15]==[1,3,5,15] and divisors[21]==[1,3,7,21]
     answer_counts=dict(Counter(q['correct'] for u in inventory['units'] if u['module'] in scope['modules']
         for n in [1,2] for q in json.loads((CONTROL/'specs'/(u['module']+'.json')).read_text())['lessons'][str(n)]['quizzes']))
-    report={'scope':'Six user-authorised review drafts only; full batch on hold','lessons':lessons,
+    report={'scope':'Original six user-authorised review drafts; later generation uses separate checks','lessons':lessons,
             'source_archives':archives,'unique_versioned_questions':18,'correct_option_distribution':answer_counts,
             'exact_arithmetic':'PASS: fraction conversions, recurring fractions, squared bounds, rounding, roots and divisor lists',
             'builder_content_review':'All 18 single-answer questions, explanations and distractor feedback compared with source keys; teacher review remains open.',

@@ -1,0 +1,201 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23173328375782362,
+      "dark_fraction": 0.05203197620375535,
+      "sha256": "248cfecd7f034e43aed3257437e2f0101965dee2f7724f97183450c12b0bd14b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05244097415876557,
+      "dark_fraction": 0.041261696721819424,
+      "sha256": "7cc48dc050089c8a3d9e8009f559b5baf269f72908c30efa67bf466ecdf86a50"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13829914688810394,
+      "dark_fraction": 0.11986366734832993,
+      "sha256": "3c48c0ed4e993f1d2401fcd9440d840e7cffab7ef1564bdb5355ba95f6f12f2a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0895027989506517,
+      "dark_fraction": 0.06889508582760116,
+      "sha256": "78e6c8a4443fa87671c82b4cb33cae239e4261a04f7c5792b41e020696db236f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16118320216479726,
+      "dark_fraction": 0.043785916423953235,
+      "sha256": "96769712d623aa0dc211e2e6e9942e297d99456eb3051db1cc2a143244904056"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22366817458841998,
+      "dark_fraction": 0.0490574456218628,
+      "sha256": "edebfb68cf96397cd25bbe4aae932a23b03fb317e1238ae36b5638705a6435f9"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05448265889983681,
+      "dark_fraction": 0.044945983350891325,
+      "sha256": "0447076e80e855a53b43b4bc7026f41349b4eb3d923ca8006eddd4515e028d70"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1780983660738262,
+      "dark_fraction": 0.04475429138005825,
+      "sha256": "0c852ad3e159a5bb2301f1bdd7f6cf401bc772c89d61fc2ce71239717b35b51f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.11787321063394683,
+      "dark_fraction": 0.1061841317056041,
+      "sha256": "90659f18208e654f09470c4739ea6eebf8c34205c76f33cd09775aa668eeee12"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3118167358658156,
+      "dark_fraction": 0.04649108673648551,
+      "sha256": "52d5b7af5a5efbfae9b9f3e90c307847eb0c11640ab932874bcd17f713a40335"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2658808948379501,
+      "dark_fraction": 0.04720993162710954,
+      "sha256": "3a21f356938aad2c8615a7a8e60bbdd820d95440e51a7b38e41b142d1fe66c07"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23819958273946004,
+      "dark_fraction": 0.03279089463138543,
+      "sha256": "fa9ce385a5751fa563b300c304fa088dd88f35fbcd5333b9bee95fd801568923"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06879097725723493,
+      "dark_fraction": 0.05511061535601413,
+      "sha256": "b3bd5c924a46d94baa40ca39eb51a8f7fdf1f9413e45a1513bbf4decbda9f077"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3150069199148954,
+      "dark_fraction": 0.05716634649149987,
+      "sha256": "ac5612a298ac34faebd7a8e1b3973244679cb1e995f97565a72528f5d64e060d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.27705025717295656,
+      "dark_fraction": 0.06134390944206895,
+      "sha256": "8cbae8eea96f979a25d33b3823c3ce4343cea6c0f09757ec676625dde05dbdbd"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06762925781330689,
+      "dark_fraction": 0.05573196174423168,
+      "sha256": "c971f7ad0dff50002224c917469a53e0c63f247026a74380664ed6221878c65a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05888826919501766,
+      "dark_fraction": 0.04730825638801099,
+      "sha256": "bf7df2a5ee32f1583e98d549d3bdcf23f17e6ba75280911d9ce2b1cbcd33280f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05807770961145194,
+      "dark_fraction": 0.04665138088450972,
+      "sha256": "08e8ed176fb2a288c77ebbd5d41bdf382897ae8deb0ac674c982dcc53d3a24ba"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3160389167751131,
+      "dark_fraction": 0.05027782941893371,
+      "sha256": "b53dbe49b03141aae3798c3b3e1420ff2ffaa1b1a2707650bf3857e6f846c4af"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.26661461238148354,
+      "dark_fraction": 0.049891966701782656,
+      "sha256": "1fd86171f73e61f58f4e4e2e626ab17f356b5ab70064e52d9c90aa0924981d72"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05473714651628762,
+      "dark_fraction": 0.04133358121088183,
+      "sha256": "bf7839d2007d514299258692def32cf79d51b1b06843fa648d188f27078df946"
+    }
+  ],
+  "deck_sha256": "488234e6c015296222d3929a7c376a27b0a145a0610df970b78f52b6abc3c0d3"
+}

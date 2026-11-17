@@ -1,0 +1,219 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2333486191154903,
+      "dark_fraction": 0.049443308339013864,
+      "sha256": "8e992ddbd4c0ecf35ba7059f19aa9559cbcb5a370592ce4b439e4949ab83ed0d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05255417157257648,
+      "dark_fraction": 0.04126004420482948,
+      "sha256": "219727d21e850405d28e20cb0bbd779d2d3eab9b873329522f92d85b339b415c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1390361694656173,
+      "dark_fraction": 0.12014542149511474,
+      "sha256": "cc638e34ea10dad60c9de80f2a4ad63ef964084c3ec2f12416c58c3ebf06a0fc"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0899184069736217,
+      "dark_fraction": 0.06975191588688522,
+      "sha256": "07c9298256232f5f7b7ee089fb4ec6ceae9eeb062ea9d34d47136ad1633ca439"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16053872053872054,
+      "dark_fraction": 0.04332155914978001,
+      "sha256": "97025c8bae3785324965ec094d86c88c0935f236fc251e9675984d6a44292214"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2237813720022309,
+      "dark_fraction": 0.05288880626303939,
+      "sha256": "c206863d85682347eee0fe50d1db0f2e5811f6bf8c8b0d0b643653d4a8319912"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.054595856313647724,
+      "dark_fraction": 0.04494433083390138,
+      "sha256": "6caaedc1ea038d76d73559224a0af50470321c57de07bd55d2191a95c0e919bd"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1776943256697858,
+      "dark_fraction": 0.045962281299704616,
+      "sha256": "154f47015cc5343aa877b51860b869cd35dbf6e0bba9cd56c1527280d4cb3d4b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05610460432546322,
+      "dark_fraction": 0.04590196442957179,
+      "sha256": "48cb141b2af589e1d2ab6d2653dbe5c8b6cd42596b86d97d66e2aed61501b719"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06591725021172874,
+      "dark_fraction": 0.05359112598376402,
+      "sha256": "2469f8ab8cee2df87479d1dd78a5011c5de99647eb6eaa88117aff50b5c715bf"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23209601123711554,
+      "dark_fraction": 0.029207411538699882,
+      "sha256": "95ccdee1bb18aea73b24935f72a8290405ba346d7c6f0d1dc3734e69396df342"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.31681725227737495,
+      "dark_fraction": 0.05050091921257566,
+      "sha256": "5a9fd5b9cde36440e5f97b459ecad53b461288f9942b8b116bd0eec1ba779f27"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2662560161946665,
+      "dark_fraction": 0.047547871351552334,
+      "sha256": "183e8c2d1d0d71125d3ad89562ee4c0b4d08c436c5ebbf14db1eb40947a37e8c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23521183202164797,
+      "dark_fraction": 0.03367168618702361,
+      "sha256": "6873f0bb253d401c9d0863bc18e1c83015fa748c22123e359eced479f3947dfa"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23806572886327487,
+      "dark_fraction": 0.03552415773274669,
+      "sha256": "a051bdf3521b60583468b99214c333d80f6709cbb3cf4ad9c54d48f3361ae866"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3181863626035405,
+      "dark_fraction": 0.0571655202330049,
+      "sha256": "e7497b3b0e91b598b80ed4b7d1e44d2bd2226f05023f2b4e00d3b457125d0c86"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2728751729978724,
+      "dark_fraction": 0.05549565181467022,
+      "sha256": "76aaa261b6eb06368854e6f7b2b3979abf24c5afd9ee6e643a7eac7156354901"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-18.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-18_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0677424552271178,
+      "dark_fraction": 0.055730309227241745,
+      "sha256": "9319a223d9c0744b0be64be7ea3dd86a0c17d7848bdaa69af895117da279819c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-19.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-19_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05903451694862738,
+      "dark_fraction": 0.047388403462023096,
+      "sha256": "7c01d701d436ff278174ae1b1d370c176324d941602963e078aabf4b85558e23"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-20.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-20_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05495032120798992,
+      "dark_fraction": 0.04439239015926132,
+      "sha256": "8883c12bdabbe885da117b2132c3a2e3756721da04d0d5615f27d40465f7fc0a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-21.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-21_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.3199495982318068,
+      "dark_fraction": 0.05397037863295532,
+      "sha256": "8c24031502d1cdb2b77e1ed5e2dd8f107a3bb61578f109d5e54e3d6e6ac41fe3"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-22.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-22_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2677755055669166,
+      "dark_fraction": 0.05119662886534052,
+      "sha256": "25208d7f041ee66eb22ead8766ecd82b550c05460908962bd3e2404e69078688"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/slide-23.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1/gpu/slide-23_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05566586106463407,
+      "dark_fraction": 0.04175249426783169,
+      "sha256": "40041f616a12fe4b5f772456d695d3ba80e5e8ae7d758242e1a8a87cd70c068e"
+    }
+  ],
+  "deck_sha256": "0f662b802768acdba9cca6647ff2de8f6a11b0099142952cc8b6d91e9736fd87"
+}

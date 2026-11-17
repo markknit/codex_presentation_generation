@@ -1,0 +1,87 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "ad85511cd54ee8a2e582a3476f982a41066d86af62c32e9a31215dba649fc02d",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "6783474656b2b021962e861e71a6fbb18f9d0d3bcb39aec4beda0be3cfffddaf",
+    "slide-02.png": "e8c00d6a7bd9f9d1eb99e5b436c148da8f5e70d2b91d6b0a20aa5261a82cdc60",
+    "slide-03.png": "5b5bb3e32a867e0e9a1174dfc315389dffec7aea255cb0599c5eae67b47d2e94",
+    "slide-04.png": "ddaa40f1846677273324838791f6355db2cf3ad821bbc99d0fd6aa2ab8a89885",
+    "slide-05.png": "44b68ac3e03ecd67bd2ae77c900209f1e9b51454950546dfe92ac2655a725bb2",
+    "slide-06.png": "682e16b2c58269991b0ebe0278e90a7ecac345ead990922eb3acfee19bd74c61",
+    "slide-07.png": "4db73d84805da22cda06cddb0568a197c27e6039a6b45b0e723d4989ea9c9737",
+    "slide-08.png": "1bf7bb08061473d1af4d81951f17e28856ba084521f5f5fee6122fc76db4bf3d",
+    "slide-09.png": "9bed012187689516ae972d613e2cd19fa8a3b2abde044c4a42d8705f6e69906b",
+    "slide-10.png": "c377125a2456f37437ea05589afeddd36c8eb3cf2fa691fac17c7025e7702fa3",
+    "slide-11.png": "13592804c7600d3ddaabb224cbcdbd4dbe6b14a6df37f3316e32fa768d7064c7",
+    "slide-12.png": "cf7bbf0ecdfe27f8c41fc0d0904436d98c4f3df0447286978c4d32440e12343f",
+    "slide-13.png": "9f1e8f12f045a09bf814d9b4096f62d33b2df9627ac68cfde5e7e482af1eca90",
+    "slide-14.png": "b2c42545817ef9c1871c1ceddc07110ad2488067b64ae7e8e7026c4041ae7e35",
+    "slide-15.png": "f72c41c06be3680cb2a96ff840940b1fee8a4adfb17988ac7e8d8b0b1d885d71",
+    "slide-16.png": "ccd719521a2aaadfba3f059b2c6db63574db1425a182f9cab36ace4b62d8fd54",
+    "slide-17.png": "efaca5ba604e396a42176a7e0c1f27850a94c881db336522c4a4f4605ed11fe3",
+    "slide-18.png": "58e61b3822d15ff8d36984f3853b14abc4c9427465356001e7fccb6bdd36cb41",
+    "slide-19.png": "c0f86c0e7d6070c216417fc36c186690806403049edfea4a198646ef32642bdf",
+    "slide-20.png": "a1fdf0b867825db68f5c54eff92ccbe1425d6c254633416c4550ead73a64af07",
+    "slide-21.png": "03a75dcba39de71de6963e8f8ead4817a01f05013f84a3b38e10471dbd4c66e1",
+    "slide-22.png": "de9c164cbbc1d51fe18fd674952ac0b2f8537c9d42db3d3c3c7971aab30783be"
+  },
+  "finding": "Inspected all 22 final slides and 19 print pages. All three original tasks, exact reciprocal models, reverse checks, units, nonzero divisors and no-loss assumptions retained. Quiz feedback does not imply fractional counts may be rounded upwards. Saved exit and independent records checked; external review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1_Student_Task.docx",
+      "sha256": "8592c1dccd3220a1a3b10184c591110388ae6270c6a37029e354b447b554fcec",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1_Teacher_Notes.docx",
+      "sha256": "c8ea1c4a4998100eb9b5020070f09d0fb6e3aaa9ceacf06e191037cfdbf2ec92",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

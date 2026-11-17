@@ -1,0 +1,87 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "7b9ca5a0437c99e709bd60c1865d03f212a174020894aae6ef9da1ebf52cafa0",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "9df1bd731ba569f676ff91c6233a4916a4565fa39bf0a3e10d82e46c34b885aa",
+    "slide-02.png": "56d7a03c323c209a4bba77be59eed8963ebf790f13ecbf572ac49018cfbfd46f",
+    "slide-03.png": "e0be2bf203d3c70fd3608a5d70179b5e028c33ca265b68139160f029385ab628",
+    "slide-04.png": "4a2aec5117381b8b51f0a98cc1305927fcd46f3544172648e03369889ea1dbe6",
+    "slide-05.png": "eb767769569a878046f9972055ade31414282221c04c860029672056137ba9c5",
+    "slide-06.png": "0645a46712d01d97201e0f6a44607b4b9f8d086621eca25c24147e373a982322",
+    "slide-07.png": "5fac863d5a47005ce0aaeb5c135d24f67a96576a6a31a3274e96e880dc97e258",
+    "slide-08.png": "116d5f40e830f97cb57558576871df8ef580befdf4b263b0ff86bab4bef9e581",
+    "slide-09.png": "b44752f7cfbf2cd818c0f475b9021fc706c32b3178452bf79959fa028d2e7095",
+    "slide-10.png": "b6985e53922d657a572ebb977d1ac679bccbfbc593d46b750965825490f5bec0",
+    "slide-11.png": "de0d4194e09d8e00d3bbd9a6c49509d3c6753f85d56f770647cde6638cca045e",
+    "slide-12.png": "d3187dc101708265c82d37d5ff8d1b2042b4c74c50ead0b0ee0df87ddf647b5c",
+    "slide-13.png": "ee875c9dfa83e4a94f2761257618134d3f91863cccbd1000e558f498350c812c",
+    "slide-14.png": "6dd77168eba3effc13d4d0da7c7bd090a8daad6acf4343db598953b18fef7f0e",
+    "slide-15.png": "bb1a2b182610a44d9be2d350c25b45ca5d02990f473a0966e22ef78eb63913fb",
+    "slide-16.png": "42b3557b1de8edb83bbfd13ddd4d87f068ee29a922ea1a845bdb6c07d4bb61bd",
+    "slide-17.png": "fcd2e6d143339922bdb529f61f540369279fca274bbb16c9872d1cf206f1ad68",
+    "slide-18.png": "ee1705c7780073ad5b8093bd5301f00d41f322d9153c7f0a018ab43d0e4e39f6",
+    "slide-19.png": "632d091121d27d19d44b1f474c0835e9b42e3e341b8939c234a7c4f048a76c96",
+    "slide-20.png": "dbfe581c1d6b9536d378179bea3853fcef4915eb4a4201c384527433029d0946",
+    "slide-21.png": "ae456e74ac2ed54192c23bc75f68783108b7d7f3c6a4bca91a427fc258645f92",
+    "slide-22.png": "71358c6066cf61a62c4a31d391f34fe088845dc8c399f85d1935882ca7decbd8"
+  },
+  "finding": "Inspected all 22 final slides and 19 print pages. Exact negative and irrational reciprocals, zero-domain product argument, declared three-decimal approximations, actual-device evidence limits, quiz/reinforcement sequence and writing space checked. External review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1_Student_Task.docx",
+      "sha256": "3266da4d9fb578e43ea5964f13e3135a3b29ee524691adc728f761b7053bcd2a",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1_Teacher_Notes.docx",
+      "sha256": "e397204f172c9d83d2f4312800556fc857a775f8fd0a6fccd8158910e1e62d95",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

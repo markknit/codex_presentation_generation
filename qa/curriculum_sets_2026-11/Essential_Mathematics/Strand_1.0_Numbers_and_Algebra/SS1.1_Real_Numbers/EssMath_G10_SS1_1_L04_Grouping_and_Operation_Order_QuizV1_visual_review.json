@@ -1,0 +1,89 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "cb3c1d94e62e7b52e3034c4a403fee4dd3ab0a80d50f36a6c69da737ab81da98",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "99533e63b74a2ed842c001b7d25a5216f18f05914af6d20ebafc3b9c27856866",
+    "slide-02.png": "589d522bd611267bb866a47250c20c0eb961014e0e5b4211abdec2688a7e509f",
+    "slide-03.png": "2242ef1b5be664e0be5deda3a224ec5ae4289e7e1f58c63325a7d1a3ef4c9142",
+    "slide-04.png": "95fad45bfedc49ec39712862019e7722f445fe2c524439d1e0e0af8117ad7c26",
+    "slide-05.png": "e30f733c8e5e246be6a545711e84cbe95c6cf981230c7a294c186d9e39bafbf3",
+    "slide-06.png": "aff91f2cd350d45c3d11532d0d3d2a8f4e88285369be41b3202ac7dfaffb7dcb",
+    "slide-07.png": "9a15fa4d89587307cf1eb75adaf71c80a610967f521cf703c20b8ad32fba9e7e",
+    "slide-08.png": "51bd41f7620c85f1db3dea1d21ca2380d30a8d55e3a9f083ef74438cb0d27033",
+    "slide-09.png": "889bd0d80057605d06593b52c87a996dee11c4c611cec78d65da620910083f85",
+    "slide-10.png": "1ce764aacfe315b5cda3b1ba91080df9335dffcd797deff8359967efa27bdb04",
+    "slide-11.png": "3fc492ec59660a589f8374747ae163699feab47be94d334edcda679cab4f97d0",
+    "slide-12.png": "047931915beff06e32a6d0140bed982a44955d6aa5eb1f4cbd9bb65d3d992087",
+    "slide-13.png": "6c7ffe5925dbe02a197b44b22f90580630a262c075453012222197c75a5a458d",
+    "slide-14.png": "9ea1cdf49c2d09f157bd35d05de983faa9cddfa60b4cc82ee63303aceb6d6d72",
+    "slide-15.png": "d4c810858230ca5a2d3aa127304de8272b944e9c414bdb5488bcf0078b80a29f",
+    "slide-16.png": "9244a231d61c8ca14b3ef5e6aece68db759732945c1c7263aabca39982b13c05",
+    "slide-17.png": "d239db7ef7965133620a4288ed44553a3c1c4fde4f61c1be0ad80d2f42f10c73",
+    "slide-18.png": "b71cc67549f59a621954191785d37abc551b71cbb4ad74d68d2b929411945d62",
+    "slide-19.png": "06298b3892d97682c43c840fa60800fd35e5ed0cb46ad52d66ec7432ca581f29",
+    "slide-20.png": "9368bb3023754c0ee56f821f33f647020211be2becefd2e3ad0fe69f3b0e02d0",
+    "slide-21.png": "4ccd85852b2c64e93eaa9d27e6ffbdf51221996219dbdc006fc83395ad47ec02",
+    "slide-22.png": "459abee665728fb78291fd63b32e88751b308e8586846d51969b8e329b9ee98b",
+    "slide-23.png": "49e1b6dd66bcc16a0ea273e7646f145c3fbc42e14edd0c458141a4bbec21b649"
+  },
+  "finding": "Inspected all 23 final slides and 19 print pages after widening the Expression header. Parenthesised power bases, equal-priority processing, all four source expressions, exact entry/check tasks, quiz options and exit-before-feedback retained. No unresolved layout defect; external review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1_Student_Task.docx",
+      "sha256": "1e32ac4e35512e75ff8c427b9c97721e95f4a327a7f4ab84b82d8bddd0f3a9c4",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1_Teacher_Notes.docx",
+      "sha256": "88fefa144849124a27daf6abd24c3a941b9e8e28ca44a52284e6e580d1079848",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

@@ -1,5 +1,7 @@
 # Three-curriculum review-draft continuation
 
+Current authorisation, 17 November 2026: proceed with quiz-enabled presentations across all three curricula, in small checked draft batches. Supersedes the prior six-lesson hold. Preserve all external release gates and the 5% usage checkpoint.
+
 Authorised 16 November 2026: the user instructed building the remainder of
 General Science, Essential Mathematics and Core Mathematics presentation sets,
 grouped by curriculum, strand and sub-strand. This extends the approved pilot

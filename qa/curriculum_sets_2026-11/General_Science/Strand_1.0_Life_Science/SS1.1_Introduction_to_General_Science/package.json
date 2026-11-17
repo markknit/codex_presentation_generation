@@ -1,11 +1,16 @@
 {
   "archive": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/review/gensci_1_1_Review.zip",
-  "sha256": "0430f93802a53fc09cdc5aa0746865005d4453dfa51874d2719d364da98e23fa",
-  "bytes": 1070559,
-  "verified_members": 32,
+  "sha256": "181c2b79b7b4ca97232f14c782b7906ea897686f5a92a5cc61ae3bcae428ece5",
+  "bytes": 3731565,
+  "verified_members": 109,
   "lessons": [
     1,
-    2
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
   ],
   "total_lessons": 7,
   "crc": "PASS",

@@ -1,0 +1,90 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "0f662b802768acdba9cca6647ff2de8f6a11b0099142952cc8b6d91e9736fd87",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "00627f7ee53d1ef7d16061c2fdf530d98203d00f35c0a91e15fd1b5aae1f14d7",
+    "slide-02.png": "f34401c8eb8665fa75aabdac025cfbb391c61c21a41d037e8fbd0b5f4b69768b",
+    "slide-03.png": "0d859fa5656f689cd8c8bf729a87b5b538f3868f265acadf2cbc082a0f7eea03",
+    "slide-04.png": "7bf08204e6a345e15ead95dc4635241b2538170f722e40757a006580bfe1b9c3",
+    "slide-05.png": "915c35836700ccb4aa096359392333a333536139672ab5ba0287c70c08bba0e8",
+    "slide-06.png": "88d47c610f6014a3c945e3af01bb2112921b6f5f430a464fc1d59046037ec144",
+    "slide-07.png": "867c6b677f830fb95e6b0e3bfc09a8a6cfe55f0792e1db7a53ff39f0356c2df3",
+    "slide-08.png": "a7f1a51e153ae7208f5cbd9d7e344476f6d0fefaea0c14ad61f60e74b689954e",
+    "slide-09.png": "20713ee28313cebf0f943d5f0d9ce4897b77ea2c6f1c5f4803aa86bd6e59226d",
+    "slide-10.png": "4f283b3f9f74eba2a0d64578bab35d5b3d3ead6fcbdb5513b77393617f428be3",
+    "slide-11.png": "e1b8695eb46cd1f5573fa970dfbe35a613e6d05e6e1ed64a002d9645fdfaa2e6",
+    "slide-12.png": "3d41ff040722177cfd65c98137dbb52ac4c1820abbc453ff8a9ee00ddabbb154",
+    "slide-13.png": "bcc33a824b682f6074524d1a600ad7746fa3c4801f2ff66ab6d939f2f6bf1e64",
+    "slide-14.png": "39860ba23c1a0b6399891adee9e39bef42899a6b649f406a0eba70ad3ec6c786",
+    "slide-15.png": "8782aaeab66f2f2172cb740166a4277381eeb8290f4607e6346b4e63aa6fa960",
+    "slide-16.png": "e5c106482abc8f07ad7b812c779cc24be8f831edf3b88b6e77b3e8b0fd0ace49",
+    "slide-17.png": "6e20ce2315e00adc34ac7a3e87455e1683f4666be59acc6d07a15751b0379bba",
+    "slide-18.png": "d23b9db6dd2f80f25d62b9e502b973a10c60f9569ceaa7e0b2affe0ff4276096",
+    "slide-19.png": "638ee2a174ef751311fa32fe5b4790f0e17844097ee2e06ede6bc81a762f5c4d",
+    "slide-20.png": "537e11e01a3f3c0be92cb4d5e2b80c5c5d01b4653caa8760f6cf40633a31d4fc",
+    "slide-21.png": "0b884b0f8b5930ba536fe144b74c2a9824156e6384ceac333283410755b58d9e",
+    "slide-22.png": "a0489d78c4f2106106fd90b97791955372436a7f403249dac5d3a31790eeb3bc",
+    "slide-23.png": "c53cdfde444c97481e051e4ce09b3eb412fc8bf52f87d7052fc94d97401cabd7"
+  },
+  "finding": "Inspected all 23 final slides and 20 print pages. Reserve subtracted once, exact six-serving decision and reverse volume check, seven-serving limit and likely product-versus-quotient error retained. Three source-backed quizzes and saved independent exit checked. External review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1_Student_Task.docx",
+      "sha256": "7f13cd18df76a8104db12b28285ad35fbdc47c23a1bb8d8605868b402eb15ff3",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1_Teacher_Notes.docx",
+      "sha256": "62e7f5f56b40df400e6d1659282db756dd91e1e328db22c5ed68cba9a08b2af2",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

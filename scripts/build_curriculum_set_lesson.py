@@ -133,7 +133,7 @@ class Lesson:
     def __init__(self,module,number):
         scope=json.loads((CONTROL/'REVIEW_SCOPE.json').read_text())
         if scope.get('status')=='active' and number not in scope['modules'].get(module,[]):
-            raise ValueError('Generation is limited to the six authorised review lessons; the full batch is on hold.')
+            raise ValueError('Lesson is outside the current authorised curriculum review-draft scope.')
         self.inventory=json.loads((CONTROL/'inventory.json').read_text())
         self.u=next(u for u in self.inventory['units'] if u['module']==module)
         self.path=Path(self.u['source_folder']);self.paths=unit_paths(self.u)
@@ -305,10 +305,13 @@ class Lesson:
         student.add_heading(f'{self.u["subject"]} · Grade 10 · Lesson {self.n}',0)
         student.add_paragraph('Name: ______________________  Class: __________  Date: __________')
         for i,t in enumerate(self.cards):
+            if self.spec.get('space_after_commas'):t=re.sub(r',(?=\S)',', ',t)
             if i==0:student.add_heading(t,1)
             else:student.add_paragraph(t)
-        if self.spec.get('record'):
-            r=self.spec['record'];t=student.add_table(rows=1,cols=len(r['headers']));t.style='Table Grid'
+        records=([self.spec['record']] if self.spec.get('record') else [])+self.spec.get('additional_records',[])
+        for r in records:
+            if r.get('page_break_before'):student.add_page_break()
+            t=student.add_table(rows=1,cols=len(r['headers']));t.style='Table Grid'
             for c,h in zip(t.rows[0].cells,r['headers']):c.text=h
             for row in r['rows']:
                 rr=t.add_row();rr.height=Inches(r.get('row_height',.43))
@@ -337,7 +340,20 @@ class Lesson:
         student.save(self.paths['output']/'student_materials'/(self.name+'_Student_Task.docx'))
         if self.assessment:
             original=next(self.path.glob('*_FinalExplanation.docx'))
-            shutil.copy2(original,self.paths['output']/'student_materials'/(self.name+'_Assessment_Prompts.docx'))
+            destination=self.paths['output']/'student_materials'/(self.name+'_Assessment_Prompts.docx')
+            shutil.copy2(original,destination)
+            assessment=Document(destination)
+            # Preserve source wording and scoring; keep rubric rows together and
+            # start the rubric on a fresh page instead of splitting a criterion.
+            for tab in assessment.tables:
+                for row in tab.rows:
+                    row._tr.get_or_add_trPr().append(OxmlElement('w:cantSplit'))
+                if tab.rows and 'RUBRIC' in tab.rows[0].cells[0].text.upper():
+                    paragraph=OxmlElement('w:p');properties=OxmlElement('w:pPr')
+                    properties.append(OxmlElement('w:pageBreakBefore'));paragraph.append(properties)
+                    tab._tbl.addprevious(paragraph)
+                    for row in list(tab.rows)[:2]:row._tr.get_or_add_trPr().append(OxmlElement('w:tblHeader'))
+            assessment.save(destination)
         teacher=Document();teacher.styles['Normal'].font.name='Calibri';teacher.styles['Normal'].font.size=Pt(10)
         teacher.add_heading(f'{self.u["subject"]} · {self.u["topic"]} · Lesson {self.n}',0)
         teacher.add_paragraph('PRIVATE TEACHER NOTES · REVIEW DRAFT · Native PowerPoint/teacher approval remains open.')
@@ -385,7 +401,7 @@ if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('module');p.add_argument('lesson',type=int)
     p.add_argument('--support-only',action='store_true');a=p.parse_args()
     usage=latest_usage()
-    if not a.support_only and (not usage['available'] or usage['remaining_percent']<=5):
+    if not a.support_only and (usage.get('pause_latched') or not usage['available'] or usage['remaining_percent']<=5):
         print(json.dumps(usage));raise SystemExit(75)
     lesson=Lesson(a.module,a.lesson)
     if a.support_only:

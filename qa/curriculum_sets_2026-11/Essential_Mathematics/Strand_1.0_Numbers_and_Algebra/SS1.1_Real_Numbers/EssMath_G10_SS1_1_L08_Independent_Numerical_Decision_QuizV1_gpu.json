@@ -1,0 +1,111 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23523992481047695,
+      "dark_fraction": 0.05239552994154221,
+      "sha256": "505cb89c9f3575a7c8631e32eadd0c2ca2916ba7afd9055028455d681f293d3b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05125033566751358,
+      "dark_fraction": 0.04051558530086138,
+      "sha256": "3783befd216ef23a8cf6e0874ab5f7d318fba0c2f38430de0f6c32e4971366fb"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13819999586870751,
+      "dark_fraction": 0.11968850054739626,
+      "sha256": "f957971b3cc398bb05ad8481e4ff045e776eda7db95de1ccad6029c54d488011"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08952593418851088,
+      "dark_fraction": 0.06953378364421309,
+      "sha256": "00c5d7573071de070f621b2c028feebaaba6af3fcc7a32bd86cb80bd764001b0"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16127822189171884,
+      "dark_fraction": 0.043681807853586996,
+      "sha256": "cae50b4e4cb1a56453acbc6651314f8cff1c58e234396cb07e407c1cd6ca0859"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06503480613910062,
+      "dark_fraction": 0.05248063456652414,
+      "sha256": "21dcb953ff85ec7baa7447baf32a70a8f021810f2c8b46bebcbf39e8a138f213"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06692693809258227,
+      "dark_fraction": 0.05406044080890707,
+      "sha256": "79e9a759bfc381afe954746ea33b73640f7c723b0b2c66ba7e029af1d2acf426"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06721034475635702,
+      "dark_fraction": 0.053939807068641425,
+      "sha256": "4f0091c8a833e6af7deca729ba9d85782a29255d4d65b6710074875dcfeffb17"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06716159550515378,
+      "dark_fraction": 0.05506186610481089,
+      "sha256": "4714bc784b59be9221a7557007d76bf82c57546f7226380572d2d778dbdaad29"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.056184751399475326,
+      "dark_fraction": 0.045527669331350315,
+      "sha256": "0a1e2bea12b8f02ebcbd1adf38dfa6d87a1379b32a214293c1b63e5b764b9a2e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.21425461155522504,
+      "dark_fraction": 0.036490880171861764,
+      "sha256": "32d832e3716a09b82b4d88445fc2298c5c4e075e7cea6c177d65e5bb84ca94db"
+    }
+  ],
+  "deck_sha256": "18ca87e727fdfb10a9157ee2776bd7319f124a92038a304271c677b83c5feeb9"
+}

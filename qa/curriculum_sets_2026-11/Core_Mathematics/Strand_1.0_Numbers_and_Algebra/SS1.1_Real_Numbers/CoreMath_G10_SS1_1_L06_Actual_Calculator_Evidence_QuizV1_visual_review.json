@@ -1,0 +1,84 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "488234e6c015296222d3929a7c376a27b0a145a0610df970b78f52b6abc3c0d3",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "fec82434ec46737306f1d2c3ea3e2a76dd6e76c1a13e405997eae03229a51ea8",
+    "slide-02.png": "36f1446f10faed91cc4ffffe37a8c8503bf2d84520b7f4cdd88f3888335996a3",
+    "slide-03.png": "5cd0bf3f90820b2f0996e4104e76c22ef3265d721645c546f980cf7de75e6f31",
+    "slide-04.png": "969d190d52e737107f9771a53f4d108cc909099e583fd90a9e45c83feff39ce7",
+    "slide-05.png": "c08551943ba386309cdbb5e6ab57ceac93db0f3969b5463f2337b91397997a48",
+    "slide-06.png": "6c7ecedcb90923e577f43f0b32ad3b72cba6ab619d09fe20ca10e2db3bba1720",
+    "slide-07.png": "f8a8d73388ffc13ffcb9fa3145e2ecaa569c3e75a4e03a94b6f39194fe4a07c9",
+    "slide-08.png": "6dab9cbe5422f825a330edaf33b70c9cd6c9bce8bf994ded02f8ae49a423b0a7",
+    "slide-09.png": "7841e7240997596fef25231fb723df71d1f132c835e3f38d14f5fce14fb8202e",
+    "slide-10.png": "f153dc15984e21e2cf20abca173151a9906376d45ff72a247a4c3160fd2ca882",
+    "slide-11.png": "78b3a3f68d2f3e5e2d63156d12b000276adf7d8348fbba4052d07b73c432c305",
+    "slide-12.png": "5d67071bb1acecce61fc62cbcae2e2580373eba45abbee2a3c6803e75d344013",
+    "slide-13.png": "57840465da6e9e37dedf50975c67bad75f698ea06592deb47ec37efe61306452",
+    "slide-14.png": "6fa8726edc3b49c6c53a1fc6853332f2036d2f2e23b7445771d9fe4c4bcea1cc",
+    "slide-15.png": "97ba4a9334bf2838e9f238d3790a948fbbab8191bbf98c85929af9a44dc352b7",
+    "slide-16.png": "574d5f74655f8f81d40335ec3aa16242df8fad445542a59214cc8d2fa1bb336b",
+    "slide-17.png": "78d29e2a5b5637caf29349cf7ec4f23b334952da9bd1b1ab2e97fb4504d76328",
+    "slide-18.png": "bc13eea2d42577b256b6ab5da7835756b574e6d2bcca4fe81d85ad4275570884",
+    "slide-19.png": "5957c73de3cf18838e522ee1d95e4f814fa0c25ed0dfd1baf4e88a9b253c430b",
+    "slide-20.png": "4f4a18500a988d45558387a1cae25b3f3610b27e12566adf0a8a8b155ad8aea2",
+    "slide-21.png": "8dbd776e21857f085f14f1db1e039e7f03abbc7fdc88694cf1e608746b74bf90"
+  },
+  "finding": "Inspected all 21 final slides and 18 print pages. All four required entries, original 14-minute device stage, zero-error check, exact/table comparison and four-significant-figure rounding retained. Actual use stays separate from written correctness; no invented display/observation. Quiz/exit sequence checked. External review gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1_Student_Task.docx",
+      "sha256": "aa46246e24215fb21eca1c2d781854f84e012ef9d22a5c1875789f3aef6ae1ce",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1_Teacher_Notes.docx",
+      "sha256": "b60c8bd2c9fb828bbf8403f802184f157eff8b2c3c8855e28cfa8f45f11171a3",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

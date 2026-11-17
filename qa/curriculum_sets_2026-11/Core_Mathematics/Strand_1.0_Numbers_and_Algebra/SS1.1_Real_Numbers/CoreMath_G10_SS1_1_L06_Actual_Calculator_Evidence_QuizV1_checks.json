@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1.pptx",
+  "sha256": "488234e6c015296222d3929a7c376a27b0a145a0610df970b78f52b6abc3c0d3",
+  "slides": 21,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 14.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 8.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1_Student_Task.docx",
+      "sha256": "aa46246e24215fb21eca1c2d781854f84e012ef9d22a5c1875789f3aef6ae1ce",
+      "pdf_sha256": "a982256d474b92d092aceae07f7125b7d1f7aca6e3072e3adaf0dd809bb19abc",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1_Teacher_Notes.docx",
+      "sha256": "b60c8bd2c9fb828bbf8403f802184f157eff8b2c3c8855e28cfa8f45f11171a3",
+      "pdf_sha256": "63de57afad67c004c182e2eeda7ffd927855ac15fcea464cbcb4e0da7caaf250",
+      "pages": 16,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/coremath_1_1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

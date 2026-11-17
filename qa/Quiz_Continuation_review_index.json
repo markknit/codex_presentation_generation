@@ -1,0 +1,362 @@
+{
+  "inventory_statuses": {
+    "review_draft": 23,
+    "authored_pending_build": 2,
+    "pending_quiz_design": 489
+  },
+  "reviewed_lessons": [
+    {
+      "module": "coremath_1_1",
+      "lesson": 1,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L01_Zero_Parity_and_Primes_QuizV1.pptx",
+      "sha256": "19dc6168378e878b6ed1c05dbe7842a57dbdfc37c40449dd081ff9e4411bd300",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        15,
+        20
+      ],
+      "print_pages": 19
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 2,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L02_Exact_Number_Classes_QuizV1.pptx",
+      "sha256": "0505a836301b87d749709e83d2262a7607a3f202d97a9b6a2f36a686101dc054",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        14,
+        20
+      ],
+      "print_pages": 19
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 3,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L03_One_Divided_by_a_Number_QuizV1.pptx",
+      "sha256": "e5d03d6065f83d3cba9b0d51ce0b794ec630218ba90b20cfa7870fbf092eac42",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        15,
+        20
+      ],
+      "print_pages": 18
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 4,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L04_Convert_Before_Inverting_QuizV1.pptx",
+      "sha256": "89f59d7c0e2476c611b65dbd91c469981d7caa12094ef490aaecb0a95fcdb6ad",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        15,
+        20
+      ],
+      "print_pages": 18
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 5,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L05_Reciprocal_Table_and_Scaling_QuizV1.pptx",
+      "sha256": "4451e5fbd3b902d881c0e9c38cbd30b374a56c2ced1e8a971d921fe331dd4a29",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        15,
+        20
+      ],
+      "print_pages": 18
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 6,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L06_Actual_Calculator_Evidence_QuizV1.pptx",
+      "sha256": "488234e6c015296222d3929a7c376a27b0a145a0610df970b78f52b6abc3c0d3",
+      "slides": 21,
+      "quiz_slides": [
+        10,
+        14,
+        19
+      ],
+      "print_pages": 18
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 7,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L07_Reciprocal_Models_for_Portion_Counts_QuizV1.pptx",
+      "sha256": "ad85511cd54ee8a2e582a3476f982a41066d86af62c32e9a31215dba649fc02d",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        15,
+        20
+      ],
+      "print_pages": 19
+    },
+    {
+      "module": "coremath_1_1",
+      "lesson": 8,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/CoreMath_G10_SS1_1_L08_Evidence_Based_Number_Advice_QuizV1.pptx",
+      "sha256": "a24c50b4588e273b2d1238a57baf115e237f71121cd2bad8fa25fd9613218410",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        15,
+        20
+      ],
+      "print_pages": 19
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 1,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L01_Exact_Number_Classes_QuizV1.pptx",
+      "sha256": "170cfb883933b163b9557bd3da2353a5e9b567c624d397327539210b03135b23",
+      "slides": 23,
+      "quiz_slides": [
+        12,
+        16,
+        21
+      ],
+      "print_pages": 20
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 2,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_QuizV1.pptx",
+      "sha256": "d668d8777d1acabaf80c0bb3337770cdaf74b4fbbb0e3c28366049272124aee5",
+      "slides": 23,
+      "quiz_slides": [
+        12,
+        15,
+        21
+      ],
+      "print_pages": 20
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 3,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1.pptx",
+      "sha256": "d89d6ea6a1145babbc3d8f028924812d3ffb0c69bbf0ecd403ead3884224d670",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        15,
+        20
+      ],
+      "print_pages": 19
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 4,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L04_Grouping_and_Operation_Order_QuizV1.pptx",
+      "sha256": "cb3c1d94e62e7b52e3034c4a403fee4dd3ab0a80d50f36a6c69da737ab81da98",
+      "slides": 23,
+      "quiz_slides": [
+        12,
+        16,
+        21
+      ],
+      "print_pages": 19
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 5,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L05_Reciprocals_and_Calculator_Evidence_QuizV1.pptx",
+      "sha256": "7b9ca5a0437c99e709bd60c1865d03f212a174020894aae6ef9da1ebf52cafa0",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        15,
+        20
+      ],
+      "print_pages": 19
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 6,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1.pptx",
+      "sha256": "8f24ba5707bada131676afd5537bc054e00af11fa2809df64e043273c7078ad2",
+      "slides": 22,
+      "quiz_slides": [
+        11,
+        15,
+        20
+      ],
+      "print_pages": 20
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 7,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L07_Full_Servings_and_Reverse_Checks_QuizV1.pptx",
+      "sha256": "0f662b802768acdba9cca6647ff2de8f6a11b0099142952cc8b6d91e9736fd87",
+      "slides": 23,
+      "quiz_slides": [
+        12,
+        16,
+        21
+      ],
+      "print_pages": 20
+    },
+    {
+      "module": "essmath_1_1",
+      "lesson": 8,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L08_Independent_Numerical_Decision_QuizV1.pptx",
+      "sha256": "18ca87e727fdfb10a9157ee2776bd7319f124a92038a304271c677b83c5feeb9",
+      "slides": 11,
+      "quiz_slides": [],
+      "print_pages": 16
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 1,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L01_Scientific_Questions_QuizV1.pptx",
+      "sha256": "eccd1b36f9a27fe6b549128573d2550440753a361924135695d1853a31aaee55",
+      "slides": 23,
+      "quiz_slides": [
+        12,
+        16,
+        21
+      ],
+      "print_pages": 21
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 2,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L02_Observation_and_Inference_QuizV1.pptx",
+      "sha256": "98798f07f216bf44e5a7515c29948aac7b1ba1ce3baf3cf00087e58d2c71fe99",
+      "slides": 23,
+      "quiz_slides": [
+        12,
+        15,
+        21
+      ],
+      "print_pages": 20
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 3,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_QuizV1.pptx",
+      "sha256": "e961e567c0aadc1e631671c7b6eb2497501b083a7f70882eee57914d32c4b007",
+      "slides": 23,
+      "quiz_slides": [
+        12,
+        16,
+        21
+      ],
+      "print_pages": 21
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 4,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1.pptx",
+      "sha256": "f18bf864e75ef73f8039f9a5da8e5aeee55e1cd758231add91e133cebb6b0c7e",
+      "slides": 23,
+      "quiz_slides": [
+        12,
+        16,
+        21
+      ],
+      "print_pages": 20
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 5,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_QuizV1.pptx",
+      "sha256": "5a1bc605f212063c1182530ff4543b7d3661e0932e2fa95e9ad2d674b7973d64",
+      "slides": 23,
+      "quiz_slides": [
+        12,
+        16,
+        21
+      ],
+      "print_pages": 24
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 6,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_QuizV1.pptx",
+      "sha256": "503b431725c97a8ffb44cc9642cce98fad9500f96e3f164721953bc454d16fd8",
+      "slides": 23,
+      "quiz_slides": [
+        13,
+        16,
+        21
+      ],
+      "print_pages": 21
+    },
+    {
+      "module": "gensci_1_1",
+      "lesson": 7,
+      "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_QuizV1.pptx",
+      "sha256": "b3235619d6d199b639a99e41169a9d4c8e6083d543dee58fe03c029914dbc158",
+      "slides": 11,
+      "quiz_slides": [],
+      "print_pages": 19
+    }
+  ],
+  "packages": [
+    {
+      "archive": "outputs/drafts/curriculum_sets_2026-11/Core_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/review/coremath_1_1_Review.zip",
+      "sha256": "8858f55004c1b7c62aa233e179896b444670cde37e65677aecc9b7a4d0af5d12",
+      "bytes": 4184324,
+      "verified_members": 122,
+      "lessons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "total_lessons": 10,
+      "crc": "PASS",
+      "classroom_release": false
+    },
+    {
+      "archive": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/review/essmath_1_1_Review.zip",
+      "sha256": "b4b63aa5b755070a002040452ec366a7f681bca73f5fcd22d970839fcfff676d",
+      "bytes": 4201532,
+      "verified_members": 124,
+      "lessons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "total_lessons": 8,
+      "crc": "PASS",
+      "classroom_release": false
+    },
+    {
+      "archive": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/review/gensci_1_1_Review.zip",
+      "sha256": "181c2b79b7b4ca97232f14c782b7906ea897686f5a92a5cc61ae3bcae428ece5",
+      "bytes": 3731565,
+      "verified_members": 109,
+      "lessons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "total_lessons": 7,
+      "crc": "PASS",
+      "classroom_release": false
+    }
+  ],
+  "slides": 493,
+  "quizzes": 63,
+  "print_pages": 447,
+  "classroom_release": false
+}

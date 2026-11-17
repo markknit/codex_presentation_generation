@@ -1,0 +1,90 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "f18bf864e75ef73f8039f9a5da8e5aeee55e1cd758231add91e133cebb6b0c7e",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "25eda7bf7a409a55c1f7467c2873703f4efcacd4951d10b6aef449c17774f150",
+    "slide-02.png": "8eae7727aa55f5a98ea8540b55fe9ff0364afe508595e281cf4d50fae957736c",
+    "slide-03.png": "d22b58b0c2a28544ea2ad8975d3038a7c95ad197c9ef8f7899973e7681637881",
+    "slide-04.png": "4416f2ecf7b330a77fcd0ea1ee0ce533595e2ec0c3c8efde5f3d24181dd035b5",
+    "slide-05.png": "2f3242673b89ccef693c74b217cf7f8ecaa7012d73c4378582a18aaa1d625d33",
+    "slide-06.png": "7f3e885310e940f1e11c8103914183ab4a2df52159b6b6c65463b11a5d3071a7",
+    "slide-07.png": "93bc3c6b878f5351f47045e20cee8dcd30a8f34efc6d560ac931dc9aec416f58",
+    "slide-08.png": "90c1e5b23f4e87a67d8e3b92eeb07b965714a36943852b92b5638583ba6fc93d",
+    "slide-09.png": "fb9198e2936db3d5c54458e65b284df6af15769b525fb4fee0289264008bfa9a",
+    "slide-10.png": "a5e00d6144970aa306cb7b7fea2a30e63db0e6d4fd1eb5982df2ac1480ac6a09",
+    "slide-11.png": "2d6c081a85e5f3e3909298dc285c399ba8e466c7e0ea91ce7b0e589f736e2546",
+    "slide-12.png": "a0a6850a2d296a2a8c9d2036a0fdf327d63a174b4cd2db342939355788d26ecc",
+    "slide-13.png": "5d88b5ffcb67ae65548961720d03a34dbf703ee689ce94d7fa22ebcc6db5d7df",
+    "slide-14.png": "3e44af2bb40d2ad2492f6cf823b48872709ea56623676cdd2505b927b697d683",
+    "slide-15.png": "35cc9e99928ccfca9531a70aaffff5f0e75cd2fca46ee4a38836afda9897dc2b",
+    "slide-16.png": "d90348de1e14bf683b547e3c1b92f7c77cc5a0279169aa5246c52af1cb47220c",
+    "slide-17.png": "506e7deb070259b22f34dca65824a2d42698877f6239cf0120042e7bff6fa7b9",
+    "slide-18.png": "e87071fe6b799fa544385f77b8f748d41ec767cd1bc0adc32dc9ac34eba2c91d",
+    "slide-19.png": "40b3786b50ef5155a7e28fb23610dc931fb70a438216a65ac418c36720a7fbd5",
+    "slide-20.png": "7981bf6fbbe59da8bbdcae33b8c64fac4aefc5d63c803d5a5756ed2d89a5cbfe",
+    "slide-21.png": "c0b0b92db33808713afacd5b1cc594f7438788c8565a2588f486d78f56bbbc86",
+    "slide-22.png": "5d12bfe0a0ffdfe74c99f6950601e7e27ad67d3bc8046d07bd190057a159b980",
+    "slide-23.png": "fdb0481041b68b2c354e40075f08f5218d1a03f7d4744915f693bab1a7b825ce"
+  },
+  "finding": "Inspected final slides 1\u201323 and all 20 print pages. Count changes, full source data before prediction, confound/design quiz reasoning, readable layouts and independent exit before reinforcement checked. Native PowerPoint/teacher/ARES and pacing gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1_Student_Task.docx",
+      "sha256": "5d81375d06cbddd310bf5aedc9699c23ba337c0dcc0316d8c8e6302e50998fb2",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1_Teacher_Notes.docx",
+      "sha256": "761b3432802dfdf300b3928a096e4f503aa853fb31d5b543741f952e1a580a56",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

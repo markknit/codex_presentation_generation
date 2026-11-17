@@ -1,0 +1,50 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1.pptx",
+  "sha256": "f18bf864e75ef73f8039f9a5da8e5aeee55e1cd758231add91e133cebb6b0c7e",
+  "slides": 23,
+  "design_revision": "quiz-v1",
+  "quizzes": {
+    "design_revision": "quiz-v1",
+    "questions": 3,
+    "manifest_and_slide_checks": "PASS",
+    "privacy_boundary": "Public questions and private keys separated; live server unimplemented"
+  },
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1_Student_Task.docx",
+      "sha256": "5d81375d06cbddd310bf5aedc9699c23ba337c0dcc0316d8c8e6302e50998fb2",
+      "pdf_sha256": "23bb7cd5ca9c5308d75ab991e1c6c1ea4ba4d8aa91af60462fb5b6fd9af5d6c9",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1_Teacher_Notes.docx",
+      "sha256": "761b3432802dfdf300b3928a096e4f503aa853fb31d5b543741f952e1a580a56",
+      "pdf_sha256": "eed83a25800eab4bf3a0bdae68952b9e4171793b050a5aee4617241680447fbc",
+      "pages": 18,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_QuizV1_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

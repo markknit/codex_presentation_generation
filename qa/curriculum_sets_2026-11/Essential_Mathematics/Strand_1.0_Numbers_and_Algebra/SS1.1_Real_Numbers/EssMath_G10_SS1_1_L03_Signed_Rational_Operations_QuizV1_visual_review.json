@@ -1,0 +1,87 @@
+{
+  "design_revision": "quiz-v1",
+  "deck_sha256": "d89d6ea6a1145babbc3d8f028924812d3ffb0c69bbf0ecd403ead3884224d670",
+  "slides_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "slide_render_hashes": {
+    "slide-01.png": "004c08c75401c940ee02f319a402bf0e33b1b58784d322abc8135f1e28a37d78",
+    "slide-02.png": "d42b37165b0479bfea6b237c73648089512e88afb664c6aa6e19d1f23eff1af3",
+    "slide-03.png": "bd37aeb87a9f2efeb875552313001d887f2a00801c973ba1908dbfd46c3c9364",
+    "slide-04.png": "583f0659f2dad62fed57186679559895b8436ddccada72190043cc216aa8d6f3",
+    "slide-05.png": "51bb92d319d5eea00df0a844d925751cb04dd37ab5559ca7c9b6b9ada81dae37",
+    "slide-06.png": "13f5327e39abd93d8bc0eaee3656d440792eefce375333dfb3c66c4a1b5d6b88",
+    "slide-07.png": "265954b1bd649ce36413bf3ffe2690955d9fdbcf20747327f13d3f42e0da4372",
+    "slide-08.png": "756e59ba1e97d174a3ba6d41a43733368e03a2a3c844f6b3d2b942c7037d873c",
+    "slide-09.png": "cd283ad0485e91debebf3a351ae1f0aec75d2f9f86b31b7a1182036c299c1da5",
+    "slide-10.png": "04545e511394c21d49991c9ab664923b4a7b9e03f9d4b896457b10e9e047c34c",
+    "slide-11.png": "068f9e470f669c94884e2e40f636421033e82ae515dff76db100a5ed059947ae",
+    "slide-12.png": "e69ed9a7ea993842d89b78c7f0597fdf5af73a6abe0033b244df2a2ec4432f9a",
+    "slide-13.png": "21ca6b7112912b25e408e53f4fcfc9b8eded1d16754353b7a775dc5ea08590d4",
+    "slide-14.png": "4e08770774cb5e480e729925bf3b3bfcd8b34e13cca9cd2baab4277cfe6c50a3",
+    "slide-15.png": "4258ccac2a7f1b807fdc172fac53035111bdcf10f9541cb6574191e610559f48",
+    "slide-16.png": "e75f0e155e874aecb729b0d8e0f2e48d712e1c0de8431e64d5f65f4477e97736",
+    "slide-17.png": "54a2340a0784585bb79c7ba95fdac1e94bdf4bdf350d537bbe2857ebe7253ded",
+    "slide-18.png": "28634de311d467b45d4ee3e4104100595eb25390e8626787ee4b07bfdc095d56",
+    "slide-19.png": "eb492374a6cb105c8423e628c5869e62f8aca5c379ac78a0b17d0f0710ce6b27",
+    "slide-20.png": "2de2805d7c3ecaa7ebf1f510800f1c9f37d72b6e261fd6e5c89657bb231a70e4",
+    "slide-21.png": "12e672b8a79ee720a31e51370d3b0bc43ab46843e834da8f6aeb0f5514a8dd77",
+    "slide-22.png": "172c14ec6d7652ee3e9e7e1125fc8ca2227ee982612241a893029beec2a68f4d"
+  },
+  "finding": "Inspected all 22 final slides and 19 print pages after widening the table Item header and increasing writing space. Exact fraction/sign/zero-domain reasoning, all required task checks, quiz choices and independent exit before feedback verified. External teacher/native/ARES and pacing gates remain open.",
+  "print_documents_reviewed": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1_Student_Task.docx",
+      "sha256": "f764479026c02ad5c7b4e33dface284d02fb871f4552a5f6ce1af2fd48c247a9",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L03_Signed_Rational_Operations_QuizV1_Teacher_Notes.docx",
+      "sha256": "bd4550d1789cbf3688bd5bdeb02a668c6d9029b5bbbc92579d40cbec9b2bdaf6",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "limits": "Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open."
+}

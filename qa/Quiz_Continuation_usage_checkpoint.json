@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-11-17T18:23:42.206843+00:00",
+  "thread_id": "01a1d6fd-8020-7ee0-9923-b8655513ebf7",
+  "pause_latched": true,
+  "reason": "Context compacted during the in-flight Core Mathematics Lesson 8 render inspection. Stop new lessons, finish that review and continuity checkpoint only. Compaction does not renew generation authorisation in this session.",
+  "last_manual_precompaction_check": {
+    "timestamp": "2026-11-17T18:18:01.605Z",
+    "context_remaining_percent": 9.57,
+    "account_remaining_percent": 25
+  },
+  "last_emitted_precompaction_check": {
+    "timestamp": "2026-11-17T18:19:00.872Z",
+    "context_remaining_percent": 6.56,
+    "account_remaining_percent": 25
+  },
+  "compaction_timestamp": "2026-11-17T18:21:24.554Z",
+  "numerical_five_percent_observed_in_this_generation_run": false,
+  "latest_account_remaining_percent_at_checkpoint": 23,
+  "stopping_rule": "At 5% account or context remaining stop at a clean boundary and run /update; stop conservatively on compaction before a numerical threshold reading. Refreshed context never clears the pause.",
+  "clean_boundary": "Core Mathematics Real Numbers Lesson 8 reviewed; Lesson 9 authored, unbuilt.",
+  "resume": "New session: /restart, read STATUS.md and HANDOFF_2026-11-17_QUIZ_CONTINUATION.md. The saved guard latch applies only to this thread; explicit reset/resume in the same thread requires deliberately clearing this latch after restart.",
+  "guard_refusal_verified": {
+    "session_usage_exit": 75,
+    "builder_exit": 75,
+    "no_new_lesson_created": true
+  }
+}

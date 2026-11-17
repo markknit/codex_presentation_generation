@@ -1,0 +1,186 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L06_Rational_Models_and_Units_QuizV1.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Which signed calculation matches the situation?",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "How to use this lesson",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Our unit journey",
+      "phase": "Unit map",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Your first idea and reason",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 1
+    },
+    {
+      "slide": 7,
+      "title": "BEFORE \u00b7 keep our reasons",
+      "phase": "Predict",
+      "minutes": 1.0,
+      "hidden": false,
+      "authored_slide": 2
+    },
+    {
+      "slide": 8,
+      "title": "RN6 \u00b7 model every fictional context",
+      "phase": "Observe",
+      "minutes": 10.0,
+      "hidden": false,
+      "authored_slide": 3
+    },
+    {
+      "slide": 9,
+      "title": "Explain and check one chosen model",
+      "phase": "Observe",
+      "minutes": 6.0,
+      "hidden": false,
+      "authored_slide": 4
+    },
+    {
+      "slide": 10,
+      "title": "Operations must represent the situation",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false,
+      "authored_slide": 5
+    },
+    {
+      "slide": 11,
+      "title": "Quiz 1 \u00b7 pause and check your understanding",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L06.Q01.v1",
+      "quiz_stage": "question"
+    },
+    {
+      "slide": 12,
+      "title": "Quiz 1 \u00b7 check the reasoning",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L06.Q01.v1",
+      "quiz_stage": "feedback"
+    },
+    {
+      "slide": 13,
+      "title": "What does the reciprocal count here?",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false,
+      "authored_slide": 6
+    },
+    {
+      "slide": 14,
+      "title": "The slash separates two readings",
+      "phase": "Explain",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 7
+    },
+    {
+      "slide": 15,
+      "title": "Quiz 2 \u00b7 pause and check your understanding",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L06.Q02.v1",
+      "quiz_stage": "question"
+    },
+    {
+      "slide": 16,
+      "title": "Quiz 2 \u00b7 check the reasoning",
+      "phase": "Explain",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L06.Q02.v1",
+      "quiz_stage": "feedback"
+    },
+    {
+      "slide": 17,
+      "title": "Our Driving Question Board",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false,
+      "authored_slide": 8
+    },
+    {
+      "slide": 18,
+      "title": "Revise your own model",
+      "phase": "Model Building",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 9
+    },
+    {
+      "slide": 19,
+      "title": "Individual exit",
+      "phase": "Model Building",
+      "minutes": 2.0,
+      "hidden": false,
+      "authored_slide": 10
+    },
+    {
+      "slide": 20,
+      "title": "Quiz 3 \u00b7 pause and check your understanding",
+      "phase": "Model Building",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L06.Q03.v1",
+      "quiz_stage": "question"
+    },
+    {
+      "slide": 21,
+      "title": "Quiz 3 \u00b7 check the reasoning",
+      "phase": "Model Building",
+      "minutes": 0.5,
+      "hidden": false,
+      "quiz_id": "essmath_1_1.L06.Q03.v1",
+      "quiz_stage": "feedback"
+    },
+    {
+      "slide": 22,
+      "title": "Summary Table",
+      "phase": "Model Building",
+      "minutes": 1.0,
+      "hidden": false,
+      "authored_slide": "summary"
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "8f24ba5707bada131676afd5537bc054e00af11fa2809df64e043273c7078ad2",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED",
+  "design_revision": "quiz-v1"
+}
