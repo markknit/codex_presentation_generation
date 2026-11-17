@@ -1,0 +1,85 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Independent transfer: repair a new claim",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "How to use this lesson",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Our unit journey",
+      "phase": "Unit map",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Independent work \u00b7 procedure",
+      "phase": "Predict",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "Assessment \u00b7 sections 1\u20132",
+      "phase": "Observe",
+      "minutes": 16.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "Assessment \u00b7 sections 3\u20134",
+      "phase": "Explain",
+      "minutes": 12.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "A separate still-open scientific question",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Check and submit",
+      "phase": "Model Building",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "Summary Table",
+      "phase": "Model Building",
+      "minutes": 0.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "524751f047f56568506ea90d9bd9010b11ae8fb52d97d4f3c7fe1d4fe0aa3bd7",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

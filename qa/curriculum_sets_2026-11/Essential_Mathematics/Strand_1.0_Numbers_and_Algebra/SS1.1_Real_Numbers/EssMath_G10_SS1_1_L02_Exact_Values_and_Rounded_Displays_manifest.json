@@ -1,0 +1,127 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Can a rounded display tell the whole story?",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "How to use this lesson",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Our unit journey",
+      "phase": "Unit map",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Your first idea and reason",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "BEFORE \u00b7 keep our reasons",
+      "phase": "Predict",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "RN2 \u00b7 audit three exact-value claims",
+      "phase": "Observe",
+      "minutes": 8.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Locate the numbers",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Exact values that display alike",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "What changes when equality becomes approximation?",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Use squares to bracket the value",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Same rounded display, different exact values",
+      "phase": "Explain",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Our Driving Question Board",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Revise your own model",
+      "phase": "Model Building",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Individual exit",
+      "phase": "Model Building",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Summary Table",
+      "phase": "Model Building",
+      "minutes": 1.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "a875557c6cc7e4b8554a5bd6f658fb055fad7ebd78a4677902d30a89ffcb64f6",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

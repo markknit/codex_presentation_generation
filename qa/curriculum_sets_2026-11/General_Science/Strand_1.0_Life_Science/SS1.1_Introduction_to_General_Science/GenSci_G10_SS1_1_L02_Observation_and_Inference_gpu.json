@@ -1,0 +1,165 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23478052508727357,
+      "dark_fraction": 0.04952345541302597,
+      "sha256": "28667996c39c24bc3f69474b2962a437f4c82467424946fcfbdf0f0b0c0519b6"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.052751647352874347,
+      "dark_fraction": 0.04126665427278924,
+      "sha256": "6eecc10b2f16316eecf3d7875eaad719bfecc8de4b05041e15e6d8e5e0adf8ef"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1393518002106959,
+      "dark_fraction": 0.1201883869368532,
+      "sha256": "a685dc20971a2ea61b8db98bd5d27b1a1a52d0bc15366acdfe1cff64bb1ca508"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08353142880750243,
+      "dark_fraction": 0.06540166491086737,
+      "sha256": "51e89c99a544346bf2638c44ea64347065c02875a400a8500ccb50e0e76a3135"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16056020325958975,
+      "dark_fraction": 0.043134824729916754,
+      "sha256": "52f05234e399a6781bc3305ce102006fc01821b4504c9592539831ac14522ee5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22710706244448575,
+      "dark_fraction": 0.053036706533639046,
+      "sha256": "14027137822c6d204ecba2d14c6ec24918b87deb529e811caf661243c09fdb68"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05479333209394559,
+      "dark_fraction": 0.04495094090186115,
+      "sha256": "839fdc3e002a6d5b6e0150a54ee992418a11ed8333604a35fe54da9a379d7e8e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.12207225630538514,
+      "dark_fraction": 0.1050323273636157,
+      "sha256": "3a09d1dd5f193a3aa9c7b05e95372937d37b03ce298ad276a9004590994a7306"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0649439177046539,
+      "dark_fraction": 0.05248559211749396,
+      "sha256": "b708c91904c339c300317175ef6aa555169cd030aa631d564d51e1933152481f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.060107000475098635,
+      "dark_fraction": 0.048875668752969365,
+      "sha256": "e4d5289f548ef79a843b7d5a33b9bd2909eea05f48877845d978fd37b88ae362"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1628324141207577,
+      "dark_fraction": 0.15093511805168247,
+      "sha256": "d89db7e983716d59ad730fddd7d3e97b9b3e907cd9e4204377558949aed4a7fd"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.43660738261965254,
+      "dark_fraction": 0.03802441593852637,
+      "sha256": "b9157c32a7df6d38cbc126c79fa2edbbecc17b995d5448ae46769c5d740f559b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05796368593914606,
+      "dark_fraction": 0.04682241639296854,
+      "sha256": "5a6fc9875ff0d461fc0edc1ac3e5b739e2ca19c2dbc51844ca76818d49d6c017"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06977091983226953,
+      "dark_fraction": 0.0570407552002644,
+      "sha256": "f287d3413a49912e5fb77c8df723a1e747fa51e22790d5a98871e08ae0137fb7"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05938402429199975,
+      "dark_fraction": 0.04744541529817604,
+      "sha256": "cee933510a42dab121e8078fc8ea18bfd49703f4a76b57a04f7883e5861c329e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05377455536964739,
+      "dark_fraction": 0.04342566772014625,
+      "sha256": "d6d629d8716cae53cc87d388851c227857e5731078e9512591b1216b3572c4da"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05532213753072649,
+      "dark_fraction": 0.04147404515502675,
+      "sha256": "de13d4641824e950ae0922a9fdac57a002256076aef5e982ebbd00d68ad2b98f"
+    }
+  ],
+  "deck_sha256": "d06466871e2ef7723e549fd8836e87fa86b28e857ea09f3091ca1db2bd967f3c"
+}

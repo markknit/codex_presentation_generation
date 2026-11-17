@@ -1,0 +1,43 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/presentations/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays.pptx",
+  "sha256": "a875557c6cc7e4b8554a5bd6f658fb055fad7ebd78a4677902d30a89ffcb64f6",
+  "slides": 17,
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/student_materials/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_Student_Task.docx",
+      "sha256": "066d0719703ca67cb848d9349f13acf483df794b905e31dfba800d109515d4de",
+      "pdf_sha256": "0117db6ddfa227d77372183ccff4b786a799eb957a3685b87a9dfd8f8fc15d19",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/Essential_Mathematics/Strand_1.0_Numbers_and_Algebra/SS1.1_Real_Numbers/teacher_notes/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_Teacher_Notes.docx",
+      "sha256": "0ae766ce4117eb165880496f783670b362b4b8ca5e3e22dd0d71ee301331cfb7",
+      "pdf_sha256": "b068714b830c2a2d3ebea535534659770a099fd66128ac7865fd90e4aede0492",
+      "pages": 12,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/essmath_1_1/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays/EssMath_G10_SS1_1_L02_Exact_Values_and_Rounded_Displays_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer.pptx",
+  "sha256": "524751f047f56568506ea90d9bd9010b11ae8fb52d97d4f3c7fe1d4fe0aa3bd7",
+  "structural_status": "PASS",
+  "errors": [],
+  "slides": 11,
+  "hidden_slides": [
+    2,
+    3
+  ],
+  "slide_minutes": [
+    0.25,
+    0.0,
+    0.0,
+    0.25,
+    0.5,
+    3.0,
+    16.0,
+    12.0,
+    4.0,
+    4.0,
+    0.0
+  ],
+  "total_minutes": 40.0,
+  "formative_check_slides": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "render_font": "Carlito-Regular.ttf: \"Carlito\" \"Regular\"",
+  "release_status": "DRAFT \u2014 NOT APPROVED",
+  "pending": [
+    "Native PowerPoint and Presenter View",
+    "Teacher/source-owner approval",
+    "Calibri fidelity",
+    "ARES link/offline/content verification"
+  ],
+  "limits": "Geometry detects canvas bounds, not all text overflow. Rendered inspection and science review are separate."
+}

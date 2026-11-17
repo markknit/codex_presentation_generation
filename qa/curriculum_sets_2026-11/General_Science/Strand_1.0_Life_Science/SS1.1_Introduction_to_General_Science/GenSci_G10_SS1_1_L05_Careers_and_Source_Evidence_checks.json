@@ -1,0 +1,43 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence.pptx",
+  "sha256": "6a40fc4d1b8a0e9b8a0433f74209ffae5593ae34fd93c34b82436d7dd7e8d219",
+  "slides": 17,
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_Student_Task.docx",
+      "sha256": "789dc02d01df1b5739d28eda2f55f8856aa08810371d1e6ad4485c3105911b57",
+      "pdf_sha256": "3b594c14cfde2ceb619749f74507c5485dad896710f3734dbe467b816c5e87d8",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_Teacher_Notes.docx",
+      "sha256": "c753b46f4c468f5eee03f6027ac6ce0593368ea3eb02b242277be1b7a710e96b",
+      "pdf_sha256": "9f4aa225f568bf354c93603cb6f58d6b89b58452873e48280b4fa274b851af74",
+      "pages": 16,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

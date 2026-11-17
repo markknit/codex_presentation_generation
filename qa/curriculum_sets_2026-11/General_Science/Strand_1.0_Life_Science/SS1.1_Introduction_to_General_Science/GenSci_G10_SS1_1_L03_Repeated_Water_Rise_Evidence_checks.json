@@ -1,0 +1,43 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence.pptx",
+  "sha256": "65a28699b496e9b94b15d78a6bdf5cf14aa069443f497149d1d9ff09a3b76c8e",
+  "slides": 17,
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_Student_Task.docx",
+      "sha256": "50a7f96ea69e49e2ad6df634558228bca755bf96e0f4094711e92be33b74d20b",
+      "pdf_sha256": "346d7de59bb22b14a3710ff93a7d263e310c02513e6d462b0a6373fd88b80f18",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_Teacher_Notes.docx",
+      "sha256": "eee8dfd82bcb43ed944dd8afff58b9c5b0f5141ac6c680cfdfc2699e2e61d62f",
+      "pdf_sha256": "5701c252f75c23048c5aee03586f2233704ee3983ea8061c0490f857b2e89ccf",
+      "pages": 13,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23558860589535435,
+      "dark_fraction": 0.05359277850075396,
+      "sha256": "71e419db231cecdf9616f15aa5260b283108bac4fbe41f51f07c0fd595d84566"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0527557786453492,
+      "dark_fraction": 0.04126252298031439,
+      "sha256": "38fb25070eb62190586fc00a6f5c693352369b25c385e4a696c723b3aaa3c4a3"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13926173803474418,
+      "dark_fraction": 0.12012311251575056,
+      "sha256": "b4a404b8c17dc16a1dc6704b9d08a495f144f4912f2033319af0e68243087707"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08336452459151845,
+      "dark_fraction": 0.06533556423126975,
+      "sha256": "4860fb44871b2e8ecfa39f639387705e844f8e4d8e5f719087cc077b26b1110d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.15833426287414018,
+      "dark_fraction": 0.04167730474478941,
+      "sha256": "5a363b96be71e7987059ad4e0c43f1a1522c75620ce313d393700783b5cacc48"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.44844188304311006,
+      "dark_fraction": 0.04495837722831588,
+      "sha256": "1e2f90a018249bdc9591b8ba8fa7efa97fb79d7de56f8770e047a49b3a66f5d0"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05479746338642044,
+      "dark_fraction": 0.044946809609386296,
+      "sha256": "bd78d54c44c756371cd6b60af1ac7ca87b5a6d4d515666099fe7b31706da536b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.15416909380099564,
+      "dark_fraction": 0.14144471297845532,
+      "sha256": "596c7ba9b6c722fc92ba92082dd2abf50775b1c2c145f9474806883bd62f6af4"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0654867695358493,
+      "dark_fraction": 0.052730990890500096,
+      "sha256": "a6238bdf60dbda91e418aec9978309d25b5ecbce9e73f2213e233fcc61a14c80"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05787114498770941,
+      "dark_fraction": 0.04694305013323418,
+      "sha256": "99e896046c09247e2c4babe011d93da41e2a2dc81b112b58cdac1c604833ae07"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.2315044101547169,
+      "dark_fraction": 0.030312945404969944,
+      "sha256": "b2a59ab4de0763dcfb5eb3c431e48b280937298cebe13c046c5f4683d6e8e57f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.43723203404185,
+      "dark_fraction": 0.03457396046353101,
+      "sha256": "f91dc2debaac73feac56121cf8741273a0f260791318630756c0739a56ce6b37"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06284108983495487,
+      "dark_fraction": 0.05078349961785544,
+      "sha256": "52a18d23e1060f1b7e99779fb2ad0f5ec784a58bbea54fb7cee1c3eaf390d5b2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06794406229989051,
+      "dark_fraction": 0.05573278800272665,
+      "sha256": "8c6f54c1c796184aa9a6d12c894f75bcbf344bd7cc3a05655cc11710f43112ae"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06025903203817314,
+      "dark_fraction": 0.04808328685629299,
+      "sha256": "e5c4468651ced3d4161e96640b906f60521a46773560622afbf60bcfe70d35db"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05080993988969449,
+      "dark_fraction": 0.04142446964532854,
+      "sha256": "40dd12efdfaf89e5ff0cbc351cdf5da6a87803dea5f3b8a657dfe84c8c64f163"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05450331536221107,
+      "dark_fraction": 0.04074859019644296,
+      "sha256": "3b972cc425996624631373fea75d64728bfca51b54078c39577161caf2ece040"
+    }
+  ],
+  "deck_sha256": "61094a248dbfafb03592e20ac2292823439931a14006b2375befa21f53a785db"
+}

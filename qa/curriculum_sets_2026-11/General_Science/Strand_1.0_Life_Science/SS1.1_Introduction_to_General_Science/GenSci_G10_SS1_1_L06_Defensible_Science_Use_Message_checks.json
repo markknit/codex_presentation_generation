@@ -1,0 +1,43 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message.pptx",
+  "sha256": "e94fc6e677ae0e8f52700cb0fc4b9f060f4e4f142f44d63e1940e72b721db5c9",
+  "slides": 17,
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_Student_Task.docx",
+      "sha256": "8165065fd56f01015c776a570c5f467327c5608e5687aaf5c230d3086c74ad96",
+      "pdf_sha256": "17a54db68f27e0a7374b837b7dc5a8f7333b755d919dc32036b3c3e97004009d",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_Teacher_Notes.docx",
+      "sha256": "9c7aa6de3a2c8b59d4b40a8b230c509476f8d83306bc4ac4ee89bcecc99bb3d3",
+      "pdf_sha256": "0863efc66bcf0eca7a929e69f013dc56f132932578a4bc846dec7653984d3fb6",
+      "pages": 13,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

@@ -1,0 +1,1572 @@
+{
+  "module": "coremath_1_1",
+  "whole_unit_read": true,
+  "anchor_line": "Our supply labels: which number claims survive a check?",
+  "lessons": {
+    "2": {
+      "code": "CRN2",
+      "short": "Exact_Number_Classes",
+      "goals": [
+        "Classify exact real values with reasons.",
+        "Identify whole numbers and integers.",
+        "Distinguish exact constants from displays."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Do √16 and √2 belong to the same exact number class? Give a reason.",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 8,
+          "title": "CRN2 · classify every exact value",
+          "kind": "cards",
+          "values": [
+            "−5",
+            "0",
+            "2/3",
+            "0.125",
+            "0.777…",
+            "√16",
+            "√2",
+            "π",
+            "22/7"
+          ],
+          "caption": "7 repeats forever. Give fractions; identify integers and whole numbers.",
+          "timer": "8:00",
+          "mode": "work alone"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 6,
+          "title": "Compare fractions and display claims",
+          "kind": "bullets",
+          "items": [
+            "Compare every exact classification and fraction.",
+            "Distinguish π from the rational approximation 22/7.",
+            "Explain what a finite √2 display cannot establish."
+          ],
+          "timer": "6:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Fraction representations support rational membership",
+          "kind": "table",
+          "headers": [
+            "Value",
+            "Exact fraction",
+            "Integer / whole?"
+          ],
+          "rows": [
+            [
+              "−5",
+              "−5/1",
+              "Integer"
+            ],
+            [
+              "0",
+              "0/1",
+              "Integer and whole"
+            ],
+            [
+              "2/3",
+              "2/3",
+              "Neither"
+            ],
+            [
+              "0.125",
+              "1/8",
+              "Neither"
+            ],
+            [
+              "0.777…",
+              "7/9",
+              "Neither"
+            ],
+            [
+              "√16",
+              "4/1",
+              "Integer and whole"
+            ],
+            [
+              "22/7",
+              "22/7",
+              "Neither"
+            ]
+          ],
+          "widths": [
+            2.1,
+            3.1,
+            6.6
+          ],
+          "size": 22,
+          "height": 3.6
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Exact constants are not short displays",
+          "kind": "columns",
+          "columns": [
+            [
+              "ESTABLISHED IRRATIONAL EXAMPLES",
+              "√2 and π\nNo exact integer-ratio representation."
+            ],
+            [
+              "RATIONAL APPROXIMATION",
+              "22/7 is rational.\nIt is not equal to exact π."
+            ]
+          ],
+          "caption": "A finite display approximates an irrational value; it is not a proof of rationality."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Every whole number has a fraction form",
+          "kind": "equation",
+          "text": "n = n/1",
+          "caption": "There are no irrational whole numbers. Real numbers also include irrational values."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 5,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Revise your exact-number classification model.",
+            "Keep the fraction evidence and the display limit visible."
+          ],
+          "timer": "5:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Explain why 0.125 is rational.",
+            "Explain why a finite √2 display does not settle its exact class."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "record": {
+        "headers": [
+          "Value",
+          "Rational / irrational",
+          "Fraction / reason",
+          "Integer? Whole?"
+        ],
+        "rows": [
+          [
+            "−5",
+            "",
+            "",
+            ""
+          ],
+          [
+            "0",
+            "",
+            "",
+            ""
+          ],
+          [
+            "2/3",
+            "",
+            "",
+            ""
+          ],
+          [
+            "0.125",
+            "",
+            "",
+            ""
+          ],
+          [
+            "0.777… (7 repeats)",
+            "",
+            "",
+            ""
+          ],
+          [
+            "√16",
+            "",
+            "",
+            ""
+          ],
+          [
+            "√2",
+            "",
+            "",
+            ""
+          ],
+          [
+            "π",
+            "",
+            "",
+            ""
+          ],
+          [
+            "22/7",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "3": {
+      "code": "CRN3",
+      "short": "One_Divided_by_a_Number",
+      "goals": [
+        "Construct reciprocals through division.",
+        "Verify a multiplicative inverse.",
+        "Distinguish a reciprocal from an opposite."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "What is the reciprocal of 4, and what should a product check show?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 10,
+          "title": "CRN3 · divide one by each value",
+          "kind": "cards",
+          "values": [
+            "4",
+            "−5",
+            "2/3",
+            "√2"
+          ],
+          "caption": "Keep exact forms and multiply each result by its original value.",
+          "timer": "10:00",
+          "mode": "exact divisions"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Test zero and the opposite-number claim",
+          "kind": "bullets",
+          "items": [
+            "Could 0 × r equal 1 for any real r?",
+            "Does reciprocal mean additive opposite?",
+            "Compare reasons using a specific counterexample."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Each exact reciprocal passes a product test",
+          "kind": "table",
+          "headers": [
+            "Original",
+            "1 ÷ original",
+            "Product"
+          ],
+          "rows": [
+            [
+              "4",
+              "1/4",
+              "4 × 1/4 = 1"
+            ],
+            [
+              "−5",
+              "−1/5",
+              "(−5) × (−1/5) = 1"
+            ],
+            [
+              "2/3",
+              "3/2",
+              "(2/3) × (3/2) = 1"
+            ],
+            [
+              "√2",
+              "1/√2",
+              "√2 × (1/√2) = 1"
+            ]
+          ],
+          "widths": [
+            2.0,
+            3.3,
+            6.5
+          ],
+          "size": 24
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Zero cannot have a real reciprocal",
+          "kind": "equation",
+          "text": "0 × r = 0, never 1",
+          "caption": "Reciprocal means multiplicative inverse, with a nonzero original."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Two different kinds of undoing",
+          "kind": "columns",
+          "columns": [
+            [
+              "RECIPROCAL OF 4",
+              "1/4\n4 × 1/4 = 1"
+            ],
+            [
+              "ADDITIVE OPPOSITE OF 4",
+              "−4\n4 + (−4) = 0"
+            ]
+          ],
+          "caption": "The inverse operation must match the operation being undone."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 5,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Retain the original claim and add product evidence.",
+            "Keep reciprocal and additive opposite separate."
+          ],
+          "timer": "5:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Give the reciprocal and additive opposite of −5.",
+            "Verify each by its different operation."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "record": {
+        "headers": [
+          "Original",
+          "1 ÷ original",
+          "Exact reciprocal",
+          "Product check"
+        ],
+        "rows": [
+          [
+            "4",
+            "",
+            "",
+            ""
+          ],
+          [
+            "−5",
+            "",
+            "",
+            ""
+          ],
+          [
+            "2/3",
+            "",
+            "",
+            ""
+          ],
+          [
+            "√2",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "4": {
+      "code": "CRN4",
+      "short": "Convert_Before_Inverting",
+      "goals": [
+        "Represent the whole signed value as a fraction.",
+        "Find and verify exact reciprocals.",
+        "Audit a digit-swapping claim."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Will the reciprocal of −2½ have magnitude greater or less than 1?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 10,
+          "title": "CRN4 · convert, invert, verify",
+          "kind": "cards",
+          "values": [
+            "1½",
+            "−2½",
+            "0.25",
+            "−0.4",
+            "1/9"
+          ],
+          "caption": "Show the fraction conversion and a product check for all five inputs.",
+          "timer": "10:00",
+          "mode": "exact working"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Audit the proposed reciprocal",
+          "kind": "bullets",
+          "items": [
+            "The learner proposes −2/3 as the reciprocal of −2½.",
+            "Multiply to test it; explain what was misrepresented."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "The sign belongs to the whole mixed number",
+          "kind": "table",
+          "headers": [
+            "Input",
+            "Equivalent fraction",
+            "Reciprocal"
+          ],
+          "rows": [
+            [
+              "1½",
+              "3/2",
+              "2/3"
+            ],
+            [
+              "−2½",
+              "−5/2",
+              "−2/5"
+            ],
+            [
+              "0.25",
+              "1/4",
+              "4"
+            ],
+            [
+              "−0.4",
+              "−2/5",
+              "−5/2"
+            ],
+            [
+              "1/9",
+              "1/9",
+              "9"
+            ]
+          ],
+          "widths": [
+            2.2,
+            4.6,
+            5.0
+          ],
+          "size": 25,
+          "height": 3.5
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Check the proposed and actual products",
+          "kind": "equation",
+          "text": "(−5/2) × (−2/5) = 1",
+          "caption": "The proposed −2/3 does not multiply the original −5/2 to 1."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Which value is being inverted?",
+          "kind": "bullets",
+          "items": [
+            "Explain the full signed fraction first.",
+            "Use the product to check sign and magnitude.",
+            "Keep zero outside the reciprocal domain."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 5,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Revise the representation before its reciprocal.",
+            "Keep a complete conversion and multiplicative check."
+          ],
+          "timer": "5:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Find the reciprocal of 0.25.",
+            "Show its exact fraction conversion and product check."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "record": {
+        "headers": [
+          "Input",
+          "Fraction conversion",
+          "Reciprocal",
+          "Product check"
+        ],
+        "rows": [
+          [
+            "1½",
+            "",
+            "",
+            ""
+          ],
+          [
+            "−2½",
+            "",
+            "",
+            ""
+          ],
+          [
+            "0.25",
+            "",
+            "",
+            ""
+          ],
+          [
+            "−0.4",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1/9",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "5": {
+      "code": "CRN5",
+      "short": "Reciprocal_Table_and_Scaling",
+      "goals": [
+        "Read the supplied mathematical table.",
+        "Track the reciprocal of a scaled input.",
+        "Label exact and rounded values honestly."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Is 1/32 larger or smaller than 1/3.2? Give a reason before using the table.",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 10,
+          "title": "CRN5 · use the complete supplied table",
+          "kind": "table",
+          "headers": [
+            "x",
+            "1/x (4 s.f.)",
+            "x",
+            "1/x (4 s.f.)"
+          ],
+          "rows": [
+            [
+              "3.0",
+              "0.3333",
+              "3.5",
+              "0.2857"
+            ],
+            [
+              "3.1",
+              "0.3226",
+              "3.6",
+              "0.2778"
+            ],
+            [
+              "3.2",
+              "0.3125",
+              "3.7",
+              "0.2703"
+            ],
+            [
+              "3.3",
+              "0.3030",
+              "3.8",
+              "0.2632"
+            ],
+            [
+              "3.4",
+              "0.2941",
+              "3.9",
+              "0.2564"
+            ]
+          ],
+          "size": 25,
+          "height": 3.55,
+          "caption": "Source-supplied instructional table, not an official KICD table. Read and derive all five requested values."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Compare scale and precision reasons",
+          "kind": "bullets",
+          "items": [
+            "Compare 1/3.2 and 1/3.6.",
+            "Derive 1/32, 1/0.32 and 1/0.036.",
+            "Which entries are exact? Where is ≈ needed?"
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Same table, different precision",
+          "kind": "columns",
+          "columns": [
+            [
+              "EXACT",
+              "1/3.2 = 0.3125"
+            ],
+            [
+              "ROUNDED",
+              "1/3.6 = 5/18 ≈ 0.2778"
+            ]
+          ],
+          "caption": "A rounded table does not make every entry approximate or every entry exact."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Scale the reciprocal in the opposite direction",
+          "kind": "table",
+          "headers": [
+            "Input relationship",
+            "Reciprocal result"
+          ],
+          "rows": [
+            [
+              "32 = 10 × 3.2",
+              "1/32 = 0.03125"
+            ],
+            [
+              "0.32 = 0.1 × 3.2",
+              "1/0.32 = 3.125"
+            ],
+            [
+              "0.036 = 0.01 × 3.6",
+              "1/0.036 ≈ 27.78"
+            ]
+          ],
+          "size": 25,
+          "height": 3.1
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Explain the scale instead of guessing digits",
+          "kind": "bullets",
+          "items": [
+            "Write the relationship between the inputs.",
+            "Explain the inverse scale factor.",
+            "Use an exact or approximate sign to match the evidence."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 5,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Add a table-reading and scale check to your model.",
+            "Retain which rows are exact and which are rounded."
+          ],
+          "timer": "5:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Show why 1/0.32 = 3.125.",
+            "Explain why the 0.036 answer needs ≈."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "record": {
+        "headers": [
+          "Requested value",
+          "Table row / scaling",
+          "Result",
+          "Exact or approximate?"
+        ],
+        "rows": [
+          [
+            "1/3.2",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1/3.6",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1/32",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1/0.32",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1/0.036",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "6": {
+      "code": "CRN6",
+      "short": "Actual_Calculator_Evidence",
+      "goals": [
+        "Enter reciprocals on an approved device.",
+        "Record the actual entry, display and precision.",
+        "Compare device evidence with a table."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Predict the sign of 1 ÷ (−2.5) and the approximate size of 1 ÷ √2.",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 14,
+          "title": "CRN6 · record actual device actions",
+          "kind": "cards",
+          "values": [
+            "1 ÷ 3.6",
+            "1 ÷ (−2.5)",
+            "1 ÷ (2 ÷ 3)",
+            "1 ÷ √(2)"
+          ],
+          "caption": "Complete all entries, the CRN5 comparison and the normal 1 ÷ 0 check. Record actual use or NOT OBSERVED.",
+          "timer": "14:00",
+          "mode": "individual device record"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Exact meaning and permitted precision",
+          "kind": "table",
+          "headers": [
+            "Entry",
+            "Exact result",
+            "Rounded result (4 s.f. where needed)"
+          ],
+          "rows": [
+            [
+              "1 ÷ 3.6",
+              "5/18",
+              "≈ 0.2778"
+            ],
+            [
+              "1 ÷ (−2.5)",
+              "−2/5",
+              "−0.4 exactly"
+            ],
+            [
+              "1 ÷ (2 ÷ 3)",
+              "3/2",
+              "1.5 exactly"
+            ],
+            [
+              "1 ÷ √2",
+              "1/√2",
+              "≈ 0.7071"
+            ]
+          ],
+          "widths": [
+            3.2,
+            2.4,
+            6.2
+          ],
+          "size": 23
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "An error message is not a real number",
+          "kind": "equation",
+          "text": "0 × r cannot equal 1",
+          "caption": "Normal approved devices may report division by zero differently. Record what actually happened."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Keep two kinds of evidence separate",
+          "kind": "bullets",
+          "items": [
+            "Compare the CRN5 table entry with your actual display.",
+            "Use parentheses for a compound denominator.",
+            "Do not invent device action from a paper answer."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 5,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Retain actual entry, display, precision and observation status.",
+            "Explain the comparison with the supplied table."
+          ],
+          "timer": "5:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Submit your individual actual-action record.",
+            "If no device was provided, retain NOT OBSERVED and the exact paper work."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "preparation": "CRN6 records and teacher-approved calculators/supervised equivalents; CRN5 table. Each learner’s own action is observed separately where provided.",
+      "route": "Actual-device evidence is required for the calculator component. If no device is provided, preserve paper mathematics and mark device use NOT OBSERVED; it remains unconfirmed.",
+      "record": {
+        "headers": [
+          "Entry",
+          "Actual key sequence",
+          "Full copied display",
+          "Precision / table comparison",
+          "Observed / not observed"
+        ],
+        "rows": [
+          [
+            "1÷3.6",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1÷(−2.5)",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1÷(2÷3)",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1÷√2",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1÷0",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "7": {
+      "code": "CRN7",
+      "short": "Reciprocal_Models_for_Portion_Counts",
+      "goals": [
+        "Translate a division context exactly.",
+        "Multiply by a reciprocal and verify.",
+        "Interpret counts with units and assumptions."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Can 4½ L make fewer or more than four exact 3/4 L portions?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 10,
+          "title": "CRN7 · solve all three tasks",
+          "kind": "cards",
+          "values": [
+            "4½ L in 3/4 L portions",
+            "2.4 m in 0.3 m pieces",
+            "(−3/5) ÷ (2/7)"
+          ],
+          "caption": "Show division, reciprocal multiplication, units, the nonzero condition and a product check.",
+          "timer": "10:00",
+          "mode": "model alone"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Compare what each quotient counts",
+          "kind": "bullets",
+          "items": [
+            "Compare exact models and reverse checks.",
+            "Explain the no-spill or no-cutting-loss assumption."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Count exact full portions",
+          "kind": "equation",
+          "text": "(9/2) × (4/3) = 6 portions",
+          "caption": "Check: 6 × 3/4 L = 9/2 L, with no spills."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Count pieces without cutting loss",
+          "kind": "equation",
+          "text": "(12/5) × (10/3) = 8 pieces",
+          "caption": "Check: 8 × 0.3 m = 2.4 m."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "The signed quotient still needs a nonzero divisor",
+          "kind": "equation",
+          "text": "(−3/5) × (7/2) = −21/10",
+          "caption": "Check: (−21/10) × (2/7) = −3/5."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 5,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Choose one context for the model you keep.",
+            "State exact count, unit, product check and loss assumption."
+          ],
+          "timer": "5:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Explain what the quotient counts.",
+            "Name the assumption that limits the conclusion."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "route": "Paper planning only: no actual liquid handling or cutting. Exact whole counts in these tasks do not justify rounding a fractional count upwards.",
+      "record": {
+        "headers": [
+          "Task",
+          "Division / reciprocal model",
+          "Result with unit",
+          "Reverse check / assumption"
+        ],
+        "rows": [
+          [
+            "Portions",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Pieces",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Signed quotient",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "8": {
+      "code": "CRN8",
+      "short": "Evidence_Based_Number_Advice",
+      "goals": [
+        "Link classification to a specific decision.",
+        "Explain a checked reciprocal model.",
+        "Revise advice using a real peer question."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Which error should a useful numerical advice card prevent?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 8,
+          "title": "CRN8 · write your own advice card",
+          "kind": "bullets",
+          "items": [
+            "Explain how classification prevents a specific mistake.",
+            "Use a checked CRN7 calculation with units and assumptions.",
+            "Include why zero has no reciprocal."
+          ],
+          "timer": "8:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 6,
+          "title": "Explain, exchange and record what happened",
+          "kind": "bullets",
+          "items": [
+            "Share only when directed.",
+            "Record the actual peer question and your revision.",
+            "If not shared, mark presentation NOT OBSERVED."
+          ],
+          "timer": "6:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "An advice message needs a checkable link",
+          "kind": "flow",
+          "nodes": [
+            "Specific error",
+            "Correct evidence",
+            "Useful decision",
+            "Limit"
+          ],
+          "caption": "Use your own correct classification and computation from CRN1–7."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "An example of numerical evidence, not a slogan",
+          "kind": "equation",
+          "text": "4½ L ÷ (3/4 L per portion) = 6 portions",
+          "caption": "State no spills and exact quantities; zero cannot be a divisor."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Audit your message against earlier work",
+          "kind": "bullets",
+          "items": [
+            "Check the definition and calculation.",
+            "Keep units, assumptions and the zero limit.",
+            "Explain how the evidence changes a decision."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 5,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Revise your own advice card from the actual question received.",
+            "Retain the original claim and actual sharing status."
+          ],
+          "timer": "5:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Submit the advice, computation, assumption and revision.",
+            "Do not claim a presentation that was not observed."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "route": "Individual advice first, then the source-directed peer stage. Written work alone does not certify an unobserved oral presentation.",
+      "record": {
+        "headers": [
+          "Evidence / calculation",
+          "Decision / benefit",
+          "Assumption / zero limit",
+          "Actual peer question / revision"
+        ],
+        "rows": [
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "9": {
+      "code": "CRN9",
+      "short": "Counterexample_Audit",
+      "goals": [
+        "Repair five different numerical shortcuts.",
+        "Use a counterexample or calculation for each.",
+        "Identify a remaining evidence-based question."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Which CRN9 claim looks plausible at first? Record a verdict and a reason.",
+          "timer": "2:00",
+          "mode": "write alone",
+          "do": "Distribute only the CRN9 claims card for the initial individual choice. Withhold all corrections and CRN10 final inputs."
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 10,
+          "title": "CRN9 · repair every claim",
+          "kind": "bullets",
+          "items": [
+            "Audit A–E on the full supplied card.",
+            "Give a distinct counterexample or calculation for each.",
+            "Ask one evidence-based question."
+          ],
+          "timer": "10:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Compare distinct reasons",
+          "kind": "bullets",
+          "items": [
+            "Check all five repairs.",
+            "Explain why each correction fits its own definition or operation."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "A counterexample or exact representation",
+          "kind": "table",
+          "headers": [
+            "Claim",
+            "Evidence that repairs it"
+          ],
+          "rows": [
+            [
+              "A: odd means prime",
+              "9 has positive divisors 1, 3, 9."
+            ],
+            [
+              "B: all reals are rational",
+              "√2 and π are established irrational examples."
+            ],
+            [
+              "C: reciprocal of −2½ is −2/3",
+              "−2½ = −5/2, so its reciprocal is −2/5."
+            ]
+          ],
+          "widths": [
+            5.0,
+            6.8
+          ],
+          "size": 23,
+          "height": 3.2
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "A tenfold input divides its reciprocal by ten",
+          "kind": "equation",
+          "text": "1/3.2 = 0.3125; 1/32 = 0.03125",
+          "caption": "Repair D with the scale relationship, not a guessed decimal shift."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "An error does not make the reciprocal zero",
+          "kind": "equation",
+          "text": "0 × r = 0, never 1",
+          "caption": "Repair E with the product-of-one definition; keep CRN10 private."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 5,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Repair your most significant earlier error independently.",
+            "Attach a check and keep any remaining confusion visible."
+          ],
+          "timer": "5:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Submit the corrected claim and its check.",
+            "Name the definition that rules out the shortcut."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "record": {
+        "headers": [
+          "Claim",
+          "Initial verdict",
+          "Repair and evidence"
+        ],
+        "rows": [
+          [
+            "A",
+            "",
+            ""
+          ],
+          [
+            "B",
+            "",
+            ""
+          ],
+          [
+            "C",
+            "",
+            ""
+          ],
+          [
+            "D",
+            "",
+            ""
+          ],
+          [
+            "E",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "10": {
+      "code": "CRN10",
+      "short": "Independent_Number_Audit",
+      "goals": [
+        "Classify unfamiliar values independently.",
+        "Verify reciprocals and precision.",
+        "Communicate a checked planning decision."
+      ],
+      "assessment": true,
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 3,
+          "title": "Independent work · procedure",
+          "kind": "bullets",
+          "items": [
+            "Use only today’s data and assessment prompts.",
+            "Keep your working and reasons visible.",
+            "Work alone; submit before any discussion."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 8,
+          "title": "Assessment · section 1",
+          "kind": "bullets",
+          "items": [
+            "Classify the listed whole and exact real values.",
+            "Give the required divisor, fraction and display reasoning."
+          ],
+          "timer": "8:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 8,
+          "title": "Assessment · section 2",
+          "kind": "bullets",
+          "items": [
+            "Find exact reciprocals with conversions and product checks.",
+            "Explain the zero and additive-opposite distinctions."
+          ],
+          "timer": "8:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 10,
+          "title": "Assessment · section 3",
+          "kind": "bullets",
+          "items": [
+            "Use the supplied table and explain its scaling.",
+            "Record actual calculator action when a device is supplied.",
+            "If none is supplied, mark NOT OBSERVED; keep the exact expression."
+          ],
+          "timer": "10:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 10,
+          "title": "Assessment · section 4 and checking",
+          "kind": "bullets",
+          "items": [
+            "Use 7 minutes for the planning model and independent advice.",
+            "Use 3 minutes to check your own work.",
+            "Submit before any peer discussion or key."
+          ],
+          "timer": "10:00"
+        }
+      ],
+      "preparation": "CRN10 only, original assessment prompts and approved calculators where actually provided. Retain independent records of device provision/use; keep all teaching cards and exemplars private.",
+      "route": "Independent source assessment. Unprovided or unobserved calculator performance remains pending; a paper key sequence does not complete it."
+    }
+  }
+}

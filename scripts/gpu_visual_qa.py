@@ -36,7 +36,7 @@ def main():
     # Compositing labels/tiles is CPU file-layout work; all resampling and pixel metrics above execute on CUDA.
     for start in range(0,len(thumbs),8):
         page=thumbs[start:start+8];tileh=page[0][1].height+36
-        sheet=Image.new('RGB',(1600,tileh*4),'#e5e7eb');draw=ImageDraw.Draw(sheet)
+        sheet=Image.new('RGB',(1600,tileh*((len(page)+1)//2)),'#e5e7eb');draw=ImageDraw.Draw(sheet)
         for i,(label,im) in enumerate(page):
             x=(i%2)*800;y=(i//2)*tileh;draw.text((x+12,y+10),label,fill='black');sheet.paste(im,(x,y+36))
         sheet.save(args.out/f'contact_{start//8+1:02}.jpg',quality=92)

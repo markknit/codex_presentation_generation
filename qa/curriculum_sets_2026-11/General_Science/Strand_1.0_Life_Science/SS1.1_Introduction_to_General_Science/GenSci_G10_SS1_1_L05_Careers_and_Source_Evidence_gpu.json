@@ -1,0 +1,165 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23319493503542582,
+      "dark_fraction": 0.050392679349734563,
+      "sha256": "5be4a4351b2b760542422e8f6765971394311868e53c351b5370a6b599a2b657"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05275247361136932,
+      "dark_fraction": 0.04126334923880936,
+      "sha256": "c04d225a370080749aafbba77db3d00a93a3ce88fd71be2ef1812f4bea76a1d1"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1405705314907769,
+      "dark_fraction": 0.12085848257627399,
+      "sha256": "3f27cdff2bcb490a1127dd0279937bed35ff89d6c6377a60e774232b04f7d3cd"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08377104377104377,
+      "dark_fraction": 0.06554626014748714,
+      "sha256": "03649fb96befc18fa32fcbeacde46139129fa447960df15f237177290f218445"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.16198384664642335,
+      "dark_fraction": 0.044127987440870875,
+      "sha256": "6ce30adbbb4c2c8ab91172cbb15d72d3605047b1e833191f00827c63d0efb1ae"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22397967404102373,
+      "dark_fraction": 0.05353741918159096,
+      "sha256": "03cbdea40ee430c991c5848ce462e6d886b972327092e32e1d57379d31ea9d7c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.061465369440829566,
+      "dark_fraction": 0.049868831463923485,
+      "sha256": "371e35c44c3c61e79254f0ebbb7e8057f32ee2f2cb6b6684e0bbd9591b9679ea"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.4399479457148169,
+      "dark_fraction": 0.044919543079052285,
+      "sha256": "f4d353685357284ed3bc4e84b1e9e17eb2a5d1b8658b416d4341d3afdbff874a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06659726095308917,
+      "dark_fraction": 0.05335316353721262,
+      "sha256": "a9c5cfea37d47ac5f273a44a09f364b0c00915e490a735d3208210a3f7d1a70b"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06862076800727107,
+      "dark_fraction": 0.054673524612174916,
+      "sha256": "d87599e31b9e9dde2c43efe6784bae2336e9a7184e5f6bf3038d5d7cf6d68228"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.4361033649377208,
+      "dark_fraction": 0.04174753671686187,
+      "sha256": "d21c8feb337e311f07c0f28f9827af940d8b48dd96c957313982cdc31ac1d4d5"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.060609365640040484,
+      "dark_fraction": 0.04900787011216459,
+      "sha256": "eed1ba69ead41ceaec8b25fa07893ae8e60ec17fde3d6d98e0434399561afbea"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06662039619094834,
+      "dark_fraction": 0.05374728883931338,
+      "sha256": "b4138a8fb9e592cee46356b254d6199d89a237a749cfa6a679160aaf7ca0a741"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06794075726591065,
+      "dark_fraction": 0.05573361426122162,
+      "sha256": "84712e8d59b6ab8921663ff3cf0ec4995150cbc1b6ebedde583e9a7332de5290"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05738943628514181,
+      "dark_fraction": 0.046136621842143316,
+      "sha256": "2f3e396623db7c2169087ba036038091976490a3584417edb947f91062c71e8e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.053245749932866494,
+      "dark_fraction": 0.04312490962797711,
+      "sha256": "6786a665ca95977085333b55c776656b140f7ea216a8b89d29d08414bff16d50"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L05_Careers_and_Source_Evidence/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.055570015079217536,
+      "dark_fraction": 0.04148396025696639,
+      "sha256": "6ad888fbe721903be7d26091f481ceb11ac6f82db7a9632bac607bc2e692eda7"
+    }
+  ],
+  "deck_sha256": "6a40fc4d1b8a0e9b8a0433f74209ffae5593ae34fd93c34b82436d7dd7e8d219"
+}

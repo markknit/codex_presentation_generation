@@ -1,0 +1,1209 @@
+{
+  "module": "essmath_1_1",
+  "whole_unit_read": true,
+  "anchor_line": "Our club reference sheet: exact meaning behind calculator displays.",
+  "lessons": {
+    "2": {
+      "code": "RN2",
+      "short": "Exact_Values_and_Rounded_Displays",
+      "goals": [
+        "Distinguish exact values from approximations.",
+        "Locate a value using squared bounds.",
+        "Correct a display-based overclaim."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Card A says “π = 3.14 exactly”. Do you agree? Give a reason.",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 8,
+          "title": "RN2 · audit three exact-value claims",
+          "kind": "columns",
+          "columns": [
+            [
+              "CLAIMS A AND B",
+              "A: “π = 3.14 exactly.”\nB: “√2 is rational because my calculator displays 1.414213562.”"
+            ],
+            [
+              "CLAIM C",
+              "“√16 is irrational because it has a root sign.”"
+            ]
+          ],
+          "caption": "Correct every claim on your own RN2 record.",
+          "timer": "8:00",
+          "mode": "claim audit"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Locate the numbers",
+          "kind": "bullets",
+          "items": [
+            "Place −3, −1/2, 0, √2 and 2 on a number line.",
+            "Use 1.4² and 1.5² to bracket √2."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Exact values that display alike",
+          "kind": "bullets",
+          "items": [
+            "Compare 1/3 with 0.333333333 as written.",
+            "Find two exact numbers that round to 1.41 at 2 decimal places."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "What changes when equality becomes approximation?",
+          "kind": "columns",
+          "columns": [
+            [
+              "EXACT EXPRESSIONS",
+              "π\n√2\n√16 = 4"
+            ],
+            [
+              "APPROXIMATIONS",
+              "π ≈ 3.14\nA finite √2 display is approximate."
+            ]
+          ],
+          "caption": "A short display does not determine an underlying exact number’s class."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Use squares to bracket the value",
+          "kind": "equation",
+          "text": "1.96 < 2 < 2.25",
+          "caption": "1.4² = 1.96 and 1.5² = 2.25, so 1.4 < √2 < 1.5."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Same rounded display, different exact values",
+          "kind": "numberline",
+          "bounds": [
+            -3,
+            2
+          ],
+          "points": [
+            [
+              -3,
+              "−3"
+            ],
+            [
+              -0.5,
+              "−1/2"
+            ],
+            [
+              0,
+              "0"
+            ],
+            [
+              1.414,
+              "√2"
+            ],
+            [
+              2,
+              "2"
+            ]
+          ],
+          "caption": "1.411 and 1.414 both round to 1.41. The number line locates √2; it does not prove irrationality."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Add exact and approximate columns to the reference sheet.",
+            "Keep one corrected claim and one exact/approximate pair."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Explain the difference between 1/3 and 0.333333333 as written.",
+            "Give a reason that uses exact meaning."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "record": {
+        "headers": [
+          "Claim",
+          "Correction",
+          "Reason"
+        ],
+        "rows": [
+          [
+            "A",
+            "",
+            ""
+          ],
+          [
+            "B",
+            "",
+            ""
+          ],
+          [
+            "C",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "3": {
+      "code": "RN3",
+      "short": "Signed_Rational_Operations",
+      "goals": [
+        "Calculate signed rational operations exactly.",
+        "Correct a sign or denominator error.",
+        "Verify a result independently."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "cards",
+          "text": "Estimate the sign and rough size of RN3(a) and RN3(c) before calculating.",
+          "timer": "2:00",
+          "mode": "write alone",
+          "values": [
+            "(a) −3/4 + 5/6",
+            "(c) (−2/3) × (9/4)"
+          ],
+          "caption": "Estimate each sign and rough size before calculation."
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 10,
+          "title": "RN3 · four exact calculations",
+          "kind": "cards",
+          "values": [
+            "(a) −3/4 + 5/6",
+            "(b) 2/3 − 5/4",
+            "(c) (−2/3) × (9/4)",
+            "(d) (3/5) ÷ (−9/10)"
+          ],
+          "caption": "Show intermediate working and a check for every result.",
+          "timer": "10:00",
+          "mode": "exact working"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 6,
+          "title": "Audit errors and compare checks",
+          "kind": "bullets",
+          "items": [
+            "Correct (−2) × (−5) = −10 and 3/4 + 1/2 = 4/6.",
+            "Explain what division by zero would require.",
+            "Compare a reverse, equivalent-fraction or magnitude check."
+          ],
+          "timer": "6:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Exact results with visible working",
+          "kind": "table",
+          "headers": [
+            "Item",
+            "Working",
+            "Result"
+          ],
+          "rows": [
+            [
+              "a",
+              "(−9 + 10)/12",
+              "1/12"
+            ],
+            [
+              "b",
+              "(8 − 15)/12",
+              "−7/12"
+            ],
+            [
+              "c",
+              "−18/12",
+              "−3/2"
+            ],
+            [
+              "d",
+              "(3/5) × (−10/9)",
+              "−2/3"
+            ]
+          ],
+          "widths": [
+            0.9,
+            7.5,
+            3.4
+          ],
+          "size": 25
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "A common denominator preserves the values",
+          "kind": "equation",
+          "text": "3/4 + 1/2 = 3/4 + 2/4 = 5/4",
+          "caption": "Also: (−2) × (−5) = 10. Correct the reason, not only the answer."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Why is division by zero excluded?",
+          "kind": "columns",
+          "columns": [
+            [
+              "a ≠ 0",
+              "0 × x = a has no solution."
+            ],
+            [
+              "a = 0",
+              "0 × x = 0 has no unique solution."
+            ]
+          ],
+          "caption": "Division would need a unique result; an error display is not a numerical answer."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Keep a corrected example and an annotated counterexample.",
+            "Add an independent check to the same reference sheet."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Correct 3/4 + 1/2.",
+            "Explain why a common denominator is needed."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "record": {
+        "headers": [
+          "Item",
+          "Intermediate working",
+          "Exact answer",
+          "Independent check"
+        ],
+        "rows": [
+          [
+            "a",
+            "",
+            "",
+            ""
+          ],
+          [
+            "b",
+            "",
+            "",
+            ""
+          ],
+          [
+            "c",
+            "",
+            "",
+            ""
+          ],
+          [
+            "d",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "4": {
+      "code": "RN4",
+      "short": "Grouping_and_Operation_Order",
+      "goals": [
+        "Evaluate a grouped rational expression.",
+        "Explain equal-priority operation order.",
+        "Write an unambiguous calculator entry."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Do B = (−3)² − 2(5 − 8) and D = −3² start with the same square value?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 8,
+          "title": "RN4 · work all four expressions",
+          "kind": "cards",
+          "values": [
+            "A: 3/4 − [1/2 ÷ (−2)]",
+            "B: (−3)² − 2(5 − 8)",
+            "C: 6 ÷ 3 × 2",
+            "D: −3²"
+          ],
+          "caption": "Show the intermediate operations; mark the base of each power.",
+          "timer": "8:00",
+          "mode": "calculate alone"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Protect the intended calculator grouping",
+          "kind": "bullets",
+          "items": [
+            "Write an unambiguous bracketed entry for A.",
+            "Compare the entry with exact arithmetic."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Create, exchange and check",
+          "kind": "bullets",
+          "items": [
+            "Create one rational expression with parentheses worth 1/2.",
+            "Exchange it and check the result."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Check A–D with the requested grouping",
+          "kind": "table",
+          "headers": [
+            "Expression",
+            "Working",
+            "Value"
+          ],
+          "rows": [
+            [
+              "A",
+              "3/4 − (−1/4)",
+              "1"
+            ],
+            [
+              "B",
+              "9 − 2(−3)",
+              "15"
+            ],
+            [
+              "C",
+              "(6 ÷ 3) × 2",
+              "4"
+            ],
+            [
+              "D",
+              "−(3²)",
+              "−9"
+            ]
+          ],
+          "widths": [
+            1.6,
+            7.0,
+            3.2
+          ],
+          "size": 25
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Multiplication and division have equal priority",
+          "kind": "equation",
+          "text": "6 ÷ 3 × 2 = (6 ÷ 3) × 2 = 4",
+          "caption": "Process equal-priority operations left to right."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Make the calculator entry unambiguous",
+          "kind": "equation",
+          "text": "(3 ÷ 4) − ((1 ÷ 2) ÷ (−2))",
+          "caption": "Parentheses identify what the negative denominator and division apply to."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Add the C and B/D counterexamples to your reference sheet.",
+            "Keep a bracketed entry and a reverse or estimation check."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Explain the first operation in A.",
+            "Show which part the brackets protect."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "record": {
+        "headers": [
+          "Expression",
+          "Intermediate working",
+          "Value",
+          "Check"
+        ],
+        "rows": [
+          [
+            "A",
+            "",
+            "",
+            ""
+          ],
+          [
+            "B",
+            "",
+            "",
+            ""
+          ],
+          [
+            "C",
+            "",
+            "",
+            ""
+          ],
+          [
+            "D",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "5": {
+      "code": "RN5",
+      "short": "Reciprocals_and_Calculator_Evidence",
+      "goals": [
+        "Find exact reciprocals of nonzero numbers.",
+        "Verify each reciprocal by multiplication.",
+        "Record actual calculator use and precision."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "What is the reciprocal of −0.2? Could zero have one? Propose a product check.",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 10,
+          "title": "RN5 · exact forms and actual entries",
+          "kind": "cards",
+          "values": [
+            "4",
+            "−5",
+            "3/4",
+            "−0.2",
+            "√2"
+          ],
+          "caption": "Record the actual model/key sequence, exact form and result to 3 decimal places.",
+          "timer": "10:00",
+          "mode": "record entries"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 6,
+          "title": "Check each product and the display limit",
+          "kind": "bullets",
+          "items": [
+            "Multiply each original value by its exact reciprocal.",
+            "Compare exact and rounded products.",
+            "Explain why zero and the finite 1/√2 display need care."
+          ],
+          "timer": "6:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Exact reciprocals and decimal forms",
+          "kind": "table",
+          "headers": [
+            "Original",
+            "Exact reciprocal",
+            "Decimal form (3 d.p.)"
+          ],
+          "rows": [
+            [
+              "4",
+              "1/4",
+              "0.250"
+            ],
+            [
+              "−5",
+              "−1/5",
+              "−0.200"
+            ],
+            [
+              "3/4",
+              "4/3",
+              "≈ 1.333"
+            ],
+            [
+              "−0.2",
+              "−5",
+              "−5.000"
+            ],
+            [
+              "√2",
+              "1/√2",
+              "≈ 0.707"
+            ]
+          ],
+          "widths": [
+            2.2,
+            4.2,
+            5.4
+          ],
+          "size": 23,
+          "height": 3.55
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "What does the product test require?",
+          "kind": "equation",
+          "text": "x × (1/x) = 1, for x ≠ 0",
+          "caption": "Rounded products may differ slightly from the exact product."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Zero cannot pass the product-of-one test",
+          "kind": "equation",
+          "text": "0 × r = 0, never 1",
+          "caption": "A finite calculator display of 1/√2 is approximate, not the exact reciprocal."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Add a definition, the zero exception and one actual calculator record.",
+            "Keep exact and approximate results distinct."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Find the reciprocal of 3/4.",
+            "Justify it by a product."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "preparation": "RN5 record per learner; teacher-approved scientific calculators for roots, shared fairly if needed. Each learner records an actual entry. If unavailable, retain paper work and schedule an accessible device station.",
+      "route": "Use the source’s actual-device route where supplied. Printed calculations do not certify device use. Mark missing/unobserved device work honestly.",
+      "record": {
+        "headers": [
+          "Original",
+          "Exact reciprocal",
+          "3 d.p.",
+          "Actual entry / display",
+          "Product check"
+        ],
+        "rows": [
+          [
+            "4",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "−5",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "3/4",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "−0.2",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "√2",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "6": {
+      "code": "RN6",
+      "short": "Rational_Models_and_Units",
+      "goals": [
+        "Choose operations that match a stated change.",
+        "Calculate with signed values and units.",
+        "Interpret a result with an assumption."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "The tank has 3/4 L; 1/6 L is used and 1/3 L added. More or less than it began with?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 10,
+          "title": "RN6 · model every fictional context",
+          "kind": "bullets",
+          "items": [
+            "Write expressions for volume, credit and temperature change.",
+            "Copy the two blood-pressure readings into separate columns.",
+            "Model the bottle count; state each assumption."
+          ],
+          "timer": "10:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 6,
+          "title": "Explain and check one chosen model",
+          "kind": "bullets",
+          "items": [
+            "Explain what each sign or reciprocal represents.",
+            "Keep the unit in your result.",
+            "Compare one reverse or contextual check."
+          ],
+          "timer": "6:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Operations must represent the situation",
+          "kind": "table",
+          "headers": [
+            "Context",
+            "Expression",
+            "Interpretation"
+          ],
+          "rows": [
+            [
+              "Tank",
+              "3/4 − 1/6 + 1/3",
+              "11/12 L"
+            ],
+            [
+              "Credit",
+              "50 − 80 + 45",
+              "15 KES"
+            ],
+            [
+              "Temperature",
+              "37.4 − 36.8",
+              "0.6 °C increase"
+            ]
+          ],
+          "widths": [
+            2.0,
+            5.0,
+            4.8
+          ],
+          "size": 25,
+          "height": 3.1,
+          "caption": "Fictional records only. The arithmetic does not establish health status."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "What does the reciprocal count here?",
+          "kind": "equation",
+          "text": "3 L ÷ (3/4 L per bottle) = 4 bottles",
+          "caption": "4/3 bottles per litre × 3 litres = 4 bottles."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "The slash separates two readings",
+          "kind": "table",
+          "headers": [
+            "Systolic (mmHg)",
+            "Diastolic (mmHg)"
+          ],
+          "rows": [
+            [
+              "120",
+              "80"
+            ]
+          ],
+          "size": 28,
+          "height": 2.3,
+          "caption": "120/80 mmHg is not an instruction to divide. No personal measurements or clinical interpretation."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Add expression → result with unit → conclusion → check.",
+            "Retain one assumption for each fictional context."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Identify one model assumption.",
+            "Give one reverse check."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "route": "Fictional paper records only, preserving the source’s two-reading convention and limits. No liquid handling, real financial action, health measurement or medical advice.",
+      "record": {
+        "headers": [
+          "Context",
+          "Expression",
+          "Result and unit",
+          "Assumption / check"
+        ],
+        "rows": [
+          [
+            "Tank",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Credit",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Temperature change",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Bottle count",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "7": {
+      "code": "RN7",
+      "short": "Full_Servings_and_Reverse_Checks",
+      "goals": [
+        "Model usable volume and full servings.",
+        "Diagnose a plausible operation error.",
+        "Defend a decision with units and a check."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Available 2.5 L; reserve 1/4 L; serving 3/8 L. Could the poster promise 7 full servings?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 8,
+          "title": "RN7 · model the club’s paper plan",
+          "kind": "cards",
+          "values": [
+            "Available: 2.5 L",
+            "Reserve: 1/4 L",
+            "Serving: 3/8 L"
+          ],
+          "caption": "Calculate usable volume and the number of full servings. Assume no spills.",
+          "timer": "8:00",
+          "mode": "model alone"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Diagnose the peer’s result",
+          "kind": "bullets",
+          "items": [
+            "The peer writes 2.25 ÷ 0.375 = 0.844.",
+            "Identify a likely operation error and a check."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Explain the action the evidence supports",
+          "kind": "bullets",
+          "items": [
+            "Defend the full-serving count.",
+            "Explain one benefit of exact reasoning.",
+            "Name one calculator-care or turn-taking action."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "First preserve the reserve",
+          "kind": "equation",
+          "text": "2.5 − 0.25 = 2.25 L = 9/4 L",
+          "caption": "Usable volume is distinct from the original total."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Use the reciprocal to count full servings",
+          "kind": "equation",
+          "text": "(9/4) ÷ (3/8) = (9/4) × (8/3) = 6",
+          "caption": "Check: 6 × 3/8 L = 9/4 L. Seven require 21/8 L = 2.625 L."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "The displayed error resembles a product",
+          "kind": "equation",
+          "text": "2.25 × 0.375 = 0.84375 ≈ 0.844",
+          "caption": "A likely operation error, not evidence of which buttons a learner actually pressed."
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Correct the poster and explain why the decision is useful.",
+            "Cite exact amounts, units, the reserve and a reverse check."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Explain a benefit of real-number reasoning.",
+            "Name one specific check of the serving promise."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "route": "Paper club plan only; no real food or liquid distribution. Device-care observations remain distinct from the numerical rubric.",
+      "record": {
+        "headers": [
+          "Quantity / claim",
+          "Working",
+          "Result / decision",
+          "Check or assumption"
+        ],
+        "rows": [
+          [
+            "Usable volume",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Full servings",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Seven-serving promise",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Peer operation error",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "8": {
+      "code": "RN8",
+      "short": "Independent_Numerical_Decision",
+      "goals": [
+        "Classify new exact values independently.",
+        "Show operations and reciprocal reasoning.",
+        "Defend a numerical decision in context."
+      ],
+      "assessment": true,
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 3,
+          "title": "Independent work · procedure",
+          "kind": "bullets",
+          "items": [
+            "Use only today’s data and assessment prompts.",
+            "Keep your working and reasons visible.",
+            "Work alone; submit before any discussion."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 16,
+          "title": "Assessment · classification and operations",
+          "kind": "bullets",
+          "items": [
+            "Complete sections 1–2 using RN8.",
+            "Show exact working and the requested checks.",
+            "No comparison or hints before collection."
+          ],
+          "timer": "16:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 12,
+          "title": "Assessment · reciprocals and contexts",
+          "kind": "bullets",
+          "items": [
+            "Complete sections 3–4 independently.",
+            "Record the actual calculator entry when used.",
+            "Keep exact forms, approximations and units distinct."
+          ],
+          "timer": "12:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Assessment · usefulness and assumption",
+          "kind": "bullets",
+          "items": [
+            "Write the reasoned usefulness statement.",
+            "Identify one assumption without discussing answers."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 4,
+          "title": "Check and submit all work",
+          "kind": "bullets",
+          "items": [
+            "Check results, units, names and completion.",
+            "Submit before any key is displayed."
+          ],
+          "timer": "4:00"
+        }
+      ],
+      "preparation": "RN8 data plus original final prompts; an accessible calculator per learner or supervised provision as source requires. Keep teaching cards and teacher key private.",
+      "route": "Independent source assessment; no peer comparison, hints or worked exemplars before collection."
+    }
+  }
+}

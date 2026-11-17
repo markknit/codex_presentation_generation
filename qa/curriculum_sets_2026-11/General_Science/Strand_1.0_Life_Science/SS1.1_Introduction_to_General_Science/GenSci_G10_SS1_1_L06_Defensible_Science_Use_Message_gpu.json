@@ -1,0 +1,165 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23594141827270662,
+      "dark_fraction": 0.05148995063105492,
+      "sha256": "b2b8a37fff17d42d5a2339174c18a0d20672234451d9a4b940fead01ab552696"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05275495238685423,
+      "dark_fraction": 0.04126582801429427,
+      "sha256": "cc0fbb1028f11d5d7fb772847a814028ee931cf13145cf485597d7794de823b9"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1395344033380843,
+      "dark_fraction": 0.1203238933300283,
+      "sha256": "c828af12583058e3b7ee5c79df7163a0c1e012570e1af5125d247fdeccf69f38"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08325958976265725,
+      "dark_fraction": 0.06532151783685526,
+      "sha256": "cf838a02a0ef7a62c608a278993736a9e597c228ecc984b64a88722dea68ad52"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.1609196257049018,
+      "dark_fraction": 0.04335626200656875,
+      "sha256": "a93fffdf1660c38a146c8dc44f9bf42c97f0b9860b9f9e7816be58ac054b751c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22398215281650866,
+      "dark_fraction": 0.04962839024188717,
+      "sha256": "baac267596019398a5781a10121e04b1ff60f50e8e6b1ca1427b6d028497e832"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05479663712792547,
+      "dark_fraction": 0.04495011464336618,
+      "sha256": "9c27a1c5c53ac3e98337b9bdf4513eefb3ee8e7809e698161d04148bcf1f24db"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06746731114829274,
+      "dark_fraction": 0.0541480242093739,
+      "sha256": "4ffae72e0efb81da26308038613fc5f4dd0deac642b3fb38bbdc086d425ac838"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05871310239408399,
+      "dark_fraction": 0.04793456032719837,
+      "sha256": "5d4086b0950eda15eaeb557955a2534a38768bfbbbbe77e0ed9afec246ccc3a8"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05341017537336556,
+      "dark_fraction": 0.04359918200408998,
+      "sha256": "3c218e9b01f81337fed42069f6a70c2fdbb0d1e4d8e6b82237c2606f9032aa3d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.21388031645700356,
+      "dark_fraction": 0.03187044266798868,
+      "sha256": "f0797c5b791ce9e9e48107d9deb2a18451e53e0a76b44296e2b1437975850cc4"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.43923736340914254,
+      "dark_fraction": 0.03928115510937597,
+      "sha256": "e193101eb96a121a786cafc1d80c3ae8bf49d3655b00a1c510475aff3c059737"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06593790667410299,
+      "dark_fraction": 0.05302679143169941,
+      "sha256": "b578012e070b8434bdc4f4b9bac1268271a3d2f641f8aaae6144b163cefc3710"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06794323604139554,
+      "dark_fraction": 0.055736093036706534,
+      "sha256": "12094321ec4688e8b9d1f61bf629533ef31d918f3deb68bc474534e4e717b32c"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05813885274007973,
+      "dark_fraction": 0.046652207143004686,
+      "sha256": "78858b5c659f02572fa191ba69682a668f7fe67ccb8fd657530173e3ecda032e"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05521637644337031,
+      "dark_fraction": 0.044441965668959534,
+      "sha256": "14c67a84800a86570041735aac284500c6557dfb518c146793c911e9e45d753d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L06_Defensible_Science_Use_Message/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05462890665344653,
+      "dark_fraction": 0.04097581128255975,
+      "sha256": "b8f7d014624c523451ff359da144ea3ed3234691823b7c30aa542ca3d3b20913"
+    }
+  ],
+  "deck_sha256": "e94fc6e677ae0e8f52700cb0fc4b9f060f4e4f142f44d63e1940e72b721db5c9"
+}

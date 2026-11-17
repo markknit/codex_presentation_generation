@@ -1,0 +1,1093 @@
+{
+  "module": "gensci_1_1",
+  "whole_unit_read": true,
+  "anchor_line": "Our school notice board: which claims go beyond the evidence?",
+  "lessons": {
+    "2": {
+      "code": "GS12",
+      "short": "Observation_and_Inference",
+      "goals": [
+        "Separate reports from interpretations.",
+        "Compare two possible explanations.",
+        "Choose a useful additional observation."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Wet paper, an empty cup and frame droplets. What might explain them?",
+          "timer": "2:00",
+          "mode": "write alone",
+          "caption": "Record your confidence as well as your reason."
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 6,
+          "title": "GS12 · classify the six statements",
+          "kind": "table",
+          "headers": [
+            "#",
+            "Statement",
+            "Your class"
+          ],
+          "rows": [
+            [
+              "1",
+              "The paper beside the closed window is wet.",
+              ""
+            ],
+            [
+              "2",
+              "Rain must have entered through a gap.",
+              ""
+            ],
+            [
+              "3",
+              "A cup on the sill is empty.",
+              ""
+            ],
+            [
+              "4",
+              "Someone may have spilled water.",
+              ""
+            ],
+            [
+              "5",
+              "Where did the water come from?",
+              ""
+            ],
+            [
+              "6",
+              "The window frame has droplets on it.",
+              ""
+            ]
+          ],
+          "widths": [
+            0.5,
+            9.2,
+            2.1
+          ],
+          "size": 20,
+          "height": 3.4,
+          "caption": "Reported observation, inference or question? Record alone.",
+          "timer": "6:00",
+          "mode": "classify alone"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 6,
+          "title": "Compare possible explanations",
+          "kind": "bullets",
+          "items": [
+            "Compare your six classifications.",
+            "Construct two explanations fitting two observations.",
+            "Keep the evidence for each separate."
+          ],
+          "timer": "6:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Which observation would help next?",
+          "kind": "bullets",
+          "items": [
+            "Share one safe additional observation.",
+            "Explain how it could distinguish your two ideas."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Which words report the evidence?",
+          "kind": "table",
+          "headers": [
+            "Reports",
+            "Interpretations",
+            "Question"
+          ],
+          "rows": [
+            [
+              "1, 3, 6",
+              "2, 4",
+              "5"
+            ]
+          ],
+          "size": 28,
+          "height": 2.2,
+          "caption": "An inference interprets observations; it is not certain knowledge of an unseen cause."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Does an empty cup prove a spill?",
+          "kind": "columns",
+          "columns": [
+            [
+              "CONSISTENT WITH",
+              "Rain entering\nA spill\nAnother justified explanation"
+            ],
+            [
+              "DOES NOT PROVE",
+              "An empty cup alone does not identify the cause."
+            ]
+          ],
+          "caption": "Condensation is another candidate if justified; avoid accusations."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Write a limited explanation",
+          "kind": "bullets",
+          "items": [
+            "Name one observation and two interpretations.",
+            "State a limit and a safe follow-up check."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "What would distinguish rain from a spill?",
+            "Separate a measurement from a witness report.",
+            "Keep untested explanations open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Keep observation and inference in separate boxes.",
+            "Retain your first explanation; annotate changed confidence."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Give one observation and two inferences.",
+            "Add one useful, safe additional check."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "record": {
+        "headers": [
+          "Statement",
+          "Observation / inference / question",
+          "Reason"
+        ],
+        "rows": [
+          [
+            "1",
+            "",
+            ""
+          ],
+          [
+            "2",
+            "",
+            ""
+          ],
+          [
+            "3",
+            "",
+            ""
+          ],
+          [
+            "4",
+            "",
+            ""
+          ],
+          [
+            "5",
+            "",
+            ""
+          ],
+          [
+            "6",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "3": {
+      "code": "GS13",
+      "short": "Repeated_Water_Rise_Evidence",
+      "goals": [
+        "Organise repeated measurements with units.",
+        "Calculate and compare means.",
+        "State a conclusion within the test’s limits."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Which paper would show greater water rise in 60 seconds? What must we measure?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 8,
+          "title": "GS13 · printed illustrative readings",
+          "kind": "table",
+          "headers": [
+            "Paper type",
+            "Trial 1 (mm)",
+            "Trial 2 (mm)",
+            "Trial 3 (mm)",
+            "Mean (mm)"
+          ],
+          "rows": [
+            [
+              "A",
+              "18",
+              "20",
+              "22",
+              ""
+            ],
+            [
+              "B",
+              "9",
+              "10",
+              "11",
+              ""
+            ]
+          ],
+          "widths": [
+            2.2,
+            2.4,
+            2.4,
+            2.4,
+            2.4
+          ],
+          "height": 2.8,
+          "size": 23,
+          "caption": "Printed illustrative fallback · equal 60 s tests · not your own measurements.",
+          "timer": "8:00",
+          "mode": "check data"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 5,
+          "title": "Calculate each mean",
+          "kind": "bullets",
+          "items": [
+            "Add the three rises for each paper.",
+            "Divide each total by the number of trials.",
+            "Keep millimetres in your record."
+          ],
+          "timer": "5:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 3,
+          "title": "Compare the pattern",
+          "kind": "bullets",
+          "items": [
+            "Which mean is greater?",
+            "What varied between repeat readings?",
+            "What can this test actually support?"
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Mean rise in this printed trial",
+          "kind": "equation",
+          "text": "A: (18 + 20 + 22)/3 = 20 mm",
+          "caption": "B: (9 + 10 + 11)/3 = 10 mm"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Compare means without losing the conditions",
+          "kind": "bars",
+          "categories": [
+            "A",
+            "B"
+          ],
+          "series": [
+            [
+              "Mean rise",
+              [
+                20,
+                10
+              ]
+            ]
+          ],
+          "axis": "Mean water rise (mm)",
+          "category_axis": "Paper type",
+          "caption": "Printed illustrative data · after equal 60 s tests."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "What can we infer?",
+          "kind": "bullets",
+          "items": [
+            "Use “in these conditions” in your conclusion.",
+            "Name what was kept comparable.",
+            "State one untested property or limitation."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Add collection, organisation and analysis to your evidence model.",
+            "Cite the labelled printed data; retain untested properties."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Give a numerical conclusion with units.",
+            "State one limit of that conclusion."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "route": "Use the source-permitted printed illustrative fallback. This draft does not claim hands-on measurement. The optional real trial requires teacher preparation/access review; follow the unchanged source procedure and safety notes if selected.",
+      "preparation": "One labelled GS13 data sheet per learner; notebook, pencil, ruler for the printed table and timer. The printed route requires no water or apparatus. Show or describe the two paper samples before prediction, without hinting at the result. If descriptions are unavailable, retain that uncertainty rather than invent paper properties.",
+      "decisions": "Printed fallback chosen explicitly. Never present means or printed values as class observations. Source clean-water/paper trial remains an optional teacher-reviewed route, not a fabricated practical.",
+      "record": {
+        "headers": [
+          "Paper",
+          "Trial 1 (mm)",
+          "Trial 2 (mm)",
+          "Trial 3 (mm)",
+          "Mean (mm)"
+        ],
+        "rows": [
+          [
+            "A",
+            "18",
+            "20",
+            "22",
+            ""
+          ],
+          [
+            "B",
+            "9",
+            "10",
+            "11",
+            ""
+          ]
+        ]
+      }
+    },
+    "4": {
+      "code": "GS14",
+      "short": "Seedling_Claims_and_Confounds",
+      "goals": [
+        "Use counts to describe a change.",
+        "Identify another changed factor.",
+        "Plan a fairer written comparison."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "columns",
+          "text": "The trays received different water amounts. Does that alone establish the cause?",
+          "timer": "2:00",
+          "mode": "write alone",
+          "columns": [
+            [
+              "TRAY P",
+              "10 seedlings → 6\n20 mL water daily"
+            ],
+            [
+              "TRAY Q",
+              "10 seedlings → 9\n40 mL water daily"
+            ]
+          ],
+          "caption": "Does water alone explain the difference? Give your first reason."
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 5,
+          "title": "GS14 · illustrative garden records",
+          "kind": "table",
+          "headers": [
+            "Tray",
+            "Monday",
+            "Friday",
+            "Water daily (mL)",
+            "Environment"
+          ],
+          "rows": [
+            [
+              "P",
+              "10",
+              "6",
+              "20",
+              "Sunny room"
+            ],
+            [
+              "Q",
+              "10",
+              "9",
+              "40",
+              "Cooler shaded room"
+            ]
+          ],
+          "widths": [
+            0.8,
+            1.6,
+            1.6,
+            3.0,
+            4.8
+          ],
+          "size": 22,
+          "height": 2.7,
+          "caption": "Illustrative records · not a real class experiment.",
+          "timer": "5:00",
+          "mode": "extract evidence"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 7,
+          "title": "Write a fairer comparison plan",
+          "kind": "bullets",
+          "items": [
+            "Use all six GS14 plan headings.",
+            "Name the changed factor and comparable conditions.",
+            "Specify an outcome, repeats and a limitation."
+          ],
+          "timer": "7:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Ask a partner to test the plan",
+          "kind": "bullets",
+          "items": [
+            "What else could explain the difference?",
+            "Does your plan separate those possibilities?"
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "What changed in the counts?",
+          "kind": "equation",
+          "text": "P: 10 − 6 = 4 seedlings lost",
+          "caption": "Q: 10 − 9 = 1 seedling lost"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Two differences changed together",
+          "kind": "columns",
+          "columns": [
+            [
+              "WATER",
+              "P: 20 mL daily\nQ: 40 mL daily"
+            ],
+            [
+              "ENVIRONMENT",
+              "P: sunny room\nQ: cooler shaded room"
+            ]
+          ],
+          "caption": "Light, temperature and location can confound the water claim."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Defend a bounded conclusion",
+          "kind": "bullets",
+          "items": [
+            "Say what the counts show.",
+            "Explain why water alone is not isolated.",
+            "Describe one concrete design improvement."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Add competing explanations and fair comparison to your model.",
+            "Preserve the initial claim and revise with today’s record."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Name one confound.",
+            "Give one concrete design change."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "route": "Written planning from illustrative GS14 records only; no seed-growing practical is added.",
+      "record": {
+        "headers": [
+          "Plan heading",
+          "Your decision"
+        ],
+        "rows": [
+          [
+            "Question",
+            ""
+          ],
+          [
+            "Changed factor",
+            ""
+          ],
+          [
+            "Factors kept comparable",
+            ""
+          ],
+          [
+            "Measured outcome",
+            ""
+          ],
+          [
+            "Repeats",
+            ""
+          ],
+          [
+            "Limitation",
+            ""
+          ]
+        ]
+      }
+    },
+    "5": {
+      "code": "GS15",
+      "short": "Careers_and_Source_Evidence",
+      "goals": [
+        "Identify two science-related career directions.",
+        "Link each direction to source evidence.",
+        "Explain an interest and a next learning action."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Which science-related career direction interests you? What would you like to know?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · a question about science work",
+          "kind": "bullets",
+          "items": [
+            "Share a question about the work if you wish.",
+            "Keep a personal career choice private if you prefer."
+          ],
+          "timer": "1:00",
+          "do": "Invite voluntary questions about the work, not compulsory personal aspirations. Do not rank careers. Keep every learner’s private written reason."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "GS15 · two printed source summaries",
+          "kind": "columns",
+          "columns": [
+            [
+              "SOURCE A · KENYA METEOROLOGICAL DEPARTMENT",
+              "Weather/climate observations, analysis, forecasting and early warnings."
+            ],
+            [
+              "SOURCE B · KEMRI",
+              "A national research role concerning human health."
+            ]
+          ],
+          "caption": "Source-supplied paraphrases checked 13 November 2026; not quotations or qualification advice."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 8,
+          "title": "Build your own career chart",
+          "kind": "bullets",
+          "items": [
+            "Cover both directions using all GS15 columns.",
+            "Label suggested questions and evidence as examples.",
+            "Keep stated roles separate from your inferences."
+          ],
+          "timer": "8:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Check the source support",
+          "kind": "bullets",
+          "items": [
+            "Verify statements against the printed summaries.",
+            "Use the optional approved official-page route only if provided.",
+            "Record actual navigation as observed or not observed."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "What do the source roles support?",
+          "kind": "columns",
+          "columns": [
+            [
+              "SUPPORTED CAREER DIRECTION",
+              "Weather/climate science\nHuman-health research"
+            ],
+            [
+              "STILL NEEDS CHECKING",
+              "Training requirements\nSpecific job duties\nQualifications or employment"
+            ]
+          ],
+          "caption": "A reasonable career inference is not a job guarantee."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Connect evidence and possible benefit",
+          "kind": "bullets",
+          "items": [
+            "Use source A or B for each career link.",
+            "Explain a possible community benefit as an example."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Explain an interest without an overclaim",
+          "kind": "bullets",
+          "items": [
+            "Give a reason for your chosen direction.",
+            "Name a training question that remains unverified.",
+            "Keep the two source limits visible."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Add careers to your evidence model.",
+            "Write one attainable personal learning action and a reason."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Submit your individual chart.",
+            "Explain why your next learning action matters."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "route": "Printed summaries remain the offline route. Optional official-page navigation uses only teacher-approved pages/cached copies. Print work is not evidence of digital navigation; no personal data or unrelated links.",
+      "preparation": "GS15 printed source summaries and blank chart per learner. Optional supervised device access only if locally provided and observed.",
+      "record": {
+        "headers": [
+          "Direction",
+          "Questions / evidence",
+          "Possible benefit",
+          "Source support",
+          "Still needed"
+        ],
+        "rows": [
+          [
+            "Weather/climate science",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Human-health research",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "6": {
+      "code": "GS16",
+      "short": "Defensible_Science_Use_Message",
+      "goals": [
+        "Connect scientific evidence with a possible use.",
+        "Critique an overclaim respectfully.",
+        "Revise a sourced message with limits."
+      ],
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 2,
+          "title": "Your first idea and reason",
+          "kind": "question",
+          "text": "Which claim from our earlier work most needs a qualification?",
+          "timer": "2:00",
+          "mode": "write alone"
+        },
+        {
+          "phase": "Predict",
+          "minutes": 1,
+          "title": "BEFORE · keep our reasons",
+          "kind": "bullets",
+          "items": [
+            "Share a prediction and its reason.",
+            "Keep a different idea visible."
+          ],
+          "timer": "1:00",
+          "do": "Invite two contrasting predictions from learners who have written individually. Record exact reasons without correction."
+        },
+        {
+          "phase": "Observe",
+          "minutes": 10,
+          "title": "GS16 · draft the one-page message",
+          "kind": "bullets",
+          "items": [
+            "Include life, environment and technology examples.",
+            "Explain each evidence-to-decision link.",
+            "Add a small career chart and a next learning action."
+          ],
+          "timer": "10:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 4,
+          "title": "Exchange one evidence-based critique",
+          "kind": "bullets",
+          "items": [
+            "Identify one supported claim.",
+            "Identify one overclaim and ask a question."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 2,
+          "title": "Choose a revision",
+          "kind": "bullets",
+          "items": [
+            "Select a change your evidence supports.",
+            "Keep the first wording visible."
+          ],
+          "timer": "2:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "From evidence to a possible use",
+          "kind": "flow",
+          "nodes": [
+            "Observation",
+            "Inference",
+            "Possible use",
+            "Limit"
+          ],
+          "caption": "Use a specific GS11–GS15 example; do not turn a proposed use into a tested outcome."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 3,
+          "title": "Which claim respects the absorption test?",
+          "kind": "columns",
+          "columns": [
+            [
+              "SUPPORTED SCOPE",
+              "Paper A had greater mean rise in the stated printed trial."
+            ],
+            [
+              "OVERCLAIM",
+              "“Paper A is always best for every job.”"
+            ]
+          ],
+          "caption": "Material selection needs a test of the property required for that job."
+        },
+        {
+          "phase": "Explain",
+          "minutes": 4,
+          "title": "Explain why your revision is stronger",
+          "kind": "bullets",
+          "items": [
+            "Cite the evidence and its source.",
+            "State the limit or uncertainty.",
+            "Explain the possible usefulness without promising an outcome."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "Our Driving Question Board",
+          "kind": "bullets",
+          "items": [
+            "Post today’s evidence.",
+            "Keep a question that needs more evidence.",
+            "Sort: answered, partly answered, still open."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 3,
+          "title": "Revise your own model",
+          "kind": "bullets",
+          "items": [
+            "Revise the same message in a new colour.",
+            "Record a personal next action and retain a still-open question."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 2,
+          "title": "Individual exit",
+          "kind": "bullets",
+          "items": [
+            "Define General Science in your own words.",
+            "Give one useful link and one remaining uncertainty."
+          ],
+          "timer": "2:00"
+        }
+      ],
+      "preparation": "GS16 and earlier GS11–GS15 cards, learners’ own records, two colours and paper. No new practical or treatment/weather advice.",
+      "record": {
+        "headers": [
+          "Application",
+          "Evidence / source",
+          "Possible decision",
+          "Limit"
+        ],
+        "rows": [
+          [
+            "Life",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Environment",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Technology",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "7": {
+      "code": "GS17",
+      "short": "Independent_Evidence_Transfer",
+      "goals": [
+        "Use unfamiliar evidence independently.",
+        "Evaluate a claim and its limits.",
+        "Explain a source-supported application."
+      ],
+      "assessment": true,
+      "slides": [
+        {
+          "phase": "Predict",
+          "minutes": 3,
+          "title": "Independent work · procedure",
+          "kind": "bullets",
+          "items": [
+            "Use only today’s data and assessment prompts.",
+            "Keep your working and reasons visible.",
+            "Work alone; submit before any discussion."
+          ],
+          "timer": "3:00"
+        },
+        {
+          "phase": "Observe",
+          "minutes": 16,
+          "title": "Assessment · sections 1–2",
+          "kind": "bullets",
+          "items": [
+            "Use only GS17 and the separate assessment prompts.",
+            "Show your own means, units and reasoning.",
+            "Keep observations and interpretations distinct."
+          ],
+          "timer": "16:00"
+        },
+        {
+          "phase": "Explain",
+          "minutes": 12,
+          "title": "Assessment · sections 3–4",
+          "kind": "bullets",
+          "items": [
+            "Complete the career/source and reflection prompts.",
+            "Check that evidence and limits are labelled.",
+            "Work independently; no exemplar is shown."
+          ],
+          "timer": "12:00"
+        },
+        {
+          "phase": "Driving Question Board",
+          "minutes": 4,
+          "title": "A separate still-open scientific question",
+          "kind": "bullets",
+          "items": [
+            "Write one still-open scientific question.",
+            "Explain what additional evidence could help.",
+            "Keep the question private until collection."
+          ],
+          "timer": "4:00"
+        },
+        {
+          "phase": "Model Building",
+          "minutes": 4,
+          "title": "Check and submit",
+          "kind": "bullets",
+          "items": [
+            "Check names, units and completion.",
+            "Submit all sheets before any discussion."
+          ],
+          "timer": "4:00"
+        }
+      ],
+      "preparation": "Print only GS17 and the original independent assessment prompts. Basic calculator optional. Keep all teaching cards and exemplars private.",
+      "route": "Independent printed assessment. Phase names are scheduling labels; no peer discussion, hints or answer correction before collection.",
+      "record": {
+        "headers": [
+          "Material",
+          "Trial 1 (mm)",
+          "Trial 2 (mm)",
+          "Trial 3 (mm)",
+          "Mean (mm)"
+        ],
+        "rows": [
+          [
+            "X",
+            "12",
+            "14",
+            "16",
+            ""
+          ],
+          [
+            "Y",
+            "6",
+            "8",
+            "10",
+            ""
+          ]
+        ]
+      }
+    }
+  }
+}

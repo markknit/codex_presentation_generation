@@ -174,3 +174,33 @@ They remain ignored working files. Track code, approved guidance, logs and QA;
 any tracked handoff snapshot or push needs its own authorisation. Native
 PowerPoint/Presenter View, teacher/source-owner, pacing, font and ARES checks
 remain open. No Mathematics module batching or classroom release is implied.
+
+## Three-curriculum draft continuation, 2026-11-16
+
+The user subsequently instructed building the remaining General Science,
+Essential Mathematics and Core Mathematics presentation sets. This extends
+draft-generation authorisation and the approved presentation guidance to the
+current reviewed November collection: 43 sub-strands / 514 lessons, including
+the three separately frozen reviewed pilot source units. It does not establish
+native PowerPoint, teacher approval, classroom release or push authorisation.
+
+`content/curriculum_sets_2026-11/GUIDANCE.md` controls this continuation.
+`scripts/curriculum_set_inventory.py` verifies the current delivery archives and
+all 430 source members, preserves the three pilot deliverables and creates
+`outputs/drafts/curriculum_sets_2026-11/<curriculum>/<strand>/<sub-strand>/`.
+Inside each sub-strand use presentations, previews, student_materials,
+teacher_notes and review folders. Code, source-specific slide specifications,
+inventory, logs and QA stay tracked; working outputs stay ignored.
+
+Build and check one lesson at a time with `build_curriculum_set_lesson.py` and
+`render_check_curriculum_set.py`, then inspect every slide/print page and record
+the review using `review_package_curriculum_set.py`. Do not mark an automated
+pass as a completed visual review. Package reviewed lessons by sub-strand.
+The initial three pilot sub-strands have authored source-specific continuation
+specifications; other units require full reading and authoring before generation.
+
+User-requested stopping rule: run `scripts/session_usage.py --guard` before new
+lessons and at clean batch boundaries. It reads only the calling thread's emitted
+usage event, exposing account-window and context-capacity remaining. Use whichever
+reaches 5% first. Finish/check the current lesson, apply repository `/update`,
+commit continuity and pause; do not start a new lesson at or below that threshold.

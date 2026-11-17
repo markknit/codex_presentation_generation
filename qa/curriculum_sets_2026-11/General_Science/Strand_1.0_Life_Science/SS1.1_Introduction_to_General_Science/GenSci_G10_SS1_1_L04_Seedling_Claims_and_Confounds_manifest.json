@@ -1,0 +1,127 @@
+{
+  "deck": "/home/markk/codex_presentation_generation/outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds.pptx",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "When does a comparison fail to identify a cause?",
+      "phase": "Predict",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 2,
+      "title": "How to use this lesson",
+      "phase": "Routine",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 3,
+      "title": "Lesson at a glance",
+      "phase": "Glance",
+      "minutes": 0.0,
+      "hidden": true
+    },
+    {
+      "slide": 4,
+      "title": "Our unit journey",
+      "phase": "Unit map",
+      "minutes": 0.25,
+      "hidden": false
+    },
+    {
+      "slide": 5,
+      "title": "By the end of this lesson you can\u2026",
+      "phase": "Today",
+      "minutes": 0.5,
+      "hidden": false
+    },
+    {
+      "slide": 6,
+      "title": "Your first idea and reason",
+      "phase": "Predict",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 7,
+      "title": "BEFORE \u00b7 keep our reasons",
+      "phase": "Predict",
+      "minutes": 1.0,
+      "hidden": false
+    },
+    {
+      "slide": 8,
+      "title": "GS14 \u00b7 illustrative garden records",
+      "phase": "Observe",
+      "minutes": 5.0,
+      "hidden": false
+    },
+    {
+      "slide": 9,
+      "title": "Write a fairer comparison plan",
+      "phase": "Observe",
+      "minutes": 7.0,
+      "hidden": false
+    },
+    {
+      "slide": 10,
+      "title": "Ask a partner to test the plan",
+      "phase": "Observe",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 11,
+      "title": "What changed in the counts?",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 12,
+      "title": "Two differences changed together",
+      "phase": "Explain",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 13,
+      "title": "Defend a bounded conclusion",
+      "phase": "Explain",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 14,
+      "title": "Our Driving Question Board",
+      "phase": "Driving Question Board",
+      "minutes": 4.0,
+      "hidden": false
+    },
+    {
+      "slide": 15,
+      "title": "Revise your own model",
+      "phase": "Model Building",
+      "minutes": 3.0,
+      "hidden": false
+    },
+    {
+      "slide": 16,
+      "title": "Individual exit",
+      "phase": "Model Building",
+      "minutes": 2.0,
+      "hidden": false
+    },
+    {
+      "slide": 17,
+      "title": "Summary Table",
+      "phase": "Model Building",
+      "minutes": 1.0,
+      "hidden": false
+    }
+  ],
+  "total_minutes": 40.0,
+  "sha256": "61094a248dbfafb03592e20ac2292823439931a14006b2375befa21f53a785db",
+  "status": "REVIEW DRAFT \u2014 NOT APPROVED"
+}

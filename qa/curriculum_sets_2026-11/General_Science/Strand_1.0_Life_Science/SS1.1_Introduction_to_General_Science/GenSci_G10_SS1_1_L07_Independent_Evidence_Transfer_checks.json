@@ -1,0 +1,51 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer.pptx",
+  "sha256": "524751f047f56568506ea90d9bd9010b11ae8fb52d97d4f3c7fe1d4fe0aa3bd7",
+  "slides": 11,
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 12.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 4.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_Assessment_Prompts.docx",
+      "sha256": "f85ba8dbccd73d2aacb65215c9524ff07e5f03accb8fd0e6d3260dfa88fbbcb4",
+      "pdf_sha256": "3db5c1d0ae66a2747a46c1f5c8b59f31ad842e62146955d06c3b9c21cc82b7d8",
+      "pages": 6,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_Assessment_Prompts/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_Student_Task.docx",
+      "sha256": "3c0b64689093b15b8b2f5c114a39d99fe2afb5a53726461647998214ff0c53c5",
+      "pdf_sha256": "711809fdd8704bdacb8642fe6a93dc4fdadadcec5d9dd86ec352a4e17d8e9b75",
+      "pages": 1,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_Teacher_Notes.docx",
+      "sha256": "e6d6cb4319532e06bb2225130354238bf15e353b71c5158297b55e5499aeca24",
+      "pdf_sha256": "9ae80c49ec021037af3f1f26f16ee9c27bc1bec1e7ff5c47c0cfac4854f77d1c",
+      "pages": 11,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer/GenSci_G10_SS1_1_L07_Independent_Evidence_Transfer_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

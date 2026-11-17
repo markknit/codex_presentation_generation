@@ -1,0 +1,43 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L02_Observation_and_Inference.pptx",
+  "sha256": "d06466871e2ef7723e549fd8836e87fa86b28e857ea09f3091ca1db2bd967f3c",
+  "slides": 17,
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L02_Observation_and_Inference_Student_Task.docx",
+      "sha256": "01973d9ca2cb83fb0dbe6c922951ee0593afffcce7ea2eb6247d662b2a766f42",
+      "pdf_sha256": "8298b70db66e04f92643b9699eae9ceead183b026b1428670311b21a2c89e219",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/GenSci_G10_SS1_1_L02_Observation_and_Inference_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L02_Observation_and_Inference_Teacher_Notes.docx",
+      "sha256": "5c832b5ac8e6230cce2672ffce0bf075b67948dfb5f903c4724503a33ddce37b",
+      "pdf_sha256": "3ec06fb8f9fac2f47d5778c476fdc7dee3cf97d57fa8cae8294d30c3b06f1b5e",
+      "pages": 12,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L02_Observation_and_Inference/GenSci_G10_SS1_1_L02_Observation_and_Inference_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}

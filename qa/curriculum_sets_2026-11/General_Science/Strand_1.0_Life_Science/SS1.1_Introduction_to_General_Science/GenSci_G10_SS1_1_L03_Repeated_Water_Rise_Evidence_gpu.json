@@ -1,0 +1,165 @@
+{
+  "backend": "CUDA sm_121",
+  "operations": [
+    "nearest-neighbour preview resizing",
+    "pixel ink/darkness counts"
+  ],
+  "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "slides": [
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-01.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-01_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23554646671211088,
+      "dark_fraction": 0.0527417322509347,
+      "sha256": "c03f571ed9ed7ed34c39b8068c6ccbb877b59fe6bcf09c93d6e88f9dbd07a194"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-02.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-02_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05275412612835926,
+      "dark_fraction": 0.041268306789779184,
+      "sha256": "d2cc65a677292fd299642b79c116d3fb37af6565fb10968877e2c3b4e77f15ad"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-03.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-03_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.13968147735018902,
+      "dark_fraction": 0.1204817087025676,
+      "sha256": "a6fbac3e21f8376506f51b730879af4ec1d830bb3feaeb89ae57cc6f8db19d97"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-04.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-04_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.08334799942161905,
+      "dark_fraction": 0.06538431348247299,
+      "sha256": "c026c41e34a0657b8a4de820f2e63992da34558e2a4a5ed9b2154959a1e1bdf2"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-05.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-05_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.160608952510793,
+      "dark_fraction": 0.04322323438887856,
+      "sha256": "f0eb88ac1389358ef3c139786565905e895be10d0e16b5b2ec04ca4fb3e7e219"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-06.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-06_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.22398132655801367,
+      "dark_fraction": 0.05344074693767945,
+      "sha256": "d823757cc7eb70cd74fb480df199a3052e208f0464de614f46a2335f73df9c9a"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-07.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-07_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.0547958108694305,
+      "dark_fraction": 0.044952593418851085,
+      "sha256": "524294dea107fd2860c01a254e72fc0689f9aaa761c37e6c13090f4426811c18"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-08.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-08_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.15674784656379748,
+      "dark_fraction": 0.14402263948276217,
+      "sha256": "6101f16681e6dc8860d294b466eb6212164751a8fb269032e0a8367df1eda86f"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-09.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-09_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06024663816074859,
+      "dark_fraction": 0.0489715147383859,
+      "sha256": "b5475ef325af15aabe3f31fc5b70de7cc77904dabe252fe01f547bd69185f8cd"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-10.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-10_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.059686434901158825,
+      "dark_fraction": 0.04857821569478011,
+      "sha256": "8e93b1e7ac9ca514b248db4c0a92f6d8a276a78f189058652c0f4a388f4e0d57"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-11.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-11_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.23141765301274503,
+      "dark_fraction": 0.03033608064282911,
+      "sha256": "c00a3d2f293f5eb2156f1789919877791508e29c256d71cf93782ed1605af271"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-12.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-12_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.09124124682406891,
+      "dark_fraction": 0.07626448534423995,
+      "sha256": "86e65fb4ab9c7692a0491b8131ba7e8650e4f6a2843eed980c9a712277362955"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-13.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-13_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.061162132573175515,
+      "dark_fraction": 0.049254095143665695,
+      "sha256": "6599ab230fcb0f85c60871d9b789ae214631bb8e9a3e4d6bc6ed13ca9e1f7885"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-14.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-14_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06794240978290059,
+      "dark_fraction": 0.05573857181219145,
+      "sha256": "39f73ea942a42d7966b4d3d6f783cefb53b7456ec4b3d6f2bf5018afaa986f0d"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-15.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-15_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.06086550577348123,
+      "dark_fraction": 0.048450145628059736,
+      "sha256": "21b90785aef638859cc269347ce0e78fbd80a6d6fc72519054413e84f2f21149"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-16.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-16_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.052730990890500096,
+      "dark_fraction": 0.04276135589019025,
+      "sha256": "30820dbc74f3090d9ec12045fa83d35f273f6823285831238538aaf051d26138"
+    },
+    {
+      "image": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/slide-17.png",
+      "preview": "/home/markk/codex_presentation_generation/qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L03_Repeated_Water_Rise_Evidence/gpu/slide-17_preview.png",
+      "width": 1467,
+      "height": 825,
+      "nonwhite_fraction": 0.05534775154407056,
+      "dark_fraction": 0.04138233046208507,
+      "sha256": "63f8e7c531d89f1428c1ffb587ef23cf2cede38b352e20868465a3e8f35baee5"
+    }
+  ],
+  "deck_sha256": "65a28699b496e9b94b15d78a6bdf5cf14aa069443f497149d1d9ff09a3b76c8e"
+}

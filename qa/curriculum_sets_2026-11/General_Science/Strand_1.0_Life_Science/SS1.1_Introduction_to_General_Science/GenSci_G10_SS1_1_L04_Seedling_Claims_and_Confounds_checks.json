@@ -1,0 +1,43 @@
+{
+  "deck": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/presentations/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds.pptx",
+  "sha256": "61094a248dbfafb03592e20ac2292823439931a14006b2375befa21f53a785db",
+  "slides": 17,
+  "phase_minutes": {
+    "Predict": 4.0,
+    "Observe": 16.0,
+    "Explain": 10.0,
+    "Driving Question Board": 4.0,
+    "Model Building": 6.0
+  },
+  "source_phase_minutes": "PASS",
+  "slide_pdf_text": "PASS",
+  "print_documents": [
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/student_materials/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_Student_Task.docx",
+      "sha256": "30afd9380298a193162f7f4481382d4ed524e6aea2cdfa615b02761273f56d23",
+      "pdf_sha256": "46faf720c0d31df633413f847622c0729e6021dd7b9a84caa4be67806c862236",
+      "pages": 2,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_Student_Task/gpu/gpu_report.json"
+    },
+    {
+      "file": "outputs/drafts/curriculum_sets_2026-11/General_Science/Strand_1.0_Life_Science/SS1.1_Introduction_to_General_Science/teacher_notes/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_Teacher_Notes.docx",
+      "sha256": "01d981d924ee8867573363503bae125dd4f30de2d5243accfebc57eac33660f9",
+      "pdf_sha256": "936e42d26ed510466cad545bb024abff49f6e4978311ab8791e886f7c8dd0196",
+      "pages": 13,
+      "text_retention": "PASS",
+      "gpu_report": "qa/renders/curriculum_sets_2026-11/gensci_1_1/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds/GenSci_G10_SS1_1_L04_Seedling_Claims_and_Confounds_Teacher_Notes/gpu/gpu_report.json"
+    }
+  ],
+  "cuda_backend": "CUDA sm_121",
+  "device": "NVIDIA GB10, 580.178.04, 12.1",
+  "status": "AUTOMATED PASS \u2014 VISUAL REVIEW PENDING",
+  "pending": [
+    "Every-slide builder visual review",
+    "Native PowerPoint/Presenter View",
+    "Teacher/source-owner approval",
+    "Exact Calibri (local preview uses Carlito)",
+    "Classroom pacing/equipment/access",
+    "ARES offline/content"
+  ]
+}
