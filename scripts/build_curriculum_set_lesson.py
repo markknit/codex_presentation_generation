@@ -21,6 +21,7 @@ from pptx.util import Inches as PI, Pt as PP
 
 from curriculum_set_inventory import ROOT, CONTROL, unit_paths, digest, slug
 from session_usage import latest_usage
+from lesson_quizzes import REVISION, validate_quizzes, render_quiz, export_manifests
 from lesson_visuals import VisualDeck, tx, box, oval, badge, timer, question, steps, arrow, line, table, COL, INK, MUTED, CREAM, A, note
 
 PHASES=list(COL)
@@ -103,6 +104,8 @@ class Lesson:
         specfile=CONTROL/'specs'/(module+'.json')
         self.unit_spec=json.loads(specfile.read_text())
         self.spec=self.unit_spec['lessons'][str(number)]
+        self.quizzes=validate_quizzes(self.spec,module,number,self.u['source_hashes'])
+        self.quiz_positions=[]
         self.anchor=self.unit_spec['anchor_line']
         self.code=self.spec['code'];self.assessment=self.spec.get('assessment',False)
         self.math='Mathematics' in self.u['subject']
@@ -113,13 +116,18 @@ class Lesson:
         self.key='\n'.join(raw[start+1:]) if start>=0 else '\n'.join(raw)
         if self.assessment:self.key+='\n'+'\n'.join(s['exemplar'] for s in self.data['FINAL_EXPLANATION']['sections'])
         short={'Core Mathematics':'CoreMath','Essential Mathematics':'EssMath','General Science':'GenSci'}[self.u['subject']]
-        self.name=f'{short}_G10_SS{self.u["module"].split("_")[1]}_{self.u["module"].split("_")[2]}_L{number:02}_{slug(self.spec["short"])}'
+        self.name=f'{short}_G10_SS{self.u["module"].split("_")[1]}_{self.u["module"].split("_")[2]}_L{number:02}_{slug(self.spec["short"])}_QuizV1'
         self.b=VisualDeck(number,self.name,subject=self.u['subject'],unit=self.u['topic'])
         self.totals={p:0.0 for p in PHASES};self.totals['Predict']=1
         for row in self.spec['slides']:self.totals[row['phase']]+=row['minutes']
+        for q in self.quizzes:self.totals[q['phase']]+=q['response_minutes']+q['feedback_minutes']
         self.totals['Model Building']+=0 if self.assessment else 1
         assert abs(sum(self.totals.values())-40)<1e-6,self.totals
         self.seen=set()
+
+    def quizzes_after(self,position):
+        for q in self.quizzes:
+            if q['after_slide']==position:self.quiz_positions.append(render_quiz(self,q))
 
     def slide(self,title,phase,minutes,do,*,key=None,say='',look='',iff='',hidden=False,check=False,**kw):
         first=''
@@ -148,7 +156,9 @@ class Lesson:
         s=self.slide('How to use this lesson','Routine',0,
             'Teacher only. Use Presenter View. Notes follow TIME, DO, SAY, WAIT TIME, LOOK FOR, IF…, WHY THIS WORKS, ANSWER KEY, '
             +('MATHEMATICS' if self.math else 'SCIENCE')+' NOTE FOR YOU and TEACHER REFLECTION. '
-            +('This assessment retains phase names only as scheduling tags; give no hints or peer comparison before collection.' if self.assessment else 'Keep predictions, individual evidence and explanations in that order. Do not correct initial ideas.'),hidden=True)
+            +('This assessment retains phase names only as scheduling tags; give no hints or peer comparison before collection.' if self.assessment else 'Keep predictions, individual evidence and explanations in that order. Do not correct initial ideas. ')
+            +'Quiz responses are individual. Close collection before aggregates and feedback. Project class A–D totals only, never student identities, choices or scores. '
+            +'The response server is a future integration: verify it exists before class; otherwise record paper choices privately. No automatic PowerPoint capture is claimed.',hidden=True)
         steps(s,['Read the ordered notes in Presenter View.','Keep teacher keys private.',
                  'Independent work only until collection.' if self.assessment else 'Use the source’s individual and comparison stages.'],dy=1.1,size=25)
         s=self.slide('Lesson at a glance','Glance',0,
@@ -183,7 +193,7 @@ class Lesson:
 
     def build(self):
         self.opening()
-        for row in self.spec['slides']:
+        for position,row in enumerate(self.spec['slides'],1):
             p=row['phase'];framework=self.l['framework'][PHASES.index(p)]
             do=row.get('do',framework['teacherMoves']+' '+framework['learnerExperience'])
             do+=' '+('Do not coach mathematical/scientific answers or permit comparison before collection.' if self.assessment else 'Keep an individual record; retain earlier ideas and use a new colour for justified revisions.')
@@ -198,6 +208,8 @@ class Lesson:
                          wait=row.get('wait','Keep the stated individual writing time; allow 5–15 seconds after oral questions.'),
                          background=row.get('background',''))
             visual(s,row,p)
+            self.b.records[-1]['authored_slide']=position
+            self.quizzes_after(position)
         duration=0 if self.assessment else 1
         summary=self.l['summaryTablePrompt'];key='\n'.join(f'{k}: {v}' for k,v in summary.items())
         s=self.slide('Summary Table','Model Building',duration,
@@ -213,20 +225,29 @@ class Lesson:
                 x=.75+i*4.0;badge(s,str(i+1),x,2.5,list(COL.values())[i],.55);tx(s,t,x,3.5,3.6,1.6,27)
             tx(s,self.anchor,.8,5.6,11.5,.5,18,MUTED)
         if self.n<len(self.data['LESSONS']):tx(s,'Next lesson: '+self.data['LESSONS'][self.n]['title'],.8,6.35,11.7,.5,19,INK,True)
+        self.b.records[-1]['authored_slide']='summary'
+        self.quizzes_after('summary')
         assert abs(sum(r['minutes'] for r in self.b.records)-40)<1e-6
         self.b.deck.core_properties.title=self.l['title']
         self.b.save(self.paths['output']/'presentations')
         manifest=ROOT/'qa'/(self.name+'_manifest.json')
+        payload=json.loads(manifest.read_text());payload['design_revision']=REVISION
+        manifest.write_text(json.dumps(payload,indent=2))
         manifest.rename(self.paths['qa']/(self.name+'_manifest.json'))
+        deck=self.paths['output']/'presentations'/(self.name+'.pptx')
+        export_manifests(self.paths['output'],self.name,self.u['module'],self.n,
+                         self.quizzes,self.quiz_positions,digest(deck))
         self.support()
         report={'module':self.u['module'],'lesson':self.n,'name':self.name,'source_code':self.code,
                 'spec_sha256':hashlib.sha256(json.dumps({'lesson':self.spec,'anchor':self.anchor},sort_keys=True,ensure_ascii=False).encode()).hexdigest(),
                 'spec_scope':'Canonical JSON for this lesson and its shared anchor line',
                 'source_hashes':self.u['source_hashes'],'source_archive_sha256':self.u['source_archive_sha256'],
+                'design_revision':REVISION,'quiz_count':len(self.quizzes),'quiz_exception':self.spec.get('quiz_exception'),
                 'phase_minutes':self.totals,'assessment':self.assessment,'status':'built; rendering and visual review pending',
                 'notes':'CPU assembly; no GPU processing claimed until separate render report.'}
         (self.paths['qa']/(self.name+'_sources.json')).write_text(json.dumps(report,indent=2,ensure_ascii=False))
         self.u['lessons'][self.n-1].update({'status':'built_pending_review','name':self.name,
+            'design_revision':REVISION,
             'deck':str((self.paths['output']/'presentations'/(self.name+'.pptx')).relative_to(ROOT)),
             'qa_folder':str(self.paths['qa'].relative_to(ROOT))})
         (CONTROL/'inventory.json').write_text(json.dumps(self.inventory,indent=2,ensure_ascii=False))
@@ -278,6 +299,14 @@ Review draft. Source {self.u['module']}, {self.code}; exact source hashes and
 archive verification in the matching sources report. Whole unit read before
 authoring; source-specific editable slide specification is tracked in content.
 One deck per lesson. Phase totals: {json.dumps(self.totals)}.
+
+Design {REVISION}: {len(self.quizzes)} authored A–D comprehension checks.
+Question and feedback times are included in the phase totals. Public question
+manifests and private teacher/server keys are separate under quizzes/public
+and quizzes/private. No live response server or individual report is built.
+Project actual class aggregates only after collection closes; never project
+student identities or individual responses. No invented class results.
+Quiz exception, if applicable: {self.spec.get('quiz_exception','none')}.
 
 Preserve the full supplied task in the individual student sheet; concise slides
 stage its work. Full teacher key stays in private notes. No future assessment

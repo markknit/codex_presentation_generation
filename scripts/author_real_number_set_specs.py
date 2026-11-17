@@ -239,6 +239,7 @@ def core():
 
 
 if __name__=='__main__':
+    raise SystemExit('Superseded pre-quiz writer. Use quiz-v1 source-specific specifications and build_curriculum_set_lesson.py; see QUIZ_DESIGN.md.')
     folder=CONTROL/'specs';folder.mkdir(parents=True,exist_ok=True)
     for module,fn in [('essmath_1_1',essential),('coremath_1_1',core)]:
         lessons=fn()

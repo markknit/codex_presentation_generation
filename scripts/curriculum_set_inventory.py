@@ -3,10 +3,10 @@
 import hashlib
 import json
 import re
-import shutil
 import zipfile
 from collections import defaultdict
 from pathlib import Path
+from lesson_quizzes import REVISION
 
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'final_curriculum_outputs'
@@ -59,43 +59,31 @@ def main():
            'origin':entry['origin'],'lessons':[]}
         previous={l['number']:l for l in old_units.get(entry['module'],{}).get('lessons',[])}
         for l in data['LESSONS']:
-            row={'number':l['number'],'title':l['title'],'duration':l['duration'],'status':'pending'}
-            row.update(previous.get(l['number'],{}));u['lessons'].append(row)
+            row={'number':l['number'],'title':l['title'],'duration':l['duration'],
+                 'status':'pending_quiz_design','design_revision':REVISION}
+            prior=previous.get(l['number'],{})
+            if prior.get('design_revision')==REVISION:row.update(prior)
+            u['lessons'].append(row)
         paths=unit_paths(u)
-        for sub in ['presentations','previews','student_materials','teacher_notes','review']:
+        for sub in ['presentations','previews','student_materials','teacher_notes','review','quizzes/public','quizzes/private']:
             (paths['output']/sub).mkdir(parents=True,exist_ok=True)
         units.append(u);counts[curriculum]['units']+=1;counts[curriculum]['lessons']+=len(u['lessons'])
-    pilots={'gensci_1_1':'GenSci_G10_Introduction_L1_Scientific_Questions',
-            'essmath_1_1':'EssMath_G10_RealNumbers_L1_Exact_Number_Classes',
-            'coremath_1_1':'CoreMath_G10_RealNumbers_L1_Zero_Parity_and_Primes'}
-    for u in units:
-        if u['module'] not in pilots:continue
-        stem=pilots[u['module']];source=ROOT/'outputs/drafts/curriculum_pilots_2026-11';dest=unit_paths(u)['output']
-        for suffix,folder in [('.pptx','presentations'),('_Slides.pdf','previews'),
-                              ('_Student_Task.docx','student_materials'),('_Student_Task.pdf','student_materials'),
-                              ('_Teacher_Notes.docx','teacher_notes'),('_Teacher_Notes.pdf','teacher_notes')]:
-            f=source/(stem+suffix);assert f.exists(),f
-            target=dest/folder/f.name
-            if not target.exists():shutil.copy2(f,target)
-            assert digest(target)==digest(f)
-        u['lessons'][0].update({'status':'review_draft','existing_pilot':True,
-                              'deck':str((dest/'presentations'/(stem+'.pptx')).relative_to(ROOT)),
-                              'sha256':digest(dest/'presentations'/(stem+'.pptx'))})
     CONTROL.mkdir(parents=True,exist_ok=True)
-    report={'source_delivery_index_sha256':digest(SOURCE/'FINAL_DELIVERY_INDEX.json'),
+    report={'design_revision':REVISION,'source_delivery_index_sha256':digest(SOURCE/'FINAL_DELIVERY_INDEX.json'),
             'total_units':len(units),'total_lessons':sum(x['lessons'] for x in counts.values()),
             'by_curriculum':dict(counts),'units':units,'status':'Review drafts; external approval gates open'}
     old_path.write_text(json.dumps(report,indent=2,ensure_ascii=False))
     text=['# Curriculum presentation drafts','', 'Review drafts — teacher and native PowerPoint checks remain open.','',
-          'Folders: curriculum → strand → sub-strand → presentations / previews / student_materials / teacher_notes / review.','',
+          'Design: quiz-v1. Old pre-quiz drafts are superseded; all lessons require quiz design and fresh review.','',
+          'Folders: curriculum → strand → sub-strand → presentations / previews / student_materials / teacher_notes / quizzes/public / quizzes/private / review.','',
           '| Curriculum | Strand | Sub-strand | Lessons | Built |','| --- | --- | --- | ---: | ---: |']
     for u in units:
         paths=unit_paths(u);rel=paths['output'].relative_to(OUT)
-        built=sum(l['status']!='pending' for l in u['lessons'])
+        built=sum(bool(l.get('deck')) and (ROOT/l['deck']).is_file() for l in u['lessons'])
         text.append(f'| {u["subject"]} | {u["strand"]} | [{u["substrand_folder"]}]({rel.as_posix()}/) | {len(u["lessons"])} | {built} |')
     (OUT/'README.md').write_text('\n'.join(text)+'\n')
     print(json.dumps({'units':len(units),'lessons':report['total_lessons'],'by_curriculum':dict(counts),
-                      'built':sum(l['status']!='pending' for u in units for l in u['lessons']),
+                      'built':sum(bool(l.get('deck')) and (ROOT/l['deck']).is_file() for u in units for l in u['lessons']),
                       'index':str(OUT/'README.md')},indent=2))
 
 

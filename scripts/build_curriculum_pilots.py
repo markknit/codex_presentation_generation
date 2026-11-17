@@ -321,5 +321,6 @@ def science():
 
 
 if __name__=='__main__':
+    raise SystemExit('Superseded pre-quiz writer. Use quiz-v1 source-specific specifications and build_curriculum_set_lesson.py; see QUIZ_DESIGN.md.')
     p=argparse.ArgumentParser();p.add_argument('curriculum',choices=['science'])
     a=p.parse_args();science()

@@ -1,0 +1,71 @@
+{
+  "scope": "Synthetic component fixture only; no curriculum lesson rebuilt",
+  "design_revision": "quiz-v1",
+  "tests": "7 unittest cases passed",
+  "deck_sha256": "6a812a63e4ba4a4da52ccfcb83b47a57f31429af34d75d18a9b93241adcd270a",
+  "pdf_sha256": "0f782d2d6f83984c1a140817d270e0d903e54ecc5c3ad8d2616bde89c93287eb",
+  "slides": 4,
+  "slide_pdf_text": "PASS",
+  "visual_inspection": "All four final slides inspected, including long stems/options/explanations; option row spacing repaired before final inspection.",
+  "reproduction_fixture": "tests/test_lesson_quizzes.py: layout_fixture(), ComponentLesson; render_quiz() for each question",
+  "gpu": {
+    "backend": "CUDA sm_121",
+    "operations": [
+      "nearest-neighbour preview resizing",
+      "pixel ink/darkness counts"
+    ],
+    "limits": "No semantic, scientific, font, or PowerPoint compatibility claim. PNG I/O and contact-sheet compositing use CPU.",
+    "device": "NVIDIA GB10, 580.178.04, 12.1",
+    "slides": [
+      {
+        "image": "qa/renders/quiz_design_component/slide-1.png",
+        "preview": "qa/renders/quiz_design_component/gpu/slide-1_preview.png",
+        "width": 1467,
+        "height": 825,
+        "nonwhite_fraction": 0.2986668319183657,
+        "dark_fraction": 0.03348825680114024,
+        "sha256": "064570ff824b5fc63db993c963b747a2dbaa2b0c8de88d2a95bd31a8b22440e2"
+      },
+      {
+        "image": "qa/renders/quiz_design_component/slide-2.png",
+        "preview": "qa/renders/quiz_design_component/gpu/slide-2_preview.png",
+        "width": 1467,
+        "height": 825,
+        "nonwhite_fraction": 0.2505761087356179,
+        "dark_fraction": 0.02870835140773791,
+        "sha256": "5362c8065c3646b8cc7b5195858afbc47ac941c174038b5e8cb12990573b591e"
+      },
+      {
+        "image": "qa/renders/quiz_design_component/slide-3.png",
+        "preview": "qa/renders/quiz_design_component/gpu/slide-3_preview.png",
+        "width": 1467,
+        "height": 825,
+        "nonwhite_fraction": 0.3229646154799529,
+        "dark_fraction": 0.07353204850137365,
+        "sha256": "bb3572a0cd1af2053f59b8ecf79851a98cd5fa81f424ed162a33eda0943de80d"
+      },
+      {
+        "image": "qa/renders/quiz_design_component/slide-4.png",
+        "preview": "qa/renders/quiz_design_component/gpu/slide-4_preview.png",
+        "width": 1467,
+        "height": 825,
+        "nonwhite_fraction": 0.2714878849848175,
+        "dark_fraction": 0.06162896862283365,
+        "sha256": "cb07944102455f0594aa131af728dc1a22ec0965f57d9ae06e877c51e042c92a"
+      }
+    ]
+  },
+  "cpu_only": [
+    "Editable PowerPoint assembly",
+    "LibreOffice conversion",
+    "PDF rasterisation",
+    "Text extraction",
+    "File encoding/contact layout"
+  ],
+  "pending": [
+    "Source-specific quiz authoring and accuracy review",
+    "Representative quiz-enabled curriculum pilot",
+    "Native PowerPoint/teacher approval",
+    "Future response server and reporting integration"
+  ]
+}

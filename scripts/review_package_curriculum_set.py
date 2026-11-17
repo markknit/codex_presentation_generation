@@ -5,8 +5,17 @@ import hashlib
 import json
 import shutil
 import zipfile
+from pptx import Presentation
 
 from curriculum_set_inventory import ROOT,CONTROL,OUT,unit_paths,digest
+from lesson_quizzes import REVISION, check_exports
+
+
+def current_quiz_check(u,row,paths,deck):
+    spec=json.loads((CONTROL/'specs'/(u['module']+'.json')).read_text())['lessons'][str(row['number'])]
+    manifest=json.loads((paths['qa']/(deck.stem+'_manifest.json')).read_text())
+    return check_exports(paths['output'],deck.stem,u['module'],row['number'],spec,
+                         u['source_hashes'],digest(deck),manifest['slides'],Presentation(deck).slides)
 
 
 def review(module,number,finding):
@@ -14,10 +23,13 @@ def review(module,number,finding):
     u=next(u for u in data['units'] if u['module']==module);r=u['lessons'][number-1]
     paths=unit_paths(u);name=r['name'];deck=ROOT/r['deck']
     checks=json.loads((paths['qa']/(name+'_checks.json')).read_text())
+    assert r.get('design_revision')==checks.get('design_revision')==REVISION
+    assert checks.get('quizzes',{}).get('manifest_and_slide_checks')=='PASS'
     assert checks['sha256']==digest(deck)
+    current_quiz_check(u,r,paths,deck)
     render=ROOT/'qa/renders/curriculum_sets_2026-11'/module/name
     images=sorted(render.glob('slide-*.png'));assert len(images)==checks['slides']
-    report={'deck_sha256':digest(deck),'slides_reviewed':list(range(1,len(images)+1)),
+    report={'design_revision':REVISION,'deck_sha256':digest(deck),'slides_reviewed':list(range(1,len(images)+1)),
             'slide_render_hashes':{p.name:digest(p) for p in images},'finding':finding,
             'print_documents_reviewed':[{'file':d['file'],'sha256':d['sha256'],'pages':list(range(1,d['pages']+1))} for d in checks['print_documents']],
             'limits':'Builder source/visual review; native PowerPoint, teacher/source-owner and classroom approval remain open.'}
@@ -33,9 +45,11 @@ def package(module):
     entries={};ready=[]
     for r in u['lessons']:
         if r['status']!='review_draft':continue
+        assert r.get('design_revision')==REVISION
         ready.append(r['number']);deck=ROOT/r['deck'];assert digest(deck)==r['sha256']
+        current_quiz_check(u,r,paths,deck)
         name=deck.stem
-        for folder in ['presentations','previews','student_materials','teacher_notes']:
+        for folder in ['presentations','previews','student_materials','teacher_notes','quizzes/public','quizzes/private']:
             for f in sorted((paths['output']/folder).glob(name+'*')):
                 if f.is_file():entries[f'{folder}/{f.name}']=f
         if r.get('existing_pilot'):
@@ -47,12 +61,14 @@ def package(module):
             f=paths['logs']/(name+'.md');entries['build_logs/'+f.name]=f
     assert ready
     entries['GUIDANCE.md']=CONTROL/'GUIDANCE.md'
+    entries['QUIZ_DESIGN.md']=CONTROL/'QUIZ_DESIGN.md'
     manifest={n:digest(f) for n,f in entries.items()}
     target=paths['output']/'review'/(module+'_Review.zip')
     with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED) as z:
         for name,f in entries.items():z.write(f,name)
         z.writestr('MANIFEST.json',json.dumps(manifest,indent=2))
         z.writestr('REVIEW_STATUS.json',json.dumps({'module':module,'ready_lessons':ready,
+            'design_revision':REVISION,'audience':'PRIVATE TEACHER REVIEW — includes answer keys and notes',
             'total_lessons':len(u['lessons']),'classroom_release':False,
             'pending':['Native PowerPoint/Presenter View','Teacher/source-owner','Exact Calibri','Classroom pacing/access','ARES']},indent=2))
     with zipfile.ZipFile(target) as z:

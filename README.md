@@ -1,6 +1,8 @@
 # CBE Lesson Plan Presentation Generation
 
-This repository produces teacher-ready PowerPoint presentations from the Kenya CBE Grade 10 lesson-plan sources in `inputs/v2`.
+This repository produces review-draft PowerPoint presentations from Kenya CBE Grade 10 lesson plans. Legacy sources are in `inputs/v2`; the current reviewed November collection is accessed through `final_curriculum_outputs`.
+
+Current design: periodic A–D comprehension quizzes with source-derived private keys and class aggregate projection. See [quiz design](content/curriculum_sets_2026-11/QUIZ_DESIGN.md) and [current checkpoint](content/curriculum_sets_2026-11/README.md). Pre-quiz drafts for the three current curricula are superseded and generation is paused for the authorised reset.
 
 ## Priorities
 
@@ -17,7 +19,7 @@ Work in this order:
 - `inputs/v2` contains the lesson plans, teacher keys, summary tables, and structured JSON source data.
 - The Cells-specific build manual is intentionally excluded and must not be used.
 
-The science manual explicitly excludes Mathematics. Keep the Mathematics source files available, but do not generate Mathematics decks until approved Mathematics-specific guidance is added.
+The science manual explicitly excludes Mathematics. The user-approved Mathematics proposal and [current subject-specific guidance](content/curriculum_sets_2026-11/GUIDANCE.md) control the authorised Mathematics review drafts; the quiz design supplements them. Native PowerPoint and teacher review remain required before release.
 
 ## Working method
 

@@ -3,7 +3,9 @@
 Authorised 16 November 2026: the user instructed building the remainder of
 General Science, Essential Mathematics and Core Mathematics presentation sets,
 grouped by curriculum, strand and sub-strand. This extends the approved pilot
-scope and Mathematics presentation guidance to these review drafts. It does
+scope and Mathematics presentation guidance to these review drafts.
+The subsequent user-requested `QUIZ_DESIGN.md` revision supersedes the old
+pre-quiz design; every replacement lesson must satisfy quiz-v1. It does
 not establish native PowerPoint, classroom/teacher approval or release.
 
 The current reviewed November delivery index controls included sources and
@@ -41,8 +43,10 @@ review. Native PowerPoint, exact font, teacher/source-owner, practical access
 and classroom pacing acceptance remain open until evidenced.
 
 Output root: `outputs/drafts/curriculum_sets_2026-11`, organised by curriculum,
-strand, sub-strand and artifact type. Keep original pilot paths and hashes
-intact. Working drafts/renders remain ignored; track guidance, source
+strand, sub-strand and artifact type. Keep original pilot identities and hashes
+only as historical audit records; the user has authorised deleting the
+pre-quiz draft files, pilot copies and packages. Do not restore old pilots.
+Working drafts/renders remain ignored; track guidance, source
 inventory, builders, logs, QA and progress. No push or publication requested.
 
 Usage: inspect the calling thread's emitted Codex rate-limit meter using

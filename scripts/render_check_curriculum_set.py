@@ -11,6 +11,7 @@ from pathlib import Path
 from docx import Document
 from pptx import Presentation
 from curriculum_set_inventory import ROOT,CONTROL,unit_paths,digest
+from lesson_quizzes import REVISION, check_exports
 
 
 def words(t):return re.findall(r'[^\W_]+',t.replace('\u00ad','').casefold(),re.UNICODE)
@@ -49,6 +50,9 @@ def run(module,number):
             for r in p.runs:assert r.font.name=='Calibri'
     meta=json.loads((qa/(name+'_sources.json')).read_text())
     manifest=json.loads((qa/(name+'_manifest.json')).read_text())
+    assert meta.get('design_revision')==manifest.get('design_revision')==row.get('design_revision')==REVISION
+    spec=json.loads((CONTROL/'specs'/(module+'.json')).read_text())['lessons'][str(number)]
+    quiz_check=check_exports(out,name,module,number,spec,u['source_hashes'],digest(deck),manifest['slides'],pres.slides)
     totals=defaultdict(float)
     for r in manifest['slides']:
         phase='Predict' if r['phase'] in ['Today','Unit map'] else r['phase']
@@ -81,6 +85,7 @@ def run(module,number):
             docs.append({'file':str(doc.relative_to(ROOT)),'sha256':digest(doc),'pdf_sha256':digest(dpdf),
                          'pages':len(pngs),'text_retention':'PASS','gpu_report':str((ddir/'gpu/gpu_report.json').relative_to(ROOT))})
     report={'deck':str(deck.relative_to(ROOT)),'sha256':digest(deck),'slides':len(pres.slides),
+            'design_revision':REVISION,'quizzes':quiz_check,
             'phase_minutes':totals,'source_phase_minutes':'PASS','slide_pdf_text':'PASS','print_documents':docs,
             'cuda_backend':gpu['backend'],'device':gpu['device'],'status':'AUTOMATED PASS — VISUAL REVIEW PENDING',
             'pending':['Every-slide builder visual review','Native PowerPoint/Presenter View','Teacher/source-owner approval',

@@ -20,6 +20,7 @@ Use the repository-scoped `restart` skill at the start of a new or resumed sessi
 - Produce one PowerPoint per lesson. Do not combine a unit into one deck.
 - Preserve the source sequence and phenomenon. Correct only the limited issues allowed by the manual, and record each correction or deviation in a build log.
 - Keep student slides concise and visual. Put complete teacher guidance in speaker notes.
+- For all newly generated or rebuilt lesson decks, apply `content/curriculum_sets_2026-11/QUIZ_DESIGN.md`: model-placed periodic A–D comprehension quizzes, source-derived private keys, timed feedback, individual response capture by the future server and class aggregates only on the projector. The current three-curriculum pre-quiz drafts are superseded; do not reuse their approval or copy them back as pilots.
 - Use British spelling, Kenyan contexts, CBE terminology, correct scientific notation, and SI units.
 - Do not invent facts, resources, links, expected observations, safety guidance, or answer keys.
 - Keep all required text, diagrams, tables, and charts editable when practical.

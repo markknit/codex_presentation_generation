@@ -1,5 +1,11 @@
 # Presentation generation workflow
 
+Current November design: `content/curriculum_sets_2026-11/QUIZ_DESIGN.md`
+(`quiz-v1`). The user authorised deleting the pre-quiz drafts and restarting.
+Earlier pilot-preservation and continuation entries below are historical; do
+not restore those files or run their superseded writers. Generation remains
+paused while this design reset is recorded.
+
 ## Environment reference
 
 | Environment | Repository | Purpose | Current state |
@@ -204,3 +210,33 @@ lessons and at clean batch boundaries. It reads only the calling thread's emitte
 usage event, exposing account-window and context-capacity remaining. Use whichever
 reaches 5% first. Finish/check the current lesson, apply repository `/update`,
 commit continuity and pause; do not start a new lesson at or below that threshold.
+
+## Quiz design reset, 2026-11-16 (17 November UTC)
+
+Periodic A–D comprehension checks are now part of the three-curriculum build
+contract. The authoring model selects concept transitions and useful end
+checks, records source evidence and placement reasons, and budgets response
+plus feedback within the unchanged lesson/phase totals. Quiz answers and
+per-student records are private. Project actual class aggregates only, after
+responses close. Preserve independent assessment and later discoveries.
+
+The future server is assumed, not implemented here. Each new deck exports
+public questions and a private answer-key manifest with stable versioned IDs,
+slide positions and the exact deck hash. No fake API URLs, live data or server
+claims. Test collection, aggregate projection and standalone reporting when
+that system exists. See QUIZ_DESIGN.md for the proposed integration contract.
+
+The user-authorised reset is scoped to the November three-curriculum working
+outputs, pilot copies/packages and their render caches. The deletion plan and
+hash audit are in `qa/curriculum_quiz_reset_2026-11.json`. Preserve original
+curriculum sources, Biology drafts/review work and historical QA/logs. The
+inventory builder must never reimport old pilots. All 514 lessons require new
+quiz design/review. Old specifications are baselines, not rebuild-ready.
+
+Before resuming, author a complete quiz-v1 lesson specification (including
+Lesson 1, which previously used separate pilot writers). Validate quiz
+placement, source-derived answers, neutral questions, controlled feedback,
+private/public separation and exact timing. Build and review a representative
+quiz-enabled pilot before further batching. Existing native PowerPoint and
+teacher/release gates still apply. This reset does not resume generation or
+change the previously agreed usage stopping rule.

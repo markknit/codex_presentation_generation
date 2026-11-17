@@ -410,6 +410,7 @@ def core():
 
 
 if __name__=='__main__':
+    raise SystemExit('Superseded pre-quiz writer. Use quiz-v1 source-specific specifications and build_curriculum_set_lesson.py; see QUIZ_DESIGN.md.')
     parser=argparse.ArgumentParser()
     parser.add_argument('curriculum',choices=['essential','core'])
     args=parser.parse_args()

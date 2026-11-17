@@ -137,6 +137,7 @@ def science():
 
 
 if __name__=='__main__':
+    raise SystemExit('Superseded pre-quiz writer. Use quiz-v1 source-specific specifications and build_curriculum_set_lesson.py; see QUIZ_DESIGN.md.')
     folder=CONTROL/'specs';folder.mkdir(parents=True,exist_ok=True)
     data={'module':'gensci_1_1','whole_unit_read':True,
           'anchor_line':'Our school notice board: which claims go beyond the evidence?', 'lessons':science()}
